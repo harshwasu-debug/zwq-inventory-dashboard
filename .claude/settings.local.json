@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc \"AI Data & Analytics Team.docx\" -o /tmp/data_analytics.md)",
+      "Bash(pandoc \"AI Executive Leadership Team.docx\" -o /tmp/executive.md)",
+      "Bash(pandoc \"AI Growth Marketing Team.docx\" -o /tmp/marketing.md)",
+      "Bash(pandoc \"AI Menu Engineering Team.docx\" -o /tmp/menu.md)",
+      "Bash(python -c \":*)",
+      "Bash(mkdir -p \"C:/Users/harsh/.claude/commands\")",
+      "Bash(cp \"E:/Cloud Kitchen/AI Teams/.claude/commands/\"*.md \"C:/Users/harsh/.claude/commands/\")",
+      "Read(//c/Users/harsh/.claude/**)",
+      "Bash(rm -rf \"E:/Cloud Kitchen/AI Teams/.claude/commands\")",
+      "Bash(rm -f \"C:/Users/harsh/.claude/commands/data-analytics.md\" \"C:/Users/harsh/.claude/commands/executive-team.md\" \"C:/Users/harsh/.claude/commands/growth-marketing.md\" \"C:/Users/harsh/.claude/commands/menu-engineering.md\")"
+    ]
+  }
+}
