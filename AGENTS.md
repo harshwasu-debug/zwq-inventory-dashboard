@@ -1,0 +1,2 @@
+- Make sure to commit changes to the repo after significant changes
+- Make sure we don't commit any sensitive information to the repo
