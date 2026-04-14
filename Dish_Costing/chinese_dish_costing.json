@@ -1,0 +1,1768 @@
+{
+  "dishes": [
+    {
+      "dish": "Cream of Tomato Soup",
+      "cat": "Soup",
+      "cost": 1.72,
+      "sell": 28.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Cream of Mushroom Soup",
+      "cat": "Soup",
+      "cost": 1.95,
+      "sell": 30.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Manchow Soup (Veg)",
+      "cat": "Soup",
+      "cost": 0.99,
+      "sell": 32.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Manchow Soup  (Chicken)",
+      "cat": "Soup",
+      "cost": 0.99,
+      "sell": 36.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Manchow Soup  (Shrimp)",
+      "cat": "Soup",
+      "cost": 0.99,
+      "sell": 38.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Hot & Sour Soup (Veg)",
+      "cat": "Soup",
+      "cost": 0.8,
+      "sell": 32.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Hot & Sour Soup  (Chicken)",
+      "cat": "Soup",
+      "cost": 0.8,
+      "sell": 36.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Hot & Sour Soup  (Shrimp)",
+      "cat": "Soup",
+      "cost": 0.8,
+      "sell": 38.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Sweet Corn Soup (Veg)",
+      "cat": "Soup",
+      "cost": 1.12,
+      "sell": 30.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Sweet Corn Soup  (Chicken)",
+      "cat": "Soup",
+      "cost": 1.12,
+      "sell": 34.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Sweet Corn Soup  (Shrimp)",
+      "cat": "Soup",
+      "cost": 1.12,
+      "sell": 36.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Noodle Soup (Veg)",
+      "cat": "Soup",
+      "cost": 0.69,
+      "sell": 30.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Noodle Soup  (Chicken)",
+      "cat": "Soup",
+      "cost": 0.69,
+      "sell": 34.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Noodle Soup  (Shrimp)",
+      "cat": "Soup",
+      "cost": 0.69,
+      "sell": 36.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Clear Soup (Veg)",
+      "cat": "Soup",
+      "cost": 0.5,
+      "sell": 26.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Clear Soup  (Chicken)",
+      "cat": "Soup",
+      "cost": 0.5,
+      "sell": 30.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Clear Soup  (Shrimp)",
+      "cat": "Soup",
+      "cost": 0.5,
+      "sell": 32.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Cream of Chicken Soup",
+      "cat": "Soup",
+      "cost": 1.91,
+      "sell": 32.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Tom Yum Soup",
+      "cat": "Soup",
+      "cost": 3.71,
+      "sell": 38.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Veg Spring Rolls (8 pcs)",
+      "cat": "Veg Starters",
+      "cost": 3.6,
+      "sell": 38.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Honey Chilli Veg",
+      "cat": "Veg Starters",
+      "cost": 0,
+      "sell": 38.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Honey Chilli Veg",
+      "cat": "Veg Starters",
+      "cost": 3.63,
+      "sell": 41.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Veg Manchurian",
+      "cat": "Veg Starters",
+      "cost": 0,
+      "sell": 42.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Veg Manchurian",
+      "cat": "Veg Starters",
+      "cost": 3.14,
+      "sell": 45.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Stir Fried Chilli",
+      "cat": "Veg Starters",
+      "cost": 0,
+      "sell": 44.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Stir Fried Chilli",
+      "cat": "Veg Starters",
+      "cost": 3.19,
+      "sell": 47.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Veg 65",
+      "cat": "Veg Starters",
+      "cost": 4.25,
+      "sell": 44.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Veg 65",
+      "cat": "Veg Starters",
+      "cost": 3.3,
+      "sell": 47.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Kung Pao Veg",
+      "cat": "Veg Starters",
+      "cost": 0,
+      "sell": 46.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Kung Pao Veg",
+      "cat": "Veg Starters",
+      "cost": 4.24,
+      "sell": 49.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Chicken Spring Rolls (8 pcs)",
+      "cat": "Non Veg Starters",
+      "cost": 3.84,
+      "sell": 42.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Chicken Lollipops",
+      "cat": "Non Veg Starters",
+      "cost": 5.79,
+      "sell": 52.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Chicken 65",
+      "cat": "Non Veg Starters",
+      "cost": 3.3,
+      "sell": 46.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Chicken Manchurian (Dry)",
+      "cat": "Non Veg Starters",
+      "cost": 0,
+      "sell": 46.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Chicken Manchurian (Dry) (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 3.14,
+      "sell": 50.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Chicken Manchurian (Dry) (Shrimp)",
+      "cat": "Non Veg Starters",
+      "cost": 0,
+      "sell": 56.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Kung Pao Chicken",
+      "cat": "Non Veg Starters",
+      "cost": 4.24,
+      "sell": 48.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Kung Pao Chicken (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 4.24,
+      "sell": 52.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Kung Pao Chicken (Shrimp)",
+      "cat": "Non Veg Starters",
+      "cost": 10.23,
+      "sell": 58.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Honey Chilli Chicken",
+      "cat": "Non Veg Starters",
+      "cost": 3.63,
+      "sell": 48.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Honey Chilli Chicken (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 3.63,
+      "sell": 52.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Honey Chilli Chicken (Shrimp)",
+      "cat": "Non Veg Starters",
+      "cost": 6.21,
+      "sell": 58.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Teriyaki Chicken",
+      "cat": "Non Veg Starters",
+      "cost": 3.49,
+      "sell": 48.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Teriyaki Chicken (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 3.49,
+      "sell": 52.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Teriyaki Chicken (Shrimp)",
+      "cat": "Non Veg Starters",
+      "cost": 5.1,
+      "sell": 58.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Black Pepper Chicken",
+      "cat": "Non Veg Starters",
+      "cost": 3.61,
+      "sell": 48.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Black Pepper Chicken (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 3.61,
+      "sell": 52.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Black Pepper Chicken (Shrimp)",
+      "cat": "Non Veg Starters",
+      "cost": 4.86,
+      "sell": 58.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Hot Garlic Chicken",
+      "cat": "Non Veg Starters",
+      "cost": 3.33,
+      "sell": 48.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Hot Garlic Chicken (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 3.33,
+      "sell": 52.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Hot Garlic Chicken (Shrimp)",
+      "cat": "Non Veg Starters",
+      "cost": 5.01,
+      "sell": 58.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Mountain Chilli Chicken",
+      "cat": "Non Veg Starters",
+      "cost": 0,
+      "sell": 48.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Mountain Chilli Chicken (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 3.2,
+      "sell": 52.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Mountain Chilli Chicken (Shrimp)",
+      "cat": "Non Veg Starters",
+      "cost": 4.21,
+      "sell": 58.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Stir Fried Chicken Chilli",
+      "cat": "Non Veg Starters",
+      "cost": 0,
+      "sell": 46.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Stir Fried Chicken Chilli (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 3.19,
+      "sell": 50.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Stir Fried Chicken Chilli (Shrimp)",
+      "cat": "Non Veg Starters",
+      "cost": 0,
+      "sell": 56.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Dynamite Chicken",
+      "cat": "Non Veg Starters",
+      "cost": 3.22,
+      "sell": 50.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Dynamite Chicken (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 3.22,
+      "sell": 54.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Tempura Chicken",
+      "cat": "Non Veg Starters",
+      "cost": 4.04,
+      "sell": 50.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Tempura Chicken (Chicken)",
+      "cat": "Non Veg Starters",
+      "cost": 4.04,
+      "sell": 54.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Veg Kung Pao (Gravy)",
+      "cat": "Veg Mains",
+      "cost": 3.02,
+      "sell": 48.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Kung Pao (Gravy) (Chicken)",
+      "cat": "Veg Mains",
+      "cost": 4.24,
+      "sell": 52.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Veg Manchurian (Gravy)",
+      "cat": "Veg Mains",
+      "cost": 1.33,
+      "sell": 46.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Manchurian (Gravy) (Chicken)",
+      "cat": "Veg Mains",
+      "cost": 2.58,
+      "sell": 50.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Veg Oyster Chilli (Gravy)",
+      "cat": "Veg Mains",
+      "cost": 5.19,
+      "sell": 48.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Oyster Chilli (Gravy) (Chicken)",
+      "cat": "Veg Mains",
+      "cost": 2.91,
+      "sell": 52.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Veg Schezwan (Gravy)",
+      "cat": "Veg Mains",
+      "cost": 2.36,
+      "sell": 46.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Schezwan (Gravy) (Chicken)",
+      "cat": "Veg Mains",
+      "cost": 3.11,
+      "sell": 50.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Veg Black Pepper (Gravy)",
+      "cat": "Veg Mains",
+      "cost": 0,
+      "sell": 48.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Black Pepper (Gravy) (Chicken)",
+      "cat": "Veg Mains",
+      "cost": 3.61,
+      "sell": 52.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Chilli Veg (Gravy)",
+      "cat": "Veg Mains",
+      "cost": 5.19,
+      "sell": 46.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Chilli (Gravy) (Chicken)",
+      "cat": "Veg Mains",
+      "cost": 2.91,
+      "sell": 50.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Honey Chilli Veg (Gravy)",
+      "cat": "Veg Mains",
+      "cost": 5.19,
+      "sell": 54.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Honey Chilli (Gravy) (Chicken)",
+      "cat": "Veg Mains",
+      "cost": 3.63,
+      "sell": 58.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Mongolian Veg  (Gravy)",
+      "cat": "Veg Mains",
+      "cost": 0,
+      "sell": 50.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Mongolian  (Gravy) (Chicken)",
+      "cat": "Veg Mains",
+      "cost": 2.92,
+      "sell": 54.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Veg 65",
+      "cat": "Veg Mains",
+      "cost": 4.25,
+      "sell": 50.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "65 (Chicken)",
+      "cat": "Veg Mains",
+      "cost": 3.3,
+      "sell": 54.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Non Veg Kung Pao (Gravy)",
+      "cat": "Non Veg Mains",
+      "cost": 3.02,
+      "sell": 52.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Non Kung Pao (Gravy) (Chicken)",
+      "cat": "Non Veg Mains",
+      "cost": 4.24,
+      "sell": 56.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Non Kung Pao (Gravy) (Shrimp)",
+      "cat": "Non Veg Mains",
+      "cost": 10.23,
+      "sell": 62.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Non Veg Manchurian (Gravy)",
+      "cat": "Non Veg Mains",
+      "cost": 1.33,
+      "sell": 50.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Non Manchurian (Gravy) (Chicken)",
+      "cat": "Non Veg Mains",
+      "cost": 2.58,
+      "sell": 54.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Non Manchurian (Gravy) (Shrimp)",
+      "cat": "Non Veg Mains",
+      "cost": 0,
+      "sell": 60.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Non Veg Oyster Chilli (Gravy)",
+      "cat": "Non Veg Mains",
+      "cost": 5.19,
+      "sell": 52.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Non Oyster Chilli (Gravy) (Chicken)",
+      "cat": "Non Veg Mains",
+      "cost": 2.91,
+      "sell": 56.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Non Oyster Chilli (Gravy) (Shrimp)",
+      "cat": "Non Veg Mains",
+      "cost": 0,
+      "sell": 62.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Non Veg Schezwan (Gravy)",
+      "cat": "Non Veg Mains",
+      "cost": 2.36,
+      "sell": 50.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Non Schezwan (Gravy) (Chicken)",
+      "cat": "Non Veg Mains",
+      "cost": 3.11,
+      "sell": 54.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Non Schezwan (Gravy) (Shrimp)",
+      "cat": "Non Veg Mains",
+      "cost": 0,
+      "sell": 60.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Non Veg Black Pepper (Gravy)",
+      "cat": "Non Veg Mains",
+      "cost": 0,
+      "sell": 52.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Non Black Pepper (Gravy) (Chicken)",
+      "cat": "Non Veg Mains",
+      "cost": 3.61,
+      "sell": 56.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Non Black Pepper (Gravy) (Shrimp)",
+      "cat": "Non Veg Mains",
+      "cost": 4.86,
+      "sell": 62.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Chilli Non Veg (Gravy)",
+      "cat": "Non Veg Mains",
+      "cost": 5.19,
+      "sell": 50.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Chilli Non (Gravy) (Chicken)",
+      "cat": "Non Veg Mains",
+      "cost": 2.91,
+      "sell": 54.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Chilli Non (Gravy) (Shrimp)",
+      "cat": "Non Veg Mains",
+      "cost": 0,
+      "sell": 60.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Honey Chilli Non Veg (Gravy)",
+      "cat": "Non Veg Mains",
+      "cost": 5.19,
+      "sell": 58.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Honey Chilli Non (Gravy) (Chicken)",
+      "cat": "Non Veg Mains",
+      "cost": 3.63,
+      "sell": 62.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Honey Chilli Non (Gravy) (Shrimp)",
+      "cat": "Non Veg Mains",
+      "cost": 6.21,
+      "sell": 68.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Mongolian Non Veg (Gravy)",
+      "cat": "Non Veg Mains",
+      "cost": 0,
+      "sell": 54.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Mongolian Non (Gravy) (Chicken)",
+      "cat": "Non Veg Mains",
+      "cost": 2.92,
+      "sell": 58.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Mongolian Non (Gravy) (Shrimp)",
+      "cat": "Non Veg Mains",
+      "cost": 0,
+      "sell": 64.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Kung Pao Momos",
+      "cat": "Momos",
+      "cost": 0.91,
+      "sell": 44.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Kung Pao Momos",
+      "cat": "Momos",
+      "cost": 4.24,
+      "sell": 48.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Manchurian Momos",
+      "cat": "Momos",
+      "cost": 0,
+      "sell": 42.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Manchurian Momos",
+      "cat": "Momos",
+      "cost": 3.14,
+      "sell": 46.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Oyster Chilli Momos",
+      "cat": "Momos",
+      "cost": 0,
+      "sell": 44.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Oyster Chilli Momos",
+      "cat": "Momos",
+      "cost": 0,
+      "sell": 48.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Schezwan Momos",
+      "cat": "Momos",
+      "cost": 1.05,
+      "sell": 42.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Schezwan Momos",
+      "cat": "Momos",
+      "cost": 2.61,
+      "sell": 46.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Black Pepper Momos",
+      "cat": "Momos",
+      "cost": 0,
+      "sell": 44.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Black Pepper Momos",
+      "cat": "Momos",
+      "cost": 3.61,
+      "sell": 48.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Chilli Momos",
+      "cat": "Momos",
+      "cost": 0,
+      "sell": 42.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Chilli Momos",
+      "cat": "Momos",
+      "cost": 0,
+      "sell": 46.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Honey Chilli Momos",
+      "cat": "Momos",
+      "cost": 0.7,
+      "sell": 50.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Honey Chilli Momos",
+      "cat": "Momos",
+      "cost": 3.63,
+      "sell": 54.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Mongolian Momos",
+      "cat": "Momos",
+      "cost": 0,
+      "sell": 46.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Mongolian Momos",
+      "cat": "Momos",
+      "cost": 2.92,
+      "sell": 50.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Steamed Rice",
+      "cat": "Rice",
+      "cost": 1.87,
+      "sell": 18.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Fried Rice",
+      "cat": "Rice",
+      "cost": 2.17,
+      "sell": 24.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Fried Rice (Chicken)",
+      "cat": "Rice",
+      "cost": 2.17,
+      "sell": 26.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Fried Rice (Shrimp)",
+      "cat": "Rice",
+      "cost": 2.17,
+      "sell": 28.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Schezwan Fried Rice",
+      "cat": "Rice",
+      "cost": 2.66,
+      "sell": 28.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Schezwan Fried Rice (Chicken)",
+      "cat": "Rice",
+      "cost": 2.66,
+      "sell": 30.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Schezwan Fried Rice (Shrimp)",
+      "cat": "Rice",
+      "cost": 2.66,
+      "sell": 32.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Triple Schezwan Fried Rice",
+      "cat": "Rice",
+      "cost": 0,
+      "sell": 32.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Triple Schezwan Fried Rice (Shrimp)",
+      "cat": "Rice",
+      "cost": 0,
+      "sell": 36.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Burnt Garlic Rice",
+      "cat": "Rice",
+      "cost": 2.34,
+      "sell": 26.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Burnt Garlic Rice (Chicken)",
+      "cat": "Rice",
+      "cost": 2.34,
+      "sell": 28.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Burnt Garlic Rice (Shrimp)",
+      "cat": "Rice",
+      "cost": 2.34,
+      "sell": 30.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Chilli Garlic Rice",
+      "cat": "Rice",
+      "cost": 2.59,
+      "sell": 28.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Chilli Garlic Rice (Chicken)",
+      "cat": "Rice",
+      "cost": 2.59,
+      "sell": 30.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Chilli Garlic Rice (Shrimp)",
+      "cat": "Rice",
+      "cost": 2.59,
+      "sell": 32.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Street Style Chowmein",
+      "cat": "Noodles",
+      "cost": 2.72,
+      "sell": 32.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Street Style Chowmein (Chicken)",
+      "cat": "Noodles",
+      "cost": 2.72,
+      "sell": 34.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Street Style Chowmein (Shrimp)",
+      "cat": "Noodles",
+      "cost": 2.72,
+      "sell": 36.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Hakka Noodles",
+      "cat": "Noodles",
+      "cost": 2.31,
+      "sell": 30.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Hakka Noodles (Chicken)",
+      "cat": "Noodles",
+      "cost": 2.31,
+      "sell": 32.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Hakka Noodles (Shrimp)",
+      "cat": "Noodles",
+      "cost": 2.31,
+      "sell": 34.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Schezwan Noodles",
+      "cat": "Noodles",
+      "cost": 2.9,
+      "sell": 32.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Schezwan Noodles (Chicken)",
+      "cat": "Noodles",
+      "cost": 2.9,
+      "sell": 34.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Schezwan Noodles (Shrimp)",
+      "cat": "Noodles",
+      "cost": 2.9,
+      "sell": 36.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Singapore Noodles",
+      "cat": "Noodles",
+      "cost": 2.72,
+      "sell": 34.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Singapore Noodles (Chicken)",
+      "cat": "Noodles",
+      "cost": 2.72,
+      "sell": 36.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Singapore Noodles (Shrimp)",
+      "cat": "Noodles",
+      "cost": 2.72,
+      "sell": 38.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Chilli Garlic Noodles",
+      "cat": "Noodles",
+      "cost": 2.85,
+      "sell": 32.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Chilli Garlic Noodles (Chicken)",
+      "cat": "Noodles",
+      "cost": 2.85,
+      "sell": 34.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Chilli Garlic Noodles (Shrimp)",
+      "cat": "Noodles",
+      "cost": 2.85,
+      "sell": 36.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Shanghai Stir-Fried Noodles",
+      "cat": "Noodles",
+      "cost": 0,
+      "sell": 34.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Shanghai Stir-Fried Noodles (Chicken)",
+      "cat": "Noodles",
+      "cost": 0,
+      "sell": 36.0,
+      "variant": "Chicken"
+    },
+    {
+      "dish": "Shanghai Stir-Fried Noodles (Shrimp)",
+      "cat": "Noodles",
+      "cost": 0,
+      "sell": 38.0,
+      "variant": "Shrimp"
+    },
+    {
+      "dish": "Water 500 ml",
+      "cat": "Beverages",
+      "cost": 1.87,
+      "sell": 4.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Coca Cola 300 ml",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "sell": 8.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Coca Cola Zero 300 ml",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "sell": 8.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Sprite 300 ml",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "sell": 8.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Sprite Zero 300 ml",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "sell": 8.0,
+      "variant": "Veg"
+    },
+    {
+      "dish": "Fanta 300 ml",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "sell": 8.0,
+      "variant": "Veg"
+    }
+  ],
+  "sf_costs": {
+    "Ginger Garlic Paste-SF": {
+      "total": 9.7895,
+      "yield": 1.0,
+      "ppu": 9.7895
+    },
+    "Chili Paste-SF": {
+      "total": 8.7162,
+      "yield": 0.55,
+      "ppu": 15.8476
+    },
+    "Veg Mix Fine-SF": {
+      "total": 3.0,
+      "yield": 1.0,
+      "ppu": 3.0
+    },
+    "Veg Petals-SF": {
+      "total": 4.2778,
+      "yield": 1.0,
+      "ppu": 4.2778
+    },
+    "Kung Pao Sauce-SF": {
+      "total": 7.0761,
+      "yield": 0.75,
+      "ppu": 9.4349
+    },
+    "Dynamite Sauce-SF": {
+      "total": 20.5503,
+      "yield": 1.45,
+      "ppu": 14.1726
+    },
+    "Teriyaki Sauce-SF": {
+      "total": 15.3789,
+      "yield": 1.17,
+      "ppu": 13.1444
+    },
+    "Fried Paneer Base-SF": {
+      "total": 26.4692,
+      "yield": 1.4,
+      "ppu": 18.9065
+    },
+    "Shanghai Sauce-SF": {
+      "total": 15.2994,
+      "yield": 1.0,
+      "ppu": 15.2994
+    },
+    "Gravy Stock Base-SF": {
+      "total": 2.174,
+      "yield": 1.13,
+      "ppu": 1.9239
+    },
+    "Mongolian Sauce-SF": {
+      "total": 13.3517,
+      "yield": 0.95,
+      "ppu": 14.0544
+    },
+    "Cooked Basmati Rice-SF": {
+      "total": 6.225,
+      "yield": 1.0,
+      "ppu": 6.225
+    },
+    "Cooked Noodles-SF": {
+      "total": 7.5,
+      "yield": 1.0,
+      "ppu": 7.5
+    },
+    "Burnt Garlic-SF": {
+      "total": 6.9173,
+      "yield": 0.7,
+      "ppu": 9.8819
+    },
+    "Fried Chicken Base-SF": {
+      "total": 15.6428,
+      "yield": 1.45,
+      "ppu": 10.7882
+    },
+    "Veg Manchurian Balls-SF": {
+      "total": 5.377,
+      "yield": 1.7,
+      "ppu": 3.1629
+    },
+    "Momo Filling Chicken-SF": {
+      "total": 16.7235,
+      "yield": 1.28,
+      "ppu": 13.0652
+    },
+    "Momo Filling Prawn-SF": {
+      "total": 23.4604,
+      "yield": 1.18,
+      "ppu": 19.8817
+    },
+    "Momo Filling Veg-SF": {
+      "total": 4.795,
+      "yield": 1.45,
+      "ppu": 3.3069
+    },
+    "Tandoori Marinade-SF": {
+      "total": 4.0745,
+      "yield": 0.62,
+      "ppu": 6.5717
+    },
+    "Schezwan Sauce-SF": {
+      "total": 11.7287,
+      "yield": 0.9,
+      "ppu": 13.0319
+    },
+    "Oyster Chilli Base-SF": {
+      "total": 15.5543,
+      "yield": 1.0,
+      "ppu": 15.5543
+    }
+  },
+  "finished_costs": [
+    {
+      "dish": "Cream of Tomato Soup",
+      "cat": "Soups (Veg)",
+      "cost": 1.72,
+      "miss": []
+    },
+    {
+      "dish": "Cream of Mushroom Soup",
+      "cat": "Soups (Veg)",
+      "cost": 1.95,
+      "miss": []
+    },
+    {
+      "dish": "Manchow Soup",
+      "cat": "Soups (Veg)",
+      "cost": 0.99,
+      "miss": []
+    },
+    {
+      "dish": "Hot & Sour Soup",
+      "cat": "Soups (Veg)",
+      "cost": 0.8,
+      "miss": []
+    },
+    {
+      "dish": "Sweet Corn Soup",
+      "cat": "Soups (Veg)",
+      "cost": 1.12,
+      "miss": []
+    },
+    {
+      "dish": "Noodle Soup",
+      "cat": "Soups (Veg)",
+      "cost": 0.69,
+      "miss": []
+    },
+    {
+      "dish": "Clear Soup",
+      "cat": "Soups (Veg)",
+      "cost": 0.5,
+      "miss": []
+    },
+    {
+      "dish": "Cream of Chicken Soup",
+      "cat": "Soups (Non-Veg)",
+      "cost": 1.91,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Manchow Soup",
+      "cat": "Soups (Non-Veg)",
+      "cost": 1.23,
+      "miss": []
+    },
+    {
+      "dish": "Chk Hot & Sour Soup",
+      "cat": "Soups (Non-Veg)",
+      "cost": 0.99,
+      "miss": []
+    },
+    {
+      "dish": "Chk Sweet Corn Soup",
+      "cat": "Soups (Non-Veg)",
+      "cost": 1.79,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Noodle Soup",
+      "cat": "Soups (Non-Veg)",
+      "cost": 1.54,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Clear Soup",
+      "cat": "Soups (Non-Veg)",
+      "cost": 1.27,
+      "miss": []
+    },
+    {
+      "dish": "Tom Yum Soup",
+      "cat": "Soups (Non-Veg)",
+      "cost": 3.71,
+      "miss": []
+    },
+    {
+      "dish": "Kung Pao Chicken",
+      "cat": "Starters (Non Veg)",
+      "cost": 4.24,
+      "miss": []
+    },
+    {
+      "dish": "Honey Chilli Chicken",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.63,
+      "miss": []
+    },
+    {
+      "dish": "Teriyaki Chicken",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.49,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Lollipops",
+      "cat": "Starters (Non Veg)",
+      "cost": 5.79,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Shrimp",
+      "cat": "Starters (Non Veg)",
+      "cost": 5.35,
+      "miss": []
+    },
+    {
+      "dish": "Chicken 65",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.3,
+      "miss": []
+    },
+    {
+      "dish": "Chk Manchurian Dry",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.14,
+      "miss": []
+    },
+    {
+      "dish": "Stir Fried Chk Chilli",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.19,
+      "miss": []
+    },
+    {
+      "dish": "Black Pepper Chicken",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.61,
+      "miss": []
+    },
+    {
+      "dish": "Hot Garlic Chicken",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.33,
+      "miss": []
+    },
+    {
+      "dish": "Mountain Chilli Chk",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.2,
+      "miss": []
+    },
+    {
+      "dish": "Chk Spring Rolls (8pc)",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.84,
+      "miss": []
+    },
+    {
+      "dish": "Tempura Shrimp",
+      "cat": "Starters (Non Veg)",
+      "cost": 5.35,
+      "miss": []
+    },
+    {
+      "dish": "Chilli Garlic Prawns",
+      "cat": "Starters (Non Veg)",
+      "cost": 5.01,
+      "miss": []
+    },
+    {
+      "dish": "Black Pepper Prawns",
+      "cat": "Starters (Non Veg)",
+      "cost": 4.86,
+      "miss": []
+    },
+    {
+      "dish": "Teriyaki Prawns",
+      "cat": "Starters (Non Veg)",
+      "cost": 5.1,
+      "miss": []
+    },
+    {
+      "dish": "Mountain Chilli Prawn",
+      "cat": "Starters (Non Veg)",
+      "cost": 4.21,
+      "miss": []
+    },
+    {
+      "dish": "Kung Pao Prawns",
+      "cat": "Starters (Non Veg)",
+      "cost": 10.23,
+      "miss": []
+    },
+    {
+      "dish": "Tempura Chicken",
+      "cat": "Starters (Non Veg)",
+      "cost": 4.04,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Chicken",
+      "cat": "Starters (Non Veg)",
+      "cost": 3.22,
+      "miss": []
+    },
+    {
+      "dish": "Mountain Chilli Beef",
+      "cat": "Starters (Non Veg)",
+      "cost": 8.32,
+      "miss": []
+    },
+    {
+      "dish": "Black Pepper Beef",
+      "cat": "Starters (Non Veg)",
+      "cost": 8.56,
+      "miss": []
+    },
+    {
+      "dish": "Kung Pao Beef",
+      "cat": "Starters (Non Veg)",
+      "cost": 8.85,
+      "miss": []
+    },
+    {
+      "dish": "Teriyaki Beef",
+      "cat": "Starters (Non Veg)",
+      "cost": 8.55,
+      "miss": []
+    },
+    {
+      "dish": "Honey Chilli Shrimp",
+      "cat": "Starters (Non Veg)",
+      "cost": 6.21,
+      "miss": []
+    },
+    {
+      "dish": "Honey Chilli Beef",
+      "cat": "Starters (Non Veg)",
+      "cost": 9.51,
+      "miss": []
+    },
+    {
+      "dish": "Kung Pao Paneer",
+      "cat": "Starters (Veg)",
+      "cost": 5.48,
+      "miss": []
+    },
+    {
+      "dish": "Paneer 65",
+      "cat": "Starters (Veg)",
+      "cost": 4.25,
+      "miss": []
+    },
+    {
+      "dish": "Honey Chilli Potato",
+      "cat": "Starters (Veg)",
+      "cost": 2.67,
+      "miss": []
+    },
+    {
+      "dish": "Veg Spring Rolls (8pc)",
+      "cat": "Starters (Veg)",
+      "cost": 3.6,
+      "miss": []
+    },
+    {
+      "dish": "Stir Fried Paneer Chilli",
+      "cat": "Starters (Veg)",
+      "cost": 4.7,
+      "miss": []
+    },
+    {
+      "dish": "Veg Manchurian Dry",
+      "cat": "Starters (Veg)",
+      "cost": 1.75,
+      "miss": []
+    },
+    {
+      "dish": "Steamed Chk Dumplings",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 3.95,
+      "miss": []
+    },
+    {
+      "dish": "Steamed Prawns Gyoza",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 5.04,
+      "miss": []
+    },
+    {
+      "dish": "Chilli Style Chk Dumplings",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 4.7,
+      "miss": []
+    },
+    {
+      "dish": "Spicy 65 Chk Momos",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 2.38,
+      "miss": []
+    },
+    {
+      "dish": "Shanghai Style Chk Dumplings",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 2.7,
+      "miss": []
+    },
+    {
+      "dish": "Chilli Style Prawns Gyoza",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 3.66,
+      "miss": []
+    },
+    {
+      "dish": "Schezwan Chk Momos",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 2.61,
+      "miss": []
+    },
+    {
+      "dish": "Kung Pao Chk Dumplings",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 2.67,
+      "miss": []
+    },
+    {
+      "dish": "Honey Chilli Chk Dumplings",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 2.57,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Tandoori Momos",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 2.42,
+      "miss": []
+    },
+    {
+      "dish": "Kung Pao Prawns Gyoza",
+      "cat": "Dumplings (Non Veg)",
+      "cost": 3.56,
+      "miss": []
+    },
+    {
+      "dish": "Steamed Veg Dumplings",
+      "cat": "Dumplings (Veg)",
+      "cost": 2.39,
+      "miss": []
+    },
+    {
+      "dish": "Spicy 65 Veg Momos",
+      "cat": "Dumplings (Veg)",
+      "cost": 0.77,
+      "miss": []
+    },
+    {
+      "dish": "Shanghai Style Veg Dumplings",
+      "cat": "Dumplings (Veg)",
+      "cost": 1.14,
+      "miss": []
+    },
+    {
+      "dish": "Kung Pao Veg Dumplings",
+      "cat": "Dumplings (Veg)",
+      "cost": 0.91,
+      "miss": []
+    },
+    {
+      "dish": "Honey Chilli Veg Dumplings",
+      "cat": "Dumplings (Veg)",
+      "cost": 0.7,
+      "miss": []
+    },
+    {
+      "dish": "Chilli Style Veg Dumplings",
+      "cat": "Dumplings (Veg)",
+      "cost": 1.0,
+      "miss": []
+    },
+    {
+      "dish": "Schezwan Veg Momos",
+      "cat": "Dumplings (Veg)",
+      "cost": 1.05,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Kung Pao Sauce",
+      "cat": "Mains (Non Veg)",
+      "cost": 3.22,
+      "miss": []
+    },
+    {
+      "dish": "Chilli Chicken Gravy",
+      "cat": "Mains (Non Veg)",
+      "cost": 2.91,
+      "miss": []
+    },
+    {
+      "dish": "Chk Manchurian Gravy",
+      "cat": "Mains (Non Veg)",
+      "cost": 2.58,
+      "miss": []
+    },
+    {
+      "dish": "Chk Black Pepper Sauce",
+      "cat": "Mains (Non Veg)",
+      "cost": 2.8,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Schezwan Sauce",
+      "cat": "Mains (Non Veg)",
+      "cost": 3.11,
+      "miss": []
+    },
+    {
+      "dish": "Chk Oyster Chilli Sauce",
+      "cat": "Mains (Non Veg)",
+      "cost": 3.31,
+      "miss": []
+    },
+    {
+      "dish": "Mongolian Chicken",
+      "cat": "Mains (Non Veg)",
+      "cost": 2.92,
+      "miss": []
+    },
+    {
+      "dish": "Beef Black Pepper",
+      "cat": "Mains (Non Veg)",
+      "cost": 7.26,
+      "miss": []
+    },
+    {
+      "dish": "Mongolian Beef",
+      "cat": "Mains (Non Veg)",
+      "cost": 7.3,
+      "miss": []
+    },
+    {
+      "dish": "Paneer Chilli Gravy",
+      "cat": "Mains (Veg)",
+      "cost": 5.19,
+      "miss": []
+    },
+    {
+      "dish": "Veg Schezwan Gravy",
+      "cat": "Mains (Veg)",
+      "cost": 2.36,
+      "miss": []
+    },
+    {
+      "dish": "Veg Manchurian Gravy",
+      "cat": "Mains (Veg)",
+      "cost": 1.33,
+      "miss": []
+    },
+    {
+      "dish": "Veg Kung Pao Sauce",
+      "cat": "Mains (Veg)",
+      "cost": 3.02,
+      "miss": []
+    },
+    {
+      "dish": "Schezwan Fried Rice",
+      "cat": "Rice & Noodles",
+      "cost": 2.66,
+      "miss": []
+    },
+    {
+      "dish": "Fried Rice",
+      "cat": "Rice & Noodles",
+      "cost": 2.17,
+      "miss": []
+    },
+    {
+      "dish": "Burnt Garlic Rice",
+      "cat": "Rice & Noodles",
+      "cost": 2.34,
+      "miss": []
+    },
+    {
+      "dish": "Steamed Rice",
+      "cat": "Rice & Noodles",
+      "cost": 1.87,
+      "miss": []
+    },
+    {
+      "dish": "Chilli Garlic Rice",
+      "cat": "Rice & Noodles",
+      "cost": 2.59,
+      "miss": []
+    },
+    {
+      "dish": "Street Style Chowmein",
+      "cat": "Rice & Noodles",
+      "cost": 2.72,
+      "miss": [
+        "Veg Petals-SF (Shredded)"
+      ]
+    },
+    {
+      "dish": "Hakka Noodles",
+      "cat": "Rice & Noodles",
+      "cost": 2.31,
+      "miss": [
+        "Veg Petals-SF (Shredded)"
+      ]
+    },
+    {
+      "dish": "Schezwan Noodles",
+      "cat": "Rice & Noodles",
+      "cost": 2.9,
+      "miss": [
+        "Veg Petals-SF (Shredded)"
+      ]
+    },
+    {
+      "dish": "Singapore Noodles",
+      "cat": "Rice & Noodles",
+      "cost": 2.72,
+      "miss": [
+        "Veg Petals-SF (Shredded)"
+      ]
+    },
+    {
+      "dish": "Chilli Garlic Noodles",
+      "cat": "Rice & Noodles",
+      "cost": 2.85,
+      "miss": []
+    },
+    {
+      "dish": "Shanghai Noodles",
+      "cat": "Rice & Noodles",
+      "cost": 3.01,
+      "miss": [
+        "Veg Petals-SF (Shredded)"
+      ]
+    },
+    {
+      "dish": "Triple Schezwan Rice",
+      "cat": "Rice & Noodles",
+      "cost": 4.19,
+      "miss": []
+    }
+  ]
+}

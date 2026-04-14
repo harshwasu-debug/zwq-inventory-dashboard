@@ -1,0 +1,450 @@
+{
+  "title": "Korean Menu - Dish Costing",
+  "method": "Lowest canonical price per ingredient + SF recursive costing + wastage + UOM conversion",
+  "generated_date": "2026-03-27",
+  "notes": [
+    "Chicken Wings Uncooked: 60g/wing, 15 AED/Kg = 0.90 AED/piece",
+    "Crab Whole: 16 AED/Kg, ~400g/crab = 6.40 AED/piece",
+    "Vermicelli Noodles: 28 AED/Kg raw, 1:2 cook ratio = 14 AED/Kg cooked",
+    "Soondubu Jjigae: Spicy Chili Paste SF replaced with 60g Gochugaru",
+    "Gyoza Wrapper: ~25 pieces per 140g pack = 0.26 AED/piece",
+    "Tap Water: priced at AED 0"
+  ],
+  "sf_costs": {
+    "Bulgogi Marinade - SF": 6.221,
+    "Bibimbap Sauce - SF": 11.262,
+    "Spicy Bokkeum Sauce - SF": 9.4064,
+    "Chili Garlic Sauce - SF": 8.2365,
+    "Crispy Tofu Glaze - SF": 6.8746,
+    "Japchae Sauce - SF": 8.3099,
+    "Seafood Jjajang Sauce - SF": 6.9731,
+    "House Kimchi - SF": 6.8469,
+    "Spicy Chili Paste - SF": 20.2842,
+    "Chicken Frying Batter - SF": 4.7562,
+    "Yangnyeom Sauce - SF": 10.3686,
+    "Soy Garlic Glaze - SF": 7.923,
+    "Spicy Chicken Glaze - SF": 14.0309,
+    "Honey Garlic Glaze - SF": 12.1456,
+    "Dynamite Shrimp Sauce - SF": 14.3046,
+    "Tteokbokki Sauce - SF": 8.3374,
+    "Ramen Broth Base - SF": 1.308,
+    "Shrimp Mandu Filling - SF": 16.4286,
+    "Kimbap Seasoned Rice - SF": 6.0847,
+    "Kimbap Dipping Sauce - SF": 8.8928,
+    "Sigumchi Namul - SF": 5.1813,
+    "Kongnamul Muchim - SF": 7.3953,
+    "Delivery Overhead - SF": 0.1893,
+    "Banchan & Packaging - SF": 0.2565,
+    "Mandu Dipping Sauce - SF": 6.5516
+  },
+  "dishes": [
+    {
+      "sno": 1,
+      "dish_name": "Beef Bibimbap",
+      "total_cost": 9.29,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 2,
+      "dish_name": "Chicken Bibimbap",
+      "total_cost": 5.97,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 3,
+      "dish_name": "Tofu Bibimbap",
+      "total_cost": 5.41,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 4,
+      "dish_name": "Veg Bibimbap",
+      "total_cost": 5.09,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 5,
+      "dish_name": "Shrimp Bibimbap",
+      "total_cost": 6.69,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 6,
+      "dish_name": "Kimchi Shrimp Fried Rice",
+      "total_cost": 4.38,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 7,
+      "dish_name": "Bulgogi Deopbap",
+      "total_cost": 13.08,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 8,
+      "dish_name": "Dak Deopbap",
+      "total_cost": 5.63,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 9,
+      "dish_name": "Chili Garlic Shrimp Deopbap",
+      "total_cost": 6.19,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 10,
+      "dish_name": "Gochujang Shrimp Deopbap",
+      "total_cost": 5.98,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 11,
+      "dish_name": "Crispy Tofu Deopbap",
+      "total_cost": 4.21,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 12,
+      "dish_name": "Ojingeo Deopbap (Squid)",
+      "total_cost": 5.58,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 13,
+      "dish_name": "Nakji Bokkeum (Octopus)",
+      "total_cost": 6.9,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 14,
+      "dish_name": "Donkkaseu",
+      "total_cost": 6.99,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 15,
+      "dish_name": "Japchae Beef",
+      "total_cost": 9.23,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 16,
+      "dish_name": "Japchae Chicken",
+      "total_cost": 6.46,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 17,
+      "dish_name": "Japchae Veg",
+      "total_cost": 5.59,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 18,
+      "dish_name": "Shrimp Japchae",
+      "total_cost": 7.19,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 19,
+      "dish_name": "Jjajangmyeon",
+      "total_cost": 4.63,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 20,
+      "dish_name": "Kimchi Jjigae",
+      "total_cost": 7.64,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 21,
+      "dish_name": "Soondubu Jjigae",
+      "total_cost": 6.29,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 22,
+      "dish_name": "Shrimp Soondubu Jjigae",
+      "total_cost": 6.18,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 23,
+      "dish_name": "Doenjang Jjigae",
+      "total_cost": 4.31,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 24,
+      "dish_name": "Yukgaejang",
+      "total_cost": 7.47,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 25,
+      "dish_name": "Jjamppong Bap",
+      "total_cost": 7.26,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 26,
+      "dish_name": "Jjamppong",
+      "total_cost": 7.63,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 27,
+      "dish_name": "Shin Ramen",
+      "total_cost": 5.26,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 28,
+      "dish_name": "Beef Ramen",
+      "total_cost": 9.42,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 29,
+      "dish_name": "Prawn Ramen",
+      "total_cost": 7.62,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 30,
+      "dish_name": "Garlic Butter Shrimp Ramen",
+      "total_cost": 7.52,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 31,
+      "dish_name": "Chicken Ramen",
+      "total_cost": 6.67,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 32,
+      "dish_name": "Soy and Garlic Chicken",
+      "total_cost": 5.24,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 33,
+      "dish_name": "Yangnyeom Chicken",
+      "total_cost": 5.43,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 34,
+      "dish_name": "Korean Style Chicken",
+      "total_cost": 4.75,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 35,
+      "dish_name": "Spicy Chicken",
+      "total_cost": 5.61,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 36,
+      "dish_name": "Honey Garlic Chicken",
+      "total_cost": 5.49,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 37,
+      "dish_name": "Soy and Garlic Wings",
+      "total_cost": 9.35,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 38,
+      "dish_name": "Yangnyeom Wings",
+      "total_cost": 9.51,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 39,
+      "dish_name": "Spicy Wings",
+      "total_cost": 9.75,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 40,
+      "dish_name": "Honey Garlic Wings",
+      "total_cost": 9.63,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 41,
+      "dish_name": "Dynamite Shrimp",
+      "total_cost": 5.94,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 42,
+      "dish_name": "Rabokki",
+      "total_cost": 7.82,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 43,
+      "dish_name": "Tteokbokki with Cheese",
+      "total_cost": 6.86,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 44,
+      "dish_name": "Spicy Shrimp Tteokbokki",
+      "total_cost": 8.42,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 45,
+      "dish_name": "Deep Fried Chicken Mandu",
+      "total_cost": 4.52,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 46,
+      "dish_name": "Steamed Chicken Mandu",
+      "total_cost": 4.39,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 47,
+      "dish_name": "Gyeran-mari (Rolled Omelette)",
+      "total_cost": 3.42,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 48,
+      "dish_name": "Tuna Kimbap",
+      "total_cost": 4.84,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 49,
+      "dish_name": "Beef Kimbap",
+      "total_cost": 5.69,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 50,
+      "dish_name": "Cheese and Veg Kimbap",
+      "total_cost": 3.72,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 51,
+      "dish_name": "Chicken Kimbap",
+      "total_cost": 4.02,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 52,
+      "dish_name": "Kimchi Kimbap",
+      "total_cost": 3.45,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 53,
+      "dish_name": "Japchae & Shrimp Kimbap",
+      "total_cost": 4.41,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 54,
+      "dish_name": "House Kimchi",
+      "total_cost": 1.82,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 55,
+      "dish_name": "Kongnamul Muchim",
+      "total_cost": 0.52,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 56,
+      "dish_name": "Sigumchi Namul",
+      "total_cost": 0.33,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 57,
+      "dish_name": "Danmuji (Pickled Radish)",
+      "total_cost": 3.02,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 58,
+      "dish_name": "Rice Bowl Set",
+      "total_cost": 21.11,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 59,
+      "dish_name": "Solo Chicken Set",
+      "total_cost": 14.27,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 60,
+      "dish_name": "Chicken Combo for Two",
+      "total_cost": 32.77,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 61,
+      "dish_name": "Mineral Tap Water",
+      "total_cost": 0.44,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 62,
+      "dish_name": "Coca Cola",
+      "total_cost": 2.04,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 63,
+      "dish_name": "Coca Cola Zero",
+      "total_cost": 2.04,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 64,
+      "dish_name": "Fanta",
+      "total_cost": 2.04,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 65,
+      "dish_name": "Sprite",
+      "total_cost": 2.04,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 66,
+      "dish_name": "Sprite Zero",
+      "total_cost": 2.04,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 67,
+      "dish_name": "Honey Chilli Shrimp",
+      "total_cost": 4.88,
+      "missing_ingredients": []
+    },
+    {
+      "sno": 68,
+      "dish_name": "Honey Chilli Potatoes",
+      "total_cost": 1.87,
+      "missing_ingredients": []
+    }
+  ]
+}

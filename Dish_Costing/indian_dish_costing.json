@@ -1,0 +1,895 @@
+{
+  "dishes": [
+    {
+      "cat": "Veg Starters",
+      "dish": "Hara Bhara Kabab",
+      "food_cost": 3.56,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 5.18
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Malai Broccoli",
+      "food_cost": 7.82,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.44
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Achari Paneer Tikka",
+      "food_cost": 6.85,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 8.47
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Paneer Malai Tikka",
+      "food_cost": 7.4,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.02
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Paneer Tikka",
+      "food_cost": 6.94,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 8.57
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Tandoori Cauliflower",
+      "food_cost": 3.47,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 5.09
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Achari Mushroom",
+      "food_cost": 6.34,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 7.96
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Soya Chaap Angaari",
+      "food_cost": 7.14,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 8.77
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Tandoori Malai Chaap",
+      "food_cost": 7.63,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.26
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Tandoori Mushroom",
+      "food_cost": 6.44,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 8.06
+    },
+    {
+      "cat": "Veg Starters",
+      "dish": "Tandoori Soya Chaap",
+      "food_cost": 7.17,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 8.8
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Chicken Seekh Kebab",
+      "food_cost": 3.3,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 4.92
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Reshmi Chicken Kebab",
+      "food_cost": 7.91,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.54
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Tangdi Kabab (2 Pcs)",
+      "food_cost": 5.01,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 6.63
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Tangdi Kabab (4 Pcs)",
+      "food_cost": 10.02,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 11.64
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Tangdi Kabab (6 Pcs)",
+      "food_cost": 15.03,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.98,
+      "cost": 17.34
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Afghani Chicken (Half)",
+      "food_cost": 9.19,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 10.81
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Afghani Chicken (Full)",
+      "food_cost": 18.38,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.98,
+      "cost": 20.7
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Ajwaini Chicken Tikka",
+      "food_cost": 7.43,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.06
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Banjara Chicken",
+      "food_cost": 7.63,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.26
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Haryali Chicken Tikka",
+      "food_cost": 7.45,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.08
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Malai Chicken Tikka",
+      "food_cost": 7.91,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.54
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Chicken Tikka",
+      "food_cost": 7.45,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.08
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Hot Pot Chicken Tikka",
+      "food_cost": 7.42,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.05
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Murg Angaari",
+      "food_cost": 7.42,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.05
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Tandoori Chicken (Half)",
+      "food_cost": 8.15,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 9.78
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Tandoori Chicken (Full)",
+      "food_cost": 16.31,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.98,
+      "cost": 18.63
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Tandoori Wings",
+      "food_cost": 5.1,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 6.72
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Grilled Prawns Tandoori",
+      "food_cost": 6.05,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 7.67
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Ajwaini Fish Tikka",
+      "food_cost": 3.22,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 4.84
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Hyderabadi Fish Tikka",
+      "food_cost": 3.51,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 5.14
+    },
+    {
+      "cat": "Non-Veg Starters",
+      "dish": "Fish Tikka",
+      "food_cost": 3.23,
+      "mint_chutney": 0.34,
+      "pickle": 0.0,
+      "packaging": 1.29,
+      "cost": 4.86
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Aloo Gobi",
+      "food_cost": 1.77,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 2.97
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Dal Tadka",
+      "food_cost": 4.65,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 5.85
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Jeera Aloo",
+      "food_cost": 1.26,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 2.46
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Mixed Vegetable Curry",
+      "food_cost": 3.12,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 4.32
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Soya Chaap Curry",
+      "food_cost": 8.05,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 9.25
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Dal Makhani",
+      "food_cost": 6.98,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 8.18
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Kadai Chaap",
+      "food_cost": 7.73,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 8.93
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Pindi Chole",
+      "food_cost": 4.07,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 5.27
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Chana Masala",
+      "food_cost": 2.79,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 3.99
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Rajma",
+      "food_cost": 3.82,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 5.02
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Dal Bukhara",
+      "food_cost": 7.64,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 8.84
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Dal Palak",
+      "food_cost": 4.1,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 5.3
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Methi Mutter Malai",
+      "food_cost": 4.68,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 5.88
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Kadhai Paneer",
+      "food_cost": 5.86,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 7.06
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Mushroom Masala",
+      "food_cost": 4.43,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 5.63
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Mutter Paneer",
+      "food_cost": 6.64,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 7.84
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Palak Paneer",
+      "food_cost": 6.68,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 7.88
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Paneer Bhurji",
+      "food_cost": 5.29,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 6.49
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Paneer Butter Masala",
+      "food_cost": 7.42,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 8.62
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Paneer Lababdar",
+      "food_cost": 6.8,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 8.0
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Shahi Paneer",
+      "food_cost": 7.13,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 8.33
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Paneer Pasanda",
+      "food_cost": 7.7,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 8.9
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Paneer Tikka Masala",
+      "food_cost": 8.27,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 9.47
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Malai Kofta",
+      "food_cost": 5.22,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 6.42
+    },
+    {
+      "cat": "Veg Mains",
+      "dish": "Egg Masala Curry",
+      "food_cost": 2.79,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 3.99
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Butter Chicken",
+      "food_cost": 6.53,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 7.73
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Chicken Kalimirch",
+      "food_cost": 9.37,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 10.57
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Chicken Lababdar",
+      "food_cost": 5.83,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 7.03
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Peshawari Murgh",
+      "food_cost": 5.48,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 6.68
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Chicken Tikka Masala",
+      "food_cost": 6.07,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 7.27
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Kadai Chicken",
+      "food_cost": 4.61,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 5.81
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Fish Tikka Curry",
+      "food_cost": 3.85,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 5.05
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Bhuna Mutton Curry",
+      "food_cost": 9.6,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 10.8
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Mutton Handi Curry",
+      "food_cost": 9.96,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 11.16
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Kadai Mutton",
+      "food_cost": 8.49,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 9.69
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Mutton Rogan Josh",
+      "food_cost": 9.99,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 11.19
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Mutton Saag",
+      "food_cost": 9.91,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 11.11
+    },
+    {
+      "cat": "Non-Veg Mains",
+      "dish": "Prawn Curry",
+      "food_cost": 5.62,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 6.82
+    },
+    {
+      "cat": "Rice",
+      "dish": "Steamed Rice",
+      "food_cost": 0.5,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 1.69
+    },
+    {
+      "cat": "Rice",
+      "dish": "Ghee Rice",
+      "food_cost": 1.64,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 2.84
+    },
+    {
+      "cat": "Rice",
+      "dish": "Jeera Rice",
+      "food_cost": 0.76,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 1.95
+    },
+    {
+      "cat": "Rice",
+      "dish": "Veg Pulao",
+      "food_cost": 2.16,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 3.36
+    },
+    {
+      "cat": "Rice",
+      "dish": "Kashmiri Pulao",
+      "food_cost": 2.25,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 1.2,
+      "cost": 3.44
+    },
+    {
+      "cat": "Breads",
+      "dish": "Tandoori Roti",
+      "food_cost": 0.23,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.03,
+      "cost": 0.26
+    },
+    {
+      "cat": "Breads",
+      "dish": "Butter Roti",
+      "food_cost": 0.75,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.03,
+      "cost": 0.78
+    },
+    {
+      "cat": "Breads",
+      "dish": "Missi Roti",
+      "food_cost": 0.91,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.03,
+      "cost": 0.94
+    },
+    {
+      "cat": "Breads",
+      "dish": "Plain Naan",
+      "food_cost": 0.34,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.03,
+      "cost": 0.37
+    },
+    {
+      "cat": "Breads",
+      "dish": "Butter Naan",
+      "food_cost": 1.03,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.03,
+      "cost": 1.06
+    },
+    {
+      "cat": "Breads",
+      "dish": "Garlic Naan",
+      "food_cost": 1.15,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.03,
+      "cost": 1.18
+    },
+    {
+      "cat": "Breads",
+      "dish": "Lachha Parantha",
+      "food_cost": 1.01,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.03,
+      "cost": 1.03
+    },
+    {
+      "cat": "Breads",
+      "dish": "Punjabi Kulcha",
+      "food_cost": 1.59,
+      "mint_chutney": 0.0,
+      "pickle": 0.25,
+      "packaging": 0.45,
+      "cost": 2.24
+    },
+    {
+      "cat": "Breads",
+      "dish": "Aloo Parantha",
+      "food_cost": 1.26,
+      "mint_chutney": 0.0,
+      "pickle": 0.25,
+      "packaging": 0.45,
+      "cost": 1.95
+    },
+    {
+      "cat": "Breads",
+      "dish": "Gobi Parantha",
+      "food_cost": 1.53,
+      "mint_chutney": 0.0,
+      "pickle": 0.25,
+      "packaging": 0.45,
+      "cost": 2.23
+    },
+    {
+      "cat": "Breads",
+      "dish": "Methi Parantha",
+      "food_cost": 1.26,
+      "mint_chutney": 0.0,
+      "pickle": 0.25,
+      "packaging": 0.45,
+      "cost": 1.96
+    },
+    {
+      "cat": "Breads",
+      "dish": "Mixed Veg Parantha",
+      "food_cost": 1.46,
+      "mint_chutney": 0.0,
+      "pickle": 0.25,
+      "packaging": 0.45,
+      "cost": 2.36
+    },
+    {
+      "cat": "Breads",
+      "dish": "Pudina Parantha",
+      "food_cost": 1.08,
+      "mint_chutney": 0.0,
+      "pickle": 0.25,
+      "packaging": 0.45,
+      "cost": 2.08
+    },
+    {
+      "cat": "Breads",
+      "dish": "Pyaaz Parantha",
+      "food_cost": 1.34,
+      "mint_chutney": 0.0,
+      "pickle": 0.25,
+      "packaging": 0.45,
+      "cost": 2.04
+    },
+    {
+      "cat": "Accompaniments",
+      "dish": "Plain Dahi",
+      "food_cost": 0.64,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.39,
+      "cost": 1.03
+    },
+    {
+      "cat": "Accompaniments",
+      "dish": "Boondi Raita",
+      "food_cost": 1.22,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.39,
+      "cost": 1.61
+    },
+    {
+      "cat": "Accompaniments",
+      "dish": "Veg Raita",
+      "food_cost": 0.84,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.39,
+      "cost": 1.23
+    },
+    {
+      "cat": "Accompaniments",
+      "dish": "Green Salad",
+      "food_cost": 1.04,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.69,
+      "cost": 1.73
+    },
+    {
+      "cat": "Beverages",
+      "dish": "Mineral Water",
+      "food_cost": 0.44,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.0,
+      "cost": 0.44
+    },
+    {
+      "cat": "Beverages",
+      "dish": "Coca Cola Can",
+      "food_cost": 2.04,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.0,
+      "cost": 2.04
+    },
+    {
+      "cat": "Beverages",
+      "dish": "Coca Cola Zero Can",
+      "food_cost": 2.04,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.0,
+      "cost": 2.04
+    },
+    {
+      "cat": "Beverages",
+      "dish": "Fanta Can",
+      "food_cost": 2.04,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.0,
+      "cost": 2.04
+    },
+    {
+      "cat": "Beverages",
+      "dish": "Sprite Can",
+      "food_cost": 2.04,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.0,
+      "cost": 2.04
+    },
+    {
+      "cat": "Beverages",
+      "dish": "Sprite Zero Can",
+      "food_cost": 2.04,
+      "mint_chutney": 0.0,
+      "pickle": 0.0,
+      "packaging": 0.0,
+      "cost": 2.04
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "Oneesan": {
+    "Oneesan's Solace (Solo)": {
+      "price": 89.0,
+      "desc": "",
+      "cat": ""
+    },
+    "Shared Harmony (Date)": {
+      "price": 113.0,
+      "desc": "",
+      "cat": ""
+    },
+    "Simple Comforts (Fast)": {
+      "price": 95.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Family Gathering (Party)": {
+      "price": 147.0,
+      "desc": "",
+      "cat": ""
+    },
+    "Sister's Favorites (Premium)": {
+      "price": 158.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Artisan's Palette (Raw)": {
+      "price": 116.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Warm Welcome (Crowd)": {
+      "price": 419.0,
+      "desc": "",
+      "cat": ""
+    }
+  },
+  "Hikari": {
+    "The Solo Play": {
+      "price": 85.0,
+      "desc": "",
+      "cat": ""
+    },
+    "Date Night Box": {
+      "price": 108.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Power Feed": {
+      "price": 90.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Crowd Pleaser": {
+      "price": 140.0,
+      "desc": "",
+      "cat": ""
+    },
+    "Signature Flex": {
+      "price": 150.0,
+      "desc": "",
+      "cat": ""
+    },
+    "Raw Bar Feast": {
+      "price": 110.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Party Starter": {
+      "price": 399.0,
+      "desc": "",
+      "cat": ""
+    }
+  },
+  "Norii": {
+    "The Solo Edit": {
+      "price": 85.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Rendezvous": {
+      "price": 108.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Daily Ritual": {
+      "price": 90.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Socialite": {
+      "price": 140.0,
+      "desc": "",
+      "cat": ""
+    },
+    "Norii Gold Collection": {
+      "price": 150.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The Sashimi Standard": {
+      "price": 110.0,
+      "desc": "",
+      "cat": ""
+    },
+    "The After Hours": {
+      "price": 399.0,
+      "desc": "",
+      "cat": ""
+    }
+  }
+}

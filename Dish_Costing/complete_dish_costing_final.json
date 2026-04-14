@@ -1,0 +1,6211 @@
+{
+  "Korean Menu": [
+    {
+      "S.No.": 1,
+      "Category": "Bibimbap",
+      "Dish Name": "Beef Bibimbap",
+      "Cost (AED)": 9.29,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 2,
+      "Category": "Bibimbap",
+      "Dish Name": "Chicken Bibimbap",
+      "Cost (AED)": 5.97,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 3,
+      "Category": "Bibimbap",
+      "Dish Name": "Tofu Bibimbap",
+      "Cost (AED)": 5.41,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 4,
+      "Category": "Bibimbap",
+      "Dish Name": "Veg Bibimbap",
+      "Cost (AED)": 5.09,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 5,
+      "Category": "Bibimbap",
+      "Dish Name": "Shrimp Bibimbap",
+      "Cost (AED)": 6.69,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 6,
+      "Category": "Rice Bowls",
+      "Dish Name": "Kimchi Shrimp Fried Rice",
+      "Cost (AED)": 4.38,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 7,
+      "Category": "Rice Bowls",
+      "Dish Name": "Bulgogi Deopbap",
+      "Cost (AED)": 13.08,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 8,
+      "Category": "Rice Bowls",
+      "Dish Name": "Dak Deopbap",
+      "Cost (AED)": 5.63,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 9,
+      "Category": "Rice Bowls",
+      "Dish Name": "Chili Garlic Shrimp Deopbap",
+      "Cost (AED)": 6.19,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 10,
+      "Category": "Rice Bowls",
+      "Dish Name": "Gochujang Shrimp Deopbap",
+      "Cost (AED)": 5.98,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 11,
+      "Category": "Rice Bowls",
+      "Dish Name": "Crispy Tofu Deopbap",
+      "Cost (AED)": 4.21,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 12,
+      "Category": "Rice Bowls",
+      "Dish Name": "Ojingeo Deopbap (Squid)",
+      "Cost (AED)": 5.58,
+      "Sell Price (AED)": 72.0
+    },
+    {
+      "S.No.": 13,
+      "Category": "Rice Bowls",
+      "Dish Name": "Nakji Bokkeum (Octopus)",
+      "Cost (AED)": 6.9,
+      "Sell Price (AED)": 75.0
+    },
+    {
+      "S.No.": 14,
+      "Category": "Rice Bowls",
+      "Dish Name": "Donkkaseu",
+      "Cost (AED)": 6.99,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 15,
+      "Category": "Japchae",
+      "Dish Name": "Japchae Beef",
+      "Cost (AED)": 9.23,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 16,
+      "Category": "Japchae",
+      "Dish Name": "Japchae Chicken",
+      "Cost (AED)": 6.46,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 17,
+      "Category": "Japchae",
+      "Dish Name": "Japchae Veg",
+      "Cost (AED)": 5.59,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 18,
+      "Category": "Japchae",
+      "Dish Name": "Shrimp Japchae",
+      "Cost (AED)": 7.19,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 19,
+      "Category": "Noodles",
+      "Dish Name": "Jjajangmyeon",
+      "Cost (AED)": 4.63,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 20,
+      "Category": "Stews",
+      "Dish Name": "Kimchi Jjigae",
+      "Cost (AED)": 7.64,
+      "Sell Price (AED)": 74.0
+    },
+    {
+      "S.No.": 21,
+      "Category": "Stews",
+      "Dish Name": "Soondubu Jjigae",
+      "Cost (AED)": 6.29,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 22,
+      "Category": "Stews",
+      "Dish Name": "Shrimp Soondubu Jjigae",
+      "Cost (AED)": 6.18,
+      "Sell Price (AED)": 69.0
+    },
+    {
+      "S.No.": 23,
+      "Category": "Stews",
+      "Dish Name": "Doenjang Jjigae",
+      "Cost (AED)": 4.31,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 24,
+      "Category": "Stews",
+      "Dish Name": "Yukgaejang",
+      "Cost (AED)": 7.47,
+      "Sell Price (AED)": 72.0
+    },
+    {
+      "S.No.": 25,
+      "Category": "Stews",
+      "Dish Name": "Jjamppong Bap",
+      "Cost (AED)": 7.26,
+      "Sell Price (AED)": 75.0
+    },
+    {
+      "S.No.": 26,
+      "Category": "Stews",
+      "Dish Name": "Jjamppong",
+      "Cost (AED)": 7.63,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 27,
+      "Category": "Ramen",
+      "Dish Name": "Shin Ramen",
+      "Cost (AED)": 5.26,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 28,
+      "Category": "Ramen",
+      "Dish Name": "Beef Ramen",
+      "Cost (AED)": 9.42,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 29,
+      "Category": "Ramen",
+      "Dish Name": "Prawn Ramen",
+      "Cost (AED)": 7.62,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 30,
+      "Category": "Ramen",
+      "Dish Name": "Garlic Butter Shrimp Ramen",
+      "Cost (AED)": 7.52,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 31,
+      "Category": "Ramen",
+      "Dish Name": "Chicken Ramen",
+      "Cost (AED)": 6.67,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 32,
+      "Category": "Fried Chicken",
+      "Dish Name": "Soy and Garlic Chicken",
+      "Cost (AED)": 5.24,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 33,
+      "Category": "Fried Chicken",
+      "Dish Name": "Yangnyeom Chicken",
+      "Cost (AED)": 5.43,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 34,
+      "Category": "Fried Chicken",
+      "Dish Name": "Korean Style Chicken",
+      "Cost (AED)": 4.75,
+      "Sell Price (AED)": 38.0
+    },
+    {
+      "S.No.": 35,
+      "Category": "Fried Chicken",
+      "Dish Name": "Spicy Chicken",
+      "Cost (AED)": 5.61,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 36,
+      "Category": "Fried Chicken",
+      "Dish Name": "Honey Garlic Chicken",
+      "Cost (AED)": 5.49,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 37,
+      "Category": "Wings",
+      "Dish Name": "Soy and Garlic Wings",
+      "Cost (AED)": 9.35,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 38,
+      "Category": "Wings",
+      "Dish Name": "Yangnyeom Wings",
+      "Cost (AED)": 9.51,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 39,
+      "Category": "Wings",
+      "Dish Name": "Spicy Wings",
+      "Cost (AED)": 9.75,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 40,
+      "Category": "Wings",
+      "Dish Name": "Honey Garlic Wings",
+      "Cost (AED)": 9.63,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 41,
+      "Category": "Appetizers",
+      "Dish Name": "Dynamite Shrimp",
+      "Cost (AED)": 5.94,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 42,
+      "Category": "Appetizers",
+      "Dish Name": "Rabokki",
+      "Cost (AED)": 7.82,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 43,
+      "Category": "Appetizers",
+      "Dish Name": "Tteokbokki with Cheese",
+      "Cost (AED)": 6.86,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 44,
+      "Category": "Appetizers",
+      "Dish Name": "Spicy Shrimp Tteokbokki",
+      "Cost (AED)": 8.42,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 45,
+      "Category": "Appetizers",
+      "Dish Name": "Deep Fried Chicken Mandu",
+      "Cost (AED)": 4.52,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 46,
+      "Category": "Appetizers",
+      "Dish Name": "Steamed Chicken Mandu",
+      "Cost (AED)": 4.39,
+      "Sell Price (AED)": 32.0
+    },
+    {
+      "S.No.": 47,
+      "Category": "Appetizers",
+      "Dish Name": "Gyeran-mari (Rolled Omelette)",
+      "Cost (AED)": 3.42,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 48,
+      "Category": "Kimbap",
+      "Dish Name": "Tuna Kimbap",
+      "Cost (AED)": 4.84,
+      "Sell Price (AED)": 38.0
+    },
+    {
+      "S.No.": 49,
+      "Category": "Kimbap",
+      "Dish Name": "Beef Kimbap",
+      "Cost (AED)": 5.69,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 50,
+      "Category": "Kimbap",
+      "Dish Name": "Cheese and Veg Kimbap",
+      "Cost (AED)": 3.72,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 51,
+      "Category": "Kimbap",
+      "Dish Name": "Chicken Kimbap",
+      "Cost (AED)": 4.02,
+      "Sell Price (AED)": 38.0
+    },
+    {
+      "S.No.": 52,
+      "Category": "Kimbap",
+      "Dish Name": "Kimchi Kimbap",
+      "Cost (AED)": 3.45,
+      "Sell Price (AED)": 36.0
+    },
+    {
+      "S.No.": 53,
+      "Category": "Kimbap",
+      "Dish Name": "Japchae & Shrimp Kimbap",
+      "Cost (AED)": 4.41,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 54,
+      "Category": "Banchan",
+      "Dish Name": "House Kimchi",
+      "Cost (AED)": 1.82,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 55,
+      "Category": "Banchan",
+      "Dish Name": "Kongnamul Muchim",
+      "Cost (AED)": 0.52,
+      "Sell Price (AED)": 15.0
+    },
+    {
+      "S.No.": 56,
+      "Category": "Banchan",
+      "Dish Name": "Sigumchi Namul",
+      "Cost (AED)": 0.33,
+      "Sell Price (AED)": 15.0
+    },
+    {
+      "S.No.": 57,
+      "Category": "Banchan",
+      "Dish Name": "Danmuji (Pickled Radish)",
+      "Cost (AED)": 3.02,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 58,
+      "Category": "Combo Meals",
+      "Dish Name": "Rice Bowl Set",
+      "Cost (AED)": 21.11,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 59,
+      "Category": "Combo Meals",
+      "Dish Name": "Solo Chicken Set",
+      "Cost (AED)": 14.27,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 60,
+      "Category": "Combo Meals",
+      "Dish Name": "Chicken Combo for Two",
+      "Cost (AED)": 32.77,
+      "Sell Price (AED)": 135.0
+    },
+    {
+      "S.No.": 61,
+      "Category": "Beverages",
+      "Dish Name": "Mineral Tap Water",
+      "Cost (AED)": 0.44,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 62,
+      "Category": "Beverages",
+      "Dish Name": "Coca Cola",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 63,
+      "Category": "Beverages",
+      "Dish Name": "Coca Cola Zero",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 64,
+      "Category": "Beverages",
+      "Dish Name": "Fanta",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 10.0
+    },
+    {
+      "S.No.": 65,
+      "Category": "Beverages",
+      "Dish Name": "Sprite",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 10.0
+    },
+    {
+      "S.No.": 66,
+      "Category": "Beverages",
+      "Dish Name": "Sprite Zero",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 67,
+      "Category": "Appetizers",
+      "Dish Name": "Honey Chilli Shrimp",
+      "Cost (AED)": 4.88,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 68,
+      "Category": "Appetizers",
+      "Dish Name": "Honey Chilli Potatoes",
+      "Cost (AED)": 1.87,
+      "Sell Price (AED)": NaN
+    }
+  ],
+  "Korean Ramadan Combos": [
+    {
+      "S.No.": 1,
+      "Combo Name": "Iftar Korean Rice Bowl Solo",
+      "Sell Price (AED)": 72,
+      "Min Cost (AED)": 10.09,
+      "Max Cost (AED)": 20.81
+    },
+    {
+      "S.No.": 2,
+      "Combo Name": "Iftar Korean Rice Bowl Duo",
+      "Sell Price (AED)": 122,
+      "Min Cost (AED)": 24.93,
+      "Max Cost (AED)": 47.23
+    },
+    {
+      "S.No.": 3,
+      "Combo Name": "Iftar Korean Rice Bowl Family of 4",
+      "Sell Price (AED)": 193,
+      "Min Cost (AED)": 37.07,
+      "Max Cost (AED)": 77.47
+    },
+    {
+      "S.No.": 4,
+      "Combo Name": "Ramadan Korean Feast 6 Servings",
+      "Sell Price (AED)": 329,
+      "Min Cost (AED)": 43.54,
+      "Max Cost (AED)": 90.78
+    },
+    {
+      "S.No.": 5,
+      "Combo Name": "Iftar Vegetarian Korean Bowl Feast",
+      "Sell Price (AED)": 139,
+      "Min Cost (AED)": 8.1,
+      "Max Cost (AED)": 11.35
+    }
+  ],
+  "American Menu": [
+    {
+      "S.No.": 1,
+      "Category": "Beef Burger",
+      "Dish Name": "Classic Beef Burger",
+      "Cost (AED)": 11.84,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 2,
+      "Category": "Beef Burger",
+      "Dish Name": "Cowboy Beef Burger",
+      "Cost (AED)": 14.38,
+      "Sell Price (AED)": 72.0
+    },
+    {
+      "S.No.": 3,
+      "Category": "Beef Burger",
+      "Dish Name": "Beef Slaw Burger",
+      "Cost (AED)": 12.2,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 4,
+      "Category": "Beef Burger",
+      "Dish Name": "Beef Burger Quesadilla",
+      "Cost (AED)": 10.91,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 5,
+      "Category": "Beef Burger",
+      "Dish Name": "Buffalo Beef Burger",
+      "Cost (AED)": 11.99,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 6,
+      "Category": "Beef Burger",
+      "Dish Name": "Texas Beef Burger",
+      "Cost (AED)": 12.09,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 7,
+      "Category": "Beef Burger",
+      "Dish Name": "Mushroom Beef Burger",
+      "Cost (AED)": 12.3,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 8,
+      "Category": "Beef Burger",
+      "Dish Name": "Mushroom Truffle Beef Burger",
+      "Cost (AED)": 12.45,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 9,
+      "Category": "Beef Burger",
+      "Dish Name": "Beef Double Cheese Burger",
+      "Cost (AED)": 12.49,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 10,
+      "Category": "Beef Burger",
+      "Dish Name": "Double Beef Burger",
+      "Cost (AED)": 18.7,
+      "Sell Price (AED)": 82.0
+    },
+    {
+      "S.No.": 11,
+      "Category": "Beef Burger",
+      "Dish Name": "Bacon Beef Burger",
+      "Cost (AED)": 14.43,
+      "Sell Price (AED)": 71.0
+    },
+    {
+      "S.No.": 12,
+      "Category": "Beef Burger",
+      "Dish Name": "BBQ Crispy Beef Burger",
+      "Cost (AED)": 14.38,
+      "Sell Price (AED)": 72.0
+    },
+    {
+      "S.No.": 13,
+      "Category": "Beef Burger",
+      "Dish Name": "Mexican Crunch Beef Burger",
+      "Cost (AED)": 12.32,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 14,
+      "Category": "Chicken Burger",
+      "Dish Name": "Grilled Classic Chicken Burger",
+      "Cost (AED)": 7.21,
+      "Sell Price (AED)": 53.0
+    },
+    {
+      "S.No.": 15,
+      "Category": "Chicken Burger",
+      "Dish Name": "Crispy Chicken Burger",
+      "Cost (AED)": 5.59,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 16,
+      "Category": "Chicken Burger",
+      "Dish Name": "Chicken Truffle Burger",
+      "Cost (AED)": 5.92,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 17,
+      "Category": "Chicken Burger",
+      "Dish Name": "Honey BBQ Chicken Burger",
+      "Cost (AED)": 5.49,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 18,
+      "Category": "Chicken Burger",
+      "Dish Name": "Chicken Crunchy Slaw Burger",
+      "Cost (AED)": 5.28,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 19,
+      "Category": "Chicken Burger",
+      "Dish Name": "Chicken House Slaw (Portion) Burger",
+      "Cost (AED)": 5.38,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 20,
+      "Category": "Chicken Burger",
+      "Dish Name": "Chicken Dynamite Burger",
+      "Cost (AED)": 5.71,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 21,
+      "Category": "Chicken Burger",
+      "Dish Name": "Chicken Honey Mustard Burger",
+      "Cost (AED)": 5.67,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 22,
+      "Category": "Chicken Burger",
+      "Dish Name": "Chicken Avocado Burger",
+      "Cost (AED)": 6.18,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 23,
+      "Category": "Chicken Burger",
+      "Dish Name": "Chicken Buffalo Burger",
+      "Cost (AED)": 5.73,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 24,
+      "Category": "Chicken Burger",
+      "Dish Name": "Mexican Crunch Chicken Burger",
+      "Cost (AED)": 6.07,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 25,
+      "Category": "Chicken Burger",
+      "Dish Name": "Hot Honey Burger",
+      "Cost (AED)": 5.77,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 26,
+      "Category": "Chicken Burger",
+      "Dish Name": "Asian Ranch Burger",
+      "Cost (AED)": 5.61,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 27,
+      "Category": "Chicken Burger",
+      "Dish Name": "Italian Chicken Burger",
+      "Cost (AED)": 5.75,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 28,
+      "Category": "Chicken Burger",
+      "Dish Name": "Chili Chicken Burger",
+      "Cost (AED)": 5.73,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 29,
+      "Category": "Sliders",
+      "Dish Name": "Classic Beef Sliders",
+      "Cost (AED)": 10.61,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 30,
+      "Category": "Sliders",
+      "Dish Name": "Cowboy Beef Sliders",
+      "Cost (AED)": 13.15,
+      "Sell Price (AED)": 71.0
+    },
+    {
+      "S.No.": 31,
+      "Category": "Sliders",
+      "Dish Name": "Beef Slaw Sliders",
+      "Cost (AED)": 10.97,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 32,
+      "Category": "Sliders",
+      "Dish Name": "Beef Sliders Quesadilla",
+      "Cost (AED)": 10.42,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 33,
+      "Category": "Sliders",
+      "Dish Name": "Buffalo Beef Sliders",
+      "Cost (AED)": 11.0,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 34,
+      "Category": "Sliders",
+      "Dish Name": "Texas Beef Sliders",
+      "Cost (AED)": 10.85,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 35,
+      "Category": "Sliders",
+      "Dish Name": "Mushroom Beef Sliders",
+      "Cost (AED)": 10.97,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 36,
+      "Category": "Sliders",
+      "Dish Name": "Mushroom Truffle Beef Sliders",
+      "Cost (AED)": 11.22,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 37,
+      "Category": "Sliders",
+      "Dish Name": "Beef Double Cheese Sliders",
+      "Cost (AED)": 11.03,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 38,
+      "Category": "Sliders",
+      "Dish Name": "Double Beef Sliders",
+      "Cost (AED)": 17.0,
+      "Sell Price (AED)": 80.0
+    },
+    {
+      "S.No.": 39,
+      "Category": "Sliders",
+      "Dish Name": "Bacon Beef Sliders",
+      "Cost (AED)": 13.2,
+      "Sell Price (AED)": 70.0
+    },
+    {
+      "S.No.": 40,
+      "Category": "Sliders",
+      "Dish Name": "BBQ Crispy Beef Sliders",
+      "Cost (AED)": 13.15,
+      "Sell Price (AED)": 71.0
+    },
+    {
+      "S.No.": 41,
+      "Category": "Sliders",
+      "Dish Name": "Mexican Crunch Beef Sliders",
+      "Cost (AED)": 10.96,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 42,
+      "Category": "Sliders",
+      "Dish Name": "Grilled Classic Chicken Sliders",
+      "Cost (AED)": 6.65,
+      "Sell Price (AED)": 53.0
+    },
+    {
+      "S.No.": 43,
+      "Category": "Sliders",
+      "Dish Name": "Crispy Chicken Sliders",
+      "Cost (AED)": 5.4,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 44,
+      "Category": "Sliders",
+      "Dish Name": "Chicken Truffle Sliders",
+      "Cost (AED)": 5.64,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 45,
+      "Category": "Sliders",
+      "Dish Name": "Honey BBQ Chicken Sliders",
+      "Cost (AED)": 5.21,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 46,
+      "Category": "Sliders",
+      "Dish Name": "Chicken Crunchy Slaw Sliders",
+      "Cost (AED)": 3.65,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 47,
+      "Category": "Sliders",
+      "Dish Name": "Chicken House Slaw (Portion) Sliders",
+      "Cost (AED)": 3.75,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 48,
+      "Category": "Sliders",
+      "Dish Name": "Chicken Dynamite Sliders",
+      "Cost (AED)": 5.43,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 49,
+      "Category": "Sliders",
+      "Dish Name": "Chicken Honey Mustard Sliders",
+      "Cost (AED)": 5.39,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 50,
+      "Category": "Sliders",
+      "Dish Name": "Chicken Avocado Sliders",
+      "Cost (AED)": 5.9,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 51,
+      "Category": "Sliders",
+      "Dish Name": "Chicken Buffalo Sliders",
+      "Cost (AED)": 5.7,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 52,
+      "Category": "Sliders",
+      "Dish Name": "Mexican Crunch Chicken Sliders",
+      "Cost (AED)": 5.66,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 53,
+      "Category": "Sliders",
+      "Dish Name": "Hot Honey Sliders",
+      "Cost (AED)": 5.49,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 54,
+      "Category": "Sliders",
+      "Dish Name": "Asian Ranch Sliders",
+      "Cost (AED)": 5.34,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 55,
+      "Category": "Sliders",
+      "Dish Name": "Italian Chicken Sliders",
+      "Cost (AED)": 5.47,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 56,
+      "Category": "Sliders",
+      "Dish Name": "Chili Chicken Sliders",
+      "Cost (AED)": 5.46,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 57,
+      "Category": "Sliders",
+      "Dish Name": "Classic Grilled Halloumi Slider",
+      "Cost (AED)": 8.59,
+      "Sell Price (AED)": 54.0
+    },
+    {
+      "S.No.": 58,
+      "Category": "Sliders",
+      "Dish Name": "Buffalo Grilled Halloumi Slider",
+      "Cost (AED)": 8.56,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 59,
+      "Category": "Sliders",
+      "Dish Name": "BBQ Grilled Halloumi Slider",
+      "Cost (AED)": 8.29,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 60,
+      "Category": "Sliders",
+      "Dish Name": "Honey Mustard Grilled Halloumi",
+      "Cost (AED)": 8.49,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 61,
+      "Category": "Sliders",
+      "Dish Name": "Avocado Grilled Halloumi Slider",
+      "Cost (AED)": 8.83,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 62,
+      "Category": "Sliders",
+      "Dish Name": "Classic Falafel Slider",
+      "Cost (AED)": 6.49,
+      "Sell Price (AED)": 43.0
+    },
+    {
+      "S.No.": 63,
+      "Category": "Sliders",
+      "Dish Name": "Buffalo Falafel Slider",
+      "Cost (AED)": 6.46,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 64,
+      "Category": "Sliders",
+      "Dish Name": "BBQ Falafel Slider",
+      "Cost (AED)": 6.19,
+      "Sell Price (AED)": 46.0
+    },
+    {
+      "S.No.": 65,
+      "Category": "Sliders",
+      "Dish Name": "Honey Mustard Falafel Slider",
+      "Cost (AED)": 6.39,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 66,
+      "Category": "Sliders",
+      "Dish Name": "Avocado Falafel Slider",
+      "Cost (AED)": 6.73,
+      "Sell Price (AED)": 46.0
+    },
+    {
+      "S.No.": 67,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Plain Wings",
+      "Cost (AED)": 7.21,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 68,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Smokey BBQ Wings",
+      "Cost (AED)": 7.94,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 69,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Tangy Buffalo Wings",
+      "Cost (AED)": 8.15,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 70,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Hot Honey Wings",
+      "Cost (AED)": 8.23,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 71,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Sesame & Sweet Wings",
+      "Cost (AED)": 7.65,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 72,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Chili Hoisin Wings",
+      "Cost (AED)": 8.73,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 73,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Garlic Parmesan Wings",
+      "Cost (AED)": 8.37,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 74,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Honey Mustard Wings",
+      "Cost (AED)": 8.02,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 75,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Dynamite Wings",
+      "Cost (AED)": 8.09,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 76,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Plain Tenders",
+      "Cost (AED)": 8.12,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 77,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Smokey BBQ Tenders",
+      "Cost (AED)": 8.5,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 78,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Tangy Buffalo Tenders",
+      "Cost (AED)": 9.04,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 79,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Hot Honey Tenders",
+      "Cost (AED)": 9.11,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 80,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Sesame & Sweet Tenders",
+      "Cost (AED)": 8.56,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 81,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Chili Hoisin Tenders",
+      "Cost (AED)": 9.62,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 82,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Garlic Parmesan Tenders",
+      "Cost (AED)": 9.09,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 83,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Honey Mustard Tenders",
+      "Cost (AED)": 8.9,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 84,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Dynamite Tenders",
+      "Cost (AED)": 9.0,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 85,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Classic Chicken Wrap",
+      "Cost (AED)": 7.3,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 86,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Chicken Caesar Wrap",
+      "Cost (AED)": 7.55,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 87,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "BBQ Chicken Wrap",
+      "Cost (AED)": 7.3,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 88,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Buffalo Chicken Wrap",
+      "Cost (AED)": 7.46,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 89,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Hot Honey Chicken Wrap",
+      "Cost (AED)": 8.06,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 90,
+      "Category": "Wings, Tenders & Wraps",
+      "Dish Name": "Asian Chicken Wrap",
+      "Cost (AED)": 7.99,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 91,
+      "Category": "Sides & Dips",
+      "Dish Name": "Fries",
+      "Cost (AED)": 1.75,
+      "Sell Price (AED)": 19.0
+    },
+    {
+      "S.No.": 92,
+      "Category": "Sides & Dips",
+      "Dish Name": "Spicy Fries",
+      "Cost (AED)": 1.83,
+      "Sell Price (AED)": 22.0
+    },
+    {
+      "S.No.": 93,
+      "Category": "Sides & Dips",
+      "Dish Name": "Dynamite Fries",
+      "Cost (AED)": 2.64,
+      "Sell Price (AED)": 24.0
+    },
+    {
+      "S.No.": 94,
+      "Category": "Sides & Dips",
+      "Dish Name": "Cheesy Fries",
+      "Cost (AED)": 3.43,
+      "Sell Price (AED)": 26.0
+    },
+    {
+      "S.No.": 95,
+      "Category": "Sides & Dips",
+      "Dish Name": "Tex Mex Fries",
+      "Cost (AED)": 4.04,
+      "Sell Price (AED)": 30.0
+    },
+    {
+      "S.No.": 96,
+      "Category": "Sides & Dips",
+      "Dish Name": "Onion Rings",
+      "Cost (AED)": 3.16,
+      "Sell Price (AED)": 24.0
+    },
+    {
+      "S.No.": 97,
+      "Category": "Sides & Dips",
+      "Dish Name": "Curly Fries",
+      "Cost (AED)": 3.13,
+      "Sell Price (AED)": 22.0
+    },
+    {
+      "S.No.": 98,
+      "Category": "Sides & Dips",
+      "Dish Name": "Mozzarella Sticks",
+      "Cost (AED)": 2.79,
+      "Sell Price (AED)": 29.0
+    },
+    {
+      "S.No.": 99,
+      "Category": "Sides & Dips",
+      "Dish Name": "Dynamite Shrimp",
+      "Cost (AED)": 5.69,
+      "Sell Price (AED)": 44.0
+    },
+    {
+      "S.No.": 100,
+      "Category": "Sides & Dips",
+      "Dish Name": "Nachos",
+      "Cost (AED)": 5.69,
+      "Sell Price (AED)": 34.0
+    },
+    {
+      "S.No.": 101,
+      "Category": "Sides & Dips",
+      "Dish Name": "Loaded Nachos",
+      "Cost (AED)": 10.38,
+      "Sell Price (AED)": 52.0
+    },
+    {
+      "S.No.": 102,
+      "Category": "Sides & Dips",
+      "Dish Name": "House Slaw",
+      "Cost (AED)": 1.35,
+      "Sell Price (AED)": 25.0
+    },
+    {
+      "S.No.": 103,
+      "Category": "Sides & Dips",
+      "Dish Name": "Garlic Aioli Dip",
+      "Cost (AED)": 0.53,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 104,
+      "Category": "Sides & Dips",
+      "Dish Name": "Sriracha Mayo Dip",
+      "Cost (AED)": 0.52,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 105,
+      "Category": "Sides & Dips",
+      "Dish Name": "Honey BBQ Dip",
+      "Cost (AED)": 0.26,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 106,
+      "Category": "Sides & Dips",
+      "Dish Name": "Dynamite Sauce Dip",
+      "Cost (AED)": 0.48,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 107,
+      "Category": "Sides & Dips",
+      "Dish Name": "Truffle Mayo Dip",
+      "Cost (AED)": 0.69,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 108,
+      "Category": "Sides & Dips",
+      "Dish Name": "Honey Mustard Dip",
+      "Cost (AED)": 0.43,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 109,
+      "Category": "Sides & Dips",
+      "Dish Name": "Mexican Ranch Dip",
+      "Cost (AED)": 0.38,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 110,
+      "Category": "Sides & Dips",
+      "Dish Name": "Cheese Dip",
+      "Cost (AED)": 1.06,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 111,
+      "Category": "Sides & Dips",
+      "Dish Name": "Avocado Ranch Dip",
+      "Cost (AED)": 0.38,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 112,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Wings Meal for 1",
+      "Cost (AED)": 19.48,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 113,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Wings Meal for 2",
+      "Cost (AED)": 19.48,
+      "Sell Price (AED)": 122.0
+    },
+    {
+      "S.No.": 114,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Wings Meal for 4",
+      "Cost (AED)": 38.96,
+      "Sell Price (AED)": 196.0
+    },
+    {
+      "S.No.": 115,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Beef Sliders Meal for 1",
+      "Cost (AED)": 12.65,
+      "Sell Price (AED)": 74.0
+    },
+    {
+      "S.No.": 116,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Beef Sliders Meal for 2",
+      "Cost (AED)": 25.3,
+      "Sell Price (AED)": 132.0
+    },
+    {
+      "S.No.": 117,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Beef Sliders Meal for 4",
+      "Cost (AED)": 50.6,
+      "Sell Price (AED)": 200.0
+    },
+    {
+      "S.No.": 118,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Chicken Sliders Meal for 1",
+      "Cost (AED)": 15.05,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 119,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Chicken Sliders Meal for 2",
+      "Cost (AED)": 15.05,
+      "Sell Price (AED)": 111.0
+    },
+    {
+      "S.No.": 120,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Chicken Sliders Meal for 4",
+      "Cost (AED)": 30.09,
+      "Sell Price (AED)": 177.0
+    },
+    {
+      "S.No.": 121,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Chicken Burger Combo (1 Pax)",
+      "Cost (AED)": 7.14,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 122,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Chicken Burger Combo (2 Pax)",
+      "Cost (AED)": 14.29,
+      "Sell Price (AED)": 116.0
+    },
+    {
+      "S.No.": 123,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Chicken Burger Combo (4 Pax)",
+      "Cost (AED)": 28.58,
+      "Sell Price (AED)": 178.0
+    },
+    {
+      "S.No.": 124,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Beef Burger Combo (1 Pax)",
+      "Cost (AED)": 13.4,
+      "Sell Price (AED)": 72.0
+    },
+    {
+      "S.No.": 125,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Beef Burger Combo (2 Pax)",
+      "Cost (AED)": 26.8,
+      "Sell Price (AED)": 124.0
+    },
+    {
+      "S.No.": 126,
+      "Category": "Meal & Combo Assemblies",
+      "Dish Name": "Beef Burger Combo (4 Pax)",
+      "Cost (AED)": 53.6,
+      "Sell Price (AED)": 198.0
+    },
+    {
+      "S.No.": 127,
+      "Category": "Beverages",
+      "Dish Name": "Mineral Water",
+      "Cost (AED)": 0.44,
+      "Sell Price (AED)": 4.0
+    },
+    {
+      "S.No.": 128,
+      "Category": "Beverages",
+      "Dish Name": "Coca-Cola",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 129,
+      "Category": "Beverages",
+      "Dish Name": "Coca-Cola Zero",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 130,
+      "Category": "Beverages",
+      "Dish Name": "Sprite",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 131,
+      "Category": "Beverages",
+      "Dish Name": "Sprite Zero",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 132,
+      "Category": "Beverages",
+      "Dish Name": "Fanta",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 133,
+      "Category": "Meal for 1",
+      "Dish Name": "Chicken Burger",
+      "Cost (AED)": 7.14,
+      "Sell Price (AED)": 66.0
+    }
+  ],
+  "Ramadan Burger Brands": [
+    {
+      "S.No.": 1,
+      "Brands": "Bronx Burger House, Big Dawg's Burgers, The Patty Pit, Smashville Burgers",
+      "Combo Name": "Ramadan Solo Iftar",
+      "Sell Price (AED)": 85,
+      "Min Cost (AED)": 5.72,
+      "Max Cost (AED)": 16.42
+    },
+    {
+      "S.No.": 2,
+      "Brands": "Bronx Burger House, Big Dawg's Burgers, The Patty Pit, Smashville Burgers",
+      "Combo Name": "Ramadan Duo Iftar (2 Pax)",
+      "Sell Price (AED)": 155,
+      "Min Cost (AED)": 11.44,
+      "Max Cost (AED)": 32.84
+    },
+    {
+      "S.No.": 3,
+      "Brands": "Bronx Burger House, Big Dawg's Burgers, The Patty Pit, Smashville Burgers",
+      "Combo Name": "Ramadan Family Iftar Feast (4 Pax)",
+      "Sell Price (AED)": 269,
+      "Min Cost (AED)": 22.88,
+      "Max Cost (AED)": 65.68
+    },
+    {
+      "S.No.": 4,
+      "Brands": "Bronx Burger House, Big Dawg's Burgers, The Patty Pit, Smashville Burgers",
+      "Combo Name": "Ramadan Party Iftar Party (6 Pax)",
+      "Sell Price (AED)": 389,
+      "Min Cost (AED)": 34.32,
+      "Max Cost (AED)": 98.52
+    }
+  ],
+  "Ramadan Slider Brands": [
+    {
+      "S.No.": 1,
+      "Brands": "Juicy Buns, The Slider Shack",
+      "Combo Name": "Ramadan Mini Iftar (2 Sliders)",
+      "Sell Price (AED)": 69,
+      "Min Cost (AED)": 4.09,
+      "Max Cost (AED)": 15.19
+    },
+    {
+      "S.No.": 2,
+      "Brands": "Juicy Buns, The Slider Shack",
+      "Combo Name": "Ramadan Duo Iftar (4 Sliders)",
+      "Sell Price (AED)": 129,
+      "Min Cost (AED)": 8.18,
+      "Max Cost (AED)": 30.38
+    },
+    {
+      "S.No.": 3,
+      "Brands": "Juicy Buns, The Slider Shack",
+      "Combo Name": "Ramadan Family Iftar Feast (8 Sliders)",
+      "Sell Price (AED)": 239,
+      "Min Cost (AED)": 16.36,
+      "Max Cost (AED)": 60.76
+    },
+    {
+      "S.No.": 4,
+      "Brands": "Juicy Buns, The Slider Shack",
+      "Combo Name": "Ramadan Grand Iftar Party (12 Sliders)",
+      "Sell Price (AED)": 329,
+      "Min Cost (AED)": 24.54,
+      "Max Cost (AED)": 91.14
+    }
+  ],
+  "Ramadan Wing Brands": [
+    {
+      "S.No.": 1,
+      "Brands": "Wingin' It, Wings of Fury",
+      "Combo Name": "Ramadan Solo Iftar (5 Wings)",
+      "Sell Price (AED)": 65,
+      "Min Cost (AED)": 7.94,
+      "Max Cost (AED)": 9.54
+    },
+    {
+      "S.No.": 2,
+      "Brands": "Wingin' It, Wings of Fury",
+      "Combo Name": "Ramadan Duo Iftar (10 Wings)",
+      "Sell Price (AED)": 115,
+      "Min Cost (AED)": 15.88,
+      "Max Cost (AED)": 19.08
+    },
+    {
+      "S.No.": 3,
+      "Brands": "Wingin' It, Wings of Fury",
+      "Combo Name": "Ramadan Family Iftar Bucket (20 Wings)",
+      "Sell Price (AED)": 209,
+      "Min Cost (AED)": 31.76,
+      "Max Cost (AED)": 38.16
+    },
+    {
+      "S.No.": 4,
+      "Brands": "Wingin' It, Wings of Fury",
+      "Combo Name": "Ramadan Mega Iftar Mega Bucket (30 Wings)",
+      "Sell Price (AED)": 299,
+      "Min Cost (AED)": 47.64,
+      "Max Cost (AED)": 57.24
+    }
+  ],
+  "Mexican Menu": [
+    {
+      "S.No.": 1,
+      "Category": "Golden-Baked Quesadillas",
+      "Dish Name": "Cheese Quesadilla",
+      "Cost (AED)": 4.92,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 2,
+      "Category": "Golden-Baked Quesadillas",
+      "Dish Name": "Spiced Veggies and Cheese Quesadilla",
+      "Cost (AED)": 5.66,
+      "Sell Price (AED)": 54.0
+    },
+    {
+      "S.No.": 3,
+      "Category": "Golden-Baked Quesadillas",
+      "Dish Name": "Grilled Chicken and Cheese Quesadilla",
+      "Cost (AED)": 7.26,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 4,
+      "Category": "Golden-Baked Quesadillas",
+      "Dish Name": "Spicy Shrimp and Cheese Quesadilla",
+      "Cost (AED)": 8.57,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 5,
+      "Category": "Golden-Baked Quesadillas",
+      "Dish Name": "Smoky Beef and Cheese Quesadilla",
+      "Cost (AED)": 9.11,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 6,
+      "Category": "Homestyle Tacos",
+      "Dish Name": "Veggie Tacos",
+      "Cost (AED)": 6.1,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 7,
+      "Category": "Homestyle Tacos",
+      "Dish Name": "Chicken Tacos",
+      "Cost (AED)": 7.07,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 8,
+      "Category": "Homestyle Tacos",
+      "Dish Name": "Grilled BBQ Chicken Tacos",
+      "Cost (AED)": 7.03,
+      "Sell Price (AED)": 60.0
+    },
+    {
+      "S.No.": 9,
+      "Category": "Homestyle Tacos",
+      "Dish Name": "Grilled Shrimp Sichuan Tacos",
+      "Cost (AED)": 8.63,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 10,
+      "Category": "Homestyle Tacos",
+      "Dish Name": "Shrimp Tacos",
+      "Cost (AED)": 8.47,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 11,
+      "Category": "Homestyle Tacos",
+      "Dish Name": "Beef Tacos",
+      "Cost (AED)": 8.77,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 12,
+      "Category": "Homestyle Tacos",
+      "Dish Name": "Ground Beef Tacos",
+      "Cost (AED)": 11.23,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 13,
+      "Category": "Chimichurri Tacos",
+      "Dish Name": "Chimichurri Veg Tacos",
+      "Cost (AED)": 6.13,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 14,
+      "Category": "Chimichurri Tacos",
+      "Dish Name": "Chimichurri Chicken Tacos",
+      "Cost (AED)": 7.16,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 15,
+      "Category": "Chimichurri Tacos",
+      "Dish Name": "Chimichurri Shrimp Tacos",
+      "Cost (AED)": 8.56,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 16,
+      "Category": "Chimichurri Tacos",
+      "Dish Name": "Chimichurri Beef Tacos",
+      "Cost (AED)": 8.86,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 17,
+      "Category": "Hearty Burritos",
+      "Dish Name": "Spiced Veggie Burrito",
+      "Cost (AED)": 6.79,
+      "Sell Price (AED)": 49.0
+    },
+    {
+      "S.No.": 18,
+      "Category": "Hearty Burritos",
+      "Dish Name": "Grilled Chicken Burrito",
+      "Cost (AED)": 7.67,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 19,
+      "Category": "Hearty Burritos",
+      "Dish Name": "Crispy Chicken Burrito",
+      "Cost (AED)": 5.79,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 20,
+      "Category": "Hearty Burritos",
+      "Dish Name": "Avocado and Chicken Burrito",
+      "Cost (AED)": 7.77,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 21,
+      "Category": "Hearty Burritos",
+      "Dish Name": "Spicy Shrimp Burrito",
+      "Cost (AED)": 8.98,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 22,
+      "Category": "Hearty Burritos",
+      "Dish Name": "Smoky Beef Burrito",
+      "Cost (AED)": 9.52,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 23,
+      "Category": "Hearty Burritos",
+      "Dish Name": "Ground Beef Burrito",
+      "Cost (AED)": 11.57,
+      "Sell Price (AED)": 69.0
+    },
+    {
+      "S.No.": 24,
+      "Category": "Ranchero-Style Wraps",
+      "Dish Name": "Veg Ranchero Burrito",
+      "Cost (AED)": 6.94,
+      "Sell Price (AED)": 49.0
+    },
+    {
+      "S.No.": 25,
+      "Category": "Ranchero-Style Wraps",
+      "Dish Name": "Grilled Chicken Ranchero Burrito",
+      "Cost (AED)": 7.44,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 26,
+      "Category": "Ranchero-Style Wraps",
+      "Dish Name": "Grilled Shrimp Ranchero Burrito",
+      "Cost (AED)": 8.75,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 27,
+      "Category": "Ranchero-Style Wraps",
+      "Dish Name": "Smoky Beef Ranchero Burrito",
+      "Cost (AED)": 9.29,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 28,
+      "Category": "Ranchero-Style Wraps",
+      "Dish Name": "Ground Beef Ranchero Burrito",
+      "Cost (AED)": 11.34,
+      "Sell Price (AED)": 69.0
+    },
+    {
+      "S.No.": 29,
+      "Category": "Chimichurri-Style Wraps",
+      "Dish Name": "Spiced Veggie Chimichurri Burrito",
+      "Cost (AED)": 6.82,
+      "Sell Price (AED)": 49.0
+    },
+    {
+      "S.No.": 30,
+      "Category": "Chimichurri-Style Wraps",
+      "Dish Name": "Grilled Chicken Chimichurri Burrito",
+      "Cost (AED)": 7.7,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 31,
+      "Category": "Chimichurri-Style Wraps",
+      "Dish Name": "Crispy Chicken Chimichurri Burrito",
+      "Cost (AED)": 5.65,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 32,
+      "Category": "Chimichurri-Style Wraps",
+      "Dish Name": "Spicy Shrimp Chimichurri Burrito",
+      "Cost (AED)": 8.59,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 33,
+      "Category": "Chimichurri-Style Wraps",
+      "Dish Name": "Smoky Beef Chimichurri Burrito",
+      "Cost (AED)": 9.13,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 34,
+      "Category": "Golden-Fried Chimichangas",
+      "Dish Name": "Veg Chimichanga",
+      "Cost (AED)": 6.23,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 35,
+      "Category": "Golden-Fried Chimichangas",
+      "Dish Name": "Grilled Chicken Chimichanga",
+      "Cost (AED)": 7.2,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 36,
+      "Category": "Golden-Fried Chimichangas",
+      "Dish Name": "Smoky Beef Chimichanga",
+      "Cost (AED)": 8.89,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 37,
+      "Category": "Golden-Fried Chimichangas",
+      "Dish Name": "Ground Beef Chimichanga",
+      "Cost (AED)": 11.36,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 38,
+      "Category": "Oven-Baked Enchiladas",
+      "Dish Name": "Veg Fiesta Enchilada",
+      "Cost (AED)": 6.29,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 39,
+      "Category": "Oven-Baked Enchiladas",
+      "Dish Name": "Chicken Enchilada",
+      "Cost (AED)": 7.47,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 40,
+      "Category": "Oven-Baked Enchiladas",
+      "Dish Name": "Steak Enchilada",
+      "Cost (AED)": 9.17,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 41,
+      "Category": "Oven-Baked Enchiladas",
+      "Dish Name": "Shrimp Enchilada",
+      "Cost (AED)": 8.87,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 42,
+      "Category": "Warm Fajita Wraps",
+      "Dish Name": "Spiced Veggie Fajita Wrap",
+      "Cost (AED)": 6.65,
+      "Sell Price (AED)": 49.0
+    },
+    {
+      "S.No.": 43,
+      "Category": "Warm Fajita Wraps",
+      "Dish Name": "Grilled Chicken Fajita Wrap",
+      "Cost (AED)": 8.15,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 44,
+      "Category": "Warm Fajita Wraps",
+      "Dish Name": "Spicy Shrimp Fajita Wrap",
+      "Cost (AED)": 9.46,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 45,
+      "Category": "Warm Fajita Wraps",
+      "Dish Name": "Smoky Beef Fajita Wrap",
+      "Cost (AED)": 10.0,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 46,
+      "Category": "Warm Fajita Wraps",
+      "Dish Name": "Crispy Chicken Fajita Wrap",
+      "Cost (AED)": 6.27,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 47,
+      "Category": "Fajita Fiesta Meals",
+      "Dish Name": "Spiced Veggie Fajita Meal",
+      "Cost (AED)": 7.63,
+      "Sell Price (AED)": 54.0
+    },
+    {
+      "S.No.": 48,
+      "Category": "Fajita Fiesta Meals",
+      "Dish Name": "Grilled Chicken Fajita Meal",
+      "Cost (AED)": 9.43,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 49,
+      "Category": "Fajita Fiesta Meals",
+      "Dish Name": "Spicy Prawn Fajita Meal",
+      "Cost (AED)": 10.91,
+      "Sell Price (AED)": 70.0
+    },
+    {
+      "S.No.": 50,
+      "Category": "Fajita Fiesta Meals",
+      "Dish Name": "Smoky Beef Fajita Meal",
+      "Cost (AED)": 10.97,
+      "Sell Price (AED)": 80.0
+    },
+    {
+      "S.No.": 51,
+      "Category": "Fajita Fiesta Meals",
+      "Dish Name": "Grilled Fish Fajita Meal",
+      "Cost (AED)": 8.28,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 52,
+      "Category": "Comforting Bowls",
+      "Dish Name": "Veg Burrito Bowl",
+      "Cost (AED)": 4.9,
+      "Sell Price (AED)": 52.0
+    },
+    {
+      "S.No.": 53,
+      "Category": "Comforting Bowls",
+      "Dish Name": "Grilled Chicken Burrito Bowl",
+      "Cost (AED)": 5.78,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 54,
+      "Category": "Comforting Bowls",
+      "Dish Name": "Grilled Shrimp Burrito Bowl",
+      "Cost (AED)": 7.09,
+      "Sell Price (AED)": 69.0
+    },
+    {
+      "S.No.": 55,
+      "Category": "Comforting Bowls",
+      "Dish Name": "Smoky Beef Burrito Bowl",
+      "Cost (AED)": 7.63,
+      "Sell Price (AED)": 81.0
+    },
+    {
+      "S.No.": 56,
+      "Category": "Comforting Bowls",
+      "Dish Name": "Ground Beef Burrito Bowl",
+      "Cost (AED)": 9.68,
+      "Sell Price (AED)": 72.0
+    },
+    {
+      "S.No.": 57,
+      "Category": "Hearty Taco Salads",
+      "Dish Name": "Grilled Chicken Taco Salad",
+      "Cost (AED)": 7.13,
+      "Sell Price (AED)": 61.0
+    },
+    {
+      "S.No.": 58,
+      "Category": "Hearty Taco Salads",
+      "Dish Name": "Grilled Shrimp Taco Salad",
+      "Cost (AED)": 8.44,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 59,
+      "Category": "Hearty Taco Salads",
+      "Dish Name": "Smoky Beef Taco Salad",
+      "Cost (AED)": 8.97,
+      "Sell Price (AED)": 81.0
+    },
+    {
+      "S.No.": 60,
+      "Category": "Hearty Taco Salads",
+      "Dish Name": "Ground Beef Taco Salad",
+      "Cost (AED)": 11.03,
+      "Sell Price (AED)": 69.0
+    },
+    {
+      "S.No.": 61,
+      "Category": "Hearty Taco Salads",
+      "Dish Name": "Veg Taco Salad",
+      "Cost (AED)": 6.01,
+      "Sell Price (AED)": 51.0
+    },
+    {
+      "S.No.": 62,
+      "Category": "Homestyle Sides",
+      "Dish Name": "French Fries",
+      "Cost (AED)": 2.37,
+      "Sell Price (AED)": 21.0
+    },
+    {
+      "S.No.": 63,
+      "Category": "Homestyle Sides",
+      "Dish Name": "Cheese Fries",
+      "Cost (AED)": 2.86,
+      "Sell Price (AED)": 23.0
+    },
+    {
+      "S.No.": 64,
+      "Category": "Homestyle Sides",
+      "Dish Name": "Dynamite Fries",
+      "Cost (AED)": 3.23,
+      "Sell Price (AED)": 29.0
+    },
+    {
+      "S.No.": 65,
+      "Category": "Homestyle Sides",
+      "Dish Name": "Nachos And Guacamole",
+      "Cost (AED)": 5.72,
+      "Sell Price (AED)": 39.0
+    },
+    {
+      "S.No.": 66,
+      "Category": "Homestyle Sides",
+      "Dish Name": "Cheesy Nachos",
+      "Cost (AED)": 5.22,
+      "Sell Price (AED)": 36.0
+    },
+    {
+      "S.No.": 67,
+      "Category": "Homestyle Sides",
+      "Dish Name": "Dynamite Shrimps",
+      "Cost (AED)": 5.68,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 68,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Honey Mustard Sauce",
+      "Cost (AED)": 0.71,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 69,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Tangy Jalapeno Sauce",
+      "Cost (AED)": 0.55,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 70,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Chimichurri Sauce",
+      "Cost (AED)": 0.52,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 71,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Chipotle Sauce",
+      "Cost (AED)": 0.74,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 72,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Spicy Green Sauce",
+      "Cost (AED)": 0.37,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 73,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Tomato Ketchup",
+      "Cost (AED)": 0.05,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 74,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Salsa Verde Sauce",
+      "Cost (AED)": 0.45,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 75,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Spicy Mint Sauce",
+      "Cost (AED)": 0.36,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 76,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Mayonnaise",
+      "Cost (AED)": 0.78,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 77,
+      "Category": "Homemade Salsas & Dips",
+      "Dish Name": "Chipotle Sour Cream",
+      "Cost (AED)": 0.9,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 78,
+      "Category": "Cooling Drinks",
+      "Dish Name": "Jarritos Soda",
+      "Cost (AED)": 16.89,
+      "Sell Price (AED)": 22.0
+    },
+    {
+      "S.No.": 79,
+      "Category": "Cooling Drinks",
+      "Dish Name": "Mineral Water",
+      "Cost (AED)": 0.44,
+      "Sell Price (AED)": 4.0
+    },
+    {
+      "S.No.": 80,
+      "Category": "Cooling Drinks",
+      "Dish Name": "Coca Cola",
+      "Cost (AED)": 1.96,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 81,
+      "Category": "Cooling Drinks",
+      "Dish Name": "Coca Cola Zero",
+      "Cost (AED)": 1.96,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 82,
+      "Category": "Cooling Drinks",
+      "Dish Name": "Sprite",
+      "Cost (AED)": 1.96,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 83,
+      "Category": "Cooling Drinks",
+      "Dish Name": "Sprite Zero",
+      "Cost (AED)": 1.96,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 84,
+      "Category": "Cooling Drinks",
+      "Dish Name": "Fanta",
+      "Cost (AED)": 1.96,
+      "Sell Price (AED)": 9.0
+    }
+  ],
+  "Mexican Ramadan Combos": [
+    {
+      "S.No.": 1,
+      "Brands": "Loco Taco, Picante, MexiGo, Casa Del Queso, Fiesta",
+      "Combo Name": "Ramadan Iftar Mexican Meal Solo",
+      "Sell Price (AED)": 69,
+      "Min Cost (AED)": 8.91,
+      "Max Cost (AED)": 15.56
+    },
+    {
+      "S.No.": 2,
+      "Brands": "Loco Taco, Picante, MexiGo, Casa Del Queso, Fiesta",
+      "Combo Name": "Ramadan Iftar Mexican Meal Duo",
+      "Sell Price (AED)": 119,
+      "Min Cost (AED)": 26.08,
+      "Max Cost (AED)": 43.57
+    },
+    {
+      "S.No.": 3,
+      "Brands": "Loco Taco, Picante, MexiGo, Casa Del Queso, Fiesta",
+      "Combo Name": "Ramadan Iftar Mexican Meal Family",
+      "Sell Price (AED)": 219,
+      "Min Cost (AED)": 47.32,
+      "Max Cost (AED)": 83.89
+    },
+    {
+      "S.No.": 4,
+      "Brands": "Loco Taco, Picante, MexiGo, Casa Del Queso, Fiesta",
+      "Combo Name": "Ramadan Iftar Mexican Meal Feast",
+      "Sell Price (AED)": 279,
+      "Min Cost (AED)": 71.11,
+      "Max Cost (AED)": 130.95
+    }
+  ],
+  "Indian Menu": [
+    {
+      "S.No.": 1,
+      "Category": "Veg Starters",
+      "Dish Name": "Hara Bhara Kabab",
+      "Food Cost": 3.56,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 5.18,
+      "Sell Price (AED)": 44.0
+    },
+    {
+      "S.No.": 2,
+      "Category": "Veg Starters",
+      "Dish Name": "Malai Broccoli",
+      "Food Cost": 7.82,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.44,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 3,
+      "Category": "Veg Starters",
+      "Dish Name": "Achari Paneer Tikka",
+      "Food Cost": 6.85,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 8.47,
+      "Sell Price (AED)": 51.0
+    },
+    {
+      "S.No.": 4,
+      "Category": "Veg Starters",
+      "Dish Name": "Paneer Malai Tikka",
+      "Food Cost": 7.4,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.02,
+      "Sell Price (AED)": 54.0
+    },
+    {
+      "S.No.": 5,
+      "Category": "Veg Starters",
+      "Dish Name": "Paneer Tikka",
+      "Food Cost": 6.94,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 8.57,
+      "Sell Price (AED)": 52.0
+    },
+    {
+      "S.No.": 6,
+      "Category": "Veg Starters",
+      "Dish Name": "Tandoori Cauliflower",
+      "Food Cost": 3.47,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 5.09,
+      "Sell Price (AED)": 46.0
+    },
+    {
+      "S.No.": 7,
+      "Category": "Veg Starters",
+      "Dish Name": "Achari Mushroom",
+      "Food Cost": 6.34,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 7.96,
+      "Sell Price (AED)": 51.0
+    },
+    {
+      "S.No.": 8,
+      "Category": "Veg Starters",
+      "Dish Name": "Soya Chaap Angaari",
+      "Food Cost": 7.14,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 8.77,
+      "Sell Price (AED)": 53.0
+    },
+    {
+      "S.No.": 9,
+      "Category": "Veg Starters",
+      "Dish Name": "Tandoori Malai Chaap",
+      "Food Cost": 7.63,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.26,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 10,
+      "Category": "Veg Starters",
+      "Dish Name": "Tandoori Mushroom",
+      "Food Cost": 6.44,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 8.06,
+      "Sell Price (AED)": 50.0
+    },
+    {
+      "S.No.": 11,
+      "Category": "Veg Starters",
+      "Dish Name": "Tandoori Soya Chaap",
+      "Food Cost": 7.17,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 8.8,
+      "Sell Price (AED)": 53.0
+    },
+    {
+      "S.No.": 12,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Chicken Seekh Kebab",
+      "Food Cost": 3.3,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 4.92,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 13,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Reshmi Chicken Kebab",
+      "Food Cost": 7.91,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.54,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 14,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Tangdi Kabab (2 Pcs)",
+      "Food Cost": 5.01,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 6.63,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 15,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Tangdi Kabab (4 Pcs)",
+      "Food Cost": 10.02,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 11.64,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 16,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Tangdi Kabab (6 Pcs)",
+      "Food Cost": 15.03,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.98,
+      "Total Cost (AED)": 17.34,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 17,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Afghani Chicken (Half)",
+      "Food Cost": 9.19,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 10.81,
+      "Sell Price (AED)": 69.0
+    },
+    {
+      "S.No.": 18,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Afghani Chicken (Full)",
+      "Food Cost": 18.38,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.98,
+      "Total Cost (AED)": 20.7,
+      "Sell Price (AED)": 118.0
+    },
+    {
+      "S.No.": 19,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Ajwaini Chicken Tikka",
+      "Food Cost": 7.43,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.06,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 20,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Banjara Chicken",
+      "Food Cost": 7.63,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.26,
+      "Sell Price (AED)": 60.0
+    },
+    {
+      "S.No.": 21,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Haryali Chicken Tikka",
+      "Food Cost": 7.45,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.08,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 22,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Malai Chicken Tikka",
+      "Food Cost": 7.91,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.54,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 23,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Chicken Tikka",
+      "Food Cost": 7.45,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.08,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 24,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Hot Pot Chicken Tikka",
+      "Food Cost": 7.42,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.05,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 25,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Murg Angaari",
+      "Food Cost": 7.42,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.05,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 26,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Tandoori Chicken (Half)",
+      "Food Cost": 8.15,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 9.78,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 27,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Tandoori Chicken (Full)",
+      "Food Cost": 16.31,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.98,
+      "Total Cost (AED)": 18.63,
+      "Sell Price (AED)": 110.0
+    },
+    {
+      "S.No.": 28,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Tandoori Wings",
+      "Food Cost": 5.1,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 6.72,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 29,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Grilled Prawns Tandoori",
+      "Food Cost": 6.05,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 7.67,
+      "Sell Price (AED)": 63.0
+    },
+    {
+      "S.No.": 30,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Ajwaini Fish Tikka",
+      "Food Cost": 3.22,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 4.84,
+      "Sell Price (AED)": 53.0
+    },
+    {
+      "S.No.": 31,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Hyderabadi Fish Tikka",
+      "Food Cost": 3.51,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 5.14,
+      "Sell Price (AED)": 54.0
+    },
+    {
+      "S.No.": 32,
+      "Category": "Non-Veg Starters",
+      "Dish Name": "Fish Tikka",
+      "Food Cost": 3.23,
+      "Mint Chutney": 0.34,
+      "Pickle": 0.0,
+      "Packaging": 1.29,
+      "Total Cost (AED)": 4.86,
+      "Sell Price (AED)": 52.0
+    },
+    {
+      "S.No.": 33,
+      "Category": "Veg Mains",
+      "Dish Name": "Aloo Gobi",
+      "Food Cost": 1.77,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 2.97,
+      "Sell Price (AED)": 32.0
+    },
+    {
+      "S.No.": 34,
+      "Category": "Veg Mains",
+      "Dish Name": "Dal Tadka",
+      "Food Cost": 4.65,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 5.85,
+      "Sell Price (AED)": 47.0
+    },
+    {
+      "S.No.": 35,
+      "Category": "Veg Mains",
+      "Dish Name": "Jeera Aloo",
+      "Food Cost": 1.26,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 2.46,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 36,
+      "Category": "Veg Mains",
+      "Dish Name": "Mixed Vegetable Curry",
+      "Food Cost": 3.12,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 4.32,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 37,
+      "Category": "Veg Mains",
+      "Dish Name": "Soya Chaap Curry",
+      "Food Cost": 8.05,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 9.25,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 38,
+      "Category": "Veg Mains",
+      "Dish Name": "Dal Makhani",
+      "Food Cost": 6.98,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 8.18,
+      "Sell Price (AED)": 54.0
+    },
+    {
+      "S.No.": 39,
+      "Category": "Veg Mains",
+      "Dish Name": "Kadai Chaap",
+      "Food Cost": 7.73,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 8.93,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 40,
+      "Category": "Veg Mains",
+      "Dish Name": "Pindi Chole",
+      "Food Cost": 4.07,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 5.27,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 41,
+      "Category": "Veg Mains",
+      "Dish Name": "Chana Masala",
+      "Food Cost": 2.79,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 3.99,
+      "Sell Price (AED)": 40.0
+    },
+    {
+      "S.No.": 42,
+      "Category": "Veg Mains",
+      "Dish Name": "Rajma",
+      "Food Cost": 3.82,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 5.02,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 43,
+      "Category": "Veg Mains",
+      "Dish Name": "Dal Bukhara",
+      "Food Cost": 7.64,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 8.84,
+      "Sell Price (AED)": 52.0
+    },
+    {
+      "S.No.": 44,
+      "Category": "Veg Mains",
+      "Dish Name": "Dal Palak",
+      "Food Cost": 4.1,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 5.3,
+      "Sell Price (AED)": 49.0
+    },
+    {
+      "S.No.": 45,
+      "Category": "Veg Mains",
+      "Dish Name": "Methi Mutter Malai",
+      "Food Cost": 4.68,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 5.88,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 46,
+      "Category": "Veg Mains",
+      "Dish Name": "Kadhai Paneer",
+      "Food Cost": 5.86,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 7.06,
+      "Sell Price (AED)": 54.0
+    },
+    {
+      "S.No.": 47,
+      "Category": "Veg Mains",
+      "Dish Name": "Mushroom Masala",
+      "Food Cost": 4.43,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 5.63,
+      "Sell Price (AED)": 53.0
+    },
+    {
+      "S.No.": 48,
+      "Category": "Veg Mains",
+      "Dish Name": "Mutter Paneer",
+      "Food Cost": 6.64,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 7.84,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 49,
+      "Category": "Veg Mains",
+      "Dish Name": "Palak Paneer",
+      "Food Cost": 6.68,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 7.88,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 50,
+      "Category": "Veg Mains",
+      "Dish Name": "Paneer Bhurji",
+      "Food Cost": 5.29,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 6.49,
+      "Sell Price (AED)": 52.0
+    },
+    {
+      "S.No.": 51,
+      "Category": "Veg Mains",
+      "Dish Name": "Paneer Butter Masala",
+      "Food Cost": 7.42,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 8.62,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 52,
+      "Category": "Veg Mains",
+      "Dish Name": "Paneer Lababdar",
+      "Food Cost": 6.8,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 8.0,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 53,
+      "Category": "Veg Mains",
+      "Dish Name": "Shahi Paneer",
+      "Food Cost": 7.13,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 8.33,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 54,
+      "Category": "Veg Mains",
+      "Dish Name": "Paneer Pasanda",
+      "Food Cost": 7.7,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 8.9,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 55,
+      "Category": "Veg Mains",
+      "Dish Name": "Paneer Tikka Masala",
+      "Food Cost": 8.27,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 9.47,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 56,
+      "Category": "Veg Mains",
+      "Dish Name": "Malai Kofta",
+      "Food Cost": 5.22,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 6.42,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 57,
+      "Category": "Veg Mains",
+      "Dish Name": "Egg Masala Curry",
+      "Food Cost": 2.79,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 3.99,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 58,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Butter Chicken",
+      "Food Cost": 6.53,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 7.73,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 59,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Chicken Kalimirch",
+      "Food Cost": 9.37,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 10.57,
+      "Sell Price (AED)": 60.0
+    },
+    {
+      "S.No.": 60,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Chicken Lababdar",
+      "Food Cost": 5.83,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 7.03,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 61,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Peshawari Murgh",
+      "Food Cost": 5.48,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 6.68,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 62,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Chicken Tikka Masala",
+      "Food Cost": 6.07,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 7.27,
+      "Sell Price (AED)": 59.0
+    },
+    {
+      "S.No.": 63,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Kadai Chicken",
+      "Food Cost": 4.61,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 5.81,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 64,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Fish Tikka Curry",
+      "Food Cost": 3.85,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 5.05,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 65,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Bhuna Mutton Curry",
+      "Food Cost": 9.6,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 10.8,
+      "Sell Price (AED)": 69.0
+    },
+    {
+      "S.No.": 66,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Mutton Handi Curry",
+      "Food Cost": 9.96,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 11.16,
+      "Sell Price (AED)": 69.0
+    },
+    {
+      "S.No.": 67,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Kadai Mutton",
+      "Food Cost": 8.49,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 9.69,
+      "Sell Price (AED)": 66.0
+    },
+    {
+      "S.No.": 68,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Mutton Rogan Josh",
+      "Food Cost": 9.99,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 11.19,
+      "Sell Price (AED)": 69.0
+    },
+    {
+      "S.No.": 69,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Mutton Saag",
+      "Food Cost": 9.91,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 11.11,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 70,
+      "Category": "Non-Veg Mains",
+      "Dish Name": "Prawn Curry",
+      "Food Cost": 5.62,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 6.82,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 71,
+      "Category": "Rice",
+      "Dish Name": "Steamed Rice",
+      "Food Cost": 0.5,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 1.69,
+      "Sell Price (AED)": 13.0
+    },
+    {
+      "S.No.": 72,
+      "Category": "Rice",
+      "Dish Name": "Ghee Rice",
+      "Food Cost": 1.64,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 2.84,
+      "Sell Price (AED)": 21.0
+    },
+    {
+      "S.No.": 73,
+      "Category": "Rice",
+      "Dish Name": "Jeera Rice",
+      "Food Cost": 0.76,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 1.95,
+      "Sell Price (AED)": 18.0
+    },
+    {
+      "S.No.": 74,
+      "Category": "Rice",
+      "Dish Name": "Veg Pulao",
+      "Food Cost": 2.16,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 3.36,
+      "Sell Price (AED)": 25.0
+    },
+    {
+      "S.No.": 75,
+      "Category": "Rice",
+      "Dish Name": "Kashmiri Pulao",
+      "Food Cost": 2.25,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 1.2,
+      "Total Cost (AED)": 3.44,
+      "Sell Price (AED)": 25.0
+    },
+    {
+      "S.No.": 76,
+      "Category": "Breads",
+      "Dish Name": "Tandoori Roti",
+      "Food Cost": 0.23,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.03,
+      "Total Cost (AED)": 0.26,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 77,
+      "Category": "Breads",
+      "Dish Name": "Butter Roti",
+      "Food Cost": 0.75,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.03,
+      "Total Cost (AED)": 0.78,
+      "Sell Price (AED)": 11.0
+    },
+    {
+      "S.No.": 78,
+      "Category": "Breads",
+      "Dish Name": "Missi Roti",
+      "Food Cost": 0.91,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.03,
+      "Total Cost (AED)": 0.94,
+      "Sell Price (AED)": 13.0
+    },
+    {
+      "S.No.": 79,
+      "Category": "Breads",
+      "Dish Name": "Plain Naan",
+      "Food Cost": 0.34,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.03,
+      "Total Cost (AED)": 0.37,
+      "Sell Price (AED)": 9.0
+    },
+    {
+      "S.No.": 80,
+      "Category": "Breads",
+      "Dish Name": "Butter Naan",
+      "Food Cost": 1.03,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.03,
+      "Total Cost (AED)": 1.06,
+      "Sell Price (AED)": 11.0
+    },
+    {
+      "S.No.": 81,
+      "Category": "Breads",
+      "Dish Name": "Garlic Naan",
+      "Food Cost": 1.15,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.03,
+      "Total Cost (AED)": 1.18,
+      "Sell Price (AED)": 13.0
+    },
+    {
+      "S.No.": 82,
+      "Category": "Breads",
+      "Dish Name": "Lachha Parantha",
+      "Food Cost": 1.01,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.03,
+      "Total Cost (AED)": 1.03,
+      "Sell Price (AED)": 14.0
+    },
+    {
+      "S.No.": 83,
+      "Category": "Breads",
+      "Dish Name": "Punjabi Kulcha",
+      "Food Cost": 1.59,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.25,
+      "Packaging": 0.45,
+      "Total Cost (AED)": 2.24,
+      "Sell Price (AED)": 19.0
+    },
+    {
+      "S.No.": 84,
+      "Category": "Breads",
+      "Dish Name": "Aloo Parantha",
+      "Food Cost": 1.26,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.25,
+      "Packaging": 0.45,
+      "Total Cost (AED)": 1.95,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 85,
+      "Category": "Breads",
+      "Dish Name": "Gobi Parantha",
+      "Food Cost": 1.53,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.25,
+      "Packaging": 0.45,
+      "Total Cost (AED)": 2.23,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 86,
+      "Category": "Breads",
+      "Dish Name": "Methi Parantha",
+      "Food Cost": 1.26,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.25,
+      "Packaging": 0.45,
+      "Total Cost (AED)": 1.96,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 87,
+      "Category": "Breads",
+      "Dish Name": "Mixed Veg Parantha",
+      "Food Cost": 1.46,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.25,
+      "Packaging": 0.45,
+      "Total Cost (AED)": 2.36,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 88,
+      "Category": "Breads",
+      "Dish Name": "Pudina Parantha",
+      "Food Cost": 1.08,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.25,
+      "Packaging": 0.45,
+      "Total Cost (AED)": 2.08,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 89,
+      "Category": "Breads",
+      "Dish Name": "Pyaaz Parantha",
+      "Food Cost": 1.34,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.25,
+      "Packaging": 0.45,
+      "Total Cost (AED)": 2.04,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 90,
+      "Category": "Accompaniments",
+      "Dish Name": "Plain Dahi",
+      "Food Cost": 0.64,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.39,
+      "Total Cost (AED)": 1.03,
+      "Sell Price (AED)": 10.0
+    },
+    {
+      "S.No.": 91,
+      "Category": "Accompaniments",
+      "Dish Name": "Boondi Raita",
+      "Food Cost": 1.22,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.39,
+      "Total Cost (AED)": 1.61,
+      "Sell Price (AED)": 13.0
+    },
+    {
+      "S.No.": 92,
+      "Category": "Accompaniments",
+      "Dish Name": "Veg Raita",
+      "Food Cost": 0.84,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.39,
+      "Total Cost (AED)": 1.23,
+      "Sell Price (AED)": 12.0
+    },
+    {
+      "S.No.": 93,
+      "Category": "Accompaniments",
+      "Dish Name": "Green Salad",
+      "Food Cost": 1.04,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.69,
+      "Total Cost (AED)": 1.73,
+      "Sell Price (AED)": 14.0
+    },
+    {
+      "S.No.": 94,
+      "Category": "Beverages",
+      "Dish Name": "Mineral Water",
+      "Food Cost": 0.44,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.0,
+      "Total Cost (AED)": 0.44,
+      "Sell Price (AED)": 4.0
+    },
+    {
+      "S.No.": 95,
+      "Category": "Beverages",
+      "Dish Name": "Coca Cola Can",
+      "Food Cost": 2.04,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.0,
+      "Total Cost (AED)": 2.04,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 96,
+      "Category": "Beverages",
+      "Dish Name": "Coca Cola Zero Can",
+      "Food Cost": 2.04,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.0,
+      "Total Cost (AED)": 2.04,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 97,
+      "Category": "Beverages",
+      "Dish Name": "Fanta Can",
+      "Food Cost": 2.04,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.0,
+      "Total Cost (AED)": 2.04,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 98,
+      "Category": "Beverages",
+      "Dish Name": "Sprite Can",
+      "Food Cost": 2.04,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.0,
+      "Total Cost (AED)": 2.04,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 99,
+      "Category": "Beverages",
+      "Dish Name": "Sprite Zero Can",
+      "Food Cost": 2.04,
+      "Mint Chutney": 0.0,
+      "Pickle": 0.0,
+      "Packaging": 0.0,
+      "Total Cost (AED)": 2.04,
+      "Sell Price (AED)": 8.0
+    }
+  ],
+  "Indian Ramadan Combos": [
+    {
+      "S.No.": 1,
+      "Brand": "Tandoori Tribe",
+      "Combo Name": "Ramadan Solo Tandoori Iftar",
+      "Sell Price (AED)": 98,
+      "Cost (AED)": 16.7
+    },
+    {
+      "S.No.": 2,
+      "Brand": "Tandoori Tribe",
+      "Combo Name": "Ramadan Couple Tandoori Iftar",
+      "Sell Price (AED)": 165,
+      "Cost (AED)": 35.71
+    },
+    {
+      "S.No.": 3,
+      "Brand": "Tandoori Tribe",
+      "Combo Name": "Ramadan Family Tandoori Iftar",
+      "Sell Price (AED)": 255,
+      "Cost (AED)": 58.17
+    },
+    {
+      "S.No.": 4,
+      "Brand": "Tandoori Tribe",
+      "Combo Name": "Ramadan Grand Tandoori Iftar",
+      "Sell Price (AED)": 380,
+      "Cost (AED)": 91.66
+    },
+    {
+      "S.No.": 5,
+      "Brand": "Tandoori Tribe",
+      "Combo Name": "Ramadan Vegetarian Tandoori Iftar",
+      "Sell Price (AED)": 90,
+      "Cost (AED)": 15.02
+    },
+    {
+      "S.No.": 6,
+      "Brand": "Zaika Punjab",
+      "Combo Name": "Ramadan Solo Punjab Iftar",
+      "Sell Price (AED)": 96,
+      "Cost (AED)": 12.76
+    },
+    {
+      "S.No.": 7,
+      "Brand": "Zaika Punjab",
+      "Combo Name": "Ramadan Couple Punjab Iftar",
+      "Sell Price (AED)": 158,
+      "Cost (AED)": 29.4
+    },
+    {
+      "S.No.": 8,
+      "Brand": "Zaika Punjab",
+      "Combo Name": "Ramadan Family Punjab Iftar",
+      "Sell Price (AED)": 268,
+      "Cost (AED)": 55.6
+    },
+    {
+      "S.No.": 9,
+      "Brand": "Zaika Punjab",
+      "Combo Name": "Ramadan Grand Punjab Iftar",
+      "Sell Price (AED)": 390,
+      "Cost (AED)": 84.85
+    },
+    {
+      "S.No.": 10,
+      "Brand": "The Curry Club",
+      "Combo Name": "Ramadan Solo Curry Iftar",
+      "Sell Price (AED)": 92,
+      "Cost (AED)": 11.96
+    },
+    {
+      "S.No.": 11,
+      "Brand": "The Curry Club",
+      "Combo Name": "Ramadan Couple Curry Iftar",
+      "Sell Price (AED)": 148,
+      "Cost (AED)": 24.55
+    },
+    {
+      "S.No.": 12,
+      "Brand": "The Curry Club",
+      "Combo Name": "Ramadan Family Curry Iftar",
+      "Sell Price (AED)": 235,
+      "Cost (AED)": 43.86
+    },
+    {
+      "S.No.": 13,
+      "Brand": "The Curry Club",
+      "Combo Name": "Ramadan Grand Curry Iftar",
+      "Sell Price (AED)": 355,
+      "Cost (AED)": 71.48
+    },
+    {
+      "S.No.": 14,
+      "Brand": "Smoky Tandoor",
+      "Combo Name": "Ramadan Solo Smoky Iftar",
+      "Sell Price (AED)": 95,
+      "Cost (AED)": 16.9
+    },
+    {
+      "S.No.": 15,
+      "Brand": "Smoky Tandoor",
+      "Combo Name": "Ramadan Couple Smoky Iftar",
+      "Sell Price (AED)": 155,
+      "Cost (AED)": 35.5
+    },
+    {
+      "S.No.": 16,
+      "Brand": "Smoky Tandoor",
+      "Combo Name": "Ramadan Family Smoky Iftar",
+      "Sell Price (AED)": 245,
+      "Cost (AED)": 66.16
+    },
+    {
+      "S.No.": 17,
+      "Brand": "Smoky Tandoor",
+      "Combo Name": "Ramadan Grand Smoky Iftar",
+      "Sell Price (AED)": 365,
+      "Cost (AED)": 92.33
+    }
+  ],
+  "Japanese Menu": [
+    {
+      "S.No.": 1,
+      "Category": NaN,
+      "Dish Name": "Prawn Tempura",
+      "Cost (AED)": 5.21,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 2,
+      "Category": NaN,
+      "Dish Name": "Prawn Katsu",
+      "Cost (AED)": 5.77,
+      "Sell Price (AED)": 43.0
+    },
+    {
+      "S.No.": 3,
+      "Category": NaN,
+      "Dish Name": "Shrimp Dynamite",
+      "Cost (AED)": 5.57,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 4,
+      "Category": NaN,
+      "Dish Name": "Chicken Dynamite",
+      "Cost (AED)": 3.9,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 5,
+      "Category": NaN,
+      "Dish Name": "Shrimp Gyoza",
+      "Cost (AED)": 4.75,
+      "Sell Price (AED)": 35.0
+    },
+    {
+      "S.No.": 6,
+      "Category": NaN,
+      "Dish Name": "Chicken Gyoza",
+      "Cost (AED)": 4.19,
+      "Sell Price (AED)": 32.0
+    },
+    {
+      "S.No.": 7,
+      "Category": NaN,
+      "Dish Name": "Spicy Edamame",
+      "Cost (AED)": 4.02,
+      "Sell Price (AED)": 26.0
+    },
+    {
+      "S.No.": 8,
+      "Category": NaN,
+      "Dish Name": "Edamame",
+      "Cost (AED)": 3.06,
+      "Sell Price (AED)": 24.0
+    },
+    {
+      "S.No.": 9,
+      "Category": NaN,
+      "Dish Name": "Calamari",
+      "Cost (AED)": 5.01,
+      "Sell Price (AED)": 36.0
+    },
+    {
+      "S.No.": 10,
+      "Category": NaN,
+      "Dish Name": "Chicken Robatayaki",
+      "Cost (AED)": 4.69,
+      "Sell Price (AED)": 60.0
+    },
+    {
+      "S.No.": 11,
+      "Category": NaN,
+      "Dish Name": "Beef Robatayaki",
+      "Cost (AED)": 6.04,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 12,
+      "Category": NaN,
+      "Dish Name": "Tom Yum Soup",
+      "Cost (AED)": 2.61,
+      "Sell Price (AED)": 36.0
+    },
+    {
+      "S.No.": 13,
+      "Category": NaN,
+      "Dish Name": "Tom Yum Udon Soup",
+      "Cost (AED)": 5.84,
+      "Sell Price (AED)": 49.0
+    },
+    {
+      "S.No.": 14,
+      "Category": NaN,
+      "Dish Name": "Creamy Tom Yum",
+      "Cost (AED)": 3.03,
+      "Sell Price (AED)": 39.0
+    },
+    {
+      "S.No.": 15,
+      "Category": NaN,
+      "Dish Name": "Miso Soup",
+      "Cost (AED)": 1.64,
+      "Sell Price (AED)": 35.0
+    },
+    {
+      "S.No.": 16,
+      "Category": NaN,
+      "Dish Name": "Miso Beef Ramen",
+      "Cost (AED)": 6.61,
+      "Sell Price (AED)": 72.0
+    },
+    {
+      "S.No.": 17,
+      "Category": NaN,
+      "Dish Name": "Miso Chicken Ramen",
+      "Cost (AED)": 5.89,
+      "Sell Price (AED)": 82.0
+    },
+    {
+      "S.No.": 18,
+      "Category": NaN,
+      "Dish Name": "Salmon Crunch Salad",
+      "Cost (AED)": 5.41,
+      "Sell Price (AED)": 43.0
+    },
+    {
+      "S.No.": 19,
+      "Category": NaN,
+      "Dish Name": "Spicy Tuna Salad",
+      "Cost (AED)": 8.77,
+      "Sell Price (AED)": 63.0
+    },
+    {
+      "S.No.": 20,
+      "Category": NaN,
+      "Dish Name": "Chuka Wakame",
+      "Cost (AED)": 3.44,
+      "Sell Price (AED)": 28.0
+    },
+    {
+      "S.No.": 21,
+      "Category": NaN,
+      "Dish Name": "Crab Salad",
+      "Cost (AED)": 4.11,
+      "Sell Price (AED)": 37.0
+    },
+    {
+      "S.No.": 22,
+      "Category": NaN,
+      "Dish Name": "Cucumber Hosomaki",
+      "Cost (AED)": 2.56,
+      "Sell Price (AED)": 32.0
+    },
+    {
+      "S.No.": 23,
+      "Category": NaN,
+      "Dish Name": "Avocado Hosomaki",
+      "Cost (AED)": 2.88,
+      "Sell Price (AED)": 35.0
+    },
+    {
+      "S.No.": 24,
+      "Category": NaN,
+      "Dish Name": "Kani Hosomaki",
+      "Cost (AED)": 3.77,
+      "Sell Price (AED)": 37.0
+    },
+    {
+      "S.No.": 25,
+      "Category": NaN,
+      "Dish Name": "Salmon Hosomaki",
+      "Cost (AED)": 4.21,
+      "Sell Price (AED)": 36.0
+    },
+    {
+      "S.No.": 26,
+      "Category": NaN,
+      "Dish Name": "Tuna Hosomaki",
+      "Cost (AED)": 5.81,
+      "Sell Price (AED)": 39.0
+    },
+    {
+      "S.No.": 27,
+      "Category": NaN,
+      "Dish Name": "California Roll",
+      "Cost (AED)": 5.23,
+      "Sell Price (AED)": 47.0
+    },
+    {
+      "S.No.": 28,
+      "Category": NaN,
+      "Dish Name": "Dragon Roll",
+      "Cost (AED)": 4.25,
+      "Sell Price (AED)": 57.0
+    },
+    {
+      "S.No.": 29,
+      "Category": NaN,
+      "Dish Name": "Spicy Tuna Roll",
+      "Cost (AED)": 6.91,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 30,
+      "Category": NaN,
+      "Dish Name": "Rainbow Roll",
+      "Cost (AED)": 5.87,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 31,
+      "Category": NaN,
+      "Dish Name": "Mango Roll",
+      "Cost (AED)": 3.84,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 32,
+      "Category": NaN,
+      "Dish Name": "Crab Roll",
+      "Cost (AED)": 3.92,
+      "Sell Price (AED)": 44.0
+    },
+    {
+      "S.No.": 33,
+      "Category": NaN,
+      "Dish Name": "Philadelphia Roll",
+      "Cost (AED)": 5.23,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 34,
+      "Category": NaN,
+      "Dish Name": "Tempura Roll",
+      "Cost (AED)": 3.4,
+      "Sell Price (AED)": 48.0
+    },
+    {
+      "S.No.": 35,
+      "Category": NaN,
+      "Dish Name": "Spicy Salmon Roll",
+      "Cost (AED)": 4.91,
+      "Sell Price (AED)": 63.0
+    },
+    {
+      "S.No.": 36,
+      "Category": NaN,
+      "Dish Name": "Okinawa Roll",
+      "Cost (AED)": 5.07,
+      "Sell Price (AED)": 62.0
+    },
+    {
+      "S.No.": 37,
+      "Category": NaN,
+      "Dish Name": "Dynamite Roll",
+      "Cost (AED)": 3.03,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 38,
+      "Category": NaN,
+      "Dish Name": "Triple Crunch Prawn Roll",
+      "Cost (AED)": 4.65,
+      "Sell Price (AED)": 64.0
+    },
+    {
+      "S.No.": 39,
+      "Category": NaN,
+      "Dish Name": "Sakuragi Prawn Roll",
+      "Cost (AED)": 3.94,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 40,
+      "Category": NaN,
+      "Dish Name": "Crispy Chicken Fried Roll",
+      "Cost (AED)": 4.24,
+      "Sell Price (AED)": 54.0
+    },
+    {
+      "S.No.": 41,
+      "Category": NaN,
+      "Dish Name": "Crispy Shrimp Fried Roll",
+      "Cost (AED)": 4.71,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 42,
+      "Category": NaN,
+      "Dish Name": "Crispy Salmon Fried Roll",
+      "Cost (AED)": 5.84,
+      "Sell Price (AED)": 55.0
+    },
+    {
+      "S.No.": 43,
+      "Category": NaN,
+      "Dish Name": "Crispy Tuna Fried Roll",
+      "Cost (AED)": 7.34,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 44,
+      "Category": NaN,
+      "Dish Name": "Crispy Vegetarian Fried Roll",
+      "Cost (AED)": 3.93,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 45,
+      "Category": NaN,
+      "Dish Name": "Salmon Nigiri (2 pcs)",
+      "Cost (AED)": 3.33,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 46,
+      "Category": NaN,
+      "Dish Name": "Ebi Nigiri (2 pcs)",
+      "Cost (AED)": 3.85,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 47,
+      "Category": NaN,
+      "Dish Name": "Tuna Nigiri (2 pcs)",
+      "Cost (AED)": 4.53,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 48,
+      "Category": NaN,
+      "Dish Name": "Salmon Sashimi (3 pcs)",
+      "Cost (AED)": 6.02,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 49,
+      "Category": NaN,
+      "Dish Name": "Tuna Sashimi (3 pcs)",
+      "Cost (AED)": 9.41,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 50,
+      "Category": NaN,
+      "Dish Name": "Shrimp Udon",
+      "Cost (AED)": 6.56,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 51,
+      "Category": NaN,
+      "Dish Name": "Green Curry Udon",
+      "Cost (AED)": 7.35,
+      "Sell Price (AED)": 61.0
+    },
+    {
+      "S.No.": 52,
+      "Category": NaN,
+      "Dish Name": "Shrimp Yakisoba",
+      "Cost (AED)": 6.61,
+      "Sell Price (AED)": 54.0
+    },
+    {
+      "S.No.": 53,
+      "Category": NaN,
+      "Dish Name": "Vegetable Yakisoba",
+      "Cost (AED)": 4.92,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 54,
+      "Category": NaN,
+      "Dish Name": "Chicken Yakisoba",
+      "Cost (AED)": 5.74,
+      "Sell Price (AED)": 49.0
+    },
+    {
+      "S.No.": 55,
+      "Category": NaN,
+      "Dish Name": "Stir Fry Beef Rice",
+      "Cost (AED)": 5.84,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 56,
+      "Category": NaN,
+      "Dish Name": "Chicken Katsu Curry",
+      "Cost (AED)": 4.55,
+      "Sell Price (AED)": 58.0
+    },
+    {
+      "S.No.": 57,
+      "Category": NaN,
+      "Dish Name": "Chicken Katsu with Rice",
+      "Cost (AED)": 4.65,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 58,
+      "Category": NaN,
+      "Dish Name": "Chicken Teriyaki Rice",
+      "Cost (AED)": 4.5,
+      "Sell Price (AED)": 56.0
+    },
+    {
+      "S.No.": 59,
+      "Category": NaN,
+      "Dish Name": "Beef Teriyaki Rice",
+      "Cost (AED)": 5.95,
+      "Sell Price (AED)": 68.0
+    },
+    {
+      "S.No.": 60,
+      "Category": NaN,
+      "Dish Name": "The Solo Play",
+      "Cost (AED)": 30.44,
+      "Sell Price (AED)": 85.0
+    },
+    {
+      "S.No.": 61,
+      "Category": NaN,
+      "Dish Name": "Date Night Box",
+      "Cost (AED)": 30.08,
+      "Sell Price (AED)": 108.0
+    },
+    {
+      "S.No.": 62,
+      "Category": NaN,
+      "Dish Name": "The Power Feed",
+      "Cost (AED)": 14.47,
+      "Sell Price (AED)": 90.0
+    },
+    {
+      "S.No.": 63,
+      "Category": NaN,
+      "Dish Name": "The Crowd Pleaser",
+      "Cost (AED)": 19.51,
+      "Sell Price (AED)": 140.0
+    },
+    {
+      "S.No.": 64,
+      "Category": NaN,
+      "Dish Name": "Signature Flex",
+      "Cost (AED)": 15.88,
+      "Sell Price (AED)": 150.0
+    },
+    {
+      "S.No.": 65,
+      "Category": NaN,
+      "Dish Name": "Raw Bar Feast",
+      "Cost (AED)": 42.26,
+      "Sell Price (AED)": 110.0
+    },
+    {
+      "S.No.": 66,
+      "Category": NaN,
+      "Dish Name": "The Party Starter",
+      "Cost (AED)": 48.01,
+      "Sell Price (AED)": 399.0
+    },
+    {
+      "S.No.": 67,
+      "Category": NaN,
+      "Dish Name": "Mineral Water",
+      "Cost (AED)": 0.81,
+      "Sell Price (AED)": 5.0
+    },
+    {
+      "S.No.": 68,
+      "Category": NaN,
+      "Dish Name": "Coca Cola",
+      "Cost (AED)": 2.33,
+      "Sell Price (AED)": 10.0
+    },
+    {
+      "S.No.": 69,
+      "Category": NaN,
+      "Dish Name": "Coca Cola Zero",
+      "Cost (AED)": 2.33,
+      "Sell Price (AED)": 10.0
+    },
+    {
+      "S.No.": 70,
+      "Category": NaN,
+      "Dish Name": "Sprite",
+      "Cost (AED)": 2.33,
+      "Sell Price (AED)": 10.0
+    },
+    {
+      "S.No.": 71,
+      "Category": NaN,
+      "Dish Name": "Sprite Zero",
+      "Cost (AED)": 2.33,
+      "Sell Price (AED)": 10.0
+    },
+    {
+      "S.No.": 72,
+      "Category": NaN,
+      "Dish Name": "Fanta",
+      "Cost (AED)": 2.33,
+      "Sell Price (AED)": 10.0
+    }
+  ],
+  "Japanese Ramadan Combos": [
+    {
+      "S.No.": 1,
+      "Brand": "Oneesan",
+      "Combo Name": "Oneesan's Solace (Solo)",
+      "Sell Price (AED)": 89,
+      "Cost (AED)": 30.44
+    },
+    {
+      "S.No.": 2,
+      "Brand": "Oneesan",
+      "Combo Name": "Shared Harmony (Date)",
+      "Sell Price (AED)": 113,
+      "Cost (AED)": 30.08
+    },
+    {
+      "S.No.": 3,
+      "Brand": "Oneesan",
+      "Combo Name": "Simple Comforts (Fast)",
+      "Sell Price (AED)": 95,
+      "Cost (AED)": 14.47
+    },
+    {
+      "S.No.": 4,
+      "Brand": "Oneesan",
+      "Combo Name": "The Family Gathering (Party)",
+      "Sell Price (AED)": 147,
+      "Cost (AED)": 19.51
+    },
+    {
+      "S.No.": 5,
+      "Brand": "Oneesan",
+      "Combo Name": "Sister's Favorites (Premium)",
+      "Sell Price (AED)": 158,
+      "Cost (AED)": 15.88
+    },
+    {
+      "S.No.": 6,
+      "Brand": "Oneesan",
+      "Combo Name": "The Artisan's Palette (Raw)",
+      "Sell Price (AED)": 116,
+      "Cost (AED)": 42.26
+    },
+    {
+      "S.No.": 7,
+      "Brand": "Oneesan",
+      "Combo Name": "The Warm Welcome (Crowd)",
+      "Sell Price (AED)": 419,
+      "Cost (AED)": 48.01
+    },
+    {
+      "S.No.": 8,
+      "Brand": "Hikari",
+      "Combo Name": "The Solo Play",
+      "Sell Price (AED)": 85,
+      "Cost (AED)": 30.44
+    },
+    {
+      "S.No.": 9,
+      "Brand": "Hikari",
+      "Combo Name": "Date Night Box",
+      "Sell Price (AED)": 108,
+      "Cost (AED)": 30.08
+    },
+    {
+      "S.No.": 10,
+      "Brand": "Hikari",
+      "Combo Name": "The Power Feed",
+      "Sell Price (AED)": 90,
+      "Cost (AED)": 14.47
+    },
+    {
+      "S.No.": 11,
+      "Brand": "Hikari",
+      "Combo Name": "The Crowd Pleaser",
+      "Sell Price (AED)": 140,
+      "Cost (AED)": 19.51
+    },
+    {
+      "S.No.": 12,
+      "Brand": "Hikari",
+      "Combo Name": "Signature Flex",
+      "Sell Price (AED)": 150,
+      "Cost (AED)": 15.88
+    },
+    {
+      "S.No.": 13,
+      "Brand": "Hikari",
+      "Combo Name": "Raw Bar Feast",
+      "Sell Price (AED)": 110,
+      "Cost (AED)": 42.26
+    },
+    {
+      "S.No.": 14,
+      "Brand": "Hikari",
+      "Combo Name": "The Party Starter",
+      "Sell Price (AED)": 399,
+      "Cost (AED)": 48.01
+    },
+    {
+      "S.No.": 15,
+      "Brand": "Norii",
+      "Combo Name": "The Solo Edit",
+      "Sell Price (AED)": 85,
+      "Cost (AED)": 30.44
+    },
+    {
+      "S.No.": 16,
+      "Brand": "Norii",
+      "Combo Name": "The Rendezvous",
+      "Sell Price (AED)": 108,
+      "Cost (AED)": 30.08
+    },
+    {
+      "S.No.": 17,
+      "Brand": "Norii",
+      "Combo Name": "The Daily Ritual",
+      "Sell Price (AED)": 90,
+      "Cost (AED)": 14.47
+    },
+    {
+      "S.No.": 18,
+      "Brand": "Norii",
+      "Combo Name": "The Socialite",
+      "Sell Price (AED)": 140,
+      "Cost (AED)": 19.51
+    },
+    {
+      "S.No.": 19,
+      "Brand": "Norii",
+      "Combo Name": "Norii Gold Collection",
+      "Sell Price (AED)": 150,
+      "Cost (AED)": 15.88
+    },
+    {
+      "S.No.": 20,
+      "Brand": "Norii",
+      "Combo Name": "The Sashimi Standard",
+      "Sell Price (AED)": 110,
+      "Cost (AED)": 42.26
+    },
+    {
+      "S.No.": 21,
+      "Brand": "Norii",
+      "Combo Name": "The After Hours",
+      "Sell Price (AED)": 399,
+      "Cost (AED)": 48.01
+    }
+  ],
+  "Poke Menu": [
+    {
+      "S.No.": 1,
+      "Category": NaN,
+      "Dish Name": "The Classic Salmon",
+      "Cost (AED)": 8.84,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 2,
+      "Category": NaN,
+      "Dish Name": "Spicy Tuna & Mango",
+      "Cost (AED)": 5.84,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 3,
+      "Category": NaN,
+      "Dish Name": "The Grand Tuna",
+      "Cost (AED)": 5.27,
+      "Sell Price (AED)": 78.0
+    },
+    {
+      "S.No.": 4,
+      "Category": NaN,
+      "Dish Name": "The All-Star",
+      "Cost (AED)": 7.34,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 5,
+      "Category": NaN,
+      "Dish Name": "Spicy Salmon Umami",
+      "Cost (AED)": 8.1,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 6,
+      "Category": NaN,
+      "Dish Name": "Island Fusion",
+      "Cost (AED)": 7.16,
+      "Sell Price (AED)": 67.0
+    },
+    {
+      "S.No.": 7,
+      "Category": NaN,
+      "Dish Name": "California Crab Bowl",
+      "Cost (AED)": 9.07,
+      "Sell Price (AED)": 52.0
+    },
+    {
+      "S.No.": 8,
+      "Category": NaN,
+      "Dish Name": "Shrimp Ceviche Bowl",
+      "Cost (AED)": 5.23,
+      "Sell Price (AED)": NaN
+    },
+    {
+      "S.No.": 9,
+      "Category": NaN,
+      "Dish Name": "The Veggie Bliss",
+      "Cost (AED)": 5.59,
+      "Sell Price (AED)": 47.0
+    },
+    {
+      "S.No.": 10,
+      "Category": NaN,
+      "Dish Name": "Build Your Own - Regular Bowl (3 Proteins)",
+      "Cost (AED)": 7.29,
+      "Sell Price (AED)": 75.0
+    },
+    {
+      "S.No.": 11,
+      "Category": NaN,
+      "Dish Name": "Build Your Own - Large Bowl (4 Proteins)",
+      "Cost (AED)": 8.89,
+      "Sell Price (AED)": 82.0
+    },
+    {
+      "S.No.": 12,
+      "Category": NaN,
+      "Dish Name": "Build Your Own - Super Bowl (5 Proteins)",
+      "Cost (AED)": 10.76,
+      "Sell Price (AED)": 89.0
+    },
+    {
+      "S.No.": 13,
+      "Category": NaN,
+      "Dish Name": "Grilled Chicken Teppanyaki",
+      "Cost (AED)": 5.11,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 14,
+      "Category": NaN,
+      "Dish Name": "Grilled Shrimp Teppanyaki",
+      "Cost (AED)": 5.77,
+      "Sell Price (AED)": 65.0
+    },
+    {
+      "S.No.": 15,
+      "Category": NaN,
+      "Dish Name": "Miso Beef Ramen",
+      "Cost (AED)": 9.09,
+      "Sell Price (AED)": 72.0
+    },
+    {
+      "S.No.": 16,
+      "Category": NaN,
+      "Dish Name": "Miso Chicken Ramen",
+      "Cost (AED)": 6.64,
+      "Sell Price (AED)": 82.0
+    },
+    {
+      "S.No.": 17,
+      "Category": NaN,
+      "Dish Name": "Salmon Sashimi",
+      "Cost (AED)": 5.95,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 18,
+      "Category": NaN,
+      "Dish Name": "Tuna Sashimi",
+      "Cost (AED)": 3.39,
+      "Sell Price (AED)": 45.0
+    },
+    {
+      "S.No.": 19,
+      "Category": NaN,
+      "Dish Name": "Salmon Crunch Salad",
+      "Cost (AED)": 7.98,
+      "Sell Price (AED)": 43.0
+    },
+    {
+      "S.No.": 20,
+      "Category": NaN,
+      "Dish Name": "Spicy Tuna Salad",
+      "Cost (AED)": 5.78,
+      "Sell Price (AED)": 63.0
+    },
+    {
+      "S.No.": 21,
+      "Category": NaN,
+      "Dish Name": "Crab Salad",
+      "Cost (AED)": 8.69,
+      "Sell Price (AED)": 37.0
+    },
+    {
+      "S.No.": 22,
+      "Category": NaN,
+      "Dish Name": "Chuka Wakame",
+      "Cost (AED)": 3.66,
+      "Sell Price (AED)": 28.0
+    },
+    {
+      "S.No.": 23,
+      "Category": NaN,
+      "Dish Name": "Miso Soup",
+      "Cost (AED)": 1.71,
+      "Sell Price (AED)": 35.0
+    },
+    {
+      "S.No.": 24,
+      "Category": NaN,
+      "Dish Name": "Tom Yum Soup",
+      "Cost (AED)": 3.78,
+      "Sell Price (AED)": 36.0
+    },
+    {
+      "S.No.": 25,
+      "Category": NaN,
+      "Dish Name": "Creamy Tom Yum",
+      "Cost (AED)": 4.29,
+      "Sell Price (AED)": 39.0
+    },
+    {
+      "S.No.": 26,
+      "Category": NaN,
+      "Dish Name": "Tom Yum Udon Soup",
+      "Cost (AED)": 7.01,
+      "Sell Price (AED)": 49.0
+    },
+    {
+      "S.No.": 27,
+      "Category": NaN,
+      "Dish Name": "Edamame",
+      "Cost (AED)": 3.06,
+      "Sell Price (AED)": 21.0
+    },
+    {
+      "S.No.": 28,
+      "Category": NaN,
+      "Dish Name": "Spicy Edamame",
+      "Cost (AED)": 3.57,
+      "Sell Price (AED)": 22.0
+    },
+    {
+      "S.No.": 29,
+      "Category": NaN,
+      "Dish Name": "Dynamite Shrimp",
+      "Cost (AED)": 4.66,
+      "Sell Price (AED)": 37.0
+    },
+    {
+      "S.No.": 30,
+      "Category": NaN,
+      "Dish Name": "Prawn Tempura",
+      "Cost (AED)": 4.38,
+      "Sell Price (AED)": 37.0
+    },
+    {
+      "S.No.": 31,
+      "Category": NaN,
+      "Dish Name": "Honey Chilli Potato",
+      "Cost (AED)": 2.18,
+      "Sell Price (AED)": 32.0
+    },
+    {
+      "S.No.": 32,
+      "Category": NaN,
+      "Dish Name": "Honey Chilli Shrimp",
+      "Cost (AED)": 5.09,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 33,
+      "Category": NaN,
+      "Dish Name": "Prawn Katsu",
+      "Cost (AED)": 5.28,
+      "Sell Price (AED)": 43.0
+    },
+    {
+      "S.No.": 34,
+      "Category": NaN,
+      "Dish Name": "Chicken Dynamite",
+      "Cost (AED)": 3.92,
+      "Sell Price (AED)": 42.0
+    },
+    {
+      "S.No.": 35,
+      "Category": NaN,
+      "Dish Name": "Chicken Gyoza",
+      "Cost (AED)": 3.32,
+      "Sell Price (AED)": 32.0
+    },
+    {
+      "S.No.": 36,
+      "Category": NaN,
+      "Dish Name": "Calamari",
+      "Cost (AED)": 4.95,
+      "Sell Price (AED)": 36.0
+    },
+    {
+      "S.No.": 37,
+      "Category": NaN,
+      "Dish Name": "Classic Chicken Wrap",
+      "Cost (AED)": 16.19,
+      "Sell Price (AED)": 30.0
+    },
+    {
+      "S.No.": 38,
+      "Category": NaN,
+      "Dish Name": "Chicken Caesar Wrap",
+      "Cost (AED)": 4.51,
+      "Sell Price (AED)": 33.0
+    },
+    {
+      "S.No.": 39,
+      "Category": NaN,
+      "Dish Name": "BBQ Chicken Wrap",
+      "Cost (AED)": 16.35,
+      "Sell Price (AED)": 33.0
+    },
+    {
+      "S.No.": 40,
+      "Category": NaN,
+      "Dish Name": "Buffalo Chicken Wrap",
+      "Cost (AED)": 16.45,
+      "Sell Price (AED)": 33.0
+    },
+    {
+      "S.No.": 41,
+      "Category": NaN,
+      "Dish Name": "Hot Honey Chicken Wrap",
+      "Cost (AED)": 4.13,
+      "Sell Price (AED)": 33.0
+    },
+    {
+      "S.No.": 42,
+      "Category": NaN,
+      "Dish Name": "Asian Chicken Wrap",
+      "Cost (AED)": 4.08,
+      "Sell Price (AED)": 33.0
+    },
+    {
+      "S.No.": 43,
+      "Category": NaN,
+      "Dish Name": "Signature Combo",
+      "Cost (AED)": 12.51,
+      "Sell Price (AED)": 99.0
+    },
+    {
+      "S.No.": 44,
+      "Category": NaN,
+      "Dish Name": "Lunch Special",
+      "Cost (AED)": 11.9,
+      "Sell Price (AED)": 79.0
+    },
+    {
+      "S.No.": 45,
+      "Category": NaN,
+      "Dish Name": "Sashimi Set",
+      "Cost (AED)": 18.36,
+      "Sell Price (AED)": 169.0
+    },
+    {
+      "S.No.": 46,
+      "Category": NaN,
+      "Dish Name": "Family Deal",
+      "Cost (AED)": 55.45,
+      "Sell Price (AED)": 195.0
+    },
+    {
+      "S.No.": 47,
+      "Category": NaN,
+      "Dish Name": "Mineral Water",
+      "Cost (AED)": 0.88,
+      "Sell Price (AED)": 5.0
+    },
+    {
+      "S.No.": 48,
+      "Category": NaN,
+      "Dish Name": "Coca-Cola",
+      "Cost (AED)": 3.92,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 49,
+      "Category": NaN,
+      "Dish Name": "Coca-Cola Zero",
+      "Cost (AED)": 3.92,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 50,
+      "Category": NaN,
+      "Dish Name": "Fanta",
+      "Cost (AED)": 3.92,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 51,
+      "Category": NaN,
+      "Dish Name": "Sprite",
+      "Cost (AED)": 3.92,
+      "Sell Price (AED)": 8.0
+    },
+    {
+      "S.No.": 52,
+      "Category": NaN,
+      "Dish Name": "Sprite Zero",
+      "Cost (AED)": 3.92,
+      "Sell Price (AED)": 8.0
+    }
+  ],
+  "Chinese Recipes": [
+    {
+      "S.No.": 1,
+      "Category": "Soups (Veg)",
+      "Dish Name": "Cream of Tomato Soup",
+      "Cost (AED)": 1.72
+    },
+    {
+      "S.No.": 2,
+      "Category": "Soups (Veg)",
+      "Dish Name": "Cream of Mushroom Soup",
+      "Cost (AED)": 1.95
+    },
+    {
+      "S.No.": 3,
+      "Category": "Soups (Veg)",
+      "Dish Name": "Manchow Soup",
+      "Cost (AED)": 0.99
+    },
+    {
+      "S.No.": 4,
+      "Category": "Soups (Veg)",
+      "Dish Name": "Hot & Sour Soup",
+      "Cost (AED)": 0.8
+    },
+    {
+      "S.No.": 5,
+      "Category": "Soups (Veg)",
+      "Dish Name": "Sweet Corn Soup",
+      "Cost (AED)": 1.12
+    },
+    {
+      "S.No.": 6,
+      "Category": "Soups (Veg)",
+      "Dish Name": "Noodle Soup",
+      "Cost (AED)": 0.69
+    },
+    {
+      "S.No.": 7,
+      "Category": "Soups (Veg)",
+      "Dish Name": "Clear Soup",
+      "Cost (AED)": 0.5
+    },
+    {
+      "S.No.": 8,
+      "Category": "Soups (Non-Veg)",
+      "Dish Name": "Cream of Chicken Soup",
+      "Cost (AED)": 1.91
+    },
+    {
+      "S.No.": 9,
+      "Category": "Soups (Non-Veg)",
+      "Dish Name": "Chicken Manchow Soup",
+      "Cost (AED)": 1.23
+    },
+    {
+      "S.No.": 10,
+      "Category": "Soups (Non-Veg)",
+      "Dish Name": "Chk Hot & Sour Soup",
+      "Cost (AED)": 0.99
+    },
+    {
+      "S.No.": 11,
+      "Category": "Soups (Non-Veg)",
+      "Dish Name": "Chk Sweet Corn Soup",
+      "Cost (AED)": 1.79
+    },
+    {
+      "S.No.": 12,
+      "Category": "Soups (Non-Veg)",
+      "Dish Name": "Chicken Noodle Soup",
+      "Cost (AED)": 1.54
+    },
+    {
+      "S.No.": 13,
+      "Category": "Soups (Non-Veg)",
+      "Dish Name": "Chicken Clear Soup",
+      "Cost (AED)": 1.27
+    },
+    {
+      "S.No.": 14,
+      "Category": "Soups (Non-Veg)",
+      "Dish Name": "Tom Yum Soup",
+      "Cost (AED)": 3.71
+    },
+    {
+      "S.No.": 15,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Kung Pao Chicken",
+      "Cost (AED)": 4.24
+    },
+    {
+      "S.No.": 16,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Honey Chilli Chicken",
+      "Cost (AED)": 3.63
+    },
+    {
+      "S.No.": 17,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Teriyaki Chicken",
+      "Cost (AED)": 3.49
+    },
+    {
+      "S.No.": 18,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Chicken Lollipops",
+      "Cost (AED)": 5.79
+    },
+    {
+      "S.No.": 19,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Dynamite Shrimp",
+      "Cost (AED)": 5.35
+    },
+    {
+      "S.No.": 20,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Chicken 65",
+      "Cost (AED)": 3.3
+    },
+    {
+      "S.No.": 21,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Chk Manchurian Dry",
+      "Cost (AED)": 3.14
+    },
+    {
+      "S.No.": 22,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Stir Fried Chk Chilli",
+      "Cost (AED)": 3.19
+    },
+    {
+      "S.No.": 23,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Black Pepper Chicken",
+      "Cost (AED)": 3.61
+    },
+    {
+      "S.No.": 24,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Hot Garlic Chicken",
+      "Cost (AED)": 3.33
+    },
+    {
+      "S.No.": 25,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Mountain Chilli Chk",
+      "Cost (AED)": 3.2
+    },
+    {
+      "S.No.": 26,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Chk Spring Rolls (8pc)",
+      "Cost (AED)": 3.84
+    },
+    {
+      "S.No.": 27,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Tempura Shrimp",
+      "Cost (AED)": 5.35
+    },
+    {
+      "S.No.": 28,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Chilli Garlic Prawns",
+      "Cost (AED)": 5.01
+    },
+    {
+      "S.No.": 29,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Black Pepper Prawns",
+      "Cost (AED)": 4.86
+    },
+    {
+      "S.No.": 30,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Teriyaki Prawns",
+      "Cost (AED)": 5.1
+    },
+    {
+      "S.No.": 31,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Mountain Chilli Prawn",
+      "Cost (AED)": 4.21
+    },
+    {
+      "S.No.": 32,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Kung Pao Prawns",
+      "Cost (AED)": 10.23
+    },
+    {
+      "S.No.": 33,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Tempura Chicken",
+      "Cost (AED)": 4.04
+    },
+    {
+      "S.No.": 34,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Dynamite Chicken",
+      "Cost (AED)": 3.22
+    },
+    {
+      "S.No.": 35,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Mountain Chilli Beef",
+      "Cost (AED)": 8.32
+    },
+    {
+      "S.No.": 36,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Black Pepper Beef",
+      "Cost (AED)": 8.56
+    },
+    {
+      "S.No.": 37,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Kung Pao Beef",
+      "Cost (AED)": 8.85
+    },
+    {
+      "S.No.": 38,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Teriyaki Beef",
+      "Cost (AED)": 8.55
+    },
+    {
+      "S.No.": 39,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Honey Chilli Shrimp",
+      "Cost (AED)": 6.21
+    },
+    {
+      "S.No.": 40,
+      "Category": "Starters (Non Veg)",
+      "Dish Name": "Honey Chilli Beef",
+      "Cost (AED)": 9.51
+    },
+    {
+      "S.No.": 41,
+      "Category": "Starters (Veg)",
+      "Dish Name": "Kung Pao Paneer",
+      "Cost (AED)": 5.48
+    },
+    {
+      "S.No.": 42,
+      "Category": "Starters (Veg)",
+      "Dish Name": "Paneer 65",
+      "Cost (AED)": 4.25
+    },
+    {
+      "S.No.": 43,
+      "Category": "Starters (Veg)",
+      "Dish Name": "Honey Chilli Potato",
+      "Cost (AED)": 2.67
+    },
+    {
+      "S.No.": 44,
+      "Category": "Starters (Veg)",
+      "Dish Name": "Veg Spring Rolls (8pc)",
+      "Cost (AED)": 3.6
+    },
+    {
+      "S.No.": 45,
+      "Category": "Starters (Veg)",
+      "Dish Name": "Stir Fried Paneer Chilli",
+      "Cost (AED)": 4.7
+    },
+    {
+      "S.No.": 46,
+      "Category": "Starters (Veg)",
+      "Dish Name": "Veg Manchurian Dry",
+      "Cost (AED)": 1.75
+    },
+    {
+      "S.No.": 47,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Steamed Chk Dumplings",
+      "Cost (AED)": 3.95
+    },
+    {
+      "S.No.": 48,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Steamed Prawns Gyoza",
+      "Cost (AED)": 5.04
+    },
+    {
+      "S.No.": 49,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Chilli Style Chk Dumplings",
+      "Cost (AED)": 4.7
+    },
+    {
+      "S.No.": 50,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Spicy 65 Chk Momos",
+      "Cost (AED)": 2.38
+    },
+    {
+      "S.No.": 51,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Shanghai Style Chk Dumplings",
+      "Cost (AED)": 2.7
+    },
+    {
+      "S.No.": 52,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Chilli Style Prawns Gyoza",
+      "Cost (AED)": 3.66
+    },
+    {
+      "S.No.": 53,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Schezwan Chk Momos",
+      "Cost (AED)": 2.61
+    },
+    {
+      "S.No.": 54,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Kung Pao Chk Dumplings",
+      "Cost (AED)": 2.67
+    },
+    {
+      "S.No.": 55,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Honey Chilli Chk Dumplings",
+      "Cost (AED)": 2.57
+    },
+    {
+      "S.No.": 56,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Chicken Tandoori Momos",
+      "Cost (AED)": 2.42
+    },
+    {
+      "S.No.": 57,
+      "Category": "Dumplings (Non Veg)",
+      "Dish Name": "Kung Pao Prawns Gyoza",
+      "Cost (AED)": 3.56
+    },
+    {
+      "S.No.": 58,
+      "Category": "Dumplings (Veg)",
+      "Dish Name": "Steamed Veg Dumplings",
+      "Cost (AED)": 2.39
+    },
+    {
+      "S.No.": 59,
+      "Category": "Dumplings (Veg)",
+      "Dish Name": "Spicy 65 Veg Momos",
+      "Cost (AED)": 0.77
+    },
+    {
+      "S.No.": 60,
+      "Category": "Dumplings (Veg)",
+      "Dish Name": "Shanghai Style Veg Dumplings",
+      "Cost (AED)": 1.14
+    },
+    {
+      "S.No.": 61,
+      "Category": "Dumplings (Veg)",
+      "Dish Name": "Kung Pao Veg Dumplings",
+      "Cost (AED)": 0.91
+    },
+    {
+      "S.No.": 62,
+      "Category": "Dumplings (Veg)",
+      "Dish Name": "Honey Chilli Veg Dumplings",
+      "Cost (AED)": 0.7
+    },
+    {
+      "S.No.": 63,
+      "Category": "Dumplings (Veg)",
+      "Dish Name": "Chilli Style Veg Dumplings",
+      "Cost (AED)": 1.0
+    },
+    {
+      "S.No.": 64,
+      "Category": "Dumplings (Veg)",
+      "Dish Name": "Schezwan Veg Momos",
+      "Cost (AED)": 1.05
+    },
+    {
+      "S.No.": 65,
+      "Category": "Mains (Non Veg)",
+      "Dish Name": "Chicken Kung Pao Sauce",
+      "Cost (AED)": 3.22
+    },
+    {
+      "S.No.": 66,
+      "Category": "Mains (Non Veg)",
+      "Dish Name": "Chilli Chicken Gravy",
+      "Cost (AED)": 2.91
+    },
+    {
+      "S.No.": 67,
+      "Category": "Mains (Non Veg)",
+      "Dish Name": "Chk Manchurian Gravy",
+      "Cost (AED)": 2.58
+    },
+    {
+      "S.No.": 68,
+      "Category": "Mains (Non Veg)",
+      "Dish Name": "Chk Black Pepper Sauce",
+      "Cost (AED)": 2.8
+    },
+    {
+      "S.No.": 69,
+      "Category": "Mains (Non Veg)",
+      "Dish Name": "Chicken Schezwan Sauce",
+      "Cost (AED)": 3.11
+    },
+    {
+      "S.No.": 70,
+      "Category": "Mains (Non Veg)",
+      "Dish Name": "Chk Oyster Chilli Sauce",
+      "Cost (AED)": 3.31
+    },
+    {
+      "S.No.": 71,
+      "Category": "Mains (Non Veg)",
+      "Dish Name": "Mongolian Chicken",
+      "Cost (AED)": 2.92
+    },
+    {
+      "S.No.": 72,
+      "Category": "Mains (Non Veg)",
+      "Dish Name": "Beef Black Pepper",
+      "Cost (AED)": 7.26
+    },
+    {
+      "S.No.": 73,
+      "Category": "Mains (Non Veg)",
+      "Dish Name": "Mongolian Beef",
+      "Cost (AED)": 7.3
+    },
+    {
+      "S.No.": 74,
+      "Category": "Mains (Veg)",
+      "Dish Name": "Paneer Chilli Gravy",
+      "Cost (AED)": 5.19
+    },
+    {
+      "S.No.": 75,
+      "Category": "Mains (Veg)",
+      "Dish Name": "Veg Schezwan Gravy",
+      "Cost (AED)": 2.36
+    },
+    {
+      "S.No.": 76,
+      "Category": "Mains (Veg)",
+      "Dish Name": "Veg Manchurian Gravy",
+      "Cost (AED)": 1.33
+    },
+    {
+      "S.No.": 77,
+      "Category": "Mains (Veg)",
+      "Dish Name": "Veg Kung Pao Sauce",
+      "Cost (AED)": 3.02
+    },
+    {
+      "S.No.": 78,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Schezwan Fried Rice",
+      "Cost (AED)": 2.66
+    },
+    {
+      "S.No.": 79,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Fried Rice",
+      "Cost (AED)": 2.17
+    },
+    {
+      "S.No.": 80,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Burnt Garlic Rice",
+      "Cost (AED)": 2.34
+    },
+    {
+      "S.No.": 81,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Steamed Rice",
+      "Cost (AED)": 1.87
+    },
+    {
+      "S.No.": 82,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Chilli Garlic Rice",
+      "Cost (AED)": 2.59
+    },
+    {
+      "S.No.": 83,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Street Style Chowmein",
+      "Cost (AED)": 2.72
+    },
+    {
+      "S.No.": 84,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Hakka Noodles",
+      "Cost (AED)": 2.31
+    },
+    {
+      "S.No.": 85,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Schezwan Noodles",
+      "Cost (AED)": 2.9
+    },
+    {
+      "S.No.": 86,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Singapore Noodles",
+      "Cost (AED)": 2.72
+    },
+    {
+      "S.No.": 87,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Chilli Garlic Noodles",
+      "Cost (AED)": 2.85
+    },
+    {
+      "S.No.": 88,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Shanghai Noodles",
+      "Cost (AED)": 3.01
+    },
+    {
+      "S.No.": 89,
+      "Category": "Rice & Noodles",
+      "Dish Name": "Triple Schezwan Rice",
+      "Cost (AED)": 4.19
+    }
+  ],
+  "Chinese Menu": [
+    {
+      "S.No.": 1,
+      "Category": "Soup",
+      "Dish Name": "Cream of Tomato Soup",
+      "Variant": "Veg",
+      "Cost (AED)": 1.72,
+      "Sell Price (AED)": 28
+    },
+    {
+      "S.No.": 2,
+      "Category": "Soup",
+      "Dish Name": "Cream of Mushroom Soup",
+      "Variant": "Veg",
+      "Cost (AED)": 1.95,
+      "Sell Price (AED)": 30
+    },
+    {
+      "S.No.": 3,
+      "Category": "Soup",
+      "Dish Name": "Manchow Soup (Veg)",
+      "Variant": "Veg",
+      "Cost (AED)": 0.99,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 4,
+      "Category": "Soup",
+      "Dish Name": "Manchow Soup  (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 0.99,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 5,
+      "Category": "Soup",
+      "Dish Name": "Manchow Soup  (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 0.99,
+      "Sell Price (AED)": 38
+    },
+    {
+      "S.No.": 6,
+      "Category": "Soup",
+      "Dish Name": "Hot & Sour Soup (Veg)",
+      "Variant": "Veg",
+      "Cost (AED)": 0.8,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 7,
+      "Category": "Soup",
+      "Dish Name": "Hot & Sour Soup  (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 0.8,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 8,
+      "Category": "Soup",
+      "Dish Name": "Hot & Sour Soup  (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 0.8,
+      "Sell Price (AED)": 38
+    },
+    {
+      "S.No.": 9,
+      "Category": "Soup",
+      "Dish Name": "Sweet Corn Soup (Veg)",
+      "Variant": "Veg",
+      "Cost (AED)": 1.12,
+      "Sell Price (AED)": 30
+    },
+    {
+      "S.No.": 10,
+      "Category": "Soup",
+      "Dish Name": "Sweet Corn Soup  (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 1.12,
+      "Sell Price (AED)": 34
+    },
+    {
+      "S.No.": 11,
+      "Category": "Soup",
+      "Dish Name": "Sweet Corn Soup  (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 1.12,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 12,
+      "Category": "Soup",
+      "Dish Name": "Noodle Soup (Veg)",
+      "Variant": "Veg",
+      "Cost (AED)": 0.69,
+      "Sell Price (AED)": 30
+    },
+    {
+      "S.No.": 13,
+      "Category": "Soup",
+      "Dish Name": "Noodle Soup  (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 0.69,
+      "Sell Price (AED)": 34
+    },
+    {
+      "S.No.": 14,
+      "Category": "Soup",
+      "Dish Name": "Noodle Soup  (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 0.69,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 15,
+      "Category": "Soup",
+      "Dish Name": "Clear Soup (Veg)",
+      "Variant": "Veg",
+      "Cost (AED)": 0.5,
+      "Sell Price (AED)": 26
+    },
+    {
+      "S.No.": 16,
+      "Category": "Soup",
+      "Dish Name": "Clear Soup  (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 0.5,
+      "Sell Price (AED)": 30
+    },
+    {
+      "S.No.": 17,
+      "Category": "Soup",
+      "Dish Name": "Clear Soup  (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 0.5,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 18,
+      "Category": "Soup",
+      "Dish Name": "Cream of Chicken Soup",
+      "Variant": "Veg",
+      "Cost (AED)": 1.91,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 19,
+      "Category": "Soup",
+      "Dish Name": "Tom Yum Soup",
+      "Variant": "Veg",
+      "Cost (AED)": 3.71,
+      "Sell Price (AED)": 38
+    },
+    {
+      "S.No.": 20,
+      "Category": "Veg Starters",
+      "Dish Name": "Veg Spring Rolls (8 pcs)",
+      "Variant": "Veg",
+      "Cost (AED)": 3.6,
+      "Sell Price (AED)": 38
+    },
+    {
+      "S.No.": 21,
+      "Category": "Veg Starters",
+      "Dish Name": "Honey Chilli Veg",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 38
+    },
+    {
+      "S.No.": 22,
+      "Category": "Veg Starters",
+      "Dish Name": "Honey Chilli Veg",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.63,
+      "Sell Price (AED)": 41
+    },
+    {
+      "S.No.": 23,
+      "Category": "Veg Starters",
+      "Dish Name": "Veg Manchurian",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 42
+    },
+    {
+      "S.No.": 24,
+      "Category": "Veg Starters",
+      "Dish Name": "Veg Manchurian",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.14,
+      "Sell Price (AED)": 45
+    },
+    {
+      "S.No.": 25,
+      "Category": "Veg Starters",
+      "Dish Name": "Stir Fried Chilli",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 44
+    },
+    {
+      "S.No.": 26,
+      "Category": "Veg Starters",
+      "Dish Name": "Stir Fried Chilli",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.19,
+      "Sell Price (AED)": 47
+    },
+    {
+      "S.No.": 27,
+      "Category": "Veg Starters",
+      "Dish Name": "Veg 65",
+      "Variant": "Veg",
+      "Cost (AED)": 4.25,
+      "Sell Price (AED)": 44
+    },
+    {
+      "S.No.": 28,
+      "Category": "Veg Starters",
+      "Dish Name": "Veg 65",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.3,
+      "Sell Price (AED)": 47
+    },
+    {
+      "S.No.": 29,
+      "Category": "Veg Starters",
+      "Dish Name": "Kung Pao Veg",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 30,
+      "Category": "Veg Starters",
+      "Dish Name": "Kung Pao Veg",
+      "Variant": "Chicken",
+      "Cost (AED)": 4.24,
+      "Sell Price (AED)": 49
+    },
+    {
+      "S.No.": 31,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Chicken Spring Rolls (8 pcs)",
+      "Variant": "Veg",
+      "Cost (AED)": 3.84,
+      "Sell Price (AED)": 42
+    },
+    {
+      "S.No.": 32,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Chicken Lollipops",
+      "Variant": "Veg",
+      "Cost (AED)": 5.79,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 33,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Chicken 65",
+      "Variant": "Veg",
+      "Cost (AED)": 3.3,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 34,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Chicken Manchurian (Dry)",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 35,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Chicken Manchurian (Dry) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.14,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 36,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Chicken Manchurian (Dry) (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 56
+    },
+    {
+      "S.No.": 37,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Kung Pao Chicken",
+      "Variant": "Veg",
+      "Cost (AED)": 4.24,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 38,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Kung Pao Chicken (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 4.24,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 39,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Kung Pao Chicken (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 10.23,
+      "Sell Price (AED)": 58
+    },
+    {
+      "S.No.": 40,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Honey Chilli Chicken",
+      "Variant": "Veg",
+      "Cost (AED)": 3.63,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 41,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Honey Chilli Chicken (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.63,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 42,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Honey Chilli Chicken (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 6.21,
+      "Sell Price (AED)": 58
+    },
+    {
+      "S.No.": 43,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Teriyaki Chicken",
+      "Variant": "Veg",
+      "Cost (AED)": 3.49,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 44,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Teriyaki Chicken (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.49,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 45,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Teriyaki Chicken (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 5.1,
+      "Sell Price (AED)": 58
+    },
+    {
+      "S.No.": 46,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Black Pepper Chicken",
+      "Variant": "Veg",
+      "Cost (AED)": 3.61,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 47,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Black Pepper Chicken (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.61,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 48,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Black Pepper Chicken (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 4.86,
+      "Sell Price (AED)": 58
+    },
+    {
+      "S.No.": 49,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Hot Garlic Chicken",
+      "Variant": "Veg",
+      "Cost (AED)": 3.33,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 50,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Hot Garlic Chicken (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.33,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 51,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Hot Garlic Chicken (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 5.01,
+      "Sell Price (AED)": 58
+    },
+    {
+      "S.No.": 52,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Mountain Chilli Chicken",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 53,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Mountain Chilli Chicken (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.2,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 54,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Mountain Chilli Chicken (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 4.21,
+      "Sell Price (AED)": 58
+    },
+    {
+      "S.No.": 55,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Stir Fried Chicken Chilli",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 56,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Stir Fried Chicken Chilli (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.19,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 57,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Stir Fried Chicken Chilli (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 56
+    },
+    {
+      "S.No.": 58,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Dynamite Chicken",
+      "Variant": "Veg",
+      "Cost (AED)": 3.22,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 59,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Dynamite Chicken (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.22,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 60,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Tempura Chicken",
+      "Variant": "Veg",
+      "Cost (AED)": 4.04,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 61,
+      "Category": "Non Veg Starters",
+      "Dish Name": "Tempura Chicken (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 4.04,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 62,
+      "Category": "Veg Mains",
+      "Dish Name": "Veg Kung Pao (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 3.02,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 63,
+      "Category": "Veg Mains",
+      "Dish Name": "Kung Pao (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 4.24,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 64,
+      "Category": "Veg Mains",
+      "Dish Name": "Veg Manchurian (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 1.33,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 65,
+      "Category": "Veg Mains",
+      "Dish Name": "Manchurian (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.58,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 66,
+      "Category": "Veg Mains",
+      "Dish Name": "Veg Oyster Chilli (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 5.19,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 67,
+      "Category": "Veg Mains",
+      "Dish Name": "Oyster Chilli (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.91,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 68,
+      "Category": "Veg Mains",
+      "Dish Name": "Veg Schezwan (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 2.36,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 69,
+      "Category": "Veg Mains",
+      "Dish Name": "Schezwan (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.11,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 70,
+      "Category": "Veg Mains",
+      "Dish Name": "Veg Black Pepper (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 71,
+      "Category": "Veg Mains",
+      "Dish Name": "Black Pepper (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.61,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 72,
+      "Category": "Veg Mains",
+      "Dish Name": "Chilli Veg (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 5.19,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 73,
+      "Category": "Veg Mains",
+      "Dish Name": "Chilli (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.91,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 74,
+      "Category": "Veg Mains",
+      "Dish Name": "Honey Chilli Veg (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 5.19,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 75,
+      "Category": "Veg Mains",
+      "Dish Name": "Honey Chilli (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.63,
+      "Sell Price (AED)": 58
+    },
+    {
+      "S.No.": 76,
+      "Category": "Veg Mains",
+      "Dish Name": "Mongolian Veg  (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 77,
+      "Category": "Veg Mains",
+      "Dish Name": "Mongolian  (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.92,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 78,
+      "Category": "Veg Mains",
+      "Dish Name": "Veg 65",
+      "Variant": "Veg",
+      "Cost (AED)": 4.25,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 79,
+      "Category": "Veg Mains",
+      "Dish Name": "65 (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.3,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 80,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Veg Kung Pao (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 3.02,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 81,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Kung Pao (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 4.24,
+      "Sell Price (AED)": 56
+    },
+    {
+      "S.No.": 82,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Kung Pao (Gravy) (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 10.23,
+      "Sell Price (AED)": 62
+    },
+    {
+      "S.No.": 83,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Veg Manchurian (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 1.33,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 84,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Manchurian (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.58,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 85,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Manchurian (Gravy) (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 60
+    },
+    {
+      "S.No.": 86,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Veg Oyster Chilli (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 5.19,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 87,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Oyster Chilli (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.91,
+      "Sell Price (AED)": 56
+    },
+    {
+      "S.No.": 88,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Oyster Chilli (Gravy) (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 62
+    },
+    {
+      "S.No.": 89,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Veg Schezwan (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 2.36,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 90,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Schezwan (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.11,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 91,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Schezwan (Gravy) (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 60
+    },
+    {
+      "S.No.": 92,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Veg Black Pepper (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 52
+    },
+    {
+      "S.No.": 93,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Black Pepper (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.61,
+      "Sell Price (AED)": 56
+    },
+    {
+      "S.No.": 94,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Non Black Pepper (Gravy) (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 4.86,
+      "Sell Price (AED)": 62
+    },
+    {
+      "S.No.": 95,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Chilli Non Veg (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 5.19,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 96,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Chilli Non (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.91,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 97,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Chilli Non (Gravy) (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 60
+    },
+    {
+      "S.No.": 98,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Honey Chilli Non Veg (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": 5.19,
+      "Sell Price (AED)": 58
+    },
+    {
+      "S.No.": 99,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Honey Chilli Non (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.63,
+      "Sell Price (AED)": 62
+    },
+    {
+      "S.No.": 100,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Honey Chilli Non (Gravy) (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 6.21,
+      "Sell Price (AED)": 68
+    },
+    {
+      "S.No.": 101,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Mongolian Non Veg (Gravy)",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 102,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Mongolian Non (Gravy) (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.92,
+      "Sell Price (AED)": 58
+    },
+    {
+      "S.No.": 103,
+      "Category": "Non Veg Mains",
+      "Dish Name": "Mongolian Non (Gravy) (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 64
+    },
+    {
+      "S.No.": 104,
+      "Category": "Momos",
+      "Dish Name": "Kung Pao Momos",
+      "Variant": "Veg",
+      "Cost (AED)": 0.91,
+      "Sell Price (AED)": 44
+    },
+    {
+      "S.No.": 105,
+      "Category": "Momos",
+      "Dish Name": "Kung Pao Momos",
+      "Variant": "Chicken",
+      "Cost (AED)": 4.24,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 106,
+      "Category": "Momos",
+      "Dish Name": "Manchurian Momos",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 42
+    },
+    {
+      "S.No.": 107,
+      "Category": "Momos",
+      "Dish Name": "Manchurian Momos",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.14,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 108,
+      "Category": "Momos",
+      "Dish Name": "Oyster Chilli Momos",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 44
+    },
+    {
+      "S.No.": 109,
+      "Category": "Momos",
+      "Dish Name": "Oyster Chilli Momos",
+      "Variant": "Chicken",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 110,
+      "Category": "Momos",
+      "Dish Name": "Schezwan Momos",
+      "Variant": "Veg",
+      "Cost (AED)": 1.05,
+      "Sell Price (AED)": 42
+    },
+    {
+      "S.No.": 111,
+      "Category": "Momos",
+      "Dish Name": "Schezwan Momos",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.61,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 112,
+      "Category": "Momos",
+      "Dish Name": "Black Pepper Momos",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 44
+    },
+    {
+      "S.No.": 113,
+      "Category": "Momos",
+      "Dish Name": "Black Pepper Momos",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.61,
+      "Sell Price (AED)": 48
+    },
+    {
+      "S.No.": 114,
+      "Category": "Momos",
+      "Dish Name": "Chilli Momos",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 42
+    },
+    {
+      "S.No.": 115,
+      "Category": "Momos",
+      "Dish Name": "Chilli Momos",
+      "Variant": "Chicken",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 116,
+      "Category": "Momos",
+      "Dish Name": "Honey Chilli Momos",
+      "Variant": "Veg",
+      "Cost (AED)": 0.7,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 117,
+      "Category": "Momos",
+      "Dish Name": "Honey Chilli Momos",
+      "Variant": "Chicken",
+      "Cost (AED)": 3.63,
+      "Sell Price (AED)": 54
+    },
+    {
+      "S.No.": 118,
+      "Category": "Momos",
+      "Dish Name": "Mongolian Momos",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 46
+    },
+    {
+      "S.No.": 119,
+      "Category": "Momos",
+      "Dish Name": "Mongolian Momos",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.92,
+      "Sell Price (AED)": 50
+    },
+    {
+      "S.No.": 120,
+      "Category": "Rice",
+      "Dish Name": "Steamed Rice",
+      "Variant": "Veg",
+      "Cost (AED)": 1.87,
+      "Sell Price (AED)": 18
+    },
+    {
+      "S.No.": 121,
+      "Category": "Rice",
+      "Dish Name": "Fried Rice",
+      "Variant": "Veg",
+      "Cost (AED)": 2.17,
+      "Sell Price (AED)": 24
+    },
+    {
+      "S.No.": 122,
+      "Category": "Rice",
+      "Dish Name": "Fried Rice (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.17,
+      "Sell Price (AED)": 26
+    },
+    {
+      "S.No.": 123,
+      "Category": "Rice",
+      "Dish Name": "Fried Rice (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 2.17,
+      "Sell Price (AED)": 28
+    },
+    {
+      "S.No.": 124,
+      "Category": "Rice",
+      "Dish Name": "Schezwan Fried Rice",
+      "Variant": "Veg",
+      "Cost (AED)": 2.66,
+      "Sell Price (AED)": 28
+    },
+    {
+      "S.No.": 125,
+      "Category": "Rice",
+      "Dish Name": "Schezwan Fried Rice (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.66,
+      "Sell Price (AED)": 30
+    },
+    {
+      "S.No.": 126,
+      "Category": "Rice",
+      "Dish Name": "Schezwan Fried Rice (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 2.66,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 127,
+      "Category": "Rice",
+      "Dish Name": "Triple Schezwan Fried Rice",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 128,
+      "Category": "Rice",
+      "Dish Name": "Triple Schezwan Fried Rice (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 129,
+      "Category": "Rice",
+      "Dish Name": "Burnt Garlic Rice",
+      "Variant": "Veg",
+      "Cost (AED)": 2.34,
+      "Sell Price (AED)": 26
+    },
+    {
+      "S.No.": 130,
+      "Category": "Rice",
+      "Dish Name": "Burnt Garlic Rice (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.34,
+      "Sell Price (AED)": 28
+    },
+    {
+      "S.No.": 131,
+      "Category": "Rice",
+      "Dish Name": "Burnt Garlic Rice (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 2.34,
+      "Sell Price (AED)": 30
+    },
+    {
+      "S.No.": 132,
+      "Category": "Rice",
+      "Dish Name": "Chilli Garlic Rice",
+      "Variant": "Veg",
+      "Cost (AED)": 2.59,
+      "Sell Price (AED)": 28
+    },
+    {
+      "S.No.": 133,
+      "Category": "Rice",
+      "Dish Name": "Chilli Garlic Rice (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.59,
+      "Sell Price (AED)": 30
+    },
+    {
+      "S.No.": 134,
+      "Category": "Rice",
+      "Dish Name": "Chilli Garlic Rice (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 2.59,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 135,
+      "Category": "Noodles",
+      "Dish Name": "Street Style Chowmein",
+      "Variant": "Veg",
+      "Cost (AED)": 2.72,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 136,
+      "Category": "Noodles",
+      "Dish Name": "Street Style Chowmein (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.72,
+      "Sell Price (AED)": 34
+    },
+    {
+      "S.No.": 137,
+      "Category": "Noodles",
+      "Dish Name": "Street Style Chowmein (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 2.72,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 138,
+      "Category": "Noodles",
+      "Dish Name": "Hakka Noodles",
+      "Variant": "Veg",
+      "Cost (AED)": 2.31,
+      "Sell Price (AED)": 30
+    },
+    {
+      "S.No.": 139,
+      "Category": "Noodles",
+      "Dish Name": "Hakka Noodles (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.31,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 140,
+      "Category": "Noodles",
+      "Dish Name": "Hakka Noodles (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 2.31,
+      "Sell Price (AED)": 34
+    },
+    {
+      "S.No.": 141,
+      "Category": "Noodles",
+      "Dish Name": "Schezwan Noodles",
+      "Variant": "Veg",
+      "Cost (AED)": 2.9,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 142,
+      "Category": "Noodles",
+      "Dish Name": "Schezwan Noodles (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.9,
+      "Sell Price (AED)": 34
+    },
+    {
+      "S.No.": 143,
+      "Category": "Noodles",
+      "Dish Name": "Schezwan Noodles (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 2.9,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 144,
+      "Category": "Noodles",
+      "Dish Name": "Singapore Noodles",
+      "Variant": "Veg",
+      "Cost (AED)": 2.72,
+      "Sell Price (AED)": 34
+    },
+    {
+      "S.No.": 145,
+      "Category": "Noodles",
+      "Dish Name": "Singapore Noodles (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.72,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 146,
+      "Category": "Noodles",
+      "Dish Name": "Singapore Noodles (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 2.72,
+      "Sell Price (AED)": 38
+    },
+    {
+      "S.No.": 147,
+      "Category": "Noodles",
+      "Dish Name": "Chilli Garlic Noodles",
+      "Variant": "Veg",
+      "Cost (AED)": 2.85,
+      "Sell Price (AED)": 32
+    },
+    {
+      "S.No.": 148,
+      "Category": "Noodles",
+      "Dish Name": "Chilli Garlic Noodles (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": 2.85,
+      "Sell Price (AED)": 34
+    },
+    {
+      "S.No.": 149,
+      "Category": "Noodles",
+      "Dish Name": "Chilli Garlic Noodles (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": 2.85,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 150,
+      "Category": "Noodles",
+      "Dish Name": "Shanghai Stir-Fried Noodles",
+      "Variant": "Veg",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 34
+    },
+    {
+      "S.No.": 151,
+      "Category": "Noodles",
+      "Dish Name": "Shanghai Stir-Fried Noodles (Chicken)",
+      "Variant": "Chicken",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 36
+    },
+    {
+      "S.No.": 152,
+      "Category": "Noodles",
+      "Dish Name": "Shanghai Stir-Fried Noodles (Shrimp)",
+      "Variant": "Shrimp",
+      "Cost (AED)": NaN,
+      "Sell Price (AED)": 38
+    },
+    {
+      "S.No.": 153,
+      "Category": "Beverages",
+      "Dish Name": "Water 500 ml",
+      "Variant": "Veg",
+      "Cost (AED)": 1.87,
+      "Sell Price (AED)": 4
+    },
+    {
+      "S.No.": 154,
+      "Category": "Beverages",
+      "Dish Name": "Coca Cola 300 ml",
+      "Variant": "Veg",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 8
+    },
+    {
+      "S.No.": 155,
+      "Category": "Beverages",
+      "Dish Name": "Coca Cola Zero 300 ml",
+      "Variant": "Veg",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 8
+    },
+    {
+      "S.No.": 156,
+      "Category": "Beverages",
+      "Dish Name": "Sprite 300 ml",
+      "Variant": "Veg",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 8
+    },
+    {
+      "S.No.": 157,
+      "Category": "Beverages",
+      "Dish Name": "Sprite Zero 300 ml",
+      "Variant": "Veg",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 8
+    },
+    {
+      "S.No.": 158,
+      "Category": "Beverages",
+      "Dish Name": "Fanta 300 ml",
+      "Variant": "Veg",
+      "Cost (AED)": 2.04,
+      "Sell Price (AED)": 8
+    }
+  ]
+}

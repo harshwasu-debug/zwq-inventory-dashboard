@@ -1,0 +1,513 @@
+{
+  "dishes": [
+    {
+      "dish": "Prawn Tempura",
+      "cat": "",
+      "cost": 5.21,
+      "miss": []
+    },
+    {
+      "dish": "Prawn Katsu",
+      "cat": "",
+      "cost": 5.77,
+      "miss": []
+    },
+    {
+      "dish": "Shrimp Dynamite",
+      "cat": "",
+      "cost": 5.57,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Dynamite",
+      "cat": "",
+      "cost": 3.9,
+      "miss": []
+    },
+    {
+      "dish": "Shrimp Gyoza",
+      "cat": "",
+      "cost": 4.75,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Gyoza",
+      "cat": "",
+      "cost": 4.19,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Edamame",
+      "cat": "",
+      "cost": 4.02,
+      "miss": []
+    },
+    {
+      "dish": "Edamame",
+      "cat": "",
+      "cost": 3.06,
+      "miss": []
+    },
+    {
+      "dish": "Calamari",
+      "cat": "",
+      "cost": 5.01,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Robatayaki",
+      "cat": "",
+      "cost": 4.69,
+      "miss": []
+    },
+    {
+      "dish": "Beef Robatayaki",
+      "cat": "",
+      "cost": 6.04,
+      "miss": []
+    },
+    {
+      "dish": "Tom Yum Soup",
+      "cat": "",
+      "cost": 2.61,
+      "miss": []
+    },
+    {
+      "dish": "Tom Yum Udon Soup",
+      "cat": "",
+      "cost": 5.84,
+      "miss": []
+    },
+    {
+      "dish": "Creamy Tom Yum",
+      "cat": "",
+      "cost": 3.03,
+      "miss": []
+    },
+    {
+      "dish": "Miso Soup",
+      "cat": "",
+      "cost": 1.64,
+      "miss": []
+    },
+    {
+      "dish": "Miso Beef Ramen",
+      "cat": "",
+      "cost": 6.61,
+      "miss": []
+    },
+    {
+      "dish": "Miso Chicken Ramen",
+      "cat": "",
+      "cost": 5.89,
+      "miss": []
+    },
+    {
+      "dish": "Salmon Crunch Salad",
+      "cat": "",
+      "cost": 5.41,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Tuna Salad",
+      "cat": "",
+      "cost": 8.77,
+      "miss": []
+    },
+    {
+      "dish": "Chuka Wakame",
+      "cat": "",
+      "cost": 3.44,
+      "miss": []
+    },
+    {
+      "dish": "Crab Salad",
+      "cat": "",
+      "cost": 4.11,
+      "miss": []
+    },
+    {
+      "dish": "Cucumber Hosomaki",
+      "cat": "",
+      "cost": 2.56,
+      "miss": []
+    },
+    {
+      "dish": "Avocado Hosomaki",
+      "cat": "",
+      "cost": 2.88,
+      "miss": []
+    },
+    {
+      "dish": "Kani Hosomaki",
+      "cat": "",
+      "cost": 3.77,
+      "miss": []
+    },
+    {
+      "dish": "Salmon Hosomaki",
+      "cat": "",
+      "cost": 4.21,
+      "miss": []
+    },
+    {
+      "dish": "Tuna Hosomaki",
+      "cat": "",
+      "cost": 5.81,
+      "miss": []
+    },
+    {
+      "dish": "California Roll",
+      "cat": "",
+      "cost": 5.23,
+      "miss": []
+    },
+    {
+      "dish": "Dragon Roll",
+      "cat": "",
+      "cost": 4.25,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Tuna Roll",
+      "cat": "",
+      "cost": 6.91,
+      "miss": []
+    },
+    {
+      "dish": "Rainbow Roll",
+      "cat": "",
+      "cost": 5.87,
+      "miss": []
+    },
+    {
+      "dish": "Mango Roll",
+      "cat": "",
+      "cost": 3.84,
+      "miss": []
+    },
+    {
+      "dish": "Crab Roll",
+      "cat": "",
+      "cost": 3.92,
+      "miss": []
+    },
+    {
+      "dish": "Philadelphia Roll",
+      "cat": "",
+      "cost": 5.23,
+      "miss": []
+    },
+    {
+      "dish": "Tempura Roll",
+      "cat": "",
+      "cost": 3.4,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Salmon Roll",
+      "cat": "",
+      "cost": 4.91,
+      "miss": []
+    },
+    {
+      "dish": "Okinawa Roll",
+      "cat": "",
+      "cost": 5.07,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Roll",
+      "cat": "",
+      "cost": 3.03,
+      "miss": []
+    },
+    {
+      "dish": "Triple Crunch Prawn Roll",
+      "cat": "",
+      "cost": 4.65,
+      "miss": []
+    },
+    {
+      "dish": "Sakuragi Prawn Roll",
+      "cat": "",
+      "cost": 3.94,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Chicken Fried Roll",
+      "cat": "",
+      "cost": 4.24,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Shrimp Fried Roll",
+      "cat": "",
+      "cost": 4.71,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Salmon Fried Roll",
+      "cat": "",
+      "cost": 5.84,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Tuna Fried Roll",
+      "cat": "",
+      "cost": 7.34,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Vegetarian Fried Roll",
+      "cat": "",
+      "cost": 3.93,
+      "miss": []
+    },
+    {
+      "dish": "Salmon Nigiri (2 pcs)",
+      "cat": "",
+      "cost": 3.33,
+      "miss": []
+    },
+    {
+      "dish": "Ebi Nigiri (2 pcs)",
+      "cat": "",
+      "cost": 3.85,
+      "miss": []
+    },
+    {
+      "dish": "Tuna Nigiri (2 pcs)",
+      "cat": "",
+      "cost": 4.53,
+      "miss": []
+    },
+    {
+      "dish": "Salmon Sashimi (3 pcs)",
+      "cat": "",
+      "cost": 6.02,
+      "miss": []
+    },
+    {
+      "dish": "Tuna Sashimi (3 pcs)",
+      "cat": "",
+      "cost": 9.41,
+      "miss": []
+    },
+    {
+      "dish": "Shrimp Udon",
+      "cat": "",
+      "cost": 6.56,
+      "miss": []
+    },
+    {
+      "dish": "Green Curry Udon",
+      "cat": "",
+      "cost": 7.35,
+      "miss": []
+    },
+    {
+      "dish": "Shrimp Yakisoba",
+      "cat": "",
+      "cost": 6.61,
+      "miss": []
+    },
+    {
+      "dish": "Vegetable Yakisoba",
+      "cat": "",
+      "cost": 4.92,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Yakisoba",
+      "cat": "",
+      "cost": 5.74,
+      "miss": []
+    },
+    {
+      "dish": "Stir Fry Beef Rice",
+      "cat": "",
+      "cost": 5.84,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Katsu Curry",
+      "cat": "",
+      "cost": 4.55,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Katsu with Rice",
+      "cat": "",
+      "cost": 4.65,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Teriyaki Rice",
+      "cat": "",
+      "cost": 4.5,
+      "miss": []
+    },
+    {
+      "dish": "Beef Teriyaki Rice",
+      "cat": "",
+      "cost": 5.95,
+      "miss": []
+    },
+    {
+      "dish": "The Solo Play",
+      "cat": "",
+      "cost": 30.44,
+      "miss": []
+    },
+    {
+      "dish": "Date Night Box",
+      "cat": "",
+      "cost": 30.08,
+      "miss": []
+    },
+    {
+      "dish": "The Power Feed",
+      "cat": "",
+      "cost": 14.47,
+      "miss": []
+    },
+    {
+      "dish": "The Crowd Pleaser",
+      "cat": "",
+      "cost": 19.51,
+      "miss": []
+    },
+    {
+      "dish": "Signature Flex",
+      "cat": "",
+      "cost": 15.88,
+      "miss": []
+    },
+    {
+      "dish": "Raw Bar Feast",
+      "cat": "",
+      "cost": 42.26,
+      "miss": []
+    },
+    {
+      "dish": "The Party Starter",
+      "cat": "",
+      "cost": 48.01,
+      "miss": []
+    },
+    {
+      "dish": "Mineral Water",
+      "cat": "",
+      "cost": 0.81,
+      "miss": []
+    },
+    {
+      "dish": "Coca Cola",
+      "cat": "",
+      "cost": 2.33,
+      "miss": []
+    },
+    {
+      "dish": "Coca Cola Zero",
+      "cat": "",
+      "cost": 2.33,
+      "miss": []
+    },
+    {
+      "dish": "Sprite",
+      "cat": "",
+      "cost": 2.33,
+      "miss": []
+    },
+    {
+      "dish": "Sprite Zero",
+      "cat": "",
+      "cost": 2.33,
+      "miss": []
+    },
+    {
+      "dish": "Fanta",
+      "cat": "",
+      "cost": 2.33,
+      "miss": []
+    }
+  ],
+  "sf_costs": {
+    "SF - Pkg - Sushi Standard": {
+      "total": 1.5647,
+      "yield": 8.0,
+      "ppu": 0.1956
+    },
+    "SF - Pkg - Bowl Set (Small)": {
+      "total": 0.8013,
+      "yield": 4.0,
+      "ppu": 0.2003
+    },
+    "SF - Pkg - Main Bowl Set": {
+      "total": 0.778,
+      "yield": 4.0,
+      "ppu": 0.1945
+    },
+    "SF - Pkg - Rice Main Set": {
+      "total": 0.858,
+      "yield": 4.0,
+      "ppu": 0.2145
+    },
+    "SF - Pkg - Soup Set": {
+      "total": 0.858,
+      "yield": 3.0,
+      "ppu": 0.286
+    },
+    "SF - Pkg - Noodle Soup Set": {
+      "total": 0.918,
+      "yield": 4.0,
+      "ppu": 0.2295
+    },
+    "SF - Sushi Rice Cooked": {
+      "total": 10.987,
+      "yield": 2.69,
+      "ppu": 4.0844
+    },
+    "SF - Spicy Mayo": {
+      "total": 21.4832,
+      "yield": 1.365,
+      "ppu": 15.7386
+    },
+    "SF - Teriyaki Sauce": {
+      "total": 11.7565,
+      "yield": 1.1,
+      "ppu": 10.6878
+    },
+    "SF - Tempura Batter": {
+      "total": 6.5,
+      "yield": 1.2,
+      "ppu": 5.4167
+    },
+    "SF - Gyoza Dip": {
+      "total": 15.6227,
+      "yield": 0.95,
+      "ppu": 16.4449
+    },
+    "SF - Yakisoba Sauce": {
+      "total": 13.8632,
+      "yield": 1.0,
+      "ppu": 13.8632
+    },
+    "SF - Mongolian Sauce": {
+      "total": 2.576,
+      "yield": 0.89,
+      "ppu": 2.8943
+    },
+    "SF - Jap Curry Sauce": {
+      "total": 9.3079,
+      "yield": 2.47,
+      "ppu": 3.7684
+    },
+    "SF - Green Curry Sauce": {
+      "total": 14.7523,
+      "yield": 1.18,
+      "ppu": 12.502
+    }
+  }
+}

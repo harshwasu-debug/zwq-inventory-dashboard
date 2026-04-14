@@ -1,0 +1,1059 @@
+{
+  "dishes": [
+    {
+      "dish": "Classic Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 11.84,
+      "miss": []
+    },
+    {
+      "dish": "Cowboy Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 14.38,
+      "miss": []
+    },
+    {
+      "dish": "Beef Slaw Burger",
+      "cat": "Beef Burger",
+      "cost": 12.2,
+      "miss": []
+    },
+    {
+      "dish": "Beef Burger Quesadilla",
+      "cat": "Beef Burger",
+      "cost": 10.91,
+      "miss": []
+    },
+    {
+      "dish": "Buffalo Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 11.99,
+      "miss": []
+    },
+    {
+      "dish": "Texas Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 12.09,
+      "miss": []
+    },
+    {
+      "dish": "Mushroom Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 12.3,
+      "miss": []
+    },
+    {
+      "dish": "Mushroom Truffle Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 12.45,
+      "miss": []
+    },
+    {
+      "dish": "Beef Double Cheese Burger",
+      "cat": "Beef Burger",
+      "cost": 12.49,
+      "miss": []
+    },
+    {
+      "dish": "Double Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 18.7,
+      "miss": []
+    },
+    {
+      "dish": "Bacon Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 14.43,
+      "miss": []
+    },
+    {
+      "dish": "BBQ Crispy Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 14.38,
+      "miss": []
+    },
+    {
+      "dish": "Mexican Crunch Beef Burger",
+      "cat": "Beef Burger",
+      "cost": 12.32,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Classic Chicken Burger",
+      "cat": "Chicken Burger",
+      "cost": 7.21,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Chicken Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.59,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Truffle Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.92,
+      "miss": []
+    },
+    {
+      "dish": "Honey BBQ Chicken Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.49,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Crunchy Slaw Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.28,
+      "miss": []
+    },
+    {
+      "dish": "Chicken House Slaw (Portion) Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.38,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Dynamite Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.71,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Honey Mustard Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.67,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Avocado Burger",
+      "cat": "Chicken Burger",
+      "cost": 6.18,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Buffalo Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.73,
+      "miss": []
+    },
+    {
+      "dish": "Mexican Crunch Chicken Burger",
+      "cat": "Chicken Burger",
+      "cost": 6.07,
+      "miss": []
+    },
+    {
+      "dish": "Hot Honey Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.77,
+      "miss": []
+    },
+    {
+      "dish": "Asian Ranch Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.61,
+      "miss": []
+    },
+    {
+      "dish": "Italian Chicken Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.75,
+      "miss": []
+    },
+    {
+      "dish": "Chili Chicken Burger",
+      "cat": "Chicken Burger",
+      "cost": 5.73,
+      "miss": []
+    },
+    {
+      "dish": "Classic Beef Sliders",
+      "cat": "Sliders",
+      "cost": 10.61,
+      "miss": []
+    },
+    {
+      "dish": "Cowboy Beef Sliders",
+      "cat": "Sliders",
+      "cost": 13.15,
+      "miss": []
+    },
+    {
+      "dish": "Beef Slaw Sliders",
+      "cat": "Sliders",
+      "cost": 10.97,
+      "miss": []
+    },
+    {
+      "dish": "Beef Sliders Quesadilla",
+      "cat": "Sliders",
+      "cost": 10.42,
+      "miss": []
+    },
+    {
+      "dish": "Buffalo Beef Sliders",
+      "cat": "Sliders",
+      "cost": 11.0,
+      "miss": []
+    },
+    {
+      "dish": "Texas Beef Sliders",
+      "cat": "Sliders",
+      "cost": 10.85,
+      "miss": []
+    },
+    {
+      "dish": "Mushroom Beef Sliders",
+      "cat": "Sliders",
+      "cost": 10.97,
+      "miss": []
+    },
+    {
+      "dish": "Mushroom Truffle Beef Sliders",
+      "cat": "Sliders",
+      "cost": 11.22,
+      "miss": []
+    },
+    {
+      "dish": "Beef Double Cheese Sliders",
+      "cat": "Sliders",
+      "cost": 11.03,
+      "miss": []
+    },
+    {
+      "dish": "Double Beef Sliders",
+      "cat": "Sliders",
+      "cost": 17.0,
+      "miss": []
+    },
+    {
+      "dish": "Bacon Beef Sliders",
+      "cat": "Sliders",
+      "cost": 13.2,
+      "miss": []
+    },
+    {
+      "dish": "BBQ Crispy Beef Sliders",
+      "cat": "Sliders",
+      "cost": 13.15,
+      "miss": []
+    },
+    {
+      "dish": "Mexican Crunch Beef Sliders",
+      "cat": "Sliders",
+      "cost": 10.96,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Classic Chicken Sliders",
+      "cat": "Sliders",
+      "cost": 6.65,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Chicken Sliders",
+      "cat": "Sliders",
+      "cost": 5.4,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Truffle Sliders",
+      "cat": "Sliders",
+      "cost": 5.64,
+      "miss": []
+    },
+    {
+      "dish": "Honey BBQ Chicken Sliders",
+      "cat": "Sliders",
+      "cost": 5.21,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Crunchy Slaw Sliders",
+      "cat": "Sliders",
+      "cost": 3.65,
+      "miss": []
+    },
+    {
+      "dish": "Chicken House Slaw (Portion) Sliders",
+      "cat": "Sliders",
+      "cost": 3.75,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Dynamite Sliders",
+      "cat": "Sliders",
+      "cost": 5.43,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Honey Mustard Sliders",
+      "cat": "Sliders",
+      "cost": 5.39,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Avocado Sliders",
+      "cat": "Sliders",
+      "cost": 5.9,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Buffalo Sliders",
+      "cat": "Sliders",
+      "cost": 5.7,
+      "miss": []
+    },
+    {
+      "dish": "Mexican Crunch Chicken Sliders",
+      "cat": "Sliders",
+      "cost": 5.66,
+      "miss": []
+    },
+    {
+      "dish": "Hot Honey Sliders",
+      "cat": "Sliders",
+      "cost": 5.49,
+      "miss": []
+    },
+    {
+      "dish": "Asian Ranch Sliders",
+      "cat": "Sliders",
+      "cost": 5.34,
+      "miss": []
+    },
+    {
+      "dish": "Italian Chicken Sliders",
+      "cat": "Sliders",
+      "cost": 5.47,
+      "miss": []
+    },
+    {
+      "dish": "Chili Chicken Sliders",
+      "cat": "Sliders",
+      "cost": 5.46,
+      "miss": []
+    },
+    {
+      "dish": "Classic Grilled Halloumi Slider",
+      "cat": "Sliders",
+      "cost": 8.59,
+      "miss": []
+    },
+    {
+      "dish": "Buffalo Grilled Halloumi Slider",
+      "cat": "Sliders",
+      "cost": 8.56,
+      "miss": []
+    },
+    {
+      "dish": "BBQ Grilled Halloumi Slider",
+      "cat": "Sliders",
+      "cost": 8.29,
+      "miss": []
+    },
+    {
+      "dish": "Honey Mustard Grilled Halloumi",
+      "cat": "Sliders",
+      "cost": 8.49,
+      "miss": []
+    },
+    {
+      "dish": "Avocado Grilled Halloumi Slider",
+      "cat": "Sliders",
+      "cost": 8.83,
+      "miss": []
+    },
+    {
+      "dish": "Classic Falafel Slider",
+      "cat": "Sliders",
+      "cost": 6.49,
+      "miss": []
+    },
+    {
+      "dish": "Buffalo Falafel Slider",
+      "cat": "Sliders",
+      "cost": 6.46,
+      "miss": []
+    },
+    {
+      "dish": "BBQ Falafel Slider",
+      "cat": "Sliders",
+      "cost": 6.19,
+      "miss": []
+    },
+    {
+      "dish": "Honey Mustard Falafel Slider",
+      "cat": "Sliders",
+      "cost": 6.39,
+      "miss": []
+    },
+    {
+      "dish": "Avocado Falafel Slider",
+      "cat": "Sliders",
+      "cost": 6.73,
+      "miss": []
+    },
+    {
+      "dish": "Plain Wings",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 7.21,
+      "miss": []
+    },
+    {
+      "dish": "Smokey BBQ Wings",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 7.94,
+      "miss": []
+    },
+    {
+      "dish": "Tangy Buffalo Wings",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.15,
+      "miss": []
+    },
+    {
+      "dish": "Hot Honey Wings",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.23,
+      "miss": []
+    },
+    {
+      "dish": "Sesame & Sweet Wings",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 7.65,
+      "miss": []
+    },
+    {
+      "dish": "Chili Hoisin Wings",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.73,
+      "miss": []
+    },
+    {
+      "dish": "Garlic Parmesan Wings",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.37,
+      "miss": []
+    },
+    {
+      "dish": "Honey Mustard Wings",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.02,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Wings",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.09,
+      "miss": []
+    },
+    {
+      "dish": "Plain Tenders",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.12,
+      "miss": []
+    },
+    {
+      "dish": "Smokey BBQ Tenders",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.5,
+      "miss": []
+    },
+    {
+      "dish": "Tangy Buffalo Tenders",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 9.04,
+      "miss": []
+    },
+    {
+      "dish": "Hot Honey Tenders",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 9.11,
+      "miss": []
+    },
+    {
+      "dish": "Sesame & Sweet Tenders",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.56,
+      "miss": []
+    },
+    {
+      "dish": "Chili Hoisin Tenders",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 9.62,
+      "miss": []
+    },
+    {
+      "dish": "Garlic Parmesan Tenders",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 9.09,
+      "miss": []
+    },
+    {
+      "dish": "Honey Mustard Tenders",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.9,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Tenders",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 9.0,
+      "miss": []
+    },
+    {
+      "dish": "Classic Chicken Wrap",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 7.3,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Caesar Wrap",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 7.55,
+      "miss": []
+    },
+    {
+      "dish": "BBQ Chicken Wrap",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 7.3,
+      "miss": []
+    },
+    {
+      "dish": "Buffalo Chicken Wrap",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 7.46,
+      "miss": []
+    },
+    {
+      "dish": "Hot Honey Chicken Wrap",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 8.06,
+      "miss": []
+    },
+    {
+      "dish": "Asian Chicken Wrap",
+      "cat": "Wings, Tenders & Wraps",
+      "cost": 7.99,
+      "miss": []
+    },
+    {
+      "dish": "Fries",
+      "cat": "Sides & Dips",
+      "cost": 1.75,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Fries",
+      "cat": "Sides & Dips",
+      "cost": 1.83,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Fries",
+      "cat": "Sides & Dips",
+      "cost": 2.64,
+      "miss": []
+    },
+    {
+      "dish": "Cheesy Fries",
+      "cat": "Sides & Dips",
+      "cost": 3.43,
+      "miss": []
+    },
+    {
+      "dish": "Tex Mex Fries",
+      "cat": "Sides & Dips",
+      "cost": 4.04,
+      "miss": []
+    },
+    {
+      "dish": "Onion Rings",
+      "cat": "Sides & Dips",
+      "cost": 3.16,
+      "miss": []
+    },
+    {
+      "dish": "Curly Fries",
+      "cat": "Sides & Dips",
+      "cost": 3.13,
+      "miss": []
+    },
+    {
+      "dish": "Mozzarella Sticks",
+      "cat": "Sides & Dips",
+      "cost": 2.79,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Shrimp",
+      "cat": "Sides & Dips",
+      "cost": 5.69,
+      "miss": []
+    },
+    {
+      "dish": "Nachos",
+      "cat": "Sides & Dips",
+      "cost": 5.69,
+      "miss": []
+    },
+    {
+      "dish": "Loaded Nachos",
+      "cat": "Sides & Dips",
+      "cost": 10.38,
+      "miss": []
+    },
+    {
+      "dish": "House Slaw",
+      "cat": "Sides & Dips",
+      "cost": 1.35,
+      "miss": []
+    },
+    {
+      "dish": "Garlic Aioli Dip",
+      "cat": "Sides & Dips",
+      "cost": 0.53,
+      "miss": []
+    },
+    {
+      "dish": "Sriracha Mayo Dip",
+      "cat": "Sides & Dips",
+      "cost": 0.52,
+      "miss": []
+    },
+    {
+      "dish": "Honey BBQ Dip",
+      "cat": "Sides & Dips",
+      "cost": 0.26,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Sauce Dip",
+      "cat": "Sides & Dips",
+      "cost": 0.48,
+      "miss": []
+    },
+    {
+      "dish": "Truffle Mayo Dip",
+      "cat": "Sides & Dips",
+      "cost": 0.69,
+      "miss": []
+    },
+    {
+      "dish": "Honey Mustard Dip",
+      "cat": "Sides & Dips",
+      "cost": 0.43,
+      "miss": []
+    },
+    {
+      "dish": "Mexican Ranch Dip",
+      "cat": "Sides & Dips",
+      "cost": 0.38,
+      "miss": []
+    },
+    {
+      "dish": "Cheese Dip",
+      "cat": "Sides & Dips",
+      "cost": 1.06,
+      "miss": []
+    },
+    {
+      "dish": "Avocado Ranch Dip",
+      "cat": "Sides & Dips",
+      "cost": 0.38,
+      "miss": []
+    },
+    {
+      "dish": "Wings Meal for 1",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 19.48,
+      "miss": []
+    },
+    {
+      "dish": "Wings Meal for 2",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 19.48,
+      "miss": []
+    },
+    {
+      "dish": "Wings Meal for 4",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 38.96,
+      "miss": []
+    },
+    {
+      "dish": "Beef Sliders Meal for 1",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 12.65,
+      "miss": []
+    },
+    {
+      "dish": "Beef Sliders Meal for 2",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 25.3,
+      "miss": []
+    },
+    {
+      "dish": "Beef Sliders Meal for 4",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 50.6,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Sliders Meal for 1",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 15.05,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Sliders Meal for 2",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 15.05,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Sliders Meal for 4",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 30.09,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Burger Combo (1 Pax)",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 7.14,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Burger Combo (2 Pax)",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 14.29,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Burger Combo (4 Pax)",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 28.58,
+      "miss": []
+    },
+    {
+      "dish": "Beef Burger Combo (1 Pax)",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 13.4,
+      "miss": []
+    },
+    {
+      "dish": "Beef Burger Combo (2 Pax)",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 26.8,
+      "miss": []
+    },
+    {
+      "dish": "Beef Burger Combo (4 Pax)",
+      "cat": "Meal & Combo Assemblies",
+      "cost": 53.6,
+      "miss": []
+    },
+    {
+      "dish": "Mineral Water",
+      "cat": "Beverages",
+      "cost": 0.44,
+      "miss": []
+    },
+    {
+      "dish": "Coca-Cola",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "miss": []
+    },
+    {
+      "dish": "Coca-Cola Zero",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "miss": []
+    },
+    {
+      "dish": "Sprite",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "miss": []
+    },
+    {
+      "dish": "Sprite Zero",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "miss": []
+    },
+    {
+      "dish": "Fanta",
+      "cat": "Beverages",
+      "cost": 2.04,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Burger",
+      "cat": "Meal for 1",
+      "cost": 7.14,
+      "miss": []
+    }
+  ],
+  "sf_costs": {
+    "Chicken Burger Patty (Portion)": {
+      "total": 0.2164,
+      "yield": 0.075,
+      "ppu": 2.8849
+    },
+    "Grilled Chicken Breast": {
+      "total": 2.0222,
+      "yield": 0.14,
+      "ppu": 14.4444
+    },
+    "Grilled Chicken Slider Portion": {
+      "total": 0.8667,
+      "yield": 0.06,
+      "ppu": 14.4444
+    },
+    "Grilled Halloumi Portion": {
+      "total": 1.9333,
+      "yield": 0.06,
+      "ppu": 32.2222
+    },
+    "Falafel Patty (Portion)": {
+      "total": 0.8832,
+      "yield": 2.01,
+      "ppu": 0.4394
+    },
+    "Cooked Wings (Portion)": {
+      "total": 4.9831,
+      "yield": 0.325,
+      "ppu": 15.3326
+    },
+    "Cooked Tenders (Portion)": {
+      "total": 6.0697,
+      "yield": 6.03,
+      "ppu": 1.0066
+    },
+    "Truffle Mayo (SF - Bulk)": {
+      "total": 22.3988,
+      "yield": 1.07,
+      "ppu": 20.9334
+    },
+    "Garlic Aioli (SF - Bulk)": {
+      "total": 4.7003,
+      "yield": 0.298,
+      "ppu": 15.7729
+    },
+    "Honey Mustard (SF - Bulk)": {
+      "total": 9.9743,
+      "yield": 0.79,
+      "ppu": 12.6258
+    },
+    "Sriracha Mayo (SF - Bulk)": {
+      "total": 11.1788,
+      "yield": 0.728,
+      "ppu": 15.3555
+    },
+    "Avocado Ranch (SF - Bulk)": {
+      "total": 7.1505,
+      "yield": 0.65,
+      "ppu": 11.0008
+    },
+    "Mexican Ranch (SF - Bulk)": {
+      "total": 5.4642,
+      "yield": 0.5,
+      "ppu": 10.9284
+    },
+    "Signature Sauce (SF - Bulk)": {
+      "total": 5.6491,
+      "yield": 0.56,
+      "ppu": 10.0877
+    },
+    "Dynamite Sauce (SF - Bulk)": {
+      "total": 14.2229,
+      "yield": 1.0,
+      "ppu": 14.2229
+    },
+    "Hot Honey Sauce (SF - Bulk)": {
+      "total": 0.9655,
+      "yield": 0.06,
+      "ppu": 16.0923
+    },
+    "Honey BBQ Sauce Original (SF - Bulk)": {
+      "total": 0.8153,
+      "yield": 0.12,
+      "ppu": 6.7941
+    },
+    "Classic Sauce (SF - Bulk)": {
+      "total": 7.8906,
+      "yield": 0.695,
+      "ppu": 11.3533
+    },
+    "Creamy Sauce (SF - Bulk)": {
+      "total": 10.5587,
+      "yield": 0.67,
+      "ppu": 15.7593
+    },
+    "Prepared Cheese Sauce (Portion)": {
+      "total": 1.0076,
+      "yield": 0.12,
+      "ppu": 8.3965
+    },
+    "Prepared Cheese Sauce (Large)": {
+      "total": 2.0152,
+      "yield": 0.24,
+      "ppu": 8.3965
+    },
+    "Ranch Dip (Portion)": {
+      "total": 0.3061,
+      "yield": 0.03,
+      "ppu": 10.2041
+    },
+    "Classic Fries (Portion)": {
+      "total": 0.7156,
+      "yield": 0.143,
+      "ppu": 5.004
+    },
+    "Spicy Seasoning (SF - Bulk)": {
+      "total": 4.2611,
+      "yield": 0.275,
+      "ppu": 15.4949
+    },
+    "Pico de Gallo (SF - Bulk)": {
+      "total": 4.0297,
+      "yield": 0.745,
+      "ppu": 5.409
+    },
+    "Onion Rings (Portion)": {
+      "total": 2.1319,
+      "yield": 0.17,
+      "ppu": 12.5407
+    },
+    "Curly Fries (Portion)": {
+      "total": 2.0946,
+      "yield": 0.16,
+      "ppu": 13.0909
+    },
+    "Mozzarella Sticks (Portion)": {
+      "total": 1.2791,
+      "yield": 1.115,
+      "ppu": 1.1472
+    },
+    "Dynamite Shrimp (Portion)": {
+      "total": 4.2496,
+      "yield": 1.2,
+      "ppu": 3.5414
+    },
+    "Standard Packaging (Set)": {
+      "total": 0.665,
+      "yield": 3.0,
+      "ppu": 0.2217
+    },
+    "Wrap Packaging (Set)": {
+      "total": 0.74,
+      "yield": 4.0,
+      "ppu": 0.185
+    },
+    "Salad Bowl Packaging (Set)": {
+      "total": 0.2,
+      "yield": 1.0,
+      "ppu": 0.2
+    },
+    "Dip Packaging (Set)": {
+      "total": 0.0475,
+      "yield": 1.0,
+      "ppu": 0.0475
+    },
+    "Loaded Fries/Nachos Packaging (Set)": {
+      "total": 0.33,
+      "yield": 2.0,
+      "ppu": 0.165
+    },
+    "Final Bagging (Set)": {
+      "total": 0.368,
+      "yield": 1.0,
+      "ppu": 0.368
+    },
+    "Crispy Bacon (SF - Bulk)": {
+      "total": 77.6471,
+      "yield": 1.0,
+      "ppu": 77.6471
+    },
+    "Saut\u00e9ed Onions (SF - Bulk)": {
+      "total": 4.9534,
+      "yield": 1.055,
+      "ppu": 4.6952
+    },
+    "Saut\u00e9ed Mushrooms (SF - Bulk)": {
+      "total": 7.9235,
+      "yield": 1.055,
+      "ppu": 7.5104
+    },
+    "Grilled Peppers (SF - Bulk)": {
+      "total": 5.7876,
+      "yield": 1.035,
+      "ppu": 5.5918
+    },
+    "Honey Chipotle Sauce (SF - Bulk)": {
+      "total": 13.359,
+      "yield": 1.0,
+      "ppu": 13.359
+    },
+    "Chili Hoisin Sauce (SF - Bulk)": {
+      "total": 16.5454,
+      "yield": 0.94,
+      "ppu": 17.6015
+    },
+    "Garlic Aioli Dip (Portion)": {
+      "total": 0.4828,
+      "yield": 0.03,
+      "ppu": 16.0948
+    },
+    "House Slaw (Portion)": {
+      "total": 0.7794,
+      "yield": 0.13,
+      "ppu": 5.9955
+    },
+    "Sriracha Mayo Dip (Portion)": {
+      "total": 0.4701,
+      "yield": 0.03,
+      "ppu": 15.6689
+    },
+    "Honey BBQ Dip (Portion)": {
+      "total": 0.208,
+      "yield": 0.03,
+      "ppu": 6.9328
+    },
+    "Dynamite Sauce Dip (Portion)": {
+      "total": 0.4354,
+      "yield": 0.03,
+      "ppu": 14.5132
+    },
+    "Truffle Mayo Dip (Portion)": {
+      "total": 0.6408,
+      "yield": 0.03,
+      "ppu": 21.3606
+    },
+    "Honey Mustard Dip (Portion)": {
+      "total": 0.3865,
+      "yield": 0.03,
+      "ppu": 12.8835
+    },
+    "Mexican Ranch Dip (Portion)": {
+      "total": 0.3345,
+      "yield": 0.03,
+      "ppu": 11.1514
+    },
+    "Cheese Dip (Portion)": {
+      "total": 1.0076,
+      "yield": 0.12,
+      "ppu": 8.3965
+    },
+    "Avocado Ranch Dip (Portion)": {
+      "total": 0.3368,
+      "yield": 0.03,
+      "ppu": 11.2253
+    }
+  }
+}

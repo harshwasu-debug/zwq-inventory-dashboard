@@ -1,0 +1,481 @@
+{
+  "dishes": [
+    {
+      "dish": "The Classic Salmon",
+      "cat": "",
+      "cost": 8.84,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Tuna & Mango",
+      "cat": "",
+      "cost": 5.84,
+      "miss": []
+    },
+    {
+      "dish": "The Grand Tuna",
+      "cat": "",
+      "cost": 5.27,
+      "miss": []
+    },
+    {
+      "dish": "The All-Star",
+      "cat": "",
+      "cost": 7.34,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Salmon Umami",
+      "cat": "",
+      "cost": 8.1,
+      "miss": []
+    },
+    {
+      "dish": "Island Fusion",
+      "cat": "",
+      "cost": 7.16,
+      "miss": []
+    },
+    {
+      "dish": "California Crab Bowl",
+      "cat": "",
+      "cost": 9.07,
+      "miss": []
+    },
+    {
+      "dish": "Shrimp Ceviche Bowl",
+      "cat": "",
+      "cost": 5.23,
+      "miss": []
+    },
+    {
+      "dish": "The Veggie Bliss",
+      "cat": "",
+      "cost": 5.59,
+      "miss": []
+    },
+    {
+      "dish": "Build Your Own - Regular Bowl (3 Proteins)",
+      "cat": "",
+      "cost": 7.29,
+      "miss": []
+    },
+    {
+      "dish": "Build Your Own - Large Bowl (4 Proteins)",
+      "cat": "",
+      "cost": 8.89,
+      "miss": []
+    },
+    {
+      "dish": "Build Your Own - Super Bowl (5 Proteins)",
+      "cat": "",
+      "cost": 10.76,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken Teppanyaki",
+      "cat": "",
+      "cost": 5.11,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Shrimp Teppanyaki",
+      "cat": "",
+      "cost": 5.77,
+      "miss": []
+    },
+    {
+      "dish": "Miso Beef Ramen",
+      "cat": "",
+      "cost": 9.09,
+      "miss": []
+    },
+    {
+      "dish": "Miso Chicken Ramen",
+      "cat": "",
+      "cost": 6.64,
+      "miss": []
+    },
+    {
+      "dish": "Salmon Sashimi",
+      "cat": "",
+      "cost": 5.95,
+      "miss": []
+    },
+    {
+      "dish": "Tuna Sashimi",
+      "cat": "",
+      "cost": 3.39,
+      "miss": []
+    },
+    {
+      "dish": "Salmon Crunch Salad",
+      "cat": "",
+      "cost": 7.98,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Tuna Salad",
+      "cat": "",
+      "cost": 5.78,
+      "miss": []
+    },
+    {
+      "dish": "Crab Salad",
+      "cat": "",
+      "cost": 8.69,
+      "miss": []
+    },
+    {
+      "dish": "Chuka Wakame",
+      "cat": "",
+      "cost": 3.66,
+      "miss": []
+    },
+    {
+      "dish": "Miso Soup",
+      "cat": "",
+      "cost": 1.71,
+      "miss": []
+    },
+    {
+      "dish": "Tom Yum Soup",
+      "cat": "",
+      "cost": 3.78,
+      "miss": []
+    },
+    {
+      "dish": "Creamy Tom Yum",
+      "cat": "",
+      "cost": 4.29,
+      "miss": []
+    },
+    {
+      "dish": "Tom Yum Udon Soup",
+      "cat": "",
+      "cost": 7.01,
+      "miss": []
+    },
+    {
+      "dish": "Edamame",
+      "cat": "",
+      "cost": 3.06,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Edamame",
+      "cat": "",
+      "cost": 3.57,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Shrimp",
+      "cat": "",
+      "cost": 4.66,
+      "miss": []
+    },
+    {
+      "dish": "Prawn Tempura",
+      "cat": "",
+      "cost": 4.38,
+      "miss": []
+    },
+    {
+      "dish": "Honey Chilli Potato",
+      "cat": "",
+      "cost": 2.18,
+      "miss": []
+    },
+    {
+      "dish": "Honey Chilli Shrimp",
+      "cat": "",
+      "cost": 5.09,
+      "miss": []
+    },
+    {
+      "dish": "Prawn Katsu",
+      "cat": "",
+      "cost": 5.28,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Dynamite",
+      "cat": "",
+      "cost": 3.92,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Gyoza",
+      "cat": "",
+      "cost": 3.32,
+      "miss": []
+    },
+    {
+      "dish": "Calamari",
+      "cat": "",
+      "cost": 4.95,
+      "miss": []
+    },
+    {
+      "dish": "Classic Chicken Wrap",
+      "cat": "",
+      "cost": 16.19,
+      "miss": [
+        "Chicken Tenders Frozen",
+        "Frying Oil",
+        "Signature Sauce (SF - Bulk)"
+      ]
+    },
+    {
+      "dish": "Chicken Caesar Wrap",
+      "cat": "",
+      "cost": 4.51,
+      "miss": [
+        "Chicken Tenders Frozen",
+        "Frying Oil"
+      ]
+    },
+    {
+      "dish": "BBQ Chicken Wrap",
+      "cat": "",
+      "cost": 16.35,
+      "miss": [
+        "Chicken Tenders Frozen",
+        "Frying Oil",
+        "Mexican Ranch Sauce",
+        "Saut\u00e9ed Onion",
+        "Grilled Peppers"
+      ]
+    },
+    {
+      "dish": "Buffalo Chicken Wrap",
+      "cat": "",
+      "cost": 16.45,
+      "miss": [
+        "Chicken Tenders Frozen",
+        "Frying Oil",
+        "Tangy Buffalo Sauce",
+        "Saut\u00e9ed Onion"
+      ]
+    },
+    {
+      "dish": "Hot Honey Chicken Wrap",
+      "cat": "",
+      "cost": 4.13,
+      "miss": [
+        "Chicken Tenders Frozen",
+        "Frying Oil",
+        "Honey Chipotle Sauce",
+        "Garlic Aioli Dip"
+      ]
+    },
+    {
+      "dish": "Asian Chicken Wrap",
+      "cat": "",
+      "cost": 4.08,
+      "miss": [
+        "Chicken Tenders Frozen",
+        "Frying Oil",
+        "Chili Hoisin Sauce",
+        "Mexican Ranch Sauce"
+      ]
+    },
+    {
+      "dish": "Signature Combo",
+      "cat": "",
+      "cost": 12.51,
+      "miss": []
+    },
+    {
+      "dish": "Lunch Special",
+      "cat": "",
+      "cost": 11.9,
+      "miss": []
+    },
+    {
+      "dish": "Sashimi Set",
+      "cat": "",
+      "cost": 18.36,
+      "miss": []
+    },
+    {
+      "dish": "Family Deal",
+      "cat": "",
+      "cost": 55.45,
+      "miss": []
+    },
+    {
+      "dish": "Mineral Water",
+      "cat": "",
+      "cost": 0.88,
+      "miss": []
+    },
+    {
+      "dish": "Coca-Cola",
+      "cat": "",
+      "cost": 3.92,
+      "miss": []
+    },
+    {
+      "dish": "Coca-Cola Zero",
+      "cat": "",
+      "cost": 3.92,
+      "miss": []
+    },
+    {
+      "dish": "Fanta",
+      "cat": "",
+      "cost": 3.92,
+      "miss": []
+    },
+    {
+      "dish": "Sprite",
+      "cat": "",
+      "cost": 3.92,
+      "miss": []
+    },
+    {
+      "dish": "Sprite Zero",
+      "cat": "",
+      "cost": 3.92,
+      "miss": []
+    }
+  ],
+  "sf_costs": {
+    "Base - Sushi Rice (Cooked)": {
+      "total": 8.349,
+      "yield": 2.35,
+      "ppu": 3.5528
+    },
+    "Base - Salad Mix": {
+      "total": 13.2883,
+      "yield": 1.0,
+      "ppu": 13.2883
+    },
+    "Garnish - House Furikake": {
+      "total": 20.1,
+      "yield": 5.5,
+      "ppu": 3.6545
+    },
+    "Garnish - Crispy Onions": {
+      "total": 6.6652,
+      "yield": 1.7,
+      "ppu": 3.9207
+    },
+    "Prep - Tuna Cubes": {
+      "total": 19.41,
+      "yield": 1.0,
+      "ppu": 19.41
+    },
+    "Prep - Salmon Cubes": {
+      "total": 45.045,
+      "yield": 1.0,
+      "ppu": 45.045
+    },
+    "Prep - Shrimp (Boiled)": {
+      "total": 22.5451,
+      "yield": 1.0,
+      "ppu": 22.5451
+    },
+    "Prep - Grilled Chicken": {
+      "total": 13.0261,
+      "yield": 1.0,
+      "ppu": 13.0261
+    },
+    "Prep - Tempura Batter": {
+      "total": 6.5,
+      "yield": 1.2,
+      "ppu": 5.4167
+    },
+    "PkgSet - Signature Poke": {
+      "total": 0.9747,
+      "yield": 4.0,
+      "ppu": 0.2437
+    },
+    "PkgSet - Standard Poke": {
+      "total": 0.918,
+      "yield": 4.0,
+      "ppu": 0.2295
+    },
+    "PkgSet - Mini Poke": {
+      "total": 0.8813,
+      "yield": 4.0,
+      "ppu": 0.2203
+    },
+    "PkgSet - Side Hot": {
+      "total": 0.838,
+      "yield": 4.0,
+      "ppu": 0.2095
+    },
+    "PkgSet - Side Cold": {
+      "total": 0.8013,
+      "yield": 4.0,
+      "ppu": 0.2003
+    },
+    "PkgSet - Beverage": {
+      "total": 0.368,
+      "yield": 1.0,
+      "ppu": 0.368
+    },
+    "Base - Quinoa (Subbed)": {
+      "total": 4.75,
+      "yield": 3.0,
+      "ppu": 1.5833
+    },
+    "Sauce - Poke Sauce": {
+      "total": 13.8877,
+      "yield": 0.845,
+      "ppu": 16.4351
+    },
+    "Sauce - Teppan Sauce": {
+      "total": 13.4971,
+      "yield": 1.034,
+      "ppu": 13.0533
+    },
+    "Sauce - Spicy Mayo": {
+      "total": 22.0432,
+      "yield": 1.37,
+      "ppu": 16.0899
+    },
+    "Sauce - Umami Sesame": {
+      "total": 13.3837,
+      "yield": 1.0,
+      "ppu": 13.3837
+    },
+    "Sauce - Spicy Umami Fusion": {
+      "total": 15.278,
+      "yield": 1.0,
+      "ppu": 15.278
+    },
+    "Sauce - Dynamite": {
+      "total": 15.6394,
+      "yield": 1.0,
+      "ppu": 15.6394
+    },
+    "Sauce - Tempura Dip": {
+      "total": 6.0609,
+      "yield": 1.02,
+      "ppu": 5.9421
+    },
+    "Classic Fries (Portion)": {
+      "total": 0.7156,
+      "yield": 0.143,
+      "ppu": 5.004
+    },
+    "Garlic Aioli Dip (Portion)": {
+      "total": 0.4828,
+      "yield": 0.03,
+      "ppu": 16.0948
+    },
+    "Wrap Packaging (Set)": {
+      "total": 0.74,
+      "yield": 4.0,
+      "ppu": 0.185
+    },
+    "Final Bagging (Set)": {
+      "total": 0.368,
+      "yield": 1.0,
+      "ppu": 0.368
+    }
+  }
+}

@@ -1,0 +1,5234 @@
+{
+  "Bronx Burger House": {
+    "file": "Bronx Burger House Snare Ramadan.xlsx",
+    "sheet": "Ramadan Menu",
+    "sheets_in_workbook": [
+      "Ramadan Menu",
+      "Sheet1"
+    ],
+    "num_modifier_groups": 4,
+    "items": [
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Solo Iftar",
+        "item_name_ar": "إفطار رمضاني فردي",
+        "description_en": "Your perfect solo Iftar. One signature Bronx Burger House burger (choice of beef or chicken), crispy golden fries, and a refreshing soft drink. Satisfaction in every bite this Ramadan.",
+        "description_ar": "إفطارك الفردي المثالي. برجر واحد من \"برونكس برجر هاوس\" المميز (مع اختيارك من اللحم أو الدجاج)، مع بطاطس مقلية ذهبية ومقرمشة، ومشروب غازي منعش. متعة المذاق في كل قضمة هذا الرمضان.",
+        "item_price_aed": 85,
+        "prep_time_mins": 10,
+        "instruction": 1,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Duo Iftar (2 Pax)",
+        "item_name_ar": "إفطار رمضاني ثنائي (شخصان)",
+        "description_en": "Share the Ramadan joy. Two Bronx Burger House signature burgers (mix & match beef or chicken), two servings of crispy fries, shareable onion rings, and two soft drinks. Perfect for breaking fast with friends or family.",
+        "description_ar": "شارك بهجة رمضان. برجريْن من \"برونكس برجر هاوس\" المميز (بمزيج من اختيارك من اللحم أو الدجاج)، مع حصتين من البطاطس المقلية المقرمشة، وحلقات بصل للمشاركة، ومشروبين غازيين. وجبة مثالية للإفطار مع الأصدقاء أو العائلة.",
+        "item_price_aed": 155,
+        "prep_time_mins": 10,
+        "instruction": 2,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Family Iftar Feast (4 Pax)",
+        "item_name_ar": "إفطار رمضاني عائلي (أربعة أشخاص)",
+        "description_en": "The ultimate family Iftar. Four Bronx Burger House burgers (your choice of combinations), four servings of crispy fries, 6 pieces of golden fried wings, honey chilli potatoes, shareable onion rings, and four soft drinks. Abundant feast bringing everyone together this Ramadan.",
+        "description_ar": "الإفطار العائلي الأمثل. أربعة برجر من \"برونكس برجر هاوس\" (بتشكيلة من اختياركم)، أربع حصص من البطاطس المقلية المقرمشة، 6 قطع من أجنحة الدجاج المقلية الذهبية، بطاطا بالعسل والفلفل الحار، حلقات بصل للمشاركة، وأربعة مشروبات غازية. وليمة عامرة تجمع الأحباب في رمضان.",
+        "item_price_aed": 269,
+        "prep_time_mins": 10,
+        "instruction": 3,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Party Iftar Party (6 Pax)",
+        "item_name_ar": "حفل إفطار رمضاني جماعي (ستة أشخاص)",
+        "description_en": "The grand Ramadan celebration. Six Bronx Burger House signature burgers (complete variety), six servings of fries, 8 pieces of crispy wings, dynamite shrimp, honey chilli potatoes, onion rings, and six soft drinks. A true feast for gatherings and celebrations this blessed month.",
+        "description_ar": "احتفالية رمضان الكبرى. ستة برجر من \"برونكس برجر هاوس\" المميز (بتشكيلة كاملة)، ست حصص من البطاطس المقلية، 8 قطع من أجنحة الدجاج المقرمشة، روبيان ديناميت، بطاطا بالعسل والفلفل الحار، حلقات بصل، وستة مشروبات غازية. وليمة حقيقية للتجمعات والاحتفالات في هذا الشهر الفضيل.",
+        "item_price_aed": 389,
+        "prep_time_mins": 10,
+        "instruction": 4,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Juicy Buns": {
+    "file": "Juicy Buns Final Snare Ramadan.xlsx",
+    "sheet": "Menu",
+    "sheets_in_workbook": [
+      "Menu",
+      "Photos"
+    ],
+    "num_modifier_groups": 4,
+    "items": [
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Mini Iftar (2 Sliders)",
+        "item_name_ar": "إفطار رمضاني صغير (قطعتان من الساندويتشات الصغيرة)",
+        "description_en": "Perfect solo Iftar. 2 mini sliders (choose your favorite flavor), crispy fries, and a soft drink. Snackable satisfaction for your Ramadan evening.",
+        "description_ar": "إفطار فردي مثالي. 2 ميني سلايدر (اختر نكهتك المفضلة)، مع بطاطس مقلية مقرمشة، ومشروب غازي. متعة خفيفة ومثالية لأمسيات رمضان.",
+        "item_price_aed": 69,
+        "prep_time_mins": 10,
+        "instruction": 1,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Sliders",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Classic Sliders",
+                "option_ar": "سلايدرز كلاسيك",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Sliders",
+                "option_ar": "سلايدرز باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Sliders",
+                "option_ar": "سلايدرز كولسلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Sliders",
+                "option_ar": "سلايدرز بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Sliders",
+                "option_ar": "سلايدرز تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Sliders",
+                "option_ar": "سلايدرز الفطر والترافل",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Sliders",
+                "option_ar": "سلايدرز دبل جبنة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Sliders",
+                "option_ar": "سلايدرز بيكون بقري",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Sliders",
+                "option_ar": "سلايدرز ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Sliders",
+                "option_ar": "سلايدرز بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Sliders",
+                "option_ar": "سلايدرز مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Sliders",
+                "option_ar": "سلايدرز إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Duo Iftar (4 Sliders)",
+        "item_name_ar": "إفطار رمضاني ثنائي (أربع قطع من الساندويتشات الصغيرة)",
+        "description_en": "Share the slider love. 4 mini sliders (mix 2 flavors), two servings of crispy fries, shareable onion rings, and two soft drinks. Variety and fun for two this Ramadan.",
+        "description_ar": "شارك متعة السلايدرز. 4 ميني سلايدرز (بمزيج من نكهتين)، حصتين من البطاطس المقلية، حلقات بصل للمشاركة، ومشروبين غازيين. تنوع ومرح لشخصين في رمضان.",
+        "item_price_aed": 129,
+        "prep_time_mins": 10,
+        "instruction": 2,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Sliders",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Classic Sliders",
+                "option_ar": "سلايدرز كلاسيك",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Sliders",
+                "option_ar": "سلايدرز باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Sliders",
+                "option_ar": "سلايدرز كولسلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Sliders",
+                "option_ar": "سلايدرز بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Sliders",
+                "option_ar": "سلايدرز تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Sliders",
+                "option_ar": "سلايدرز الفطر والترافل",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Sliders",
+                "option_ar": "سلايدرز دبل جبنة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Sliders",
+                "option_ar": "سلايدرز بيكون بقري",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Sliders",
+                "option_ar": "سلايدرز ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Sliders",
+                "option_ar": "سلايدرز بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Sliders",
+                "option_ar": "سلايدرز مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Sliders",
+                "option_ar": "سلايدرز إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Family Iftar Feast (8 Sliders)",
+        "item_name_ar": "إفطار رمضاني عائلي كبير (ثماني قطع من الساندويتشات الصغيرة)",
+        "description_en": "Family-sized slider party. 8 sliders (mix 3 different flavors for variety), four servings of fries, 6pc wings, honey chilli potatoes, onion rings, and four soft drinks. Everyone gets their favorites this Ramadan.",
+        "description_ar": "حفلة سلايدرز بالحجم العائلي. 8 سلايدرز (بمزيج من 3 نكهات مختلفة للتنويع)، أربع حصص بطاطس، 6 قطع أجنحة، بطاطا بالعسل والفلفل الحار، حلقات بصل، وأربعة مشروبات غازية. كل شخص سيجد نكهته المفضلة في رمضان.",
+        "item_price_aed": 239,
+        "prep_time_mins": 10,
+        "instruction": 3,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Sliders",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Classic Sliders",
+                "option_ar": "سلايدرز كلاسيك",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Sliders",
+                "option_ar": "سلايدرز باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Sliders",
+                "option_ar": "سلايدرز كولسلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Sliders",
+                "option_ar": "سلايدرز بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Sliders",
+                "option_ar": "سلايدرز تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Sliders",
+                "option_ar": "سلايدرز الفطر والترافل",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Sliders",
+                "option_ar": "سلايدرز دبل جبنة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Sliders",
+                "option_ar": "سلايدرز بيكون بقري",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Sliders",
+                "option_ar": "سلايدرز ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Sliders",
+                "option_ar": "سلايدرز بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Sliders",
+                "option_ar": "سلايدرز مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Sliders",
+                "option_ar": "سلايدرز إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Grand Iftar Party (12 Sliders)",
+        "item_name_ar": "حفل إفطار رمضاني كبير (اثنا عشر قطعة من الساندويتشات الصغيرة)",
+        "description_en": "The ultimate slider spread. 12 sliders (mix 4 flavors for maximum variety), six servings of fries, 8pc wings, dynamite shrimp, honey chilli potatoes, mozzarella sticks, and six soft drinks. Grand celebration for your Ramadan gathering.",
+        "description_ar": "وليمة السلايدرز الكبرى. 12 سلايدر (بمزيج من 4 نكهات لتنوع أكبر)، ست حصص بطاطس، 8 قطع أجنحة، روبيان ديناميت، بطاطا بالعسل والفلفل الحار، أصابع موزاريلا، وستة مشروبات غازية. احتفال كبير لتجمعاتكم الرمضانية.",
+        "item_price_aed": 329,
+        "prep_time_mins": 10,
+        "instruction": 4,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Sliders",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Classic Sliders",
+                "option_ar": "سلايدرز كلاسيك",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Sliders",
+                "option_ar": "سلايدرز باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Sliders",
+                "option_ar": "سلايدرز كولسلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Sliders",
+                "option_ar": "سلايدرز بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Sliders",
+                "option_ar": "سلايدرز تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Sliders",
+                "option_ar": "سلايدرز الفطر والترافل",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Sliders",
+                "option_ar": "سلايدرز دبل جبنة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Sliders",
+                "option_ar": "سلايدرز بيكون بقري",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Sliders",
+                "option_ar": "سلايدرز ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Sliders",
+                "option_ar": "سلايدرز بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Sliders",
+                "option_ar": "سلايدرز مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Sliders",
+                "option_ar": "سلايدرز إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Wingin' It": {
+    "file": "Winging it Final Snare Ramadan.xlsx",
+    "sheet": "Menu",
+    "sheets_in_workbook": [
+      "Menu",
+      "Photos"
+    ],
+    "num_modifier_groups": 3,
+    "items": [
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Solo Iftar (5 Wings)",
+        "item_name_ar": "إفطار رمضاني فردي (٥ أجنحة)",
+        "description_en": "Your solo wing fix. 5 wings in your choice of signature flavor, crispy fries, premium dipping sauce, and a soft drink. Bold flavors for your Ramadan Iftar.",
+        "description_ar": "وجبتك الفردية من الأجنحة. 5 قطع أجنحة بنكهتك المميزة من اختيارك، مع بطاطس مقلية، صلصة تغميس فاخرة، ومشروب غازي. نكهات جريئة لإفطارك في رمضان.",
+        "item_price_aed": 65,
+        "prep_time_mins": 10,
+        "instruction": 1,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Wings",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Plain Wings",
+                "option_ar": "أجنحة دجاج عادية",
+                "price": 0
+              },
+              {
+                "option_en": "Smokey BBQ Wings",
+                "option_ar": "أجنحة دجاج باربكيو مدخن",
+                "price": 0
+              },
+              {
+                "option_en": "Tangy Buffalo Wings",
+                "option_ar": "أجنحة دجاج بافلو حار",
+                "price": 0
+              },
+              {
+                "option_en": "Hot Honey Wings",
+                "option_ar": "أجنحة دجاج بالعسل الحار",
+                "price": 0
+              },
+              {
+                "option_en": "Sesame & Sweet Wings",
+                "option_ar": "أجنحة دجاج بالسمسم الحلو",
+                "price": 0
+              },
+              {
+                "option_en": "Chili Hoisin Wings",
+                "option_ar": "أجنحة دجاج بصوص الشيلي هويسن",
+                "price": 0
+              },
+              {
+                "option_en": "Garlic Parmesan Wings",
+                "option_ar": "أجنحة دجاج بالثوم والبارميزان",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Wings",
+                "option_ar": "أجنحة دجاج بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Wings",
+                "option_ar": "أجنحة دجاج ديناميت",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Duo Iftar (10 Wings)",
+        "item_name_ar": "إفطار رمضاني ثنائي (١٠ أجنحة)",
+        "description_en": "Wings for two. 10 wings (mix 2 flavors), two servings of fries, 2 premium dipping sauces, and two soft drinks. Share the flavor explosion this Ramadan.",
+        "description_ar": "أجنحة لشخصين. 10 قطع أجنحة (بمزيج من نكهتين)، حصتين من البطاطس المقلية، 2 صلصة تغميس فاخرة، ومشروبين غازيين. شاركوا انفجار النكهات في رمضان.",
+        "item_price_aed": 115,
+        "prep_time_mins": 10,
+        "instruction": 2,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Wings",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Plain Wings",
+                "option_ar": "أجنحة دجاج عادية",
+                "price": 0
+              },
+              {
+                "option_en": "Smokey BBQ Wings",
+                "option_ar": "أجنحة دجاج باربكيو مدخن",
+                "price": 0
+              },
+              {
+                "option_en": "Tangy Buffalo Wings",
+                "option_ar": "أجنحة دجاج بافلو حار",
+                "price": 0
+              },
+              {
+                "option_en": "Hot Honey Wings",
+                "option_ar": "أجنحة دجاج بالعسل الحار",
+                "price": 0
+              },
+              {
+                "option_en": "Sesame & Sweet Wings",
+                "option_ar": "أجنحة دجاج بالسمسم الحلو",
+                "price": 0
+              },
+              {
+                "option_en": "Chili Hoisin Wings",
+                "option_ar": "أجنحة دجاج بصوص الشيلي هويسن",
+                "price": 0
+              },
+              {
+                "option_en": "Garlic Parmesan Wings",
+                "option_ar": "أجنحة دجاج بالثوم والبارميزان",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Wings",
+                "option_ar": "أجنحة دجاج بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Wings",
+                "option_ar": "أجنحة دجاج ديناميت",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Family Iftar Bucket (20 Wings)",
+        "item_name_ar": "وجبة إفطار رمضانية عائلية (٢٠ جناحًا)",
+        "description_en": "Family wings feast. 20 wings (choose 3 signature flavors), four servings of fries, 3 premium dips, honey chilli potatoes, shareable onion rings, and four soft drinks. Wing heaven for the whole family this Ramadan.",
+        "description_ar": "وليمة الأجنحة العائلية. 20 قطعة أجنحة (اختر 3 نكهات مميزة)، أربع حصص بطاطس، 3 صلصات تغميس فاخرة، بطاطا بالعسل والفلفل الحار، حلقات بصل للمشاركة، وأربعة مشروبات غازية. متعة الأجنحة لكل العائلة في رمضان.",
+        "item_price_aed": 209,
+        "prep_time_mins": 10,
+        "instruction": 3,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Wings",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Plain Wings",
+                "option_ar": "أجنحة دجاج عادية",
+                "price": 0
+              },
+              {
+                "option_en": "Smokey BBQ Wings",
+                "option_ar": "أجنحة دجاج باربكيو مدخن",
+                "price": 0
+              },
+              {
+                "option_en": "Tangy Buffalo Wings",
+                "option_ar": "أجنحة دجاج بافلو حار",
+                "price": 0
+              },
+              {
+                "option_en": "Hot Honey Wings",
+                "option_ar": "أجنحة دجاج بالعسل الحار",
+                "price": 0
+              },
+              {
+                "option_en": "Sesame & Sweet Wings",
+                "option_ar": "أجنحة دجاج بالسمسم الحلو",
+                "price": 0
+              },
+              {
+                "option_en": "Chili Hoisin Wings",
+                "option_ar": "أجنحة دجاج بصوص الشيلي هويسن",
+                "price": 0
+              },
+              {
+                "option_en": "Garlic Parmesan Wings",
+                "option_ar": "أجنحة دجاج بالثوم والبارميزان",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Wings",
+                "option_ar": "أجنحة دجاج بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Wings",
+                "option_ar": "أجنحة دجاج ديناميت",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Mega Iftar Mega Bucket (30 Wings)",
+        "item_name_ar": "وجبة إفطار رمضانية ضخمة (٣٠ جناحًا)",
+        "description_en": "The mega wings party. 30 wings (4 different flavors for maximum variety), six servings of fries, 4 premium dips, dynamite shrimp, honey chilli potatoes, onion rings, and six soft drinks. Wing celebration for your Ramadan gathering.",
+        "description_ar": "حفلة الأجنحة الضخمة. 30 قطعة أجنحة (4 نكهات مختلفة لتنوع أكبر)، ست حصص بطاطس، 4 صلصات تغميس فاخرة، روبيان ديناميت، بطاطا بالعسل والفلفل الحار، حلقات بصل، وستة مشروبات غازية. احتفال بالأجنحة لتجمعاتكم الرمضانية.",
+        "item_price_aed": 299,
+        "prep_time_mins": 10,
+        "instruction": 4,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Wings",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Plain Wings",
+                "option_ar": "أجنحة دجاج عادية",
+                "price": 0
+              },
+              {
+                "option_en": "Smokey BBQ Wings",
+                "option_ar": "أجنحة دجاج باربكيو مدخن",
+                "price": 0
+              },
+              {
+                "option_en": "Tangy Buffalo Wings",
+                "option_ar": "أجنحة دجاج بافلو حار",
+                "price": 0
+              },
+              {
+                "option_en": "Hot Honey Wings",
+                "option_ar": "أجنحة دجاج بالعسل الحار",
+                "price": 0
+              },
+              {
+                "option_en": "Sesame & Sweet Wings",
+                "option_ar": "أجنحة دجاج بالسمسم الحلو",
+                "price": 0
+              },
+              {
+                "option_en": "Chili Hoisin Wings",
+                "option_ar": "أجنحة دجاج بصوص الشيلي هويسن",
+                "price": 0
+              },
+              {
+                "option_en": "Garlic Parmesan Wings",
+                "option_ar": "أجنحة دجاج بالثوم والبارميزان",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Wings",
+                "option_ar": "أجنحة دجاج بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Wings",
+                "option_ar": "أجنحة دجاج ديناميت",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Wings of Fury": {
+    "file": "Wings Of Fury Final Snare Ramadan.xlsx",
+    "sheet": "Menu",
+    "sheets_in_workbook": [
+      "Menu",
+      "Photos"
+    ],
+    "num_modifier_groups": 3,
+    "items": [
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Solo Iftar (5 Wings)",
+        "item_name_ar": "إفطار رمضاني فردي (٥ أجنحة)",
+        "description_en": "Your solo wing fix. 5 wings in your choice of signature flavor, crispy fries, premium dipping sauce, and a soft drink. Bold flavors for your Ramadan Iftar.",
+        "description_ar": "وجبتك الفردية من الأجنحة. 5 قطع أجنحة بنكهتك المميزة من اختيارك، مع بطاطس مقلية، صلصة تغميس فاخرة، ومشروب غازي. نكهات جريئة لإفطارك في رمضان.",
+        "item_price_aed": 65,
+        "prep_time_mins": 10,
+        "instruction": 1,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Wings",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Plain Wings",
+                "option_ar": "أجنحة دجاج عادية",
+                "price": 0
+              },
+              {
+                "option_en": "Smokey BBQ Wings",
+                "option_ar": "أجنحة دجاج باربكيو مدخن",
+                "price": 0
+              },
+              {
+                "option_en": "Tangy Buffalo Wings",
+                "option_ar": "أجنحة دجاج بافلو حار",
+                "price": 0
+              },
+              {
+                "option_en": "Hot Honey Wings",
+                "option_ar": "أجنحة دجاج بالعسل الحار",
+                "price": 0
+              },
+              {
+                "option_en": "Sesame & Sweet Wings",
+                "option_ar": "أجنحة دجاج بالسمسم الحلو",
+                "price": 0
+              },
+              {
+                "option_en": "Chili Hoisin Wings",
+                "option_ar": "أجنحة دجاج بصوص الشيلي هويسن",
+                "price": 0
+              },
+              {
+                "option_en": "Garlic Parmesan Wings",
+                "option_ar": "أجنحة دجاج بالثوم والبارميزان",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Wings",
+                "option_ar": "أجنحة دجاج بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Wings",
+                "option_ar": "أجنحة دجاج ديناميت",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Duo Iftar (10 Wings)",
+        "item_name_ar": "إفطار رمضاني ثنائي (١٠ أجنحة)",
+        "description_en": "Wings for two. 10 wings (mix 2 flavors), two servings of fries, 2 premium dipping sauces, and two soft drinks. Share the flavor explosion this Ramadan.",
+        "description_ar": "أجنحة لشخصين. 10 قطع أجنحة (بمزيج من نكهتين)، حصتين من البطاطس المقلية، 2 صلصة تغميس فاخرة، ومشروبين غازيين. شاركوا انفجار النكهات في رمضان.",
+        "item_price_aed": 115,
+        "prep_time_mins": 10,
+        "instruction": 2,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Wings",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Plain Wings",
+                "option_ar": "أجنحة دجاج عادية",
+                "price": 0
+              },
+              {
+                "option_en": "Smokey BBQ Wings",
+                "option_ar": "أجنحة دجاج باربكيو مدخن",
+                "price": 0
+              },
+              {
+                "option_en": "Tangy Buffalo Wings",
+                "option_ar": "أجنحة دجاج بافلو حار",
+                "price": 0
+              },
+              {
+                "option_en": "Hot Honey Wings",
+                "option_ar": "أجنحة دجاج بالعسل الحار",
+                "price": 0
+              },
+              {
+                "option_en": "Sesame & Sweet Wings",
+                "option_ar": "أجنحة دجاج بالسمسم الحلو",
+                "price": 0
+              },
+              {
+                "option_en": "Chili Hoisin Wings",
+                "option_ar": "أجنحة دجاج بصوص الشيلي هويسن",
+                "price": 0
+              },
+              {
+                "option_en": "Garlic Parmesan Wings",
+                "option_ar": "أجنحة دجاج بالثوم والبارميزان",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Wings",
+                "option_ar": "أجنحة دجاج بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Wings",
+                "option_ar": "أجنحة دجاج ديناميت",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Family Iftar Bucket (20 Wings)",
+        "item_name_ar": "وجبة إفطار رمضانية عائلية (٢٠ جناحًا)",
+        "description_en": "Family wings feast. 20 wings (choose 3 signature flavors), four servings of fries, 3 premium dips, honey chilli potatoes, shareable onion rings, and four soft drinks. Wing heaven for the whole family this Ramadan.",
+        "description_ar": "وليمة الأجنحة العائلية. 20 قطعة أجنحة (اختر 3 نكهات مميزة)، أربع حصص بطاطس، 3 صلصات تغميس فاخرة، بطاطا بالعسل والفلفل الحار، حلقات بصل للمشاركة، وأربعة مشروبات غازية. متعة الأجنحة لكل العائلة في رمضان.",
+        "item_price_aed": 209,
+        "prep_time_mins": 10,
+        "instruction": 3,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Wings",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Plain Wings",
+                "option_ar": "أجنحة دجاج عادية",
+                "price": 0
+              },
+              {
+                "option_en": "Smokey BBQ Wings",
+                "option_ar": "أجنحة دجاج باربكيو مدخن",
+                "price": 0
+              },
+              {
+                "option_en": "Tangy Buffalo Wings",
+                "option_ar": "أجنحة دجاج بافلو حار",
+                "price": 0
+              },
+              {
+                "option_en": "Hot Honey Wings",
+                "option_ar": "أجنحة دجاج بالعسل الحار",
+                "price": 0
+              },
+              {
+                "option_en": "Sesame & Sweet Wings",
+                "option_ar": "أجنحة دجاج بالسمسم الحلو",
+                "price": 0
+              },
+              {
+                "option_en": "Chili Hoisin Wings",
+                "option_ar": "أجنحة دجاج بصوص الشيلي هويسن",
+                "price": 0
+              },
+              {
+                "option_en": "Garlic Parmesan Wings",
+                "option_ar": "أجنحة دجاج بالثوم والبارميزان",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Wings",
+                "option_ar": "أجنحة دجاج بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Wings",
+                "option_ar": "أجنحة دجاج ديناميت",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Mega Iftar Mega Bucket (30 Wings)",
+        "item_name_ar": "وجبة إفطار رمضانية ضخمة (٣٠ جناحًا)",
+        "description_en": "The mega wings party. 30 wings (4 different flavors for maximum variety), six servings of fries, 4 premium dips, dynamite shrimp, honey chilli potatoes, onion rings, and six soft drinks. Wing celebration for your Ramadan gathering.",
+        "description_ar": "حفلة الأجنحة الضخمة. 30 قطعة أجنحة (4 نكهات مختلفة لتنوع أكبر)، ست حصص بطاطس، 4 صلصات تغميس فاخرة، روبيان ديناميت، بطاطا بالعسل والفلفل الحار، حلقات بصل، وستة مشروبات غازية. احتفال بالأجنحة لتجمعاتكم الرمضانية.",
+        "item_price_aed": 299,
+        "prep_time_mins": 10,
+        "instruction": 4,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Wings",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Plain Wings",
+                "option_ar": "أجنحة دجاج عادية",
+                "price": 0
+              },
+              {
+                "option_en": "Smokey BBQ Wings",
+                "option_ar": "أجنحة دجاج باربكيو مدخن",
+                "price": 0
+              },
+              {
+                "option_en": "Tangy Buffalo Wings",
+                "option_ar": "أجنحة دجاج بافلو حار",
+                "price": 0
+              },
+              {
+                "option_en": "Hot Honey Wings",
+                "option_ar": "أجنحة دجاج بالعسل الحار",
+                "price": 0
+              },
+              {
+                "option_en": "Sesame & Sweet Wings",
+                "option_ar": "أجنحة دجاج بالسمسم الحلو",
+                "price": 0
+              },
+              {
+                "option_en": "Chili Hoisin Wings",
+                "option_ar": "أجنحة دجاج بصوص الشيلي هويسن",
+                "price": 0
+              },
+              {
+                "option_en": "Garlic Parmesan Wings",
+                "option_ar": "أجنحة دجاج بالثوم والبارميزان",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Wings",
+                "option_ar": "أجنحة دجاج بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Wings",
+                "option_ar": "أجنحة دجاج ديناميت",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "The Slider Shack": {
+    "file": "Slider Shack Final Snare Ramadan.xlsx",
+    "sheet": "Ramadan Menu",
+    "sheets_in_workbook": [
+      "Ramadan Menu",
+      "Sheet1"
+    ],
+    "num_modifier_groups": 4,
+    "items": [
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Mini Iftar (2 Sliders)",
+        "item_name_ar": "إفطار رمضاني صغير (قطعتان من الساندويتشات الصغيرة)",
+        "description_en": "Perfect solo Iftar. 2 mini sliders (choose your favorite flavor), crispy fries, and a soft drink. Snackable satisfaction for your Ramadan evening.",
+        "description_ar": "إفطار فردي مثالي. 2 ميني سلايدر (اختر نكهتك المفضلة)، مع بطاطس مقلية مقرمشة، ومشروب غازي. متعة خفيفة ومثالية لأمسيات رمضان.",
+        "item_price_aed": 69,
+        "prep_time_mins": 10,
+        "instruction": 1,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Sliders",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Classic Sliders",
+                "option_ar": "سلايدرز كلاسيك",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Sliders",
+                "option_ar": "سلايدرز باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Sliders",
+                "option_ar": "سلايدرز كولسلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Sliders",
+                "option_ar": "سلايدرز بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Sliders",
+                "option_ar": "سلايدرز تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Sliders",
+                "option_ar": "سلايدرز الفطر والترافل",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Sliders",
+                "option_ar": "سلايدرز دبل جبنة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Sliders",
+                "option_ar": "سلايدرز بيكون بقري",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Sliders",
+                "option_ar": "سلايدرز ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Sliders",
+                "option_ar": "سلايدرز بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Sliders",
+                "option_ar": "سلايدرز مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Sliders",
+                "option_ar": "سلايدرز إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Duo Iftar (4 Sliders)",
+        "item_name_ar": "إفطار رمضاني ثنائي (أربع قطع من الساندويتشات الصغيرة)",
+        "description_en": "Share the slider love. 4 mini sliders (mix 2 flavors), two servings of crispy fries, shareable onion rings, and two soft drinks. Variety and fun for two this Ramadan.",
+        "description_ar": "شارك متعة السلايدرز. 4 ميني سلايدرز (بمزيج من نكهتين)، حصتين من البطاطس المقلية، حلقات بصل للمشاركة، ومشروبين غازيين. تنوع ومرح لشخصين في رمضان.",
+        "item_price_aed": 129,
+        "prep_time_mins": 10,
+        "instruction": 2,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Sliders",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Classic Sliders",
+                "option_ar": "سلايدرز كلاسيك",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Sliders",
+                "option_ar": "سلايدرز باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Sliders",
+                "option_ar": "سلايدرز كولسلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Sliders",
+                "option_ar": "سلايدرز بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Sliders",
+                "option_ar": "سلايدرز تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Sliders",
+                "option_ar": "سلايدرز الفطر والترافل",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Sliders",
+                "option_ar": "سلايدرز دبل جبنة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Sliders",
+                "option_ar": "سلايدرز بيكون بقري",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Sliders",
+                "option_ar": "سلايدرز ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Sliders",
+                "option_ar": "سلايدرز بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Sliders",
+                "option_ar": "سلايدرز مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Sliders",
+                "option_ar": "سلايدرز إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Family Iftar Feast (8 Sliders)",
+        "item_name_ar": "إفطار رمضاني عائلي كبير (ثماني قطع من الساندويتشات الصغيرة)",
+        "description_en": "Family-sized slider party. 8 sliders (mix 3 different flavors for variety), four servings of fries, 6pc wings, honey chilli potatoes, onion rings, and four soft drinks. Everyone gets their favorites this Ramadan.",
+        "description_ar": "حفلة سلايدرز بالحجم العائلي. 8 سلايدرز (بمزيج من 3 نكهات مختلفة للتنويع)، أربع حصص بطاطس، 6 قطع أجنحة، بطاطا بالعسل والفلفل الحار، حلقات بصل، وأربعة مشروبات غازية. كل شخص سيجد نكهته المفضلة في رمضان.",
+        "item_price_aed": 239,
+        "prep_time_mins": 10,
+        "instruction": 3,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Sliders",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Classic Sliders",
+                "option_ar": "سلايدرز كلاسيك",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Sliders",
+                "option_ar": "سلايدرز باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Sliders",
+                "option_ar": "سلايدرز كولسلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Sliders",
+                "option_ar": "سلايدرز بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Sliders",
+                "option_ar": "سلايدرز تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Sliders",
+                "option_ar": "سلايدرز الفطر والترافل",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Sliders",
+                "option_ar": "سلايدرز دبل جبنة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Sliders",
+                "option_ar": "سلايدرز بيكون بقري",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Sliders",
+                "option_ar": "سلايدرز ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Sliders",
+                "option_ar": "سلايدرز بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Sliders",
+                "option_ar": "سلايدرز مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Sliders",
+                "option_ar": "سلايدرز إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Grand Iftar Party (12 Sliders)",
+        "item_name_ar": "حفل إفطار رمضاني كبير (اثنا عشر قطعة من الساندويتشات الصغيرة)",
+        "description_en": "The ultimate slider spread. 12 sliders (mix 4 flavors for maximum variety), six servings of fries, 8pc wings, dynamite shrimp, honey chilli potatoes, mozzarella sticks, and six soft drinks. Grand celebration for your Ramadan gathering.",
+        "description_ar": "وليمة السلايدرز الكبرى. 12 سلايدر (بمزيج من 4 نكهات لتنوع أكبر)، ست حصص بطاطس، 8 قطع أجنحة، روبيان ديناميت، بطاطا بالعسل والفلفل الحار، أصابع موزاريلا، وستة مشروبات غازية. احتفال كبير لتجمعاتكم الرمضانية.",
+        "item_price_aed": 329,
+        "prep_time_mins": 10,
+        "instruction": 4,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Sliders",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Classic Sliders",
+                "option_ar": "سلايدرز كلاسيك",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Sliders",
+                "option_ar": "سلايدرز باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Sliders",
+                "option_ar": "سلايدرز كولسلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Sliders",
+                "option_ar": "سلايدرز بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Sliders",
+                "option_ar": "سلايدرز تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Sliders",
+                "option_ar": "سلايدرز الفطر والترافل",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Sliders",
+                "option_ar": "سلايدرز دبل جبنة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Sliders",
+                "option_ar": "سلايدرز بيكون بقري",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Sliders",
+                "option_ar": "سلايدرز ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Sliders",
+                "option_ar": "سلايدرز بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Sliders",
+                "option_ar": "سلايدرز مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Sliders",
+                "option_ar": "سلايدرز إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Big Dawg's Burgers": {
+    "file": "Big Dawg Burgers Content Snare Ramadan.xlsx",
+    "sheet": "Ramadan Menu",
+    "sheets_in_workbook": [
+      "Ramadan Menu",
+      "Photos"
+    ],
+    "num_modifier_groups": 4,
+    "items": [
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Solo Iftar",
+        "item_name_ar": "إفطار رمضاني فردي",
+        "description_en": "Your perfect solo Iftar. One signature Big Dawg's Burgers burger (choice of beef or chicken), crispy golden fries, and a refreshing soft drink. Satisfaction in every bite this Ramadan.",
+        "description_ar": "إفطارك الفردي المثالي. برجر واحد من \"بيج دوجز برجر\" المميز (مع اختيارك من اللحم أو الدجاج)، مع بطاطس مقلية ذهبية ومقرمشة، ومشروب غازي منعش. متعة المذاق في كل قضمة هذا الرمضان.",
+        "item_price_aed": 85,
+        "prep_time_mins": 10,
+        "instruction": 1,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Duo Iftar (2 Pax)",
+        "item_name_ar": "إفطار رمضاني ثنائي (شخصان)",
+        "description_en": "Share the Ramadan joy. Two Big Dawg's Burgers signature burgers (mix & match beef or chicken), two servings of crispy fries, shareable onion rings, and two soft drinks. Perfect for breaking fast with friends or family.",
+        "description_ar": "شارك بهجة رمضان. برجريْن من \"بيج دوجز برجر\" المميز (بمزيج من اختيارك من اللحم أو الدجاج)، مع حصتين من البطاطس المقلية المقرمشة، وحلقات بصل للمشاركة، ومشروبين غازيين. وجبة مثالية للإفطار مع الأصدقاء أو العائلة.",
+        "item_price_aed": 155,
+        "prep_time_mins": 10,
+        "instruction": 2,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Family Iftar Feast (4 Pax)",
+        "item_name_ar": "إفطار رمضاني عائلي (أربعة أشخاص)",
+        "description_en": "The ultimate family Iftar. Four Big Dawg's Burgers burgers (your choice of combinations), four servings of crispy fries, 6 pieces of golden fried wings, honey chilli potatoes, shareable onion rings, and four soft drinks. Abundant feast bringing everyone together this Ramadan.",
+        "description_ar": "الإفطار العائلي الأمثل. أربعة برجر من \"بيج دوجز برجر\" (بتشكيلة من اختياركم)، أربع حصص من البطاطس المقلية المقرمشة، 6 قطع من أجنحة الدجاج المقلية الذهبية، بطاطا بالعسل والفلفل الحار، حلقات بصل للمشاركة، وأربعة مشروبات غازية. وليمة عامرة تجمع الأحباب في رمضان.",
+        "item_price_aed": 269,
+        "prep_time_mins": 10,
+        "instruction": 3,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Party Iftar Party (6 Pax)",
+        "item_name_ar": "حفل إفطار رمضاني جماعي (ستة أشخاص)",
+        "description_en": "The grand Ramadan celebration. Six Big Dawg's Burgers signature burgers (complete variety), six servings of fries, 8 pieces of crispy wings, dynamite shrimp, honey chilli potatoes, onion rings, and six soft drinks. A true feast for gatherings and celebrations this blessed month.",
+        "description_ar": "احتفالية رمضان الكبرى. ستة برجر من \"بيج دوجز برجر\" المميز (بتشكيلة كاملة)، ست حصص من البطاطس المقلية، 8 قطع من أجنحة الدجاج المقرمشة، روبيان ديناميت، بطاطا بالعسل والفلفل الحار، حلقات بصل، وستة مشروبات غازية. وليمة حقيقية للتجمعات والاحتفالات في هذا الشهر الفضيل.",
+        "item_price_aed": 389,
+        "prep_time_mins": 10,
+        "instruction": 4,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "The Patty Pit": {
+    "file": "Patty Pit Final Snare Ramadan.xlsx",
+    "sheet": "Patty Pit",
+    "sheets_in_workbook": [
+      "Patty Pit",
+      "photos"
+    ],
+    "num_modifier_groups": 4,
+    "items": [
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Solo Iftar",
+        "item_name_ar": "إفطار رمضاني فردي",
+        "description_en": "Your perfect solo Iftar. One signature The Patty Pit burger (choice of beef or chicken), crispy golden fries, and a refreshing soft drink. Satisfaction in every bite this Ramadan.",
+        "description_ar": "إفطارك الفردي المثالي. برجر واحد من \"ذا باتي پيت\" المميز (مع اختيارك من اللحم أو الدجاج)، مع بطاطس مقلية ذهبية ومقرمشة، ومشروب غازي منعش. متعة المذاق في كل قضمة هذا الرمضان.",
+        "item_price_aed": 85,
+        "prep_time_mins": 10,
+        "instruction": 1,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Duo Iftar (2 Pax)",
+        "item_name_ar": "إفطار رمضاني ثنائي (شخصان)",
+        "description_en": "Share the Ramadan joy. Two The Patty Pit signature burgers (mix & match beef or chicken), two servings of crispy fries, shareable onion rings, and two soft drinks. Perfect for breaking fast with friends or family.",
+        "description_ar": "شارك بهجة رمضان. برجريْن من \"ذا باتي پيت\" المميز (بمزيج من اختيارك من اللحم أو الدجاج)، مع حصتين من البطاطس المقلية المقرمشة، وحلقات بصل للمشاركة، ومشروبين غازيين. وجبة مثالية للإفطار مع الأصدقاء أو العائلة.",
+        "item_price_aed": 155,
+        "prep_time_mins": 10,
+        "instruction": 2,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Family Iftar Feast (4 Pax)",
+        "item_name_ar": "إفطار رمضاني عائلي (أربعة أشخاص)",
+        "description_en": "The ultimate family Iftar. Four The Patty Pit burgers (your choice of combinations), four servings of crispy fries, 6 pieces of golden fried wings, honey chilli potatoes, shareable onion rings, and four soft drinks. Abundant feast bringing everyone together this Ramadan.",
+        "description_ar": "الإفطار العائلي الأمثل. أربعة برجر من \"ذا باتي پيت\" (بتشكيلة من اختياركم)، أربع حصص من البطاطس المقلية المقرمشة، 6 قطع من أجنحة الدجاج المقلية الذهبية، بطاطا بالعسل والفلفل الحار، حلقات بصل للمشاركة، وأربعة مشروبات غازية. وليمة عامرة تجمع الأحباب في رمضان.",
+        "item_price_aed": 269,
+        "prep_time_mins": 10,
+        "instruction": 3,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Party Iftar Party (6 Pax)",
+        "item_name_ar": "حفل إفطار رمضاني جماعي (ستة أشخاص)",
+        "description_en": "The grand Ramadan celebration. Six The Patty Pit signature burgers (complete variety), six servings of fries, 8 pieces of crispy wings, dynamite shrimp, honey chilli potatoes, onion rings, and six soft drinks. A true feast for gatherings and celebrations this blessed month.",
+        "description_ar": "احتفالية رمضان الكبرى. ستة برجر من \"ذا باتي پيت\" المميز (بتشكيلة كاملة)، ست حصص من البطاطس المقلية، 8 قطع من أجنحة الدجاج المقرمشة، روبيان ديناميت، بطاطا بالعسل والفلفل الحار، حلقات بصل، وستة مشروبات غازية. وليمة حقيقية للتجمعات والاحتفالات في هذا الشهر الفضيل.",
+        "item_price_aed": 389,
+        "prep_time_mins": 10,
+        "instruction": 4,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Smashville Burgers": {
+    "file": "Smashville Final Snare Ramadan.xlsx",
+    "sheet": "Ramadan Menu",
+    "sheets_in_workbook": [
+      "Ramadan Menu",
+      "Photos"
+    ],
+    "num_modifier_groups": 4,
+    "items": [
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Solo Iftar",
+        "item_name_ar": "إفطار رمضاني فردي",
+        "description_en": "Your perfect solo Iftar. One signature Smashville Burgers burger (choice of beef or chicken), crispy golden fries, and a refreshing soft drink. Satisfaction in every bite this Ramadan.",
+        "description_ar": "إفطارك الفردي المثالي. برجر واحد من \"سماشڤيل برجر\" المميز (مع اختيارك من اللحم أو الدجاج)، مع بطاطس مقلية ذهبية ومقرمشة، ومشروب غازي منعش. متعة المذاق في كل قضمة هذا الرمضان.",
+        "item_price_aed": 85,
+        "prep_time_mins": 10,
+        "instruction": 1,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 1,
+            "max_picks": 1,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Duo Iftar (2 Pax)",
+        "item_name_ar": "إفطار رمضاني ثنائي (شخصان)",
+        "description_en": "Share the Ramadan joy. Two Smashville Burgers signature burgers (mix & match beef or chicken), two servings of crispy fries, shareable onion rings, and two soft drinks. Perfect for breaking fast with friends or family.",
+        "description_ar": "شارك بهجة رمضان. برجريْن من \"سماشڤيل برجر\" المميز (بمزيج من اختيارك من اللحم أو الدجاج)، مع حصتين من البطاطس المقلية المقرمشة، وحلقات بصل للمشاركة، ومشروبين غازيين. وجبة مثالية للإفطار مع الأصدقاء أو العائلة.",
+        "item_price_aed": 155,
+        "prep_time_mins": 10,
+        "instruction": 2,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 2,
+            "max_picks": 2,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Family Iftar Feast (4 Pax)",
+        "item_name_ar": "إفطار رمضاني عائلي (أربعة أشخاص)",
+        "description_en": "The ultimate family Iftar. Four Smashville Burgers burgers (your choice of combinations), four servings of crispy fries, 6 pieces of golden fried wings, honey chilli potatoes, shareable onion rings, and four soft drinks. Abundant feast bringing everyone together this Ramadan.",
+        "description_ar": "الإفطار العائلي الأمثل. أربعة برجر من \"سماشڤيل برجر\" (بتشكيلة من اختياركم)، أربع حصص من البطاطس المقلية المقرمشة، 6 قطع من أجنحة الدجاج المقلية الذهبية، بطاطا بالعسل والفلفل الحار، حلقات بصل للمشاركة، وأربعة مشروبات غازية. وليمة عامرة تجمع الأحباب في رمضان.",
+        "item_price_aed": 269,
+        "prep_time_mins": 10,
+        "instruction": 3,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 4,
+            "max_picks": 4,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Ramadan Combos",
+        "item_name_en": "Ramadan Party Iftar Party (6 Pax)",
+        "item_name_ar": "حفل إفطار رمضاني جماعي (ستة أشخاص)",
+        "description_en": "The grand Ramadan celebration. Six Smashville Burgers signature burgers (complete variety), six servings of fries, 8 pieces of crispy wings, dynamite shrimp, honey chilli potatoes, onion rings, and six soft drinks. A true feast for gatherings and celebrations this blessed month.",
+        "description_ar": "احتفالية رمضان الكبرى. ستة برجر من \"سماشڤيل برجر\" المميز (بتشكيلة كاملة)، ست حصص من البطاطس المقلية، 8 قطع من أجنحة الدجاج المقرمشة، روبيان ديناميت، بطاطا بالعسل والفلفل الحار، حلقات بصل، وستة مشروبات غازية. وليمة حقيقية للتجمعات والاحتفالات في هذا الشهر الفضيل.",
+        "item_price_aed": 389,
+        "prep_time_mins": 10,
+        "instruction": 4,
+        "modifier_groups": [
+          {
+            "group_name": "Choose Your Drink",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Mineral Water",
+                "option_ar": "مياه معدنية",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola",
+                "option_ar": "كوكا كولا",
+                "price": 0
+              },
+              {
+                "option_en": "Coca Cola Zero",
+                "option_ar": "كوكا كولا زيرو",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite",
+                "option_ar": "سبرايت",
+                "price": 0
+              },
+              {
+                "option_en": "Sprite Zero",
+                "option_ar": "سبرايت زيرو",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your Burger",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Chicken",
+                "option_ar": null,
+                "price": 0
+              },
+              {
+                "option_en": "Beef",
+                "option_ar": null,
+                "price": 8
+              }
+            ]
+          },
+          {
+            "group_name": "Choose your sauce/filling",
+            "mandatory_optional": "Mandatory",
+            "min_picks": 6,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Classic Burger",
+                "option_ar": "برجر كلاسيكي",
+                "price": 0
+              },
+              {
+                "option_en": "Crunchy BBQ Burger",
+                "option_ar": "برجر باربيكيو مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Slaw Burger",
+                "option_ar": "برجر كول سلو",
+                "price": 0
+              },
+              {
+                "option_en": "Buffalo Burger",
+                "option_ar": "برجر بافلو",
+                "price": 0
+              },
+              {
+                "option_en": "Texas Burger",
+                "option_ar": "برجر تكساس",
+                "price": 0
+              },
+              {
+                "option_en": "Mushroom Truffle Burger",
+                "option_ar": "برجر ترافل بالفطر",
+                "price": 0
+              },
+              {
+                "option_en": "Double Cheese Burger",
+                "option_ar": "برجر بالجبنة المزدوجة",
+                "price": 4
+              },
+              {
+                "option_en": "Bacon (Beef) Burger",
+                "option_ar": "برجر لحم بقري مع لحم مقدد",
+                "price": 0
+              },
+              {
+                "option_en": "Dynamite Burger",
+                "option_ar": "برجر ديناميت",
+                "price": 0
+              },
+              {
+                "option_en": "Honey Mustard Burger",
+                "option_ar": "برجر بالعسل والخردل",
+                "price": 0
+              },
+              {
+                "option_en": "Mexican Crunch Burger",
+                "option_ar": "برجر مكسيكي مقرمش",
+                "price": 0
+              },
+              {
+                "option_en": "Italian Burger",
+                "option_ar": "برجر إيطالي",
+                "price": 0
+              }
+            ]
+          },
+          {
+            "group_name": "Add-ons",
+            "mandatory_optional": "Optional",
+            "min_picks": 1,
+            "max_picks": 6,
+            "options": [
+              {
+                "option_en": "Add Two Tenders",
+                "option_ar": "أضف قطعتين تندرز",
+                "price": 20
+              },
+              {
+                "option_en": "Add Two Wings",
+                "option_ar": "أضف قطعتين أجنحة",
+                "price": 20
+              },
+              {
+                "option_en": "Mozzarella Sticks",
+                "option_ar": "أصابع الموزاريلا",
+                "price": 25
+              },
+              {
+                "option_en": "Veggie Sticks",
+                "option_ar": "أصابع خضار طازجة",
+                "price": 19
+              },
+              {
+                "option_en": "Nachos",
+                "option_ar": "ناتشوز",
+                "price": 35
+              },
+              {
+                "option_en": "House Slaw",
+                "option_ar": "سلطة كولسلو",
+                "price": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

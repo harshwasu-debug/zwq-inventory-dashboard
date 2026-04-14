@@ -1,0 +1,645 @@
+{
+  "dishes": [
+    {
+      "dish": "Cheese Quesadilla",
+      "cat": "Golden-Baked Quesadillas",
+      "cost": 4.92,
+      "miss": []
+    },
+    {
+      "dish": "Spiced Veggies and Cheese Quesadilla",
+      "cat": "Golden-Baked Quesadillas",
+      "cost": 5.66,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken and Cheese Quesadilla",
+      "cat": "Golden-Baked Quesadillas",
+      "cost": 7.26,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Shrimp and Cheese Quesadilla",
+      "cat": "Golden-Baked Quesadillas",
+      "cost": 8.57,
+      "miss": []
+    },
+    {
+      "dish": "Smoky Beef and Cheese Quesadilla",
+      "cat": "Golden-Baked Quesadillas",
+      "cost": 9.11,
+      "miss": []
+    },
+    {
+      "dish": "Veggie Tacos",
+      "cat": "Homestyle Tacos",
+      "cost": 6.1,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Tacos",
+      "cat": "Homestyle Tacos",
+      "cost": 7.07,
+      "miss": []
+    },
+    {
+      "dish": "Grilled BBQ Chicken Tacos",
+      "cat": "Homestyle Tacos",
+      "cost": 7.03,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Shrimp Sichuan Tacos",
+      "cat": "Homestyle Tacos",
+      "cost": 8.63,
+      "miss": []
+    },
+    {
+      "dish": "Shrimp Tacos",
+      "cat": "Homestyle Tacos",
+      "cost": 8.47,
+      "miss": []
+    },
+    {
+      "dish": "Beef Tacos",
+      "cat": "Homestyle Tacos",
+      "cost": 8.77,
+      "miss": []
+    },
+    {
+      "dish": "Ground Beef Tacos",
+      "cat": "Homestyle Tacos",
+      "cost": 11.23,
+      "miss": []
+    },
+    {
+      "dish": "Chimichurri Veg Tacos",
+      "cat": "Chimichurri Tacos",
+      "cost": 6.13,
+      "miss": []
+    },
+    {
+      "dish": "Chimichurri Chicken Tacos",
+      "cat": "Chimichurri Tacos",
+      "cost": 7.16,
+      "miss": []
+    },
+    {
+      "dish": "Chimichurri Shrimp Tacos",
+      "cat": "Chimichurri Tacos",
+      "cost": 8.56,
+      "miss": []
+    },
+    {
+      "dish": "Chimichurri Beef Tacos",
+      "cat": "Chimichurri Tacos",
+      "cost": 8.86,
+      "miss": []
+    },
+    {
+      "dish": "Spiced Veggie Burrito",
+      "cat": "Hearty Burritos",
+      "cost": 6.79,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken Burrito",
+      "cat": "Hearty Burritos",
+      "cost": 7.67,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Chicken Burrito",
+      "cat": "Hearty Burritos",
+      "cost": 5.79,
+      "miss": []
+    },
+    {
+      "dish": "Avocado and Chicken Burrito",
+      "cat": "Hearty Burritos",
+      "cost": 7.77,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Shrimp Burrito",
+      "cat": "Hearty Burritos",
+      "cost": 8.98,
+      "miss": []
+    },
+    {
+      "dish": "Smoky Beef Burrito",
+      "cat": "Hearty Burritos",
+      "cost": 9.52,
+      "miss": []
+    },
+    {
+      "dish": "Ground Beef Burrito",
+      "cat": "Hearty Burritos",
+      "cost": 11.57,
+      "miss": []
+    },
+    {
+      "dish": "Veg Ranchero Burrito",
+      "cat": "Ranchero-Style Wraps",
+      "cost": 6.94,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken Ranchero Burrito",
+      "cat": "Ranchero-Style Wraps",
+      "cost": 7.44,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Shrimp Ranchero Burrito",
+      "cat": "Ranchero-Style Wraps",
+      "cost": 8.75,
+      "miss": []
+    },
+    {
+      "dish": "Smoky Beef Ranchero Burrito",
+      "cat": "Ranchero-Style Wraps",
+      "cost": 9.29,
+      "miss": []
+    },
+    {
+      "dish": "Ground Beef Ranchero Burrito",
+      "cat": "Ranchero-Style Wraps",
+      "cost": 11.34,
+      "miss": []
+    },
+    {
+      "dish": "Spiced Veggie Chimichurri Burrito",
+      "cat": "Chimichurri-Style Wraps",
+      "cost": 6.82,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken Chimichurri Burrito",
+      "cat": "Chimichurri-Style Wraps",
+      "cost": 7.7,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Chicken Chimichurri Burrito",
+      "cat": "Chimichurri-Style Wraps",
+      "cost": 5.65,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Shrimp Chimichurri Burrito",
+      "cat": "Chimichurri-Style Wraps",
+      "cost": 8.59,
+      "miss": []
+    },
+    {
+      "dish": "Smoky Beef Chimichurri Burrito",
+      "cat": "Chimichurri-Style Wraps",
+      "cost": 9.13,
+      "miss": []
+    },
+    {
+      "dish": "Veg Chimichanga",
+      "cat": "Golden-Fried Chimichangas",
+      "cost": 6.23,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken Chimichanga",
+      "cat": "Golden-Fried Chimichangas",
+      "cost": 7.2,
+      "miss": []
+    },
+    {
+      "dish": "Smoky Beef Chimichanga",
+      "cat": "Golden-Fried Chimichangas",
+      "cost": 8.89,
+      "miss": []
+    },
+    {
+      "dish": "Ground Beef Chimichanga",
+      "cat": "Golden-Fried Chimichangas",
+      "cost": 11.36,
+      "miss": []
+    },
+    {
+      "dish": "Veg Fiesta Enchilada",
+      "cat": "Oven-Baked Enchiladas",
+      "cost": 6.29,
+      "miss": []
+    },
+    {
+      "dish": "Chicken Enchilada",
+      "cat": "Oven-Baked Enchiladas",
+      "cost": 7.47,
+      "miss": []
+    },
+    {
+      "dish": "Steak Enchilada",
+      "cat": "Oven-Baked Enchiladas",
+      "cost": 9.17,
+      "miss": []
+    },
+    {
+      "dish": "Shrimp Enchilada",
+      "cat": "Oven-Baked Enchiladas",
+      "cost": 8.87,
+      "miss": []
+    },
+    {
+      "dish": "Spiced Veggie Fajita Wrap",
+      "cat": "Warm Fajita Wraps",
+      "cost": 6.65,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken Fajita Wrap",
+      "cat": "Warm Fajita Wraps",
+      "cost": 8.15,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Shrimp Fajita Wrap",
+      "cat": "Warm Fajita Wraps",
+      "cost": 9.46,
+      "miss": []
+    },
+    {
+      "dish": "Smoky Beef Fajita Wrap",
+      "cat": "Warm Fajita Wraps",
+      "cost": 10.0,
+      "miss": []
+    },
+    {
+      "dish": "Crispy Chicken Fajita Wrap",
+      "cat": "Warm Fajita Wraps",
+      "cost": 6.27,
+      "miss": []
+    },
+    {
+      "dish": "Spiced Veggie Fajita Meal",
+      "cat": "Fajita Fiesta Meals",
+      "cost": 7.63,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken Fajita Meal",
+      "cat": "Fajita Fiesta Meals",
+      "cost": 9.43,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Prawn Fajita Meal",
+      "cat": "Fajita Fiesta Meals",
+      "cost": 10.91,
+      "miss": []
+    },
+    {
+      "dish": "Smoky Beef Fajita Meal",
+      "cat": "Fajita Fiesta Meals",
+      "cost": 10.97,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Fish Fajita Meal",
+      "cat": "Fajita Fiesta Meals",
+      "cost": 8.28,
+      "miss": []
+    },
+    {
+      "dish": "Veg Burrito Bowl",
+      "cat": "Comforting Bowls",
+      "cost": 4.9,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken Burrito Bowl",
+      "cat": "Comforting Bowls",
+      "cost": 5.78,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Shrimp Burrito Bowl",
+      "cat": "Comforting Bowls",
+      "cost": 7.09,
+      "miss": []
+    },
+    {
+      "dish": "Smoky Beef Burrito Bowl",
+      "cat": "Comforting Bowls",
+      "cost": 7.63,
+      "miss": []
+    },
+    {
+      "dish": "Ground Beef Burrito Bowl",
+      "cat": "Comforting Bowls",
+      "cost": 9.68,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Chicken Taco Salad",
+      "cat": "Hearty Taco Salads",
+      "cost": 7.13,
+      "miss": []
+    },
+    {
+      "dish": "Grilled Shrimp Taco Salad",
+      "cat": "Hearty Taco Salads",
+      "cost": 8.44,
+      "miss": []
+    },
+    {
+      "dish": "Smoky Beef Taco Salad",
+      "cat": "Hearty Taco Salads",
+      "cost": 8.97,
+      "miss": []
+    },
+    {
+      "dish": "Ground Beef Taco Salad",
+      "cat": "Hearty Taco Salads",
+      "cost": 11.03,
+      "miss": []
+    },
+    {
+      "dish": "Veg Taco Salad",
+      "cat": "Hearty Taco Salads",
+      "cost": 6.01,
+      "miss": []
+    },
+    {
+      "dish": "French Fries",
+      "cat": "Homestyle Sides",
+      "cost": 2.37,
+      "miss": []
+    },
+    {
+      "dish": "Cheese Fries",
+      "cat": "Homestyle Sides",
+      "cost": 2.86,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Fries",
+      "cat": "Homestyle Sides",
+      "cost": 3.23,
+      "miss": []
+    },
+    {
+      "dish": "Nachos And Guacamole",
+      "cat": "Homestyle Sides",
+      "cost": 5.72,
+      "miss": []
+    },
+    {
+      "dish": "Cheesy Nachos",
+      "cat": "Homestyle Sides",
+      "cost": 5.22,
+      "miss": []
+    },
+    {
+      "dish": "Dynamite Shrimps",
+      "cat": "Homestyle Sides",
+      "cost": 5.68,
+      "miss": []
+    },
+    {
+      "dish": "Honey Mustard Sauce",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.71,
+      "miss": []
+    },
+    {
+      "dish": "Tangy Jalapeno Sauce",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.55,
+      "miss": []
+    },
+    {
+      "dish": "Chimichurri Sauce",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.52,
+      "miss": []
+    },
+    {
+      "dish": "Chipotle Sauce",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.74,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Green Sauce",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.37,
+      "miss": []
+    },
+    {
+      "dish": "Tomato Ketchup",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.05,
+      "miss": []
+    },
+    {
+      "dish": "Salsa Verde Sauce",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.45,
+      "miss": []
+    },
+    {
+      "dish": "Spicy Mint Sauce",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.36,
+      "miss": []
+    },
+    {
+      "dish": "Mayonnaise",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.78,
+      "miss": []
+    },
+    {
+      "dish": "Chipotle Sour Cream",
+      "cat": "Homemade Salsas & Dips",
+      "cost": 0.9,
+      "miss": []
+    },
+    {
+      "dish": "Jarritos Soda",
+      "cat": "Cooling Drinks",
+      "cost": 16.89,
+      "miss": []
+    },
+    {
+      "dish": "Mineral Water",
+      "cat": "Cooling Drinks",
+      "cost": 0.44,
+      "miss": []
+    },
+    {
+      "dish": "Coca Cola",
+      "cat": "Cooling Drinks",
+      "cost": 1.96,
+      "miss": []
+    },
+    {
+      "dish": "Coca Cola Zero",
+      "cat": "Cooling Drinks",
+      "cost": 1.96,
+      "miss": []
+    },
+    {
+      "dish": "Sprite",
+      "cat": "Cooling Drinks",
+      "cost": 1.96,
+      "miss": []
+    },
+    {
+      "dish": "Sprite Zero",
+      "cat": "Cooling Drinks",
+      "cost": 1.96,
+      "miss": []
+    },
+    {
+      "dish": "Fanta",
+      "cat": "Cooling Drinks",
+      "cost": 1.96,
+      "miss": []
+    }
+  ],
+  "sf_costs": {
+    "SF - Chimichurri Sauce": {
+      "total": 10.0156,
+      "yield": 1.055,
+      "ppu": 9.4935
+    },
+    "SF - Chipotle Sauce": {
+      "total": 18.1041,
+      "yield": 1.31,
+      "ppu": 13.8199
+    },
+    "SF - Chipotle Sour Cream": {
+      "total": 21.1905,
+      "yield": 1.25,
+      "ppu": 16.9524
+    },
+    "SF - Grilled Chicken": {
+      "total": 16.6606,
+      "yield": 1.1,
+      "ppu": 15.146
+    },
+    "SF - Grilled Fish": {
+      "total": 9.1884,
+      "yield": 1.1,
+      "ppu": 8.3531
+    },
+    "SF - Grilled Shrimp": {
+      "total": 25.7855,
+      "yield": 1.08,
+      "ppu": 23.8754
+    },
+    "SF - Guacamole": {
+      "total": 13.2677,
+      "yield": 1.3,
+      "ppu": 10.2059
+    },
+    "SF - Honey Mustard Sauce": {
+      "total": 10.6253,
+      "yield": 0.8,
+      "ppu": 13.2816
+    },
+    "SF - Mexican Rice": {
+      "total": 9.185,
+      "yield": 1.28,
+      "ppu": 7.1758
+    },
+    "SF - Mixed Cheese": {
+      "total": 12.4567,
+      "yield": 2.0,
+      "ppu": 6.2283
+    },
+    "SF - Pico de Gallo": {
+      "total": 9.1677,
+      "yield": 1.66,
+      "ppu": 5.5227
+    },
+    "SF - Ranchero Sauce": {
+      "total": 10.5791,
+      "yield": 1.33,
+      "ppu": 7.9542
+    },
+    "SF - Refried Beans": {
+      "total": 10.4483,
+      "yield": 1.265,
+      "ppu": 8.2595
+    },
+    "SF - Salsa Verde Sauce": {
+      "total": 11.0175,
+      "yield": 1.36,
+      "ppu": 8.1011
+    },
+    "SF - Seasoned Ground Beef": {
+      "total": 49.1707,
+      "yield": 1.195,
+      "ppu": 41.147
+    },
+    "SF - Smoky Beef": {
+      "total": 26.8912,
+      "yield": 1.11,
+      "ppu": 24.2263
+    },
+    "SF - Spiced Veggies": {
+      "total": 15.6814,
+      "yield": 2.03,
+      "ppu": 7.7248
+    },
+    "SF - Spicy Green Sauce": {
+      "total": 6.8109,
+      "yield": 1.065,
+      "ppu": 6.3953
+    },
+    "SF - Spicy Mint Sauce": {
+      "total": 6.5936,
+      "yield": 1.065,
+      "ppu": 6.1911
+    },
+    "SF - Tangy Jalapeno Sauce": {
+      "total": 9.7816,
+      "yield": 0.98,
+      "ppu": 9.9812
+    },
+    "SF - Bowl Packaging Set": {
+      "total": 0.5052,
+      "yield": 5.0,
+      "ppu": 0.101
+    },
+    "SF - Dip Packaging Set": {
+      "total": 0.0475,
+      "yield": 1.0,
+      "ppu": 0.0475
+    },
+    "SF - Final Bagging": {
+      "total": 0.368,
+      "yield": 1.0,
+      "ppu": 0.368
+    },
+    "SF - Loaded Sides Packaging Set": {
+      "total": 0.33,
+      "yield": 2.0,
+      "ppu": 0.165
+    },
+    "SF - Meal Packaging Set": {
+      "total": 0.839,
+      "yield": 5.0,
+      "ppu": 0.1678
+    },
+    "SF - Standard Packaging Set": {
+      "total": 1.0035,
+      "yield": 6.0,
+      "ppu": 0.1673
+    },
+    "SF - Wrap Packaging Set": {
+      "total": 1.0785,
+      "yield": 7.0,
+      "ppu": 0.1541
+    }
+  }
+}

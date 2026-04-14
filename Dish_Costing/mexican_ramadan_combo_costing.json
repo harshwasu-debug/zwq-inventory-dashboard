@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Ramadan Iftar Mexican Meal Solo",
+    "sell": 69,
+    "min_cost": 8.91,
+    "max_cost": 15.56
+  },
+  {
+    "name": "Ramadan Iftar Mexican Meal Duo",
+    "sell": 119,
+    "min_cost": 26.08,
+    "max_cost": 43.57
+  },
+  {
+    "name": "Ramadan Iftar Mexican Meal Family",
+    "sell": 219,
+    "min_cost": 47.32,
+    "max_cost": 83.89
+  },
+  {
+    "name": "Ramadan Iftar Mexican Meal Feast",
+    "sell": 279,
+    "min_cost": 71.11,
+    "max_cost": 130.95
+  }
+]

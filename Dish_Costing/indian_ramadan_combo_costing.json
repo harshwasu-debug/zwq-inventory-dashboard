@@ -1,0 +1,104 @@
+[
+  {
+    "brand": "Tandoori Tribe",
+    "name": "Ramadan Solo Tandoori Iftar",
+    "sell": 98,
+    "cost": 16.7
+  },
+  {
+    "brand": "Tandoori Tribe",
+    "name": "Ramadan Couple Tandoori Iftar",
+    "sell": 165,
+    "cost": 35.71
+  },
+  {
+    "brand": "Tandoori Tribe",
+    "name": "Ramadan Family Tandoori Iftar",
+    "sell": 255,
+    "cost": 58.17
+  },
+  {
+    "brand": "Tandoori Tribe",
+    "name": "Ramadan Grand Tandoori Iftar",
+    "sell": 380,
+    "cost": 91.66
+  },
+  {
+    "brand": "Tandoori Tribe",
+    "name": "Ramadan Vegetarian Tandoori Iftar",
+    "sell": 90,
+    "cost": 15.02
+  },
+  {
+    "brand": "Zaika Punjab",
+    "name": "Ramadan Solo Punjab Iftar",
+    "sell": 96,
+    "cost": 12.76
+  },
+  {
+    "brand": "Zaika Punjab",
+    "name": "Ramadan Couple Punjab Iftar",
+    "sell": 158,
+    "cost": 29.4
+  },
+  {
+    "brand": "Zaika Punjab",
+    "name": "Ramadan Family Punjab Iftar",
+    "sell": 268,
+    "cost": 55.6
+  },
+  {
+    "brand": "Zaika Punjab",
+    "name": "Ramadan Grand Punjab Iftar",
+    "sell": 390,
+    "cost": 84.85
+  },
+  {
+    "brand": "The Curry Club",
+    "name": "Ramadan Solo Curry Iftar",
+    "sell": 92,
+    "cost": 11.96
+  },
+  {
+    "brand": "The Curry Club",
+    "name": "Ramadan Couple Curry Iftar",
+    "sell": 148,
+    "cost": 24.55
+  },
+  {
+    "brand": "The Curry Club",
+    "name": "Ramadan Family Curry Iftar",
+    "sell": 235,
+    "cost": 43.86
+  },
+  {
+    "brand": "The Curry Club",
+    "name": "Ramadan Grand Curry Iftar",
+    "sell": 355,
+    "cost": 71.48
+  },
+  {
+    "brand": "Smoky Tandoor",
+    "name": "Ramadan Solo Smoky Iftar",
+    "sell": 95,
+    "cost": 16.9
+  },
+  {
+    "brand": "Smoky Tandoor",
+    "name": "Ramadan Couple Smoky Iftar",
+    "sell": 155,
+    "cost": 35.5
+  },
+  {
+    "brand": "Smoky Tandoor",
+    "name": "Ramadan Family Smoky Iftar",
+    "sell": 245,
+    "cost": 66.16
+  },
+  {
+    "brand": "Smoky Tandoor",
+    "name": "Ramadan Grand Smoky Iftar",
+    "sell": 365,
+    "cost": 92.33
+  }
+]

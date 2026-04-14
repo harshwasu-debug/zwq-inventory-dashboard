@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Iftar Korean Rice Bowl Solo",
+    "price": 72,
+    "min_cost": 10.09,
+    "max_cost": 20.81
+  },
+  {
+    "name": "Iftar Korean Rice Bowl Duo",
+    "price": 122,
+    "min_cost": 24.93,
+    "max_cost": 47.23
+  },
+  {
+    "name": "Iftar Korean Rice Bowl Family of 4",
+    "price": 193,
+    "min_cost": 37.07,
+    "max_cost": 77.47
+  },
+  {
+    "name": "Ramadan Korean Feast 6 Servings",
+    "price": 329,
+    "min_cost": 43.54,
+    "max_cost": 90.78
+  },
+  {
+    "name": "Iftar Vegetarian Korean Bowl Feast",
+    "price": 139,
+    "min_cost": 8.1,
+    "max_cost": 11.35
+  }
+]

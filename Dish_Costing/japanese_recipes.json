@@ -1,0 +1,3867 @@
+{
+  "source_file": "Matt New Menu Recipes.xlsx",
+  "brand": "Japanese Food (Matt)",
+  "total_dishes": 87,
+  "total_unique_ingredients": 111,
+  "sheets": {
+    "Semi Finished": {
+      "sheet_name": "Semi Finished",
+      "dish_count": 15,
+      "dishes": [
+        {
+          "dish_name": "SF - Pkg - Sushi Standard",
+          "recipe_code": "JAP023",
+          "ingredients": [
+            {
+              "ingredient": "Sushi Tray 2.0",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "657282"
+            },
+            {
+              "ingredient": "Bamboo Leaves",
+              "quantity": 2.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "f6b009"
+            },
+            {
+              "ingredient": "Sauce Cup 4oz Clear",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "254d80"
+            },
+            {
+              "ingredient": "Lid for Sauce Cup 4oz",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3d42a5"
+            },
+            {
+              "ingredient": "Chopsticks Bamboo",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5d0028"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Pkg - Bowl Set (Small)",
+          "recipe_code": "JAP024",
+          "ingredients": [
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a0c6d3"
+            },
+            {
+              "ingredient": "Chopsticks Bamboo",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5d0028"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Pkg - Main Bowl Set",
+          "recipe_code": "JAP025",
+          "ingredients": [
+            {
+              "ingredient": "Salad Bowl 750ml Brown with Lid",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "2bf6c9"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a0c6d3"
+            },
+            {
+              "ingredient": "Chopsticks Bamboo",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5d0028"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Pkg - Rice Main Set",
+          "recipe_code": "JAP026",
+          "ingredients": [
+            {
+              "ingredient": "Salad Bowl 750ml Brown with Lid",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "2bf6c9"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a0c6d3"
+            },
+            {
+              "ingredient": "Cutlery Set Black",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3390ca"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Pkg - Soup Set",
+          "recipe_code": "JAP027",
+          "ingredients": [
+            {
+              "ingredient": "Soup Cup 16oz Brown",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "c23db1"
+            },
+            {
+              "ingredient": "Cutlery Set Black",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3390ca"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Pkg - Noodle Soup Set",
+          "recipe_code": "JAP028",
+          "ingredients": [
+            {
+              "ingredient": "Soup Cup 16oz Brown",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "c23db1"
+            },
+            {
+              "ingredient": "Chopsticks Bamboo",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5d0028"
+            },
+            {
+              "ingredient": "Cutlery Set Black",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3390ca"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Sushi Rice Cooked",
+          "recipe_code": "JAP029",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "quantity": 1.0,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "ae7070"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 1.2,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Rice Vinegar",
+              "quantity": 0.25,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3cbf97"
+            },
+            {
+              "ingredient": "Sugar",
+              "quantity": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "046be5"
+            },
+            {
+              "ingredient": "Salt Rock",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "59ab62"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Spicy Mayo",
+          "recipe_code": "JAP030",
+          "ingredients": [
+            {
+              "ingredient": "Mayonnaise",
+              "quantity": 1.0,
+              "uom": "Kg",
+              "wastage_pct": 0.02,
+              "ingredient_code": "1d65b8"
+            },
+            {
+              "ingredient": "Sriracha Chilli Sauce",
+              "quantity": 0.35,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "478774"
+            },
+            {
+              "ingredient": "Shichimi Togarashi",
+              "quantity": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "651a82"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Teriyaki Sauce",
+          "recipe_code": "JAP031",
+          "ingredients": [
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.5,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "Mirin",
+              "quantity": 0.4,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "db6b21"
+            },
+            {
+              "ingredient": "Sugar",
+              "quantity": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "046be5"
+            },
+            {
+              "ingredient": "Ginger",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.15,
+              "ingredient_code": "4d4859"
+            },
+            {
+              "ingredient": "Cornflour",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "6b43ec"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Tempura Batter",
+          "recipe_code": "JAP032",
+          "ingredients": [
+            {
+              "ingredient": "Tempura Batter Mix",
+              "quantity": 0.5,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a32b9f"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 0.7,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Gyoza Dip",
+          "recipe_code": "JAP033",
+          "ingredients": [
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.5,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "Rice Vinegar",
+              "quantity": 0.4,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3cbf97"
+            },
+            {
+              "ingredient": "Chili Oil",
+              "quantity": 0.05,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3568f2"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Yakisoba Sauce",
+          "recipe_code": "JAP034",
+          "ingredients": [
+            {
+              "ingredient": "Tonkatsu Sauce",
+              "quantity": 0.5,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "bd5b4c"
+            },
+            {
+              "ingredient": "Oyster Sauce",
+              "quantity": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "fb52f5"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.15,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "Sugar",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "046be5"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Mongolian Sauce",
+          "recipe_code": "JAP035",
+          "ingredients": [
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.4,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "Sugar",
+              "quantity": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "046be5"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 0.2,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Ginger",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.15,
+              "ingredient_code": "4d4859"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "b16c8b"
+            },
+            {
+              "ingredient": "Cornflour",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "6b43ec"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Jap Curry Sauce",
+          "recipe_code": "JAP036",
+          "ingredients": [
+            {
+              "ingredient": "Onion White",
+              "quantity": 0.5,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "f42c7f"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "29ad4b"
+            },
+            {
+              "ingredient": "Ghee",
+              "quantity": 0.1,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "51a5bd"
+            },
+            {
+              "ingredient": "All Purpose Flour (Maida)",
+              "quantity": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "69ab76"
+            },
+            {
+              "ingredient": "Garam Masala",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "457128"
+            },
+            {
+              "ingredient": "Chicken Stock Powder",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "83eff8"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 1.5,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            }
+          ]
+        },
+        {
+          "dish_name": "SF - Green Curry Sauce",
+          "recipe_code": "JAP037",
+          "ingredients": [
+            {
+              "ingredient": "Coconut Milk",
+              "quantity": 1.0,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "0fb8e5"
+            },
+            {
+              "ingredient": "Tom Yum Paste",
+              "quantity": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "03010d"
+            },
+            {
+              "ingredient": "Green Chilli",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "76b31e"
+            },
+            {
+              "ingredient": "Coriander",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "87c9a8"
+            }
+          ]
+        }
+      ]
+    },
+    "Finished Recipe": {
+      "sheet_name": "Finished Recipe",
+      "dish_count": 72,
+      "dishes": [
+        {
+          "dish_name": "Prawn Tempura",
+          "recipe_code": "NOR101",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "SF - Teriyaki Sauce",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP031"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Prawn Katsu",
+          "recipe_code": "NOR102",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Egg",
+              "quantity": 0.5,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d88d48"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Tonkatsu Sauce",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "bd5b4c"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Shrimp Dynamite",
+          "recipe_code": "NOR103",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "SF - Spicy Mayo",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP030"
+            },
+            {
+              "ingredient": "Sweet Chilli Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "9bd4d9"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "SF - Pkg - Bowl Set (Small)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP024"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Dynamite",
+          "recipe_code": "NOR104",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "a99d25"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "SF - Spicy Mayo",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP030"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "SF - Pkg - Bowl Set (Small)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP024"
+            }
+          ]
+        },
+        {
+          "dish_name": "Shrimp Gyoza",
+          "recipe_code": "NOR105",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.065,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "cb9768"
+            },
+            {
+              "ingredient": "Gyoza Wrapper",
+              "quantity": 5.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "cf109a"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.005,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "SF - Gyoza Dip",
+              "quantity": 0.03,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP033"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Gyoza",
+          "recipe_code": "NOR106",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Mince",
+              "quantity": 0.065,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d7814c"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "cb9768"
+            },
+            {
+              "ingredient": "Gyoza Wrapper",
+              "quantity": 5.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "cf109a"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.005,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "SF - Gyoza Dip",
+              "quantity": 0.03,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP033"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Edamame",
+          "recipe_code": "NOR107",
+          "ingredients": [
+            {
+              "ingredient": "Edamame",
+              "quantity": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Chili Oil",
+              "quantity": 0.01,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3568f2"
+            },
+            {
+              "ingredient": "SF - Pkg - Bowl Set (Small)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP024"
+            }
+          ]
+        },
+        {
+          "dish_name": "Edamame",
+          "recipe_code": "NOR108",
+          "ingredients": [
+            {
+              "ingredient": "Edamame",
+              "quantity": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Salt Rock",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "59ab62"
+            },
+            {
+              "ingredient": "SF - Pkg - Bowl Set (Small)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP024"
+            }
+          ]
+        },
+        {
+          "dish_name": "Calamari",
+          "recipe_code": "NOR109",
+          "ingredients": [
+            {
+              "ingredient": "Squid Tubes",
+              "quantity": 0.18,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "2a16f8"
+            },
+            {
+              "ingredient": "All Purpose Flour (Maida)",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "69ab76"
+            },
+            {
+              "ingredient": "Sweet Chilli Sauce",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "9bd4d9"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Robatayaki",
+          "recipe_code": "NOR110",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "quantity": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "bd33b9"
+            },
+            {
+              "ingredient": "SF - Teriyaki Sauce",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP031"
+            },
+            {
+              "ingredient": "Bamboo Skewers",
+              "quantity": 3.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "cdc3f1"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Beef Robatayaki",
+          "recipe_code": "NOR111",
+          "ingredients": [
+            {
+              "ingredient": "Beef Tenderloin (Brazil)",
+              "quantity": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.07,
+              "ingredient_code": "031f7b"
+            },
+            {
+              "ingredient": "SF - Teriyaki Sauce",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP031"
+            },
+            {
+              "ingredient": "Bamboo Skewers",
+              "quantity": 3.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "cdc3f1"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tom Yum Soup",
+          "recipe_code": "NOR112",
+          "ingredients": [
+            {
+              "ingredient": "Tom Yum Paste",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "03010d"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 0.25,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "7f3636"
+            },
+            {
+              "ingredient": "SF - Pkg - Soup Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP027"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tom Yum Udon Soup",
+          "recipe_code": "NOR113",
+          "ingredients": [
+            {
+              "ingredient": "Udon Noodles",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d4892d"
+            },
+            {
+              "ingredient": "Tom Yum Paste",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "03010d"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 0.35,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Pkg - Noodle Soup Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP028"
+            }
+          ]
+        },
+        {
+          "dish_name": "Creamy Tom Yum",
+          "recipe_code": "NOR114",
+          "ingredients": [
+            {
+              "ingredient": "Tom Yum Paste",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "03010d"
+            },
+            {
+              "ingredient": "Coconut Milk",
+              "quantity": 0.05,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "0fb8e5"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 0.2,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Pkg - Soup Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP027"
+            }
+          ]
+        },
+        {
+          "dish_name": "Miso Soup",
+          "recipe_code": "NOR115",
+          "ingredients": [
+            {
+              "ingredient": "White Miso Paste",
+              "quantity": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "545c30"
+            },
+            {
+              "ingredient": "Hondashi",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "c569a1"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 0.25,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Tofu",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3bf848"
+            },
+            {
+              "ingredient": "Seaweed Salad",
+              "quantity": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "7d6a58"
+            },
+            {
+              "ingredient": "SF - Pkg - Soup Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP027"
+            }
+          ]
+        },
+        {
+          "dish_name": "Miso Beef Ramen",
+          "recipe_code": "NOR116",
+          "ingredients": [
+            {
+              "ingredient": "Egg Ramen Noodles",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3595f5"
+            },
+            {
+              "ingredient": "White Miso Paste",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "545c30"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 0.35,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Beef Tenderloin (Brazil)",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.07,
+              "ingredient_code": "031f7b"
+            },
+            {
+              "ingredient": "Egg",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d88d48"
+            },
+            {
+              "ingredient": "SF - Pkg - Noodle Soup Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP028"
+            }
+          ]
+        },
+        {
+          "dish_name": "Miso Chicken Ramen",
+          "recipe_code": "NOR117",
+          "ingredients": [
+            {
+              "ingredient": "Egg Ramen Noodles",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3595f5"
+            },
+            {
+              "ingredient": "White Miso Paste",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "545c30"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity": 0.35,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "bd33b9"
+            },
+            {
+              "ingredient": "Egg",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d88d48"
+            },
+            {
+              "ingredient": "SF - Pkg - Noodle Soup Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP028"
+            }
+          ]
+        },
+        {
+          "dish_name": "Salmon Crunch Salad",
+          "recipe_code": "NOR118",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "Lettuce Iceberg",
+              "quantity": 0.09,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "b6852e"
+            },
+            {
+              "ingredient": "Lettuce Iceberg",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "b6852e"
+            },
+            {
+              "ingredient": "SF - Pkg - Bowl Set (Small)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP024"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Tuna Salad",
+          "recipe_code": "NOR119",
+          "ingredients": [
+            {
+              "ingredient": "Tuna",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "affb03"
+            },
+            {
+              "ingredient": "SF - Spicy Mayo",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP030"
+            },
+            {
+              "ingredient": "Lettuce Iceberg",
+              "quantity": 0.09,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "b6852e"
+            },
+            {
+              "ingredient": "SF - Pkg - Bowl Set (Small)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP024"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chuka Wakame",
+          "recipe_code": "NOR120",
+          "ingredients": [
+            {
+              "ingredient": "Seaweed Salad",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "7d6a58"
+            },
+            {
+              "ingredient": "SF - Pkg - Bowl Set (Small)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP024"
+            }
+          ]
+        },
+        {
+          "dish_name": "Crab Salad",
+          "recipe_code": "NOR121",
+          "ingredients": [
+            {
+              "ingredient": "Surimi Sticks",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "0eca83"
+            },
+            {
+              "ingredient": "Mayonnaise",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1d65b8"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "SF - Pkg - Bowl Set (Small)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP024"
+            }
+          ]
+        },
+        {
+          "dish_name": "Cucumber Hosomaki",
+          "recipe_code": "NOR122",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity": 0.5,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.015,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Avocado Hosomaki",
+          "recipe_code": "NOR123",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity": 0.5,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity": 0.045,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.015,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Kani Hosomaki",
+          "recipe_code": "NOR124",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity": 0.5,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Surimi Sticks",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "0eca83"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.015,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Salmon Hosomaki",
+          "recipe_code": "NOR125",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity": 0.5,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.015,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tuna Hosomaki",
+          "recipe_code": "NOR126",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity": 0.5,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Tuna",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "affb03"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.015,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "California Roll",
+          "recipe_code": "NOR127",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity": 0.5,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Surimi Sticks",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "0eca83"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Tobiko Orange",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a92ddc"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Dragon Roll",
+          "recipe_code": "NOR128",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "SF - Teriyaki Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP031"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Tuna Roll",
+          "recipe_code": "NOR129",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Tuna",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "affb03"
+            },
+            {
+              "ingredient": "SF - Spicy Mayo",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP030"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Rainbow Roll",
+          "recipe_code": "NOR130",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Tuna",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "affb03"
+            },
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "Sushi Ebi",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "ef72ae"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Mango Roll",
+          "recipe_code": "NOR131",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Mango",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.15,
+              "ingredient_code": "4a3192"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Crab Roll",
+          "recipe_code": "NOR132",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Surimi Sticks",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "0eca83"
+            },
+            {
+              "ingredient": "Mayonnaise",
+              "quantity": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1d65b8"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Philadelphia Roll",
+          "recipe_code": "NOR133",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "Cream Cheese",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5a7ddd"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tempura Roll",
+          "recipe_code": "NOR134",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Salmon Roll",
+          "recipe_code": "NOR135",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "SF - Spicy Mayo",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP030"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Okinawa Roll",
+          "recipe_code": "NOR136",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "SF - Spicy Mayo",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP030"
+            },
+            {
+              "ingredient": "SF - Teriyaki Sauce",
+              "quantity": 0.015,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP031"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Dynamite Roll",
+          "recipe_code": "NOR137",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "SF - Spicy Mayo",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP030"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Triple Crunch Prawn Roll",
+          "recipe_code": "NOR138",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Sakuragi Prawn Roll",
+          "recipe_code": "NOR139",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "SF - Spicy Mayo",
+              "quantity": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP030"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Crispy Chicken Fried Roll",
+          "recipe_code": "NOR140",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "a99d25"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Crispy Shrimp Fried Roll",
+          "recipe_code": "NOR141",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Crispy Salmon Fried Roll",
+          "recipe_code": "NOR142",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Crispy Tuna Fried Roll",
+          "recipe_code": "NOR143",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Tuna",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "affb03"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Crispy Vegetarian Fried Roll",
+          "recipe_code": "NOR144",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Asparagus",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "b6a3c7"
+            },
+            {
+              "ingredient": "SF - Tempura Batter",
+              "quantity": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP032"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Salmon Nigiri (2 pcs)",
+          "recipe_code": "NOR145",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.036,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.015,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Ebi Nigiri (2 pcs)",
+          "recipe_code": "NOR146",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.036,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Sushi Ebi",
+              "quantity": 2.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "ef72ae"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.015,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tuna Nigiri (2 pcs)",
+          "recipe_code": "NOR147",
+          "ingredients": [
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.036,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Tuna",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "affb03"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.015,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Salmon Sashimi (3 pcs)",
+          "recipe_code": "NOR148",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity": 0.085,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "Radish White",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "6dc09a"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tuna Sashimi (3 pcs)",
+          "recipe_code": "NOR149",
+          "ingredients": [
+            {
+              "ingredient": "Tuna",
+              "quantity": 0.085,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "affb03"
+            },
+            {
+              "ingredient": "Radish White",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "6dc09a"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Shrimp Udon",
+          "recipe_code": "NOR150",
+          "ingredients": [
+            {
+              "ingredient": "Udon Noodles",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d4892d"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Yakisoba Sauce",
+              "quantity": 0.07,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP034"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "cb9768"
+            },
+            {
+              "ingredient": "SF - Pkg - Main Bowl Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP025"
+            }
+          ]
+        },
+        {
+          "dish_name": "Green Curry Udon",
+          "recipe_code": "NOR151",
+          "ingredients": [
+            {
+              "ingredient": "Udon Noodles",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d4892d"
+            },
+            {
+              "ingredient": "SF - Green Curry Sauce",
+              "quantity": 0.15,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP037"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Pkg - Main Bowl Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP025"
+            }
+          ]
+        },
+        {
+          "dish_name": "Shrimp Yakisoba",
+          "recipe_code": "NOR152",
+          "ingredients": [
+            {
+              "ingredient": "Egg Ramen Noodles",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3595f5"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "SF - Yakisoba Sauce",
+              "quantity": 0.07,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP034"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "quantity": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "cb9768"
+            },
+            {
+              "ingredient": "SF - Pkg - Main Bowl Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP025"
+            }
+          ]
+        },
+        {
+          "dish_name": "Vegetable Yakisoba",
+          "recipe_code": "NOR153",
+          "ingredients": [
+            {
+              "ingredient": "Egg Ramen Noodles",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3595f5"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "quantity": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "cb9768"
+            },
+            {
+              "ingredient": "SF - Yakisoba Sauce",
+              "quantity": 0.07,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP034"
+            },
+            {
+              "ingredient": "SF - Pkg - Main Bowl Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP025"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Yakisoba",
+          "recipe_code": "NOR154",
+          "ingredients": [
+            {
+              "ingredient": "Egg Ramen Noodles",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "3595f5"
+            },
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "quantity": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "bd33b9"
+            },
+            {
+              "ingredient": "SF - Yakisoba Sauce",
+              "quantity": 0.07,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP034"
+            },
+            {
+              "ingredient": "SF - Pkg - Main Bowl Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP025"
+            }
+          ]
+        },
+        {
+          "dish_name": "Stir Fry Beef Rice",
+          "recipe_code": "NOR155",
+          "ingredients": [
+            {
+              "ingredient": "Beef Tenderloin (Brazil)",
+              "quantity": 0.18,
+              "uom": "Kg",
+              "wastage_pct": 0.07,
+              "ingredient_code": "031f7b"
+            },
+            {
+              "ingredient": "SF - Mongolian Sauce",
+              "quantity": 0.07,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP035"
+            },
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "SF - Pkg - Rice Main Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP026"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Katsu Curry",
+          "recipe_code": "NOR156",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "a99d25"
+            },
+            {
+              "ingredient": "SF - Jap Curry Sauce",
+              "quantity": 0.15,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP036"
+            },
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "SF - Pkg - Rice Main Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP026"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Katsu with Rice",
+          "recipe_code": "NOR157",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "a99d25"
+            },
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Tonkatsu Sauce",
+              "quantity": 0.04,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "bd5b4c"
+            },
+            {
+              "ingredient": "SF - Pkg - Rice Main Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP026"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Teriyaki Rice",
+          "recipe_code": "NOR158",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "quantity": 0.16,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "bd33b9"
+            },
+            {
+              "ingredient": "SF - Teriyaki Sauce",
+              "quantity": 0.07,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP031"
+            },
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "SF - Pkg - Rice Main Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP026"
+            }
+          ]
+        },
+        {
+          "dish_name": "Beef Teriyaki Rice",
+          "recipe_code": "NOR159",
+          "ingredients": [
+            {
+              "ingredient": "Beef Tenderloin (Brazil)",
+              "quantity": 0.16,
+              "uom": "Kg",
+              "wastage_pct": 0.07,
+              "ingredient_code": "031f7b"
+            },
+            {
+              "ingredient": "SF - Teriyaki Sauce",
+              "quantity": 0.07,
+              "uom": "L",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP031"
+            },
+            {
+              "ingredient": "SF - Sushi Rice Cooked",
+              "quantity": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP029"
+            },
+            {
+              "ingredient": "SF - Pkg - Rice Main Set",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP026"
+            }
+          ]
+        },
+        {
+          "dish_name": "The Solo Play",
+          "recipe_code": "NOR160",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Hosomaki",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR125"
+            },
+            {
+              "ingredient": "Tuna Hosomaki",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR126"
+            },
+            {
+              "ingredient": "Salmon Nigiri (2 pcs)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR145"
+            },
+            {
+              "ingredient": "Tuna Nigiri (2 pcs)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR147"
+            },
+            {
+              "ingredient": "Seaweed Salad",
+              "quantity": 0.5,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "7d6a58"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Date Night Box",
+          "recipe_code": "NOR161",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Hosomaki",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR125"
+            },
+            {
+              "ingredient": "Tuna Hosomaki",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR126"
+            },
+            {
+              "ingredient": "California Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR127"
+            },
+            {
+              "ingredient": "Salmon Nigiri (2 pcs)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR145"
+            },
+            {
+              "ingredient": "Tuna Nigiri (2 pcs)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR147"
+            },
+            {
+              "ingredient": "Ebi Nigiri (2 pcs)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR146"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 2.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "The Power Feed",
+          "recipe_code": "NOR162",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Hosomaki",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR125"
+            },
+            {
+              "ingredient": "Tuna Hosomaki",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR126"
+            },
+            {
+              "ingredient": "Avocado Hosomaki",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR123"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "The Crowd Pleaser",
+          "recipe_code": "NOR163",
+          "ingredients": [
+            {
+              "ingredient": "California Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR127"
+            },
+            {
+              "ingredient": "Dragon Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR128"
+            },
+            {
+              "ingredient": "Spicy Tuna Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR129"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 2.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Signature Flex",
+          "recipe_code": "NOR164",
+          "ingredients": [
+            {
+              "ingredient": "Dynamite Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR137"
+            },
+            {
+              "ingredient": "Okinawa Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR136"
+            },
+            {
+              "ingredient": "Triple Crunch Prawn Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR138"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 2.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Raw Bar Feast",
+          "recipe_code": "NOR165",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Sashimi (3 pcs)",
+              "quantity": 1.33,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR148"
+            },
+            {
+              "ingredient": "Tuna Sashimi (3 pcs)",
+              "quantity": 1.33,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR149"
+            },
+            {
+              "ingredient": "Salmon Nigiri (2 pcs)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR145"
+            },
+            {
+              "ingredient": "Tuna Nigiri (2 pcs)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR147"
+            },
+            {
+              "ingredient": "Ebi Nigiri (2 pcs)",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR146"
+            },
+            {
+              "ingredient": "Spicy Tuna Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR129"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 2.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "The Party Starter",
+          "recipe_code": "NOR166",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Hosomaki",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR125"
+            },
+            {
+              "ingredient": "Tuna Hosomaki",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR126"
+            },
+            {
+              "ingredient": "California Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR127"
+            },
+            {
+              "ingredient": "Dragon Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR128"
+            },
+            {
+              "ingredient": "Spicy Tuna Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR129"
+            },
+            {
+              "ingredient": "Dynamite Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR137"
+            },
+            {
+              "ingredient": "Okinawa Roll",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR136"
+            },
+            {
+              "ingredient": "Chicken Gyoza",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "NOR106"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "SF - Pkg - Sushi Standard",
+              "quantity": 4.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "JAP023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Mineral Water",
+          "recipe_code": "NOR167",
+          "ingredients": [
+            {
+              "ingredient": "Arwa 500ml",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "cf4d3f"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "Coca Cola",
+          "recipe_code": "NOR168",
+          "ingredients": [
+            {
+              "ingredient": "Coca-Cola 330ml",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "7397e9"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "Coca Cola Zero",
+          "recipe_code": "NOR169",
+          "ingredients": [
+            {
+              "ingredient": "Coca-Cola Zero 330ml",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "dfc116"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "Sprite",
+          "recipe_code": "NOR170",
+          "ingredients": [
+            {
+              "ingredient": "Sprite 330ml",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "22df75"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "Sprite Zero",
+          "recipe_code": "NOR171",
+          "ingredients": [
+            {
+              "ingredient": "Sprite Zero 330ml",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "ea3bb6"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "Fanta",
+          "recipe_code": "NOR172",
+          "ingredients": [
+            {
+              "ingredient": "Fanta Orange 330ml",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "5e71e3"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity": 1.0,
+              "uom": "Piece",
+              "wastage_pct": 0.0,
+              "ingredient_code": "d14631"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

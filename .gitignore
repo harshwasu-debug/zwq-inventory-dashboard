@@ -1,1 +1,8 @@
 .env*
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+Invoices/*.jpg
+Invoices/*.jpeg
+Invoices/*.png
+Invoices/*.pdf

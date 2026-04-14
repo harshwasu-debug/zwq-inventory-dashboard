@@ -1,0 +1,6184 @@
+{
+  "brand": "Poke Brands",
+  "source_file": "Poke Recipe.xlsx",
+  "sheets": {
+    "Sheet1_draft_semi_finished": {
+      "description": "Draft semi-finished recipes (bases, garnishes, preps, sauces, packaging)",
+      "recipes": [
+        {
+          "dish_name": "Base - Sushi Rice (Cooked)",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "ae7070"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 1.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Rice Vinegar",
+              "quantity_ep": 0.15,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "3cbf97"
+            },
+            {
+              "ingredient": "Sugar",
+              "quantity_ep": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "046be5"
+            },
+            {
+              "ingredient": "Salt Iodized",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "a5ec54"
+            }
+          ],
+          "recipe_code": "POK001",
+          "category": "Base"
+        },
+        {
+          "dish_name": "Base - Salad Mix",
+          "ingredients": [
+            {
+              "ingredient": "Lettuce Iceberg",
+              "quantity_ep": 0.5,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "b6852e"
+            },
+            {
+              "ingredient": "Lettuce Lollo Bionda",
+              "quantity_ep": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "d1f971"
+            },
+            {
+              "ingredient": "Cabbage Red",
+              "quantity_ep": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "7c1dab"
+            }
+          ],
+          "recipe_code": "POK002",
+          "category": "Base"
+        },
+        {
+          "dish_name": "Garnish - House Furikake",
+          "ingredients": [
+            {
+              "ingredient": "Nori Sheets",
+              "quantity_ep": 5,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Sesame Seeds Black",
+              "quantity_ep": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "08a61c"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6687d0"
+            },
+            {
+              "ingredient": "Bonito flakes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "7eb671"
+            }
+          ],
+          "recipe_code": "POK003",
+          "category": "Garnish"
+        },
+        {
+          "dish_name": "Garnish - Crispy Onions",
+          "ingredients": [
+            {
+              "ingredient": "Onion Red",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "32871f"
+            },
+            {
+              "ingredient": "Cornflour",
+              "quantity_ep": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6b43ec"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity_ep": 0.5,
+              "uom": "L",
+              "wastage_pct": 0.1,
+              "ingredient_code": "415d91"
+            }
+          ],
+          "recipe_code": "POK004",
+          "category": "Garnish"
+        },
+        {
+          "dish_name": "Prep - Tuna Cubes",
+          "ingredients": [
+            {
+              "ingredient": "Tuna",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "affb03"
+            }
+          ],
+          "recipe_code": "POK005",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "Prep - Salmon Cubes",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            }
+          ],
+          "recipe_code": "POK006",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "Prep - Shrimp (Boiled)",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "ingredient_code": "622a4a"
+            }
+          ],
+          "recipe_code": "POK007",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "Prep - Grilled Chicken",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "ingredient_code": "a99d25"
+            }
+          ],
+          "recipe_code": "POK008",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "Prep - Tempura Batter",
+          "ingredients": [
+            {
+              "ingredient": "Tempura Batter Mix",
+              "quantity_ep": 0.5,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "a32b9f"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 0.7,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            }
+          ],
+          "recipe_code": "POK009",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "PkgSet - Signature Poke",
+          "ingredients": [
+            {
+              "ingredient": "Salad Bowl 1100ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "acadca"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            }
+          ],
+          "recipe_code": "POK010",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Standard Poke",
+          "ingredients": [
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            }
+          ],
+          "recipe_code": "POK011",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Mini Poke",
+          "ingredients": [
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            }
+          ],
+          "recipe_code": "POK012",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Side Hot",
+          "ingredients": [
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            }
+          ],
+          "recipe_code": "POK013",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Side Cold",
+          "ingredients": [
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Chopsticks Bamboo",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "5d0028"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "POK014",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Beverage",
+          "ingredients": [
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "POK015",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "Sauce - Spicy Umami Fusion",
+          "ingredients": [
+            {
+              "ingredient": "Sauce - Spicy Mayo",
+              "quantity_ep": 0.7,
+              "uom": "Kg",
+              "wastage_pct": 0
+            }
+          ],
+          "category": "Sauce"
+        }
+      ]
+    },
+    "Sheet2_finished_recipes_v1": {
+      "description": "Finished dish recipes with notes (original version)",
+      "recipes": [
+        {
+          "dish_name": "The Classic Salmon",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein (Skin Loss in Prep)"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Skin/Pit"
+            },
+            {
+              "ingredient": "Edamame Otosan 500 Gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Thawed"
+            },
+            {
+              "ingredient": "Chuka Wakame 1Kg",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Seaweed Salad"
+            },
+            {
+              "ingredient": "Cherry Tomato",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Halved"
+            },
+            {
+              "ingredient": "Garishoga",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Pickled Ginger"
+            },
+            {
+              "ingredient": "ONION RED",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sliced"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "1 Portion (approx 3g)"
+            },
+            {
+              "ingredient": "PCK CHILLY CRUSHED 1KG",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Chili Flakes"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "Spicy Tuna & Mango",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "Fresh Mango",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "notes": "Skin/Pit"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Skin/Pit"
+            },
+            {
+              "ingredient": "Edamame Otosan 500 Gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Thawed"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Julienned"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Diced"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "The Grand Tuna",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Skin/Pit"
+            },
+            {
+              "ingredient": "Onion Spring",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Chopped"
+            },
+            {
+              "ingredient": "ONION RED",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sliced"
+            },
+            {
+              "ingredient": "Capsicum Red",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Diced"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "PCK TILL WHITE 1KG",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sesame"
+            },
+            {
+              "ingredient": "PCK TILL BLACK 1KG",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sesame"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "The All-Star",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "Kanikamaboko Thailand 500Gm",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Crab Stick Shredded"
+            },
+            {
+              "ingredient": "Fresh Mango",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "notes": "Peeling"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Skin/Pit"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Julienned"
+            },
+            {
+              "ingredient": "Garnish - Crispy Onions",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Fried Shallots"
+            },
+            {
+              "ingredient": "Onion Spring",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Chopped"
+            },
+            {
+              "ingredient": "PCK TILL WHITE 1KG",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sesame"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "Spicy Salmon Umami",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Skin/Pit"
+            },
+            {
+              "ingredient": "Spinach Leaves",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Kale Substitute"
+            },
+            {
+              "ingredient": "Cherry Tomato",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Halved"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Diced"
+            },
+            {
+              "ingredient": "AMERICAN CLASSIC BEETROOT SLICED",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Canned/Sliced"
+            },
+            {
+              "ingredient": "ONION RED",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sliced"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "Island Fusion",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "Prep - Shrimp (Boiled)",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Skin/Pit"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Julienned"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Diced"
+            },
+            {
+              "ingredient": "ONION RED",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sliced"
+            },
+            {
+              "ingredient": "PCK KAJU WHOLE (320) SAC",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Cashew (Sub for Mixed Nuts)"
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Peanut (Sub for Mixed Nuts)"
+            },
+            {
+              "ingredient": "Shichimi Togarashi",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Spice"
+            },
+            {
+              "ingredient": "Onion Spring",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Chopped"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "California Crab Bowl",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Kanikamaboko Thailand 500Gm",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Crab Sticks Shredded"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Skin/Pit"
+            },
+            {
+              "ingredient": "Edamame Otosan 500 Gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Thawed"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Diced"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Julienned"
+            },
+            {
+              "ingredient": "Tobiko Orange Taiwan 500Gm",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Fish Roe"
+            },
+            {
+              "ingredient": "PCK TILL WHITE 1KG",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sesame"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "The Veggie Bliss",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Fresh Tofu",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Diced"
+            },
+            {
+              "ingredient": "Fresh Mango",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "notes": "Peeling"
+            },
+            {
+              "ingredient": "Edamame Otosan 500 Gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Thawed"
+            },
+            {
+              "ingredient": "Chuka Wakame 1Kg",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Seaweed Salad"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Diced"
+            },
+            {
+              "ingredient": "Raddish White",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sliced"
+            },
+            {
+              "ingredient": "PCK TILL BLACK 1KG",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sesame"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "Grilled Chicken Teppanyaki",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Prep - Grilled Chicken",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Cooked Wt"
+            },
+            {
+              "ingredient": "Cabbage Chinese",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sauté Veg"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sauté Veg"
+            },
+            {
+              "ingredient": "Bell Pepper Green",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sauté Veg"
+            },
+            {
+              "ingredient": "ONION WHITE",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sauté Veg"
+            },
+            {
+              "ingredient": "PCK TILL WHITE 1KG",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Teppanyaki Bowl"
+        },
+        {
+          "dish_name": "Grilled Shrimp Teppanyaki",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Prep - Shrimp (Boiled)",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Cooked Wt (Grill)"
+            },
+            {
+              "ingredient": "Cabbage Chinese",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sauté Veg"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sauté Veg"
+            },
+            {
+              "ingredient": "Bell Pepper Green",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sauté Veg"
+            },
+            {
+              "ingredient": "ONION WHITE",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Sauté Veg"
+            },
+            {
+              "ingredient": "PCK TILL WHITE 1KG",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Teppanyaki Bowl"
+        },
+        {
+          "dish_name": "Tomyum Soup Regular",
+          "ingredients": [
+            {
+              "ingredient": "Water (Tap/Filtered)",
+              "quantity_ep": 0.3,
+              "uom": "L",
+              "wastage_pct": 0,
+              "notes": "Broth Base"
+            },
+            {
+              "ingredient": "Tom Yum Paste 227Gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Paste"
+            },
+            {
+              "ingredient": "SHRIMP RAW IQF PD TAIL OFF 11/15",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "CRAB WHOLE 100/200",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein (Cleaned)"
+            },
+            {
+              "ingredient": "SQUID TUBE 10/20 IQF OCEANIC PEARL",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein (Cleaned)"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Sliced"
+            },
+            {
+              "ingredient": "TOMATO",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Wedges"
+            },
+            {
+              "ingredient": "Corriander Leaves",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Cup + Lid + Spoon"
+            }
+          ],
+          "category": "Soup"
+        },
+        {
+          "dish_name": "Creamy Tomyum",
+          "ingredients": [
+            {
+              "ingredient": "Water (Tap/Filtered)",
+              "quantity_ep": 0.25,
+              "uom": "L",
+              "wastage_pct": 0,
+              "notes": "Broth Base"
+            },
+            {
+              "ingredient": "BBT Coconut Milk 1Ltr",
+              "quantity_ep": 0.05,
+              "uom": "L",
+              "wastage_pct": 0,
+              "notes": "Creamy Element"
+            },
+            {
+              "ingredient": "Tom Yum Paste 227Gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Paste"
+            },
+            {
+              "ingredient": "SHRIMP RAW IQF PD TAIL OFF 11/15",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "CRAB WHOLE 100/200",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "SQUID TUBE 10/20 IQF OCEANIC PEARL",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Sliced"
+            },
+            {
+              "ingredient": "TOMATO",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Wedges"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Soup"
+        },
+        {
+          "dish_name": "Tom Yum Udon",
+          "ingredients": [
+            {
+              "ingredient": "Sanuki Udon (5X250)Gm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "250g Frozen Portion"
+            },
+            {
+              "ingredient": "Water (Tap/Filtered)",
+              "quantity_ep": 0.25,
+              "uom": "L",
+              "wastage_pct": 0,
+              "notes": "Broth"
+            },
+            {
+              "ingredient": "BBT Coconut Milk 1Ltr",
+              "quantity_ep": 0.05,
+              "uom": "L",
+              "wastage_pct": 0,
+              "notes": "Creamy"
+            },
+            {
+              "ingredient": "Tom Yum Paste 227Gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Paste"
+            },
+            {
+              "ingredient": "SHRIMP RAW IQF PD TAIL OFF 11/15",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "SQUID TUBE 10/20 IQF OCEANIC PEARL",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Sliced"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Packaging"
+            }
+          ],
+          "category": "Soup"
+        },
+        {
+          "dish_name": "BYO - Regular Bowl (3 Proteins)",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base Choice"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein Rep 1"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein Rep 2"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Premium Topping"
+            },
+            {
+              "ingredient": "Edamame Otosan 500 Gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Mix-in"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Mix-in"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Standard Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "750ml Bowl"
+            }
+          ],
+          "category": "Build Your Own"
+        },
+        {
+          "dish_name": "BYO - Large Bowl (4 Proteins)",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base Choice"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein Rep 1"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein Rep 2"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Premium Topping"
+            },
+            {
+              "ingredient": "Edamame Otosan 500 Gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Mix-in"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Mix-in"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "1100ml Bowl"
+            }
+          ],
+          "category": "Build Your Own"
+        },
+        {
+          "dish_name": "BYO - Super Bowl (5 Proteins)",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base Choice"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.18,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein Rep 1"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein Rep 2"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Premium Topping"
+            },
+            {
+              "ingredient": "Edamame Otosan 500 Gm",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Mix-in"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Mix-in"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "1100ml Bowl"
+            }
+          ],
+          "category": "Build Your Own"
+        },
+        {
+          "dish_name": "Sake (Salmon) Sashimi",
+          "ingredients": [
+            {
+              "ingredient": "SALMON FILLET S/ON",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "5 slices x 20g"
+            },
+            {
+              "ingredient": "Raddish White",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Tsuma (Shredded)"
+            },
+            {
+              "ingredient": "Garishoga",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Pickled Ginger"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Rehydrated"
+            },
+            {
+              "ingredient": "BAGASSE SUSHI TRAY 1.5 (1X600)",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Tray"
+            },
+            {
+              "ingredient": "PET LID FOR BAGASSE SUSHI TRAY 1.5",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Lid"
+            },
+            {
+              "ingredient": "BAMBOO PREMIUM TWIN CHOPSTICK",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Utensil"
+            },
+            {
+              "ingredient": "PAPER BAG TWISTED HANDLE WHITE",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Bag"
+            }
+          ],
+          "category": "Sashimi"
+        },
+        {
+          "dish_name": "Maguro (Tuna) Sashimi",
+          "ingredients": [
+            {
+              "ingredient": "Tuna Sako Kg",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "5 slices x 20g"
+            },
+            {
+              "ingredient": "Raddish White",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Tsuma (Shredded)"
+            },
+            {
+              "ingredient": "Garishoga",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Pickled Ginger"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Rehydrated"
+            },
+            {
+              "ingredient": "BAGASSE SUSHI TRAY 1.5 (1X600)",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Tray"
+            },
+            {
+              "ingredient": "PET LID FOR BAGASSE SUSHI TRAY 1.5",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Lid"
+            },
+            {
+              "ingredient": "BAMBOO PREMIUM TWIN CHOPSTICK",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Utensil"
+            },
+            {
+              "ingredient": "PAPER BAG TWISTED HANDLE WHITE",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Bag"
+            }
+          ],
+          "category": "Sashimi"
+        },
+        {
+          "dish_name": "Crispy Salmon Salad",
+          "ingredients": [
+            {
+              "ingredient": "Base - Salad Mix",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Greens"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "Kanikamaboko Thailand 500Gm",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Crab Stick"
+            },
+            {
+              "ingredient": "Tempurako 2Kg",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Fried Bits Batter"
+            },
+            {
+              "ingredient": "Mumtaz Oil 18 Ltr",
+              "quantity_ep": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.1,
+              "notes": "Frying Oil"
+            },
+            {
+              "ingredient": "Onion Spring",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Standard Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "750ml Bowl (Salad)"
+            }
+          ],
+          "category": "Salad"
+        },
+        {
+          "dish_name": "Spicy Tuna Salad",
+          "ingredients": [
+            {
+              "ingredient": "Base - Salad Mix",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Greens"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Protein"
+            },
+            {
+              "ingredient": "Onion Spring",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Mix"
+            },
+            {
+              "ingredient": "Capsicum Red",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Mix"
+            },
+            {
+              "ingredient": "ONION RED",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Mix"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Standard Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "750ml Bowl (Salad)"
+            }
+          ],
+          "category": "Salad"
+        },
+        {
+          "dish_name": "Classic Crab Salad",
+          "ingredients": [
+            {
+              "ingredient": "Base - Salad Mix",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Greens"
+            },
+            {
+              "ingredient": "Kanikamaboko Thailand 500Gm",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Crab Sticks"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Julienne"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Julienne"
+            },
+            {
+              "ingredient": "AVOCADO HASS",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Slices"
+            },
+            {
+              "ingredient": "Tobiko Orange Taiwan 500Gm",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Topping"
+            },
+            {
+              "ingredient": "Qp Mayonnaise 450gm",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.02,
+              "notes": "Dressing"
+            },
+            {
+              "ingredient": "PkgSet - Standard Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "750ml Bowl (Salad)"
+            }
+          ],
+          "category": "Salad"
+        },
+        {
+          "dish_name": "Sesame Seaweed Salad",
+          "ingredients": [
+            {
+              "ingredient": "Chuka Wakame 1Kg",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Base"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "notes": "Sliced"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Julienne"
+            },
+            {
+              "ingredient": "PCK TILL WHITE 1KG",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "PkgSet - Side Cold",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "500ml Bowl"
+            }
+          ],
+          "category": "Salad"
+        },
+        {
+          "dish_name": "Dynamite Shrimp",
+          "ingredients": [
+            {
+              "ingredient": "Prep - Shrimp (Boiled)",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Raw Wt (Fried)"
+            },
+            {
+              "ingredient": "Prep - Tempura Batter",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Coating"
+            },
+            {
+              "ingredient": "Mumtaz Oil 18 Ltr",
+              "quantity_ep": 0.05,
+              "uom": "L",
+              "wastage_pct": 0.1,
+              "notes": "Frying Oil"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Onion Spring",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Cup (Keeps Heat)"
+            }
+          ],
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Shrimp Tempura (5 pieces)",
+          "ingredients": [
+            {
+              "ingredient": "SHRIMP RAW IQF PD TAIL OFF 11/15",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "5 pcs"
+            },
+            {
+              "ingredient": "Prep - Tempura Batter",
+              "quantity_ep": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Coating"
+            },
+            {
+              "ingredient": "Mumtaz Oil 18 Ltr",
+              "quantity_ep": 0.05,
+              "uom": "L",
+              "wastage_pct": 0.1,
+              "notes": "Frying Oil"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce Choice"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Cup/Bowl"
+            }
+          ],
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Edamame",
+          "ingredients": [
+            {
+              "ingredient": "Edamame Otosan 500 Gm",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Steamed"
+            },
+            {
+              "ingredient": "Spoonz Rock Salt 10x1kg",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Seasoning"
+            },
+            {
+              "ingredient": "PkgSet - Side Cold",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "500ml Bowl"
+            }
+          ],
+          "category": "Side"
+        },
+        {
+          "dish_name": "Spicy Edamame",
+          "ingredients": [
+            {
+              "ingredient": "Edamame Otosan 500 Gm",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Steamed"
+            },
+            {
+              "ingredient": "Peeled Garlic",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauté"
+            },
+            {
+              "ingredient": "Chilli Paste Chua Hah Seng 3.2kg",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Sauce"
+            },
+            {
+              "ingredient": "PkgSet - Side Cold",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "500ml Bowl"
+            }
+          ],
+          "category": "Side"
+        },
+        {
+          "dish_name": "Miso Soup",
+          "ingredients": [
+            {
+              "ingredient": "Water (Tap/Filtered)",
+              "quantity_ep": 0.3,
+              "uom": "L",
+              "wastage_pct": 0,
+              "notes": "Broth"
+            },
+            {
+              "ingredient": "Marukome Miso Shiro 1 Kg",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Paste"
+            },
+            {
+              "ingredient": "Hondashi China",
+              "quantity_ep": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Stock"
+            },
+            {
+              "ingredient": "Fresh Tofu",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Cubed"
+            },
+            {
+              "ingredient": "Cut Wakame",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "notes": "Rehydrated"
+            },
+            {
+              "ingredient": "Onion Spring",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "notes": "Garnish"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Soup Cup"
+            }
+          ],
+          "category": "Soup"
+        },
+        {
+          "dish_name": "Mineral Water",
+          "ingredients": [
+            {
+              "ingredient": "Arwa 500ml 2x12 PET",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Bottle"
+            }
+          ],
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Coca-Cola",
+          "ingredients": [
+            {
+              "ingredient": "Coke 330ml 1x24 NP Sleek Can",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Can"
+            }
+          ],
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Coca-Cola Zero",
+          "ingredients": [
+            {
+              "ingredient": "Coke Zero 330ml 4x6 NP Sleek Can",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Can"
+            }
+          ],
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Fanta",
+          "ingredients": [
+            {
+              "ingredient": "Fanta Orange 330ml 1x24 NP Sleek Can",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Can"
+            }
+          ],
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Sprite",
+          "ingredients": [
+            {
+              "ingredient": "Sprite 330ml 1x24 NF Sleek Can",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Can"
+            }
+          ],
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Sprite Zero",
+          "ingredients": [
+            {
+              "ingredient": "Sprite Zero 330ml 4x6 NP Sleek Can",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "notes": "Can"
+            }
+          ],
+          "category": "Beverage"
+        }
+      ]
+    },
+    "Semi_Finished": {
+      "description": "Semi-finished recipes with item codes (bases, preps, sauces, garnishes, packaging)",
+      "recipes": [
+        {
+          "dish_name": "Base - Sushi Rice (Cooked)",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "ae7070"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 1.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Rice Vinegar",
+              "quantity_ep": 0.15,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "3cbf97"
+            },
+            {
+              "ingredient": "Sugar",
+              "quantity_ep": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "046be5"
+            },
+            {
+              "ingredient": "Salt Iodized",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "a5ec54"
+            }
+          ],
+          "recipe_code": "POK001",
+          "category": "Base"
+        },
+        {
+          "dish_name": "Base - Salad Mix",
+          "ingredients": [
+            {
+              "ingredient": "Lettuce Iceberg",
+              "quantity_ep": 0.5,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "b6852e"
+            },
+            {
+              "ingredient": "Lettuce Lollo Bionda",
+              "quantity_ep": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "d1f971"
+            },
+            {
+              "ingredient": "Cabbage Red",
+              "quantity_ep": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "7c1dab"
+            }
+          ],
+          "recipe_code": "POK002",
+          "category": "Base"
+        },
+        {
+          "dish_name": "Garnish - House Furikake",
+          "ingredients": [
+            {
+              "ingredient": "Nori Sheets",
+              "quantity_ep": 5,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "Sesame Seeds Black",
+              "quantity_ep": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "08a61c"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6687d0"
+            },
+            {
+              "ingredient": "Bonito flakes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "7eb671"
+            }
+          ],
+          "recipe_code": "POK003",
+          "category": "Garnish"
+        },
+        {
+          "dish_name": "Garnish - Crispy Onions",
+          "ingredients": [
+            {
+              "ingredient": "Onion Red",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "32871f"
+            },
+            {
+              "ingredient": "Cornflour",
+              "quantity_ep": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6b43ec"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity_ep": 0.5,
+              "uom": "L",
+              "wastage_pct": 0.1,
+              "ingredient_code": "415d91"
+            }
+          ],
+          "recipe_code": "POK004",
+          "category": "Garnish"
+        },
+        {
+          "dish_name": "Prep - Tuna Cubes",
+          "ingredients": [
+            {
+              "ingredient": "Tuna",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "affb03"
+            }
+          ],
+          "recipe_code": "POK005",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "Prep - Salmon Cubes",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            }
+          ],
+          "recipe_code": "POK006",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "Prep - Shrimp (Boiled)",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "ingredient_code": "622a4a"
+            }
+          ],
+          "recipe_code": "POK007",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "Prep - Grilled Chicken",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "ingredient_code": "a99d25"
+            }
+          ],
+          "recipe_code": "POK008",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "Prep - Tempura Batter",
+          "ingredients": [
+            {
+              "ingredient": "Tempura Batter Mix",
+              "quantity_ep": 0.5,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "a32b9f"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 0.7,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            }
+          ],
+          "recipe_code": "POK009",
+          "category": "Prep"
+        },
+        {
+          "dish_name": "PkgSet - Signature Poke",
+          "ingredients": [
+            {
+              "ingredient": "Salad Bowl 1100ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "acadca"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Cutlery Set Black",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "3390ca"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "POK010",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Standard Poke",
+          "ingredients": [
+            {
+              "ingredient": "Salad Bowl 750ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d5392a"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 165mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "fd3f3e"
+            },
+            {
+              "ingredient": "Cutlery Set Black",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "3390ca"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "POK011",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Mini Poke",
+          "ingredients": [
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "a0c6d3"
+            },
+            {
+              "ingredient": "Cutlery Set Black",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "3390ca"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "POK012",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Side Hot",
+          "ingredients": [
+            {
+              "ingredient": "Soup Cup 12oz Brown",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "cef20b"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "c682a7"
+            },
+            {
+              "ingredient": "Cutlery Set Black",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "3390ca"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "POK013",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Side Cold",
+          "ingredients": [
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "a0c6d3"
+            },
+            {
+              "ingredient": "Chopsticks Bamboo",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "5d0028"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "POK014",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "PkgSet - Beverage",
+          "ingredients": [
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "POK015",
+          "category": "Packaging Set"
+        },
+        {
+          "dish_name": "Base - Quinoa (Subbed)",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "ae7070"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 2,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            }
+          ],
+          "category": "Base"
+        },
+        {
+          "dish_name": "Sauce - Poke Sauce",
+          "ingredients": [
+            {
+              "ingredient": "Mayonnaise",
+              "quantity_ep": 0.8,
+              "uom": "Kg",
+              "wastage_pct": 0.01,
+              "ingredient_code": "1d65b8"
+            },
+            {
+              "ingredient": "Sambal Oelek",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "8ae58e"
+            },
+            {
+              "ingredient": "Shichimi Togarashi",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "651a82"
+            }
+          ],
+          "category": "Sauce"
+        },
+        {
+          "dish_name": "Sauce - Teppan Sauce",
+          "ingredients": [
+            {
+              "ingredient": "Sweet Chilli Sauce",
+              "quantity_ep": 0.9,
+              "uom": "Kg",
+              "wastage_pct": 0.01,
+              "ingredient_code": "9bd4d9"
+            },
+            {
+              "ingredient": "Sriracha Chilli Sauce",
+              "quantity_ep": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "478774"
+            },
+            {
+              "ingredient": "Hoisin Sauce",
+              "quantity_ep": 0.054,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5ef182"
+            }
+          ],
+          "category": "Sauce"
+        },
+        {
+          "dish_name": "Sauce - Spicy Mayo",
+          "ingredients": [
+            {
+              "ingredient": "Mayonnaise",
+              "quantity_ep": 1,
+              "uom": "Kg",
+              "wastage_pct": 0.02,
+              "ingredient_code": "1d65b8"
+            },
+            {
+              "ingredient": "Sriracha Chilli Sauce",
+              "quantity_ep": 0.35,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "478774"
+            },
+            {
+              "ingredient": "Shichimi Togarashi",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "651a82"
+            }
+          ],
+          "category": "Sauce"
+        },
+        {
+          "dish_name": "Sauce - Umami Sesame",
+          "ingredients": [
+            {
+              "ingredient": "White Miso Paste",
+              "quantity_ep": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "545c30"
+            },
+            {
+              "ingredient": "Mayonnaise",
+              "quantity_ep": 0.5,
+              "uom": "Kg",
+              "wastage_pct": 0.02,
+              "ingredient_code": "1d65b8"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6687d0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity_ep": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "338709"
+            }
+          ],
+          "category": "Sauce"
+        },
+        {
+          "dish_name": "Sauce - Spicy Umami Fusion",
+          "ingredients": [
+            {
+              "ingredient": "Sauce - Spicy Mayo",
+              "quantity_ep": 0.7,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK019"
+            },
+            {
+              "ingredient": "Sauce - Umami Sesame",
+              "quantity_ep": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK020"
+            }
+          ],
+          "category": "Sauce"
+        },
+        {
+          "dish_name": "Sauce - Dynamite",
+          "ingredients": [
+            {
+              "ingredient": "Mayonnaise",
+              "quantity_ep": 0.8,
+              "uom": "Kg",
+              "wastage_pct": 0.02,
+              "ingredient_code": "1d65b8"
+            },
+            {
+              "ingredient": "Chili Paste",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "63e937"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "b16c8b"
+            }
+          ],
+          "category": "Sauce"
+        },
+        {
+          "dish_name": "Sauce - Tempura Dip",
+          "ingredients": [
+            {
+              "ingredient": "Hondashi",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "c569a1"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 0.6,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity_ep": 0.2,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "Mirin",
+              "quantity_ep": 0.2,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "db6b21"
+            }
+          ],
+          "category": "Sauce"
+        }
+      ]
+    },
+    "Sheet4_finished_recipes_v2": {
+      "description": "Finished dish recipes (updated, most complete, with item codes)",
+      "recipes": [
+        {
+          "dish_name": "The Classic Salmon",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK006"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Seaweed Salad",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "7d6a58"
+            },
+            {
+              "ingredient": "Cherry Tomato",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "440bcd"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Onion Red",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "32871f"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK003"
+            },
+            {
+              "ingredient": "Chilli Flakes",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "80361c"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP101",
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "Spicy Tuna & Mango",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK005"
+            },
+            {
+              "ingredient": "Mango",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "ingredient_code": "4a3192"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "29ad4b"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK003"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP102",
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "The Grand Tuna",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK005"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "Onion Red",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "32871f"
+            },
+            {
+              "ingredient": "Capsicum Red",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "11c7db"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK003"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6687d0"
+            },
+            {
+              "ingredient": "Sesame Seeds Black",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "08a61c"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP103",
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "The All-Star",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK005"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK006"
+            },
+            {
+              "ingredient": "Surimi Sticks",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "0eca83"
+            },
+            {
+              "ingredient": "Mango",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "ingredient_code": "4a3192"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "29ad4b"
+            },
+            {
+              "ingredient": "Garnish - Crispy Onions",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK004"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6687d0"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP104",
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "Spicy Salmon Umami",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK006"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Spinach",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "c5407a"
+            },
+            {
+              "ingredient": "Cherry Tomato",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "440bcd"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Beetroot Sliced",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "296972"
+            },
+            {
+              "ingredient": "Onion Red",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "32871f"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK003"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP105",
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "Island Fusion",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK006"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK005"
+            },
+            {
+              "ingredient": "Prep - Shrimp (Boiled)",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK007"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "29ad4b"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Onion Red",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "32871f"
+            },
+            {
+              "ingredient": "Cashew Nuts Whole",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "d65e28"
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "683753"
+            },
+            {
+              "ingredient": "Shichimi Togarashi",
+              "quantity_ep": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "651a82"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP106",
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "California Crab Bowl",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Surimi Sticks",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "0eca83"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "29ad4b"
+            },
+            {
+              "ingredient": "Tobiko Orange",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "a92ddc"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6687d0"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP107",
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "Shrimp Ceviche Bowl",
+          "ingredients": [
+            {
+              "ingredient": "Base - Quinoa (Subbed)",
+              "quantity_ep": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK016"
+            },
+            {
+              "ingredient": "Prep - Shrimp (Boiled)",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK007"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Cherry Tomato",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "440bcd"
+            },
+            {
+              "ingredient": "Capsicum Red",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "11c7db"
+            },
+            {
+              "ingredient": "Green Chilli",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "76b31e"
+            },
+            {
+              "ingredient": "Coriander",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "87c9a8"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP108",
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "The Veggie Bliss",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Tofu",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "3bf848"
+            },
+            {
+              "ingredient": "Mango",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.2,
+              "ingredient_code": "4a3192"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Seaweed Salad",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "7d6a58"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Radish White",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "6dc09a"
+            },
+            {
+              "ingredient": "Sesame Seeds Black",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "08a61c"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP109",
+          "category": "Signature Poke Bowl"
+        },
+        {
+          "dish_name": "Build Your Own - Regular Bowl (3 Proteins)",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK006"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK005"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Standard Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK011"
+            }
+          ],
+          "recipe_code": "PAP110",
+          "category": "Build Your Own"
+        },
+        {
+          "dish_name": "Build Your Own - Large Bowl (4 Proteins)",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK006"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK005"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP111",
+          "category": "Build Your Own"
+        },
+        {
+          "dish_name": "Build Your Own - Super Bowl (5 Proteins)",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK006"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK005"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Sauce - Poke Sauce",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK017"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP112",
+          "category": "Build Your Own"
+        },
+        {
+          "dish_name": "Grilled Chicken Teppanyaki",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Grilled Chicken",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK008"
+            },
+            {
+              "ingredient": "Cabbage Chinese",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "3b960e"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "29ad4b"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "4edff9"
+            },
+            {
+              "ingredient": "Onion White",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "f42c7f"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6687d0"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP113",
+          "category": "Teppanyaki Bowl"
+        },
+        {
+          "dish_name": "Grilled Shrimp Teppanyaki",
+          "ingredients": [
+            {
+              "ingredient": "Base - Sushi Rice (Cooked)",
+              "quantity_ep": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK001"
+            },
+            {
+              "ingredient": "Prep - Shrimp (Boiled)",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK007"
+            },
+            {
+              "ingredient": "Cabbage Chinese",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "3b960e"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "29ad4b"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "4edff9"
+            },
+            {
+              "ingredient": "Onion White",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "f42c7f"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6687d0"
+            },
+            {
+              "ingredient": "Sauce - Teppan Sauce",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK018"
+            },
+            {
+              "ingredient": "PkgSet - Signature Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK010"
+            }
+          ],
+          "recipe_code": "PAP114",
+          "category": "Teppanyaki Bowl"
+        },
+        {
+          "dish_name": "Miso Beef Ramen",
+          "ingredients": [
+            {
+              "ingredient": "Egg Ramen Noodles",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "3595f5"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 0.4,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "White Miso Paste",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "545c30"
+            },
+            {
+              "ingredient": "Hondashi",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "c569a1"
+            },
+            {
+              "ingredient": "Beef Tenderloin (India)",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "5bfb02"
+            },
+            {
+              "ingredient": "Sweet Corn Kernel",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "b16f37"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP115",
+          "category": "Ramen"
+        },
+        {
+          "dish_name": "Miso Chicken Ramen",
+          "ingredients": [
+            {
+              "ingredient": "Egg Ramen Noodles",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "3595f5"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 0.4,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "White Miso Paste",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "545c30"
+            },
+            {
+              "ingredient": "Hondashi",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "c569a1"
+            },
+            {
+              "ingredient": "Prep - Grilled Chicken",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK008"
+            },
+            {
+              "ingredient": "Sweet Corn Kernel",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "b16f37"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "Nori Sheets",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "a72720"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP116",
+          "category": "Ramen"
+        },
+        {
+          "dish_name": "Salmon Sashimi",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Fillet Skin On",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "618a58"
+            },
+            {
+              "ingredient": "Radish White",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "6dc09a"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Sushi Tray 1.5",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "2174aa"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 1.5",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "a277fb"
+            },
+            {
+              "ingredient": "Chopsticks Bamboo",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "5d0028"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "PAP117",
+          "category": "Sashimi"
+        },
+        {
+          "dish_name": "Tuna Sashimi",
+          "ingredients": [
+            {
+              "ingredient": "Tuna",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "affb03"
+            },
+            {
+              "ingredient": "Radish White",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "6dc09a"
+            },
+            {
+              "ingredient": "Pickled Ginger",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "1de4f0"
+            },
+            {
+              "ingredient": "Wasabi Powder",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "8170e7"
+            },
+            {
+              "ingredient": "Sushi Tray 1.5",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "2174aa"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 1.5",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "a277fb"
+            },
+            {
+              "ingredient": "Chopsticks Bamboo",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "5d0028"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "PAP118",
+          "category": "Sashimi"
+        },
+        {
+          "dish_name": "Salmon Crunch Salad",
+          "ingredients": [
+            {
+              "ingredient": "Base - Salad Mix",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK002"
+            },
+            {
+              "ingredient": "Prep - Salmon Cubes",
+              "quantity_ep": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK006"
+            },
+            {
+              "ingredient": "Surimi Sticks",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "0eca83"
+            },
+            {
+              "ingredient": "Tempura Batter Mix",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "a32b9f"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity_ep": 0.02,
+              "uom": "L",
+              "wastage_pct": 0.1,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "Sauce - Spicy Mayo",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK019"
+            },
+            {
+              "ingredient": "PkgSet - Standard Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK011"
+            }
+          ],
+          "recipe_code": "PAP119",
+          "category": "Salad"
+        },
+        {
+          "dish_name": "Spicy Tuna Salad",
+          "ingredients": [
+            {
+              "ingredient": "Base - Salad Mix",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK002"
+            },
+            {
+              "ingredient": "Prep - Tuna Cubes",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK005"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "Capsicum Red",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "11c7db"
+            },
+            {
+              "ingredient": "Onion Red",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "32871f"
+            },
+            {
+              "ingredient": "Garnish - House Furikake",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK003"
+            },
+            {
+              "ingredient": "Sauce - Spicy Umami Fusion",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK021"
+            },
+            {
+              "ingredient": "PkgSet - Standard Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK011"
+            }
+          ],
+          "recipe_code": "PAP120",
+          "category": "Salad"
+        },
+        {
+          "dish_name": "Crab Salad",
+          "ingredients": [
+            {
+              "ingredient": "Base - Salad Mix",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK002"
+            },
+            {
+              "ingredient": "Surimi Sticks",
+              "quantity_ep": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "0eca83"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "29ad4b"
+            },
+            {
+              "ingredient": "Avocado",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a03c91"
+            },
+            {
+              "ingredient": "Tobiko Orange",
+              "quantity_ep": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "a92ddc"
+            },
+            {
+              "ingredient": "Mayonnaise",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.02,
+              "ingredient_code": "1d65b8"
+            },
+            {
+              "ingredient": "PkgSet - Standard Poke",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK011"
+            }
+          ],
+          "recipe_code": "PAP121",
+          "category": "Salad"
+        },
+        {
+          "dish_name": "Chuka Wakame",
+          "ingredients": [
+            {
+              "ingredient": "Seaweed Salad",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "7d6a58"
+            },
+            {
+              "ingredient": "Cucumber",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "2668e7"
+            },
+            {
+              "ingredient": "Carrot",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "29ad4b"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6687d0"
+            },
+            {
+              "ingredient": "PkgSet - Side Cold",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK014"
+            }
+          ],
+          "recipe_code": "PAP122",
+          "category": "Salad"
+        },
+        {
+          "dish_name": "Miso Soup",
+          "ingredients": [
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 0.3,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "White Miso Paste",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "545c30"
+            },
+            {
+              "ingredient": "Hondashi",
+              "quantity_ep": 0.003,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "c569a1"
+            },
+            {
+              "ingredient": "Tofu",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "3bf848"
+            },
+            {
+              "ingredient": "Seaweed Salad",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "7d6a58"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP123",
+          "category": "Soup"
+        },
+        {
+          "dish_name": "Tom Yum Soup",
+          "ingredients": [
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 0.3,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Tom Yum Paste",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "03010d"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Crab Whole",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "57b6d3"
+            },
+            {
+              "ingredient": "Squid Tubes",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "2a16f8"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "7f3636"
+            },
+            {
+              "ingredient": "Tomato",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "e5a18c"
+            },
+            {
+              "ingredient": "Coriander",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "87c9a8"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP124",
+          "category": "Soup"
+        },
+        {
+          "dish_name": "Creamy Tom Yum",
+          "ingredients": [
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 0.25,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Coconut Milk",
+              "quantity_ep": 0.05,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "0fb8e5"
+            },
+            {
+              "ingredient": "Tom Yum Paste",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "03010d"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Crab Whole",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "57b6d3"
+            },
+            {
+              "ingredient": "Squid Tubes",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "2a16f8"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "7f3636"
+            },
+            {
+              "ingredient": "Tomato",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "e5a18c"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP125",
+          "category": "Soup"
+        },
+        {
+          "dish_name": "Tom Yum Udon Soup",
+          "ingredients": [
+            {
+              "ingredient": "Udon Noodles",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d4892d"
+            },
+            {
+              "ingredient": "Tap Water",
+              "quantity_ep": 0.25,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "5f5095"
+            },
+            {
+              "ingredient": "Coconut Milk",
+              "quantity_ep": 0.05,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "0fb8e5"
+            },
+            {
+              "ingredient": "Tom Yum Paste",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "03010d"
+            },
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Squid Tubes",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "2a16f8"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "7f3636"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP126",
+          "category": "Soup"
+        },
+        {
+          "dish_name": "Edamame",
+          "ingredients": [
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Salt Rock",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "59ab62"
+            },
+            {
+              "ingredient": "PkgSet - Side Cold",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK014"
+            }
+          ],
+          "recipe_code": "PAP127",
+          "category": "Side"
+        },
+        {
+          "dish_name": "Spicy Edamame",
+          "ingredients": [
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "b16c8b"
+            },
+            {
+              "ingredient": "Chili Paste",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "63e937"
+            },
+            {
+              "ingredient": "PkgSet - Side Cold",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK014"
+            }
+          ],
+          "recipe_code": "PAP128",
+          "category": "Side"
+        },
+        {
+          "dish_name": "Dynamite Shrimp",
+          "ingredients": [
+            {
+              "ingredient": "Prep - Shrimp (Boiled)",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK007"
+            },
+            {
+              "ingredient": "Prep - Tempura Batter",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK009"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity_ep": 0.05,
+              "uom": "L",
+              "wastage_pct": 0.1,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Sauce - Dynamite",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK022"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP129",
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Prawn Tempura",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Prep - Tempura Batter",
+              "quantity_ep": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK009"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity_ep": 0.05,
+              "uom": "L",
+              "wastage_pct": 0.1,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Sauce - Tempura Dip",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK023"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP130",
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Honey Chilli Potato",
+          "ingredients": [
+            {
+              "ingredient": "Potato",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.15,
+              "ingredient_code": "0db3a1"
+            },
+            {
+              "ingredient": "Cornflour",
+              "quantity_ep": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "6b43ec"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity_ep": 0.03,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Honey",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.02,
+              "ingredient_code": "2964df"
+            },
+            {
+              "ingredient": "Chilli Flakes",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "80361c"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity_ep": 0.005,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.12,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "PAP131",
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Honey Chilli Shrimp",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Honey",
+              "quantity_ep": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0.02,
+              "ingredient_code": "2964df"
+            },
+            {
+              "ingredient": "Chilli Flakes",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "80361c"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity_ep": 0.005,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "quantity_ep": 0.03,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "415d91"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.12,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d14631"
+            }
+          ],
+          "recipe_code": "PAP132",
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Prawn Katsu",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "622a4a"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Egg",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d88d48"
+            },
+            {
+              "ingredient": "All Purpose Flour (Maida)",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "69ab76"
+            },
+            {
+              "ingredient": "Tonkatsu Sauce",
+              "quantity_ep": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "bd5b4c"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP133",
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Chicken Dynamite",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "a99d25"
+            },
+            {
+              "ingredient": "Prep - Tempura Batter",
+              "quantity_ep": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK009"
+            },
+            {
+              "ingredient": "Sauce - Dynamite",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK022"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "19e05c"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP134",
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Chicken Gyoza",
+          "ingredients": [
+            {
+              "ingredient": "Gyoza Wrapper",
+              "quantity_ep": 5,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "cf109a"
+            },
+            {
+              "ingredient": "Chicken Mince",
+              "quantity_ep": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "d7814c"
+            },
+            {
+              "ingredient": "Cabbage Chinese",
+              "quantity_ep": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "3b960e"
+            },
+            {
+              "ingredient": "Ginger",
+              "quantity_ep": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0.1,
+              "ingredient_code": "4d4859"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "quantity_ep": 0.02,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_code": "338709"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP135",
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Calamari",
+          "ingredients": [
+            {
+              "ingredient": "Squid Tubes",
+              "quantity_ep": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "2a16f8"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "quantity_ep": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0.05,
+              "ingredient_code": "97f930"
+            },
+            {
+              "ingredient": "Egg",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "d88d48"
+            },
+            {
+              "ingredient": "Sauce - Spicy Mayo",
+              "quantity_ep": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_code": "POK019"
+            },
+            {
+              "ingredient": "PkgSet - Side Hot",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "POK013"
+            }
+          ],
+          "recipe_code": "PAP136",
+          "category": "Appetizer"
+        },
+        {
+          "dish_name": "Classic Chicken Wrap",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Tenders Frozen",
+              "quantity_ep": 3,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Frying Oil",
+              "quantity_ep": 15,
+              "uom": "g",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Tortilla Flour (12 inch)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Cheese Slices Yellow",
+              "quantity_ep": 48,
+              "uom": "gm",
+              "wastage_pct": 0,
+              "ingredient_code": "9a3ac6"
+            },
+            {
+              "ingredient": "Gherkins",
+              "quantity_ep": 5,
+              "uom": "g",
+              "wastage_pct": 2,
+              "ingredient_code": "2f9cde"
+            },
+            {
+              "ingredient": "Signature Sauce (SF - Bulk)",
+              "quantity_ep": 60,
+              "uom": "g",
+              "wastage_pct": 2,
+              "ingredient_code": "AME014"
+            },
+            {
+              "ingredient": "Classic Fries (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME023"
+            },
+            {
+              "ingredient": "Garlic Aioli Dip (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME042"
+            },
+            {
+              "ingredient": "Wrap Packaging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Final Bagging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            }
+          ],
+          "recipe_code": "PAP137",
+          "category": "Wrap"
+        },
+        {
+          "dish_name": "Chicken Caesar Wrap",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Tenders Frozen",
+              "quantity_ep": 3,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Frying Oil",
+              "quantity_ep": 15,
+              "uom": "g",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Tortilla Flour (12 inch)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Caesar Sauce",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Parmesan Cheese, Grated",
+              "quantity_ep": 15,
+              "uom": "g",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Tomato",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 5,
+              "ingredient_code": "e5a18c"
+            },
+            {
+              "ingredient": "Lettuce Iceberg",
+              "quantity_ep": 50,
+              "uom": "g",
+              "wastage_pct": 12,
+              "ingredient_code": "b6852e"
+            },
+            {
+              "ingredient": "Classic Fries (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME023"
+            },
+            {
+              "ingredient": "Garlic Aioli Dip (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME042"
+            },
+            {
+              "ingredient": "Wrap Packaging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Final Bagging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            }
+          ],
+          "recipe_code": "PAP138",
+          "category": "Wrap"
+        },
+        {
+          "dish_name": "BBQ Chicken Wrap",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Tenders Frozen",
+              "quantity_ep": 3,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Frying Oil",
+              "quantity_ep": 15,
+              "uom": "g",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Tortilla Flour (12 inch)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "BBQ Sauce Original",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 2,
+              "ingredient_code": "7bb68d"
+            },
+            {
+              "ingredient": "Mexican Ranch Sauce",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Cheese Slices Yellow",
+              "quantity_ep": 48,
+              "uom": "gm",
+              "wastage_pct": 0,
+              "ingredient_code": "9a3ac6"
+            },
+            {
+              "ingredient": "Jalapeno, Sliced",
+              "quantity_ep": 5,
+              "uom": "g",
+              "wastage_pct": 5
+            },
+            {
+              "ingredient": "Sautéed Onion",
+              "quantity_ep": 10,
+              "uom": "g",
+              "wastage_pct": 15
+            },
+            {
+              "ingredient": "Grilled Peppers",
+              "quantity_ep": 10,
+              "uom": "g",
+              "wastage_pct": 15
+            },
+            {
+              "ingredient": "Classic Fries (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME023"
+            },
+            {
+              "ingredient": "Garlic Aioli Dip (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME042"
+            },
+            {
+              "ingredient": "Wrap Packaging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Final Bagging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            }
+          ],
+          "recipe_code": "PAP139",
+          "category": "Wrap"
+        },
+        {
+          "dish_name": "Buffalo Chicken Wrap",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Tenders Frozen",
+              "quantity_ep": 3,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Frying Oil",
+              "quantity_ep": 15,
+              "uom": "g",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Tortilla Flour (12 inch)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Tangy Buffalo Sauce",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Cheese Slices Yellow",
+              "quantity_ep": 48,
+              "uom": "gm",
+              "wastage_pct": 0,
+              "ingredient_code": "9a3ac6"
+            },
+            {
+              "ingredient": "Lettuce Iceberg",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 12,
+              "ingredient_code": "b6852e"
+            },
+            {
+              "ingredient": "Sautéed Onion",
+              "quantity_ep": 10,
+              "uom": "g",
+              "wastage_pct": 15
+            },
+            {
+              "ingredient": "Gherkins",
+              "quantity_ep": 5,
+              "uom": "g",
+              "wastage_pct": 2,
+              "ingredient_code": "2f9cde"
+            },
+            {
+              "ingredient": "Classic Fries (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME023"
+            },
+            {
+              "ingredient": "Garlic Aioli Dip (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME042"
+            },
+            {
+              "ingredient": "Wrap Packaging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Final Bagging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            }
+          ],
+          "recipe_code": "PAP140",
+          "category": "Wrap"
+        },
+        {
+          "dish_name": "Hot Honey Chicken Wrap",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Tenders Frozen",
+              "quantity_ep": 3,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Frying Oil",
+              "quantity_ep": 15,
+              "uom": "g",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Tortilla Flour (12 inch)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Honey Chipotle Sauce",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Olives, Sliced",
+              "quantity_ep": 5,
+              "uom": "g",
+              "wastage_pct": 3
+            },
+            {
+              "ingredient": "Lettuce Iceberg",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 12,
+              "ingredient_code": "b6852e"
+            },
+            {
+              "ingredient": "Feta Cheese",
+              "quantity_ep": 50,
+              "uom": "g",
+              "wastage_pct": 2,
+              "ingredient_code": "e8f8c2"
+            },
+            {
+              "ingredient": "Garlic Aioli Dip",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Classic Fries (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME023"
+            },
+            {
+              "ingredient": "Garlic Aioli Dip (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME042"
+            },
+            {
+              "ingredient": "Wrap Packaging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Final Bagging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            }
+          ],
+          "recipe_code": "PAP141",
+          "category": "Wrap"
+        },
+        {
+          "dish_name": "Asian Chicken Wrap",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Tenders Frozen",
+              "quantity_ep": 3,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Frying Oil",
+              "quantity_ep": 15,
+              "uom": "g",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Tortilla Flour (12 inch)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Chili Hoisin Sauce",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Feta Cheese",
+              "quantity_ep": 50,
+              "uom": "g",
+              "wastage_pct": 2,
+              "ingredient_code": "e8f8c2"
+            },
+            {
+              "ingredient": "Lettuce Iceberg",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 12,
+              "ingredient_code": "b6852e"
+            },
+            {
+              "ingredient": "Mexican Ranch Sauce",
+              "quantity_ep": 30,
+              "uom": "g",
+              "wastage_pct": 2
+            },
+            {
+              "ingredient": "Classic Fries (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME023"
+            },
+            {
+              "ingredient": "Garlic Aioli Dip (Portion)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0,
+              "ingredient_code": "AME042"
+            },
+            {
+              "ingredient": "Wrap Packaging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Final Bagging (Set)",
+              "quantity_ep": 1,
+              "uom": "pc",
+              "wastage_pct": 0
+            }
+          ],
+          "recipe_code": "PAP142",
+          "category": "Wrap"
+        },
+        {
+          "dish_name": "Signature Combo",
+          "ingredients": [
+            {
+              "ingredient": "The Classic Salmon",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP101"
+            },
+            {
+              "ingredient": "Miso Soup",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP123"
+            },
+            {
+              "ingredient": "Coca-Cola 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "7397e9"
+            }
+          ],
+          "recipe_code": "PAP143",
+          "category": "Combo/Deal"
+        },
+        {
+          "dish_name": "Lunch Special",
+          "ingredients": [
+            {
+              "ingredient": "The Classic Salmon",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP101"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            }
+          ],
+          "recipe_code": "PAP144",
+          "category": "Combo/Deal"
+        },
+        {
+          "dish_name": "Sashimi Set",
+          "ingredients": [
+            {
+              "ingredient": "Salmon Sashimi",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP117"
+            },
+            {
+              "ingredient": "Tuna Sashimi",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP118"
+            },
+            {
+              "ingredient": "Miso Soup",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP123"
+            },
+            {
+              "ingredient": "Chuka Wakame",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP122"
+            },
+            {
+              "ingredient": "Chuka Wakame",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP122"
+            }
+          ],
+          "recipe_code": "PAP145",
+          "category": "Sashimi"
+        },
+        {
+          "dish_name": "Family Deal",
+          "ingredients": [
+            {
+              "ingredient": "The Classic Salmon",
+              "quantity_ep": 2,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP101"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 2,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Coca-Cola 330ml",
+              "quantity_ep": 2,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "7397e9"
+            },
+            {
+              "ingredient": "The Classic Salmon",
+              "quantity_ep": 2,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "PAP101"
+            },
+            {
+              "ingredient": "Edamame",
+              "quantity_ep": 2,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "cefd67"
+            },
+            {
+              "ingredient": "Coca-Cola 330ml",
+              "quantity_ep": 2,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "7397e9"
+            }
+          ],
+          "recipe_code": "PAP146",
+          "category": "Combo/Deal"
+        },
+        {
+          "dish_name": "Mineral Water",
+          "ingredients": [
+            {
+              "ingredient": "Arwa Water",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0
+            },
+            {
+              "ingredient": "Arwa Water",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0
+            }
+          ],
+          "recipe_code": "PAP147",
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Coca-Cola",
+          "ingredients": [
+            {
+              "ingredient": "Coca-Cola 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "7397e9"
+            },
+            {
+              "ingredient": "Coca-Cola 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "7397e9"
+            }
+          ],
+          "recipe_code": "PAP148",
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Coca-Cola Zero",
+          "ingredients": [
+            {
+              "ingredient": "Coca-Cola Zero 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "dfc116"
+            },
+            {
+              "ingredient": "Coca-Cola Zero 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "dfc116"
+            }
+          ],
+          "recipe_code": "PAP149",
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Fanta",
+          "ingredients": [
+            {
+              "ingredient": "Fanta Orange 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "5e71e3"
+            },
+            {
+              "ingredient": "Fanta Orange 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "5e71e3"
+            }
+          ],
+          "recipe_code": "PAP150",
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Sprite",
+          "ingredients": [
+            {
+              "ingredient": "Sprite 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "22df75"
+            },
+            {
+              "ingredient": "Sprite 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "22df75"
+            }
+          ],
+          "recipe_code": "PAP151",
+          "category": "Beverage"
+        },
+        {
+          "dish_name": "Sprite Zero",
+          "ingredients": [
+            {
+              "ingredient": "Sprite Zero 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "ea3bb6"
+            },
+            {
+              "ingredient": "Sprite Zero 330ml",
+              "quantity_ep": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_code": "ea3bb6"
+            }
+          ],
+          "recipe_code": "PAP152",
+          "category": "Beverage"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_sheets": 4,
+    "total_unique_dishes_across_all_sheets": 87,
+    "total_unique_ingredients": 193,
+    "categories_found": [
+      "Appetizer",
+      "Base",
+      "Beverage",
+      "Build Your Own",
+      "Combo/Deal",
+      "Garnish",
+      "Packaging Set",
+      "Prep",
+      "Ramen",
+      "Salad",
+      "Sashimi",
+      "Sauce",
+      "Side",
+      "Signature Poke Bowl",
+      "Soup",
+      "Teppanyaki Bowl",
+      "Wrap"
+    ],
+    "dishes_per_sheet": {
+      "Sheet1_draft_semi_finished": 16,
+      "Sheet2_finished_recipes_v1": 33,
+      "Semi_Finished": 23,
+      "Sheet4_finished_recipes_v2": 52
+    }
+  }
+}

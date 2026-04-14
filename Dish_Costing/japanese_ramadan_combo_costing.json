@@ -1,0 +1,128 @@
+[
+  {
+    "brand": "Oneesan",
+    "name": "Oneesan's Solace (Solo)",
+    "sell": 89.0,
+    "cost": 30.44
+  },
+  {
+    "brand": "Oneesan",
+    "name": "Shared Harmony (Date)",
+    "sell": 113.0,
+    "cost": 30.08
+  },
+  {
+    "brand": "Oneesan",
+    "name": "Simple Comforts (Fast)",
+    "sell": 95.0,
+    "cost": 14.47
+  },
+  {
+    "brand": "Oneesan",
+    "name": "The Family Gathering (Party)",
+    "sell": 147.0,
+    "cost": 19.51
+  },
+  {
+    "brand": "Oneesan",
+    "name": "Sister's Favorites (Premium)",
+    "sell": 158.0,
+    "cost": 15.88
+  },
+  {
+    "brand": "Oneesan",
+    "name": "The Artisan's Palette (Raw)",
+    "sell": 116.0,
+    "cost": 42.26
+  },
+  {
+    "brand": "Oneesan",
+    "name": "The Warm Welcome (Crowd)",
+    "sell": 419.0,
+    "cost": 48.01
+  },
+  {
+    "brand": "Hikari",
+    "name": "The Solo Play",
+    "sell": 85.0,
+    "cost": 30.44
+  },
+  {
+    "brand": "Hikari",
+    "name": "Date Night Box",
+    "sell": 108.0,
+    "cost": 30.08
+  },
+  {
+    "brand": "Hikari",
+    "name": "The Power Feed",
+    "sell": 90.0,
+    "cost": 14.47
+  },
+  {
+    "brand": "Hikari",
+    "name": "The Crowd Pleaser",
+    "sell": 140.0,
+    "cost": 19.51
+  },
+  {
+    "brand": "Hikari",
+    "name": "Signature Flex",
+    "sell": 150.0,
+    "cost": 15.88
+  },
+  {
+    "brand": "Hikari",
+    "name": "Raw Bar Feast",
+    "sell": 110.0,
+    "cost": 42.26
+  },
+  {
+    "brand": "Hikari",
+    "name": "The Party Starter",
+    "sell": 399.0,
+    "cost": 48.01
+  },
+  {
+    "brand": "Norii",
+    "name": "The Solo Edit",
+    "sell": 85.0,
+    "cost": 30.44
+  },
+  {
+    "brand": "Norii",
+    "name": "The Rendezvous",
+    "sell": 108.0,
+    "cost": 30.08
+  },
+  {
+    "brand": "Norii",
+    "name": "The Daily Ritual",
+    "sell": 90.0,
+    "cost": 14.47
+  },
+  {
+    "brand": "Norii",
+    "name": "The Socialite",
+    "sell": 140.0,
+    "cost": 19.51
+  },
+  {
+    "brand": "Norii",
+    "name": "Norii Gold Collection",
+    "sell": 150.0,
+    "cost": 15.88
+  },
+  {
+    "brand": "Norii",
+    "name": "The Sashimi Standard",
+    "sell": 110.0,
+    "cost": 42.26
+  },
+  {
+    "brand": "Norii",
+    "name": "The After Hours",
+    "sell": 399.0,
+    "cost": 48.01
+  }
+]

@@ -1,0 +1,7 @@
+streamlit>=1.30.0
+pandas
+anthropic
+python-dotenv
+PyMuPDF
+Pillow
+openpyxl

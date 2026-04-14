@@ -1,0 +1,6422 @@
+{
+  "source_file": "Korean Recipes.xlsx",
+  "total_dishes": 93,
+  "categories": {
+    "Semi Finished": {
+      "dish_count": 25,
+      "dishes": [
+        {
+          "dish_name": "Bulgogi Marinade - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR001",
+          "ingredients": [
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.5,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Sugar",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "046be5"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Onion Red",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "32871f"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.08,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Ginger",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4d4859"
+            }
+          ]
+        },
+        {
+          "dish_name": "Bibimbap Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR002",
+          "ingredients": [
+            {
+              "ingredient": "Gochujang",
+              "ep_qty": 0.6,
+              "uom": "Kg",
+              "wastage_pct": 1,
+              "ingredient_id": "472e86"
+            },
+            {
+              "ingredient": "Sugar Syrup",
+              "ep_qty": 0.15,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "78d8a0"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Rice Vinegar",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "3cbf97"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.05,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Bokkeum Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR003",
+          "ingredients": [
+            {
+              "ingredient": "Gochujang",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 1,
+              "ingredient_id": "472e86"
+            },
+            {
+              "ingredient": "Gochugaru",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6c1e84"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.15,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Sugar",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "046be5"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Ginger",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4d4859"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.05,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chili Garlic Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR004",
+          "ingredients": [
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.4,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Chilli Flakes",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "80361c"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Salt",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "78cf03"
+            }
+          ]
+        },
+        {
+          "dish_name": "Crispy Tofu Glaze - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR005",
+          "ingredients": [
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.5,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Sugar Syrup",
+              "ep_qty": 0.3,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "78d8a0"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.05,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            }
+          ]
+        },
+        {
+          "dish_name": "Japchae Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR006",
+          "ingredients": [
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.5,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Sugar",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "046be5"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.15,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Beef Bouillon Powder",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "4970a1"
+            }
+          ]
+        },
+        {
+          "dish_name": "Seafood Jjajang Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR007",
+          "ingredients": [
+            {
+              "ingredient": "Chunjang (Korean Black Bean Paste)",
+              "ep_qty": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": null
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.4,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "cb9768"
+            },
+            {
+              "ingredient": "Squid Tubes",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "2a16f8"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.2,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Chicken Stock Powder",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "83eff8"
+            },
+            {
+              "ingredient": "Sugar",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "046be5"
+            },
+            {
+              "ingredient": "Cornflour",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6b43ec"
+            }
+          ]
+        },
+        {
+          "dish_name": "House Kimchi - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR008",
+          "ingredients": [
+            {
+              "ingredient": "Cabbage Chinese",
+              "ep_qty": 6.5,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "3b960e"
+            },
+            {
+              "ingredient": "Salt",
+              "ep_qty": 0.65,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "78cf03"
+            },
+            {
+              "ingredient": "Gochugaru",
+              "ep_qty": 0.5,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6c1e84"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Onion Red",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "32871f"
+            },
+            {
+              "ingredient": "Radish White",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "6dc09a"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Ginger",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4d4859"
+            },
+            {
+              "ingredient": "Sugar",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "046be5"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.05,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.2,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Chili Paste - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR009",
+          "ingredients": [
+            {
+              "ingredient": "Gochugaru",
+              "ep_qty": 0.4,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6c1e84"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.15,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Beef Bouillon Powder",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "4970a1"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.15,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Frying Batter - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR010",
+          "ingredients": [
+            {
+              "ingredient": "All Purpose Flour (Maida)",
+              "ep_qty": 0.6,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "69ab76"
+            },
+            {
+              "ingredient": "Cornflour",
+              "ep_qty": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6b43ec"
+            },
+            {
+              "ingredient": "Baking Powder",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b1670f"
+            },
+            {
+              "ingredient": "Salt",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "78cf03"
+            },
+            {
+              "ingredient": "Garlic Powder",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6ff113"
+            }
+          ]
+        },
+        {
+          "dish_name": "Yangnyeom Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR011",
+          "ingredients": [
+            {
+              "ingredient": "Gochujang",
+              "ep_qty": 0.35,
+              "uom": "Kg",
+              "wastage_pct": 1,
+              "ingredient_id": "472e86"
+            },
+            {
+              "ingredient": "Sugar Syrup",
+              "ep_qty": 0.25,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "78d8a0"
+            },
+            {
+              "ingredient": "Tomato",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "e5a18c"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Rice Vinegar",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "3cbf97"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.05,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            }
+          ]
+        },
+        {
+          "dish_name": "Soy Garlic Glaze - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR012",
+          "ingredients": [
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.45,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Sugar Syrup",
+              "ep_qty": 0.3,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "78d8a0"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Ginger",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4d4859"
+            },
+            {
+              "ingredient": "Rice Vinegar",
+              "ep_qty": 0.05,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "3cbf97"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Chicken Glaze - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR013",
+          "ingredients": [
+            {
+              "ingredient": "Gochujang",
+              "ep_qty": 0.4,
+              "uom": "Kg",
+              "wastage_pct": 1,
+              "ingredient_id": "472e86"
+            },
+            {
+              "ingredient": "Gochugaru",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6c1e84"
+            },
+            {
+              "ingredient": "Sugar Syrup",
+              "ep_qty": 0.2,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "78d8a0"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            }
+          ]
+        },
+        {
+          "dish_name": "Honey Garlic Glaze - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR014",
+          "ingredients": [
+            {
+              "ingredient": "Honey",
+              "ep_qty": 0.4,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "2964df"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.2,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Butter",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "c367db"
+            },
+            {
+              "ingredient": "Rice Vinegar",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "3cbf97"
+            }
+          ]
+        },
+        {
+          "dish_name": "Dynamite Shrimp Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR015",
+          "ingredients": [
+            {
+              "ingredient": "Mayonnaise",
+              "ep_qty": 0.7,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "1d65b8"
+            },
+            {
+              "ingredient": "Sriracha Chilli Sauce",
+              "ep_qty": 0.2,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "478774"
+            },
+            {
+              "ingredient": "Honey",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "2964df"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tteokbokki Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR016",
+          "ingredients": [
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.4,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Gochujang",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 1,
+              "ingredient_id": "472e86"
+            },
+            {
+              "ingredient": "Gochugaru",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6c1e84"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Sugar",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "046be5"
+            },
+            {
+              "ingredient": "Beef Bouillon Powder",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "4970a1"
+            }
+          ]
+        },
+        {
+          "dish_name": "Ramen Broth Base - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR017",
+          "ingredients": [
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 5,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Beef Bouillon Powder",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "4970a1"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            }
+          ]
+        },
+        {
+          "dish_name": "Shrimp Mandu Filling - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR018",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.6,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "cb9768"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Ginger",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4d4859"
+            }
+          ]
+        },
+        {
+          "dish_name": "Kimbap Seasoned Rice - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR019",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.88,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Salt",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "78cf03"
+            }
+          ]
+        },
+        {
+          "dish_name": "Kimbap Dipping Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR020",
+          "ingredients": [
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.6,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Rice Vinegar",
+              "ep_qty": 0.3,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "3cbf97"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            }
+          ]
+        },
+        {
+          "dish_name": "Sigumchi Namul - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR021",
+          "ingredients": [
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 1.2,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.02,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6687d0"
+            }
+          ]
+        },
+        {
+          "dish_name": "Kongnamul Muchim - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR022",
+          "ingredients": [
+            {
+              "ingredient": "Green Beans",
+              "ep_qty": 1.2,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "4c5390"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Salt",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "78cf03"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6687d0"
+            }
+          ]
+        },
+        {
+          "dish_name": "Delivery Overhead - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR023",
+          "ingredients": [
+            {
+              "ingredient": "Chopsticks Bamboo",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "5d0028"
+            },
+            {
+              "ingredient": "Cutlery Set Black",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "3390ca"
+            },
+            {
+              "ingredient": "Paper Bag White",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d14631"
+            }
+          ]
+        },
+        {
+          "dish_name": "Banchan & Packaging - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR024",
+          "ingredients": [
+            {
+              "ingredient": "House Kimchi - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR008"
+            },
+            {
+              "ingredient": "Sigumchi Namul - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR021"
+            },
+            {
+              "ingredient": "Pickled Radish",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "a17871"
+            },
+            {
+              "ingredient": "Sauce Cup 4oz Clear",
+              "ep_qty": 3,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "254d80"
+            },
+            {
+              "ingredient": "Lid for Sauce Cup 4oz",
+              "ep_qty": 3,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "3d42a5"
+            }
+          ]
+        },
+        {
+          "dish_name": "Mandu Dipping Sauce - SF",
+          "category": "Semi Finished",
+          "sku_code": "KOR025",
+          "ingredients": [
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.5,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.3,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.1,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Gochugaru",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6c1e84"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "19e05c"
+            }
+          ]
+        }
+      ]
+    },
+    "Finished": {
+      "dish_count": 68,
+      "dishes": [
+        {
+          "dish_name": "Beef Bibimbap",
+          "category": "Finished",
+          "sku_code": "SEO101",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Beef Tenderloin (India)",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "5bfb02"
+            },
+            {
+              "ingredient": "Bulgogi Marinade - SF",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR001"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Radish White",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "6dc09a"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Cabbage Red",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "7c1dab"
+            },
+            {
+              "ingredient": "Green Beans",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "4c5390"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Bibimbap Sauce - SF",
+              "ep_qty": 0.035,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR002"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Bibimbap",
+          "category": "Finished",
+          "sku_code": "SEO102",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "bd33b9"
+            },
+            {
+              "ingredient": "Bulgogi Marinade - SF",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR001"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Radish White",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "6dc09a"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Cabbage Red",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "7c1dab"
+            },
+            {
+              "ingredient": "Green Beans",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "4c5390"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Bibimbap Sauce - SF",
+              "ep_qty": 0.035,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR002"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tofu Bibimbap",
+          "category": "Finished",
+          "sku_code": "SEO103",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Tofu",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "3bf848"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Radish White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "6dc09a"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Cabbage Red",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "7c1dab"
+            },
+            {
+              "ingredient": "Green Beans",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "4c5390"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Bibimbap Sauce - SF",
+              "ep_qty": 0.035,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR002"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Veg Bibimbap",
+          "category": "Finished",
+          "sku_code": "SEO104",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Radish White",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "6dc09a"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Cabbage Red",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "7c1dab"
+            },
+            {
+              "ingredient": "Green Beans",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "4c5390"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Bibimbap Sauce - SF",
+              "ep_qty": 0.035,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR002"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Shrimp Bibimbap",
+          "category": "Finished",
+          "sku_code": "SEO105",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Bulgogi Marinade - SF",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR001"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Radish White",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "6dc09a"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Cabbage Red",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "7c1dab"
+            },
+            {
+              "ingredient": "Green Beans",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "4c5390"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Bibimbap Sauce - SF",
+              "ep_qty": 0.035,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR002"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Kimchi Shrimp Fried Rice",
+          "category": "Finished",
+          "sku_code": "SEO106",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "House Kimchi - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR008"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.015,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Bulgogi Deopbap",
+          "category": "Finished",
+          "sku_code": "SEO107",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Beef Tenderloin (India)",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "5bfb02"
+            },
+            {
+              "ingredient": "Bulgogi Marinade - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR001"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "ep_qty": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6687d0"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Dak Deopbap",
+          "category": "Finished",
+          "sku_code": "SEO108",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 6,
+              "ingredient_id": "a99d25"
+            },
+            {
+              "ingredient": "Spicy Bokkeum Sauce - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR003"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "cb9768"
+            },
+            {
+              "ingredient": "Sweet Potato",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "3c389d"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chili Garlic Shrimp Deopbap",
+          "category": "Finished",
+          "sku_code": "SEO109",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Chili Garlic Sauce - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR004"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4edff9"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Gochujang Shrimp Deopbap",
+          "category": "Finished",
+          "sku_code": "SEO110",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Gochujang",
+              "ep_qty": 0.035,
+              "uom": "Kg",
+              "wastage_pct": 1,
+              "ingredient_id": "472e86"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "cb9768"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Crispy Tofu Deopbap",
+          "category": "Finished",
+          "sku_code": "SEO111",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Tofu",
+              "ep_qty": 0.18,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "3bf848"
+            },
+            {
+              "ingredient": "Cornflour",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6b43ec"
+            },
+            {
+              "ingredient": "Crispy Tofu Glaze - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR005"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "ep_qty": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6687d0"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Ojingeo Deopbap (Squid)",
+          "category": "Finished",
+          "sku_code": "SEO112",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Squid Tubes",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "2a16f8"
+            },
+            {
+              "ingredient": "Spicy Bokkeum Sauce - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR003"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "4edff9"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "cb9768"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Nakji Bokkeum (Octopus)",
+          "category": "Finished",
+          "sku_code": "SEO113",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Octopus Baby",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "e2f5f8"
+            },
+            {
+              "ingredient": "Spicy Bokkeum Sauce - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR003"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "cb9768"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "4edff9"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Donkkaseu",
+          "category": "Finished",
+          "sku_code": "SEO114",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 6,
+              "ingredient_id": "a99d25"
+            },
+            {
+              "ingredient": "Panko Breadcrumbs",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "97f930"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "All Purpose Flour (Maida)",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "69ab76"
+            },
+            {
+              "ingredient": "Tonkatsu Sauce",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "bd5b4c"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "cb9768"
+            },
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Japchae Beef",
+          "category": "Finished",
+          "sku_code": "SEO115",
+          "ingredients": [
+            {
+              "ingredient": "Vermicelli Noodles",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 3,
+              "ingredient_id": "34a76a"
+            },
+            {
+              "ingredient": "Beef Tenderloin (India)",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "5bfb02"
+            },
+            {
+              "ingredient": "Japchae Sauce - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR006"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Capsicum Red",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "11c7db"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4edff9"
+            },
+            {
+              "ingredient": "Capsicum Yellow",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "e3a2d4"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "ep_qty": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6687d0"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Japchae Chicken",
+          "category": "Finished",
+          "sku_code": "SEO116",
+          "ingredients": [
+            {
+              "ingredient": "Vermicelli Noodles",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 3,
+              "ingredient_id": "34a76a"
+            },
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "bd33b9"
+            },
+            {
+              "ingredient": "Japchae Sauce - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR006"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Capsicum Red",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "11c7db"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4edff9"
+            },
+            {
+              "ingredient": "Capsicum Yellow",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "e3a2d4"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "ep_qty": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6687d0"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Japchae Veg",
+          "category": "Finished",
+          "sku_code": "SEO117",
+          "ingredients": [
+            {
+              "ingredient": "Vermicelli Noodles",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 3,
+              "ingredient_id": "34a76a"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Japchae Sauce - SF",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR006"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.035,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Capsicum Red",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "11c7db"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4edff9"
+            },
+            {
+              "ingredient": "Capsicum Yellow",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "e3a2d4"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6687d0"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Shrimp Japchae",
+          "category": "Finished",
+          "sku_code": "SEO118",
+          "ingredients": [
+            {
+              "ingredient": "Vermicelli Noodles",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 3,
+              "ingredient_id": "34a76a"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Japchae Sauce - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR006"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Capsicum Red",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "11c7db"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "ep_qty": 0.002,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6687d0"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Jjajangmyeon",
+          "category": "Finished",
+          "sku_code": "SEO119",
+          "ingredients": [
+            {
+              "ingredient": "Egg Noodles",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 4,
+              "ingredient_id": "c5a376"
+            },
+            {
+              "ingredient": "Seafood Jjajang Sauce - SF",
+              "ep_qty": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR007"
+            },
+            {
+              "ingredient": "Cucumber",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "2668e7"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Kimchi Jjigae",
+          "category": "Finished",
+          "sku_code": "SEO120",
+          "ingredients": [
+            {
+              "ingredient": "House Kimchi - SF",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR008"
+            },
+            {
+              "ingredient": "Beef Tenderloin (India)",
+              "ep_qty": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "5bfb02"
+            },
+            {
+              "ingredient": "Tofu",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "3bf848"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.25,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Vinegar White",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 1,
+              "ingredient_id": "a777e0"
+            },
+            {
+              "ingredient": "Beef Bouillon Powder",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "4970a1"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Soondubu Jjigae",
+          "category": "Finished",
+          "sku_code": "SEO121",
+          "ingredients": [
+            {
+              "ingredient": "Tofu",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "3bf848"
+            },
+            {
+              "ingredient": "Spicy Chili Paste - SF",
+              "ep_qty": 0.3,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR009"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.25,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Shrimp Soondubu Jjigae",
+          "category": "Finished",
+          "sku_code": "SEO122",
+          "ingredients": [
+            {
+              "ingredient": "Tofu",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "3bf848"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Spicy Chili Paste - SF",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR009"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.25,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Doenjang Jjigae",
+          "category": "Finished",
+          "sku_code": "SEO123",
+          "ingredients": [
+            {
+              "ingredient": "Korean Soybean Paste",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": null
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.25,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Tofu",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "3bf848"
+            },
+            {
+              "ingredient": "Potato",
+              "ep_qty": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "0db3a1"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Gochujang",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 1,
+              "ingredient_id": "472e86"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Yukgaejang",
+          "category": "Finished",
+          "sku_code": "SEO124",
+          "ingredients": [
+            {
+              "ingredient": "Beef Tenderloin (India)",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "5bfb02"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.3,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Spicy Chili Paste - SF",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR009"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Radish White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "6dc09a"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Sesame Oil",
+              "ep_qty": 0.01,
+              "uom": "L",
+              "wastage_pct": 1,
+              "ingredient_id": "3cf4cb"
+            },
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Jjamppong Bap",
+          "category": "Finished",
+          "sku_code": "SEO125",
+          "ingredients": [
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.35,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Spicy Chili Paste - SF",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR009"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Crab Whole",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 5,
+              "ingredient_id": "57b6d3"
+            },
+            {
+              "ingredient": "Squid Tubes",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "2a16f8"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "cb9768"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4edff9"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Onion White",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "f42c7f"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.015,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Jjamppong",
+          "category": "Finished",
+          "sku_code": "SEO126",
+          "ingredients": [
+            {
+              "ingredient": "Egg Noodles",
+              "ep_qty": 0.18,
+              "uom": "Kg",
+              "wastage_pct": 4,
+              "ingredient_id": "c5a376"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.35,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Spicy Chili Paste - SF",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR009"
+            },
+            {
+              "ingredient": "Crab Whole",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 5,
+              "ingredient_id": "57b6d3"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Squid Tubes",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "2a16f8"
+            },
+            {
+              "ingredient": "Cabbage White",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "cb9768"
+            },
+            {
+              "ingredient": "Capsicum Green",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "4edff9"
+            },
+            {
+              "ingredient": "Zucchini Green",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "c934ad"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.015,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Shin Ramen",
+          "category": "Finished",
+          "sku_code": "SEO127",
+          "ingredients": [
+            {
+              "ingredient": "Instant Noodles",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 2,
+              "ingredient_id": "6f5152"
+            },
+            {
+              "ingredient": "Ramen Broth Base - SF",
+              "ep_qty": 0.45,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR017"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Beef Ramen",
+          "category": "Finished",
+          "sku_code": "SEO128",
+          "ingredients": [
+            {
+              "ingredient": "Instant Noodles",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 2,
+              "ingredient_id": "6f5152"
+            },
+            {
+              "ingredient": "Ramen Broth Base - SF",
+              "ep_qty": 0.45,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR017"
+            },
+            {
+              "ingredient": "Beef Tenderloin (India)",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "5bfb02"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Prawn Ramen",
+          "category": "Finished",
+          "sku_code": "SEO129",
+          "ingredients": [
+            {
+              "ingredient": "Instant Noodles",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 2,
+              "ingredient_id": "6f5152"
+            },
+            {
+              "ingredient": "Ramen Broth Base - SF",
+              "ep_qty": 0.45,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR017"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Garlic Butter Shrimp Ramen",
+          "category": "Finished",
+          "sku_code": "SEO130",
+          "ingredients": [
+            {
+              "ingredient": "Instant Noodles",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 2,
+              "ingredient_id": "6f5152"
+            },
+            {
+              "ingredient": "Tap Water",
+              "ep_qty": 0.45,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "5f5095"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Butter",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "c367db"
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "b16c8b"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Ramen",
+          "category": "Finished",
+          "sku_code": "SEO131",
+          "ingredients": [
+            {
+              "ingredient": "Instant Noodles",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 2,
+              "ingredient_id": "6f5152"
+            },
+            {
+              "ingredient": "Ramen Broth Base - SF",
+              "ep_qty": 0.45,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR017"
+            },
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "bd33b9"
+            },
+            {
+              "ingredient": "Mushroom White",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "7f3636"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Soup Cup 26oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9e96b6"
+            },
+            {
+              "ingredient": "Lid for Soup Cup",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "c682a7"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Soy and Garlic Chicken",
+          "category": "Finished",
+          "sku_code": "SEO132",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "bd33b9"
+            },
+            {
+              "ingredient": "Chicken Frying Batter - SF",
+              "ep_qty": 0.045,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR010"
+            },
+            {
+              "ingredient": "Soy Garlic Glaze - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR012"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Yangnyeom Chicken",
+          "category": "Finished",
+          "sku_code": "SEO133",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "bd33b9"
+            },
+            {
+              "ingredient": "Chicken Frying Batter - SF",
+              "ep_qty": 0.045,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR010"
+            },
+            {
+              "ingredient": "Yangnyeom Sauce - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR011"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Peanut",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "683753"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Korean Style Chicken",
+          "category": "Finished",
+          "sku_code": "SEO134",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "bd33b9"
+            },
+            {
+              "ingredient": "Chicken Frying Batter - SF",
+              "ep_qty": 0.045,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR010"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Chicken",
+          "category": "Finished",
+          "sku_code": "SEO135",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "bd33b9"
+            },
+            {
+              "ingredient": "Chicken Frying Batter - SF",
+              "ep_qty": 0.045,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR010"
+            },
+            {
+              "ingredient": "Spicy Chicken Glaze - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR013"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Honey Garlic Chicken",
+          "category": "Finished",
+          "sku_code": "SEO136",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Thigh Boneless",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 8,
+              "ingredient_id": "bd33b9"
+            },
+            {
+              "ingredient": "Chicken Frying Batter - SF",
+              "ep_qty": 0.045,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR010"
+            },
+            {
+              "ingredient": "Honey Garlic Glaze - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR014"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Soy and Garlic Wings",
+          "category": "Finished",
+          "sku_code": "SEO137",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Wings Uncooked",
+              "ep_qty": 8,
+              "uom": "Piece",
+              "wastage_pct": 5,
+              "ingredient_id": "fb639c"
+            },
+            {
+              "ingredient": "Chicken Frying Batter - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR010"
+            },
+            {
+              "ingredient": "Soy Garlic Glaze - SF",
+              "ep_qty": 0.065,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR012"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Yangnyeom Wings",
+          "category": "Finished",
+          "sku_code": "SEO138",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Wings Uncooked",
+              "ep_qty": 8,
+              "uom": "Piece",
+              "wastage_pct": 5,
+              "ingredient_id": "fb639c"
+            },
+            {
+              "ingredient": "Chicken Frying Batter - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR010"
+            },
+            {
+              "ingredient": "Yangnyeom Sauce - SF",
+              "ep_qty": 0.065,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR011"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Wings",
+          "category": "Finished",
+          "sku_code": "SEO139",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Wings Uncooked",
+              "ep_qty": 8,
+              "uom": "Piece",
+              "wastage_pct": 5,
+              "ingredient_id": "fb639c"
+            },
+            {
+              "ingredient": "Chicken Frying Batter - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR010"
+            },
+            {
+              "ingredient": "Spicy Chicken Glaze - SF",
+              "ep_qty": 0.065,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR013"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Honey Garlic Wings",
+          "category": "Finished",
+          "sku_code": "SEO140",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Wings Uncooked",
+              "ep_qty": 8,
+              "uom": "Piece",
+              "wastage_pct": 5,
+              "ingredient_id": "fb639c"
+            },
+            {
+              "ingredient": "Chicken Frying Batter - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR010"
+            },
+            {
+              "ingredient": "Honey Garlic Glaze - SF",
+              "ep_qty": 0.065,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR014"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.04,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Dynamite Shrimp",
+          "category": "Finished",
+          "sku_code": "SEO141",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Tempura Batter Mix",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 3,
+              "ingredient_id": "a32b9f"
+            },
+            {
+              "ingredient": "Dynamite Shrimp Sauce - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR015"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Rabokki",
+          "category": "Finished",
+          "sku_code": "SEO142",
+          "ingredients": [
+            {
+              "ingredient": "Rice Cakes",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "effb0f"
+            },
+            {
+              "ingredient": "Instant Noodles",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 2,
+              "ingredient_id": "6f5152"
+            },
+            {
+              "ingredient": "Tteokbokki Sauce - SF",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR016"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tteokbokki with Cheese",
+          "category": "Finished",
+          "sku_code": "SEO143",
+          "ingredients": [
+            {
+              "ingredient": "Rice Cakes",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "effb0f"
+            },
+            {
+              "ingredient": "Tteokbokki Sauce - SF",
+              "ep_qty": 0.18,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR016"
+            },
+            {
+              "ingredient": "Cheese Mozzarella Shredded",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "f9bf2e"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Spicy Shrimp Tteokbokki",
+          "category": "Finished",
+          "sku_code": "SEO144",
+          "ingredients": [
+            {
+              "ingredient": "Rice Cakes",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "effb0f"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.08,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Tteokbokki Sauce - SF",
+              "ep_qty": 0.18,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR016"
+            },
+            {
+              "ingredient": "Egg",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Fish Fillet",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "7920a3"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Deep Fried Chicken Mandu",
+          "category": "Finished",
+          "sku_code": "SEO145",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Mince",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "d7814c"
+            },
+            {
+              "ingredient": "Gyoza Wrapper",
+              "ep_qty": 6,
+              "uom": "Piece",
+              "wastage_pct": 3,
+              "ingredient_id": "cf109a"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Mandu Dipping Sauce - SF",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR025"
+            },
+            {
+              "ingredient": "SUSHI TRAY 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "657282"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Steamed Chicken Mandu",
+          "category": "Finished",
+          "sku_code": "SEO146",
+          "ingredients": [
+            {
+              "ingredient": "Chicken Mince",
+              "ep_qty": 0.1,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "d7814c"
+            },
+            {
+              "ingredient": "Gyoza Wrapper",
+              "ep_qty": 6,
+              "uom": "Piece",
+              "wastage_pct": 3,
+              "ingredient_id": "cf109a"
+            },
+            {
+              "ingredient": "Mandu Dipping Sauce - SF",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR025"
+            },
+            {
+              "ingredient": "SUSHI TRAY 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "657282"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Gyeran-mari (Rolled Omelette)",
+          "category": "Finished",
+          "sku_code": "SEO147",
+          "ingredients": [
+            {
+              "ingredient": "Egg",
+              "ep_qty": 4,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d88d48"
+            },
+            {
+              "ingredient": "Milk UHT Full Fat",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "f0b832"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Salt",
+              "ep_qty": 0.001,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "78cf03"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "SUSHI TRAY 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "657282"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Tuna Kimbap",
+          "category": "Finished",
+          "sku_code": "SEO148",
+          "ingredients": [
+            {
+              "ingredient": "Nori Sheets",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a72720"
+            },
+            {
+              "ingredient": "Kimbap Seasoned Rice - SF",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR019"
+            },
+            {
+              "ingredient": "Tuna Chunks in Water",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "a0c353"
+            },
+            {
+              "ingredient": "Mayonnaise",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "1d65b8"
+            },
+            {
+              "ingredient": "Pickled Radish",
+              "ep_qty": 0.035,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "a17871"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Kimbap Dipping Sauce - SF",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR020"
+            },
+            {
+              "ingredient": "SUSHI TRAY 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "657282"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Beef Kimbap",
+          "category": "Finished",
+          "sku_code": "SEO149",
+          "ingredients": [
+            {
+              "ingredient": "Nori Sheets",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a72720"
+            },
+            {
+              "ingredient": "Kimbap Seasoned Rice - SF",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR019"
+            },
+            {
+              "ingredient": "Beef Tenderloin (India)",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 10,
+              "ingredient_id": "5bfb02"
+            },
+            {
+              "ingredient": "Bulgogi Marinade - SF",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR001"
+            },
+            {
+              "ingredient": "Pickled Radish",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "a17871"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Kimbap Dipping Sauce - SF",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR020"
+            },
+            {
+              "ingredient": "SUSHI TRAY 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "657282"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Cheese and Veg Kimbap",
+          "category": "Finished",
+          "sku_code": "SEO150",
+          "ingredients": [
+            {
+              "ingredient": "Nori Sheets",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a72720"
+            },
+            {
+              "ingredient": "Kimbap Seasoned Rice - SF",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR019"
+            },
+            {
+              "ingredient": "Cheese Slices Yellow",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "9a3ac6"
+            },
+            {
+              "ingredient": "Avocado",
+              "ep_qty": 0.025,
+              "uom": "Kg",
+              "wastage_pct": 25,
+              "ingredient_id": "a03c91"
+            },
+            {
+              "ingredient": "Pickled Radish",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "a17871"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Kimbap Dipping Sauce - SF",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR020"
+            },
+            {
+              "ingredient": "SUSHI TRAY 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "657282"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Kimbap",
+          "category": "Finished",
+          "sku_code": "SEO151",
+          "ingredients": [
+            {
+              "ingredient": "Nori Sheets",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a72720"
+            },
+            {
+              "ingredient": "Kimbap Seasoned Rice - SF",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR019"
+            },
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 6,
+              "ingredient_id": "a99d25"
+            },
+            {
+              "ingredient": "Bulgogi Marinade - SF",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR001"
+            },
+            {
+              "ingredient": "Pickled Radish",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "a17871"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Kimbap Dipping Sauce - SF",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR020"
+            },
+            {
+              "ingredient": "SUSHI TRAY 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "657282"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Kimchi Kimbap",
+          "category": "Finished",
+          "sku_code": "SEO152",
+          "ingredients": [
+            {
+              "ingredient": "Nori Sheets",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a72720"
+            },
+            {
+              "ingredient": "Kimbap Seasoned Rice - SF",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR019"
+            },
+            {
+              "ingredient": "House Kimchi - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "KOR008"
+            },
+            {
+              "ingredient": "Pickled Radish",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "a17871"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Kimbap Dipping Sauce - SF",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR020"
+            },
+            {
+              "ingredient": "SUSHI TRAY 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "657282"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Japchae & Shrimp Kimbap",
+          "category": "Finished",
+          "sku_code": "SEO153",
+          "ingredients": [
+            {
+              "ingredient": "Nori Sheets",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a72720"
+            },
+            {
+              "ingredient": "Kimbap Seasoned Rice - SF",
+              "ep_qty": 0.12,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR019"
+            },
+            {
+              "ingredient": "Japchae Sauce - SF",
+              "ep_qty": 0.01,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR006"
+            },
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.04,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Vermicelli Noodles",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 3,
+              "ingredient_id": "34a76a"
+            },
+            {
+              "ingredient": "Pickled Radish",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "a17871"
+            },
+            {
+              "ingredient": "Spinach",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "c5407a"
+            },
+            {
+              "ingredient": "Carrot",
+              "ep_qty": 0.02,
+              "uom": "Kg",
+              "wastage_pct": 7,
+              "ingredient_id": "29ad4b"
+            },
+            {
+              "ingredient": "Kimbap Dipping Sauce - SF",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR020"
+            },
+            {
+              "ingredient": "SUSHI TRAY 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "39e7b2"
+            },
+            {
+              "ingredient": "Lid for Sushi Tray 2.0",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "657282"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "House Kimchi",
+          "category": "Finished",
+          "sku_code": "SEO154",
+          "ingredients": [
+            {
+              "ingredient": "House Kimchi - SF",
+              "ep_qty": 0.25,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR008"
+            },
+            {
+              "ingredient": "Sauce Cup 4oz Clear",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "254d80"
+            },
+            {
+              "ingredient": "Lid for Sauce Cup 4oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "3d42a5"
+            }
+          ]
+        },
+        {
+          "dish_name": "Kongnamul Muchim",
+          "category": "Finished",
+          "sku_code": "SEO155",
+          "ingredients": [
+            {
+              "ingredient": "Kongnamul Muchim - SF",
+              "ep_qty": 0.06,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR022"
+            },
+            {
+              "ingredient": "Sauce Cup 4oz Clear",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "254d80"
+            },
+            {
+              "ingredient": "Lid for Sauce Cup 4oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "3d42a5"
+            }
+          ]
+        },
+        {
+          "dish_name": "Sigumchi Namul",
+          "category": "Finished",
+          "sku_code": "SEO156",
+          "ingredients": [
+            {
+              "ingredient": "Sigumchi Namul - SF",
+              "ep_qty": 0.05,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "KOR021"
+            },
+            {
+              "ingredient": "Sauce Cup 4oz Clear",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "254d80"
+            },
+            {
+              "ingredient": "Lid for Sauce Cup 4oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "3d42a5"
+            }
+          ]
+        },
+        {
+          "dish_name": "Danmuji (Pickled Radish)",
+          "category": "Finished",
+          "sku_code": "SEO157",
+          "ingredients": [
+            {
+              "ingredient": "Pickled Radish",
+              "ep_qty": 0.2,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "a17871"
+            },
+            {
+              "ingredient": "Sauce Cup 4oz Clear",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "254d80"
+            },
+            {
+              "ingredient": "Lid for Sauce Cup 4oz",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "3d42a5"
+            }
+          ]
+        },
+        {
+          "dish_name": "Rice Bowl Set",
+          "category": "Finished",
+          "sku_code": "SEO158",
+          "ingredients": [
+            {
+              "ingredient": "Bulgogi Deopbap",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO107"
+            },
+            {
+              "ingredient": "House Kimchi",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO154"
+            },
+            {
+              "ingredient": "Sigumchi Namul",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO156"
+            },
+            {
+              "ingredient": "Danmuji (Pickled Radish)",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO157"
+            },
+            {
+              "ingredient": "Coca-Cola Zero 300ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "06ddcb"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Solo Chicken Set",
+          "category": "Finished",
+          "sku_code": "SEO159",
+          "ingredients": [
+            {
+              "ingredient": "Yangnyeom Chicken",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO133"
+            },
+            {
+              "ingredient": "Japonica Rice",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "ae7070"
+            },
+            {
+              "ingredient": "House Kimchi",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO154"
+            },
+            {
+              "ingredient": "Sigumchi Namul",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO156"
+            },
+            {
+              "ingredient": "Danmuji (Pickled Radish)",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO157"
+            },
+            {
+              "ingredient": "Coca Cola",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO162"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Chicken Combo for Two",
+          "category": "Finished",
+          "sku_code": "SEO160",
+          "ingredients": [
+            {
+              "ingredient": "Yangnyeom Chicken",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO133"
+            },
+            {
+              "ingredient": "Soy and Garlic Chicken",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO132"
+            },
+            {
+              "ingredient": "Tteokbokki with Cheese",
+              "ep_qty": 1,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO143"
+            },
+            {
+              "ingredient": "House Kimchi",
+              "ep_qty": 2,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO154"
+            },
+            {
+              "ingredient": "Sigumchi Namul",
+              "ep_qty": 2,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO156"
+            },
+            {
+              "ingredient": "Danmuji (Pickled Radish)",
+              "ep_qty": 2,
+              "uom": "Portion",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO157"
+            },
+            {
+              "ingredient": "Coca Cola",
+              "ep_qty": 2,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "SEO162"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Mineral Tap Water",
+          "category": "Finished",
+          "sku_code": "SEO161",
+          "ingredients": [
+            {
+              "ingredient": "Arwa 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "cf4d3f"
+            }
+          ]
+        },
+        {
+          "dish_name": "Coca Cola",
+          "category": "Finished",
+          "sku_code": "SEO162",
+          "ingredients": [
+            {
+              "ingredient": "Coca-Cola 300ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "7c1668"
+            }
+          ]
+        },
+        {
+          "dish_name": "Coca Cola Zero",
+          "category": "Finished",
+          "sku_code": "SEO163",
+          "ingredients": [
+            {
+              "ingredient": "Coca-Cola Zero 300ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "06ddcb"
+            }
+          ]
+        },
+        {
+          "dish_name": "Fanta",
+          "category": "Finished",
+          "sku_code": "SEO164",
+          "ingredients": [
+            {
+              "ingredient": "Fanta Orange 300ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "1794fe"
+            }
+          ]
+        },
+        {
+          "dish_name": "Sprite",
+          "category": "Finished",
+          "sku_code": "SEO165",
+          "ingredients": [
+            {
+              "ingredient": "Sprite 300ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "491c37"
+            }
+          ]
+        },
+        {
+          "dish_name": "Sprite Zero",
+          "category": "Finished",
+          "sku_code": "SEO166",
+          "ingredients": [
+            {
+              "ingredient": "Sprite Zero 300ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "2f059d"
+            }
+          ]
+        },
+        {
+          "dish_name": "Honey Chilli Shrimp",
+          "category": "Finished",
+          "sku_code": "SEO167",
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 5,
+              "ingredient_id": "622a4a"
+            },
+            {
+              "ingredient": "Honey",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "2964df"
+            },
+            {
+              "ingredient": "Chilli Flakes",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "80361c"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        },
+        {
+          "dish_name": "Honey Chilli Potatoes",
+          "category": "Finished",
+          "sku_code": "SEO168",
+          "ingredients": [
+            {
+              "ingredient": "Potato",
+              "ep_qty": 0.15,
+              "uom": "Kg",
+              "wastage_pct": 15,
+              "ingredient_id": "0db3a1"
+            },
+            {
+              "ingredient": "Cornflour",
+              "ep_qty": 0.015,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "6b43ec"
+            },
+            {
+              "ingredient": "Cooking Oil",
+              "ep_qty": 0.03,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "415d91"
+            },
+            {
+              "ingredient": "Honey",
+              "ep_qty": 0.03,
+              "uom": "Kg",
+              "wastage_pct": 2,
+              "ingredient_id": "2964df"
+            },
+            {
+              "ingredient": "Chilli Flakes",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 0,
+              "ingredient_id": "80361c"
+            },
+            {
+              "ingredient": "Soy Sauce",
+              "ep_qty": 0.005,
+              "uom": "L",
+              "wastage_pct": 0,
+              "ingredient_id": "338709"
+            },
+            {
+              "ingredient": "Spring Onion",
+              "ep_qty": 0.005,
+              "uom": "Kg",
+              "wastage_pct": 12,
+              "ingredient_id": "19e05c"
+            },
+            {
+              "ingredient": "Salad Bowl 500ml",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "d3689b"
+            },
+            {
+              "ingredient": "Lid for Salad Bowl 150mm",
+              "ep_qty": 1,
+              "uom": "Piece",
+              "wastage_pct": 0,
+              "ingredient_id": "a0c6d3"
+            },
+            {
+              "ingredient": "Banchan & Packaging - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR024"
+            },
+            {
+              "ingredient": "Delivery Overhead - SF",
+              "ep_qty": 1,
+              "uom": "Set",
+              "wastage_pct": 0,
+              "ingredient_id": "KOR023"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "total_unique_ingredients": 124
+}

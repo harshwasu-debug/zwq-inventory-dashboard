@@ -1,0 +1,2451 @@
+{
+  "categories": [
+    {
+      "category": "Soups (Veg)",
+      "dishes": [
+        {
+          "dish": " Cream of Tomato Soup",
+          "ingredient_count": 7,
+          "ingredients": [
+            {
+              "ingredient": "Tomato",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            },
+            {
+              "ingredient": "Tomato Ketchup",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Ginger Garlic Paste-SF",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Butter Unsalted",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Cooking Cream",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Sugar",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Salt",
+              "quantity_ep": 8.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Cream of Mushroom Soup",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Mushroom White",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            },
+            {
+              "ingredient": "Cooking Cream",
+              "quantity_ep": 50.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Milk UHT Full Fat",
+              "quantity_ep": 100.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Butter Unsalted",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "All Purpose Flour (Maida)",
+              "quantity_ep": 12.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Manchow Soup",
+          "ingredient_count": 7,
+          "ingredients": [
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 70.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Ginger Garlic Paste-SF",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 15.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Vinegar White",
+              "quantity_ep": 10.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Ajinomoto (MSG)",
+              "quantity_ep": 4.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Egg Noodles",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Hot & Sour Soup",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Vinegar White",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 15.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Mushroom White",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            }
+          ]
+        },
+        {
+          "dish": " Sweet Corn Soup",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Sweet Corn Kernel",
+              "quantity_ep": 120.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Sugar",
+              "quantity_ep": 6.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Cornflour",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Noodle Soup",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Egg Noodles",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Clear Soup",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Bok Choy",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            }
+          ]
+        }
+      ],
+      "dish_count": 7
+    },
+    {
+      "category": "Soups (Non-Veg)",
+      "dishes": [
+        {
+          "dish": " Cream of Chicken Soup",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Cooking Cream",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Milk UHT Full Fat",
+              "quantity_ep": 100.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "All Purpose Flour (Maida)",
+              "quantity_ep": 12.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chicken Manchow Soup",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 50.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 15.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Egg",
+              "quantity_ep": 0.5,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chk Hot & Sour Soup",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Vinegar White",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chk Sweet Corn Soup",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Sweet Corn Kernel",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chicken Noodle Soup",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Egg Noodles",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chicken Clear Soup",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Tom Yum Soup",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Tom Yum Paste",
+              "quantity_ep": 25.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Lemongrass",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 20.0
+            }
+          ]
+        }
+      ],
+      "dish_count": 7
+    },
+    {
+      "category": "Starters (Non Veg)",
+      "dishes": [
+        {
+          "dish": " Kung Pao Chicken",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chilli Whole Dry",
+              "quantity_ep": 5.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Honey Chilli Chicken",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Honey",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Salt / MSG",
+              "quantity_ep": 8.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Teriyaki Chicken",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Teriyaki Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Sesame Seeds White",
+              "quantity_ep": 5.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chicken Lollipops",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Chicken Lollipop",
+              "quantity_ep": 6.0,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Schezwan Sauce",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Ginger Garlic Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Salt / Pepper / MSG",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Dynamite Shrimp",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Fried Shrimp Base-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Dynamite Sauce-SF",
+              "quantity_ep": 60.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chicken 65",
+          "ingredient_count": 6,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 250.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Yoghurt",
+              "quantity_ep": 50.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chilly Powder",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Curry Leaves",
+              "quantity_ep": 5.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            },
+            {
+              "ingredient": "Salt",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Food Colour Orange Red",
+              "quantity_ep": 2.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chk Manchurian Dry",
+          "ingredient_count": 6,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 15.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Ginger Garlic Paste-SF",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Coriander",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            }
+          ]
+        },
+        {
+          "dish": " Stir Fried Chk Chilli",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 120.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Green Chilli",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Black Pepper Chicken",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Pepper Crushed",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Oyster Sauce",
+              "quantity_ep": 30.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Hot Garlic Chicken",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Mountain Chilli Chk",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Green Chilli",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chk Spring Rolls (8pc)",
+          "ingredient_count": 1,
+          "ingredients": [
+            {
+              "ingredient": "Spring Roll Chicken",
+              "quantity_ep": 8.0,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Tempura Shrimp",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Shrimp",
+              "quantity_ep": 180.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Tempura Batter Mix",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chilli Garlic Prawns",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Fried Shrimp Base-SF",
+              "quantity_ep": 180.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Black Pepper Prawns",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Fried Shrimp Base-SF",
+              "quantity_ep": 180.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Pepper Crushed",
+              "quantity_ep": 8.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Oyster Sauce",
+              "quantity_ep": 30.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Teriyaki Prawns",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Fried Shrimp Base-SF",
+              "quantity_ep": 180.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Teriyaki Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Mountain Chilli Prawn",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Fried Shrimp Base-SF",
+              "quantity_ep": 180.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Green Chilli",
+              "quantity_ep": 25.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            }
+          ]
+        },
+        {
+          "dish": " Kung Pao Prawns",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Fried Shrimp Base-SF",
+              "quantity_ep": 180.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Tempura Chicken",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Chicken Breast (Aurora)",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Tempura Batter Mix",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Dynamite Chicken",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Dynamite Sauce-SF",
+              "quantity_ep": 60.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Mountain Chilli Beef",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Beef Strips-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Green Chilli",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Black Pepper Beef",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Beef Strips-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Pepper Crushed",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Oyster Sauce",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Kung Pao Beef",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Beef Strips-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Teriyaki Beef",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Beef Strips-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Teriyaki Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Honey Chilli Shrimp",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Fried Shrimp Base-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Honey",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Salt / MSG",
+              "quantity_ep": 8.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Honey Chilli Beef",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Beef Strips-SF",
+              "quantity_ep": 220.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Honey",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Salt / MSG",
+              "quantity_ep": 8.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        }
+      ],
+      "dish_count": 26
+    },
+    {
+      "category": "Starters (Veg)",
+      "dishes": [
+        {
+          "dish": " Kung Pao Paneer",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Fried Paneer Base-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Paneer 65",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Fried Paneer Base-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Yoghurt",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Curry Leaves",
+              "quantity_ep": 5.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            },
+            {
+              "ingredient": "Chilly Powder",
+              "quantity_ep": 8.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Salt / MSG / Pepper",
+              "quantity_ep": 12.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Honey Chilli Potato",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Potato",
+              "quantity_ep": 500.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            },
+            {
+              "ingredient": "Honey",
+              "quantity_ep": 60.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Tomato Ketchup",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Veg Spring Rolls (8pc)",
+          "ingredient_count": 1,
+          "ingredients": [
+            {
+              "ingredient": "Spring Roll Vegetable",
+              "quantity_ep": 8.0,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Stir Fried Paneer Chilli",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Fried Paneer Base-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Green Chilli",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            }
+          ]
+        },
+        {
+          "dish": " Veg Manchurian Dry",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Veg Manchurian Balls-SF",
+              "quantity_ep": 8.0,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Ginger Garlic Paste-SF",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Coriander",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            }
+          ]
+        }
+      ],
+      "dish_count": 6
+    },
+    {
+      "category": "Dumplings (Non Veg)",
+      "dishes": [
+        {
+          "dish": " Steamed Chk Dumplings",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Chicken-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gyoza Wrapper",
+              "quantity_ep": 8.0,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Steamed Prawns Gyoza",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Prawn-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gyoza Wrapper",
+              "quantity_ep": 8.0,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chilli Style Chk Dumplings",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Chicken-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gyoza Wrapper",
+              "quantity_ep": 8.0,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 10.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Spicy 65 Chk Momos",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Chicken-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Yoghurt",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chilly Powder",
+              "quantity_ep": 5.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Curry Leaves",
+              "quantity_ep": 3.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            }
+          ]
+        },
+        {
+          "dish": " Shanghai Style Chk Dumplings",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Chicken-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Shanghai Sauce-SF",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chilli Style Prawns Gyoza",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Prawn-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Schezwan Chk Momos",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Chicken-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Schezwan Sauce",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Kung Pao Chk Dumplings",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Chicken-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Honey Chilli Chk Dumplings",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Chicken-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Honey",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chicken Tandoori Momos",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Chicken-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Tandoori Marinade-SF",
+              "quantity_ep": 50.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Kung Pao Prawns Gyoza",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Prawn-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        }
+      ],
+      "dish_count": 11
+    },
+    {
+      "category": "Dumplings (Veg)",
+      "dishes": [
+        {
+          "dish": " Steamed Veg Dumplings",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Veg-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gyoza Wrapper",
+              "quantity_ep": 8.0,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Spicy 65 Veg Momos",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Veg-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chilly Powder",
+              "quantity_ep": 5.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Yoghurt",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Shanghai Style Veg Dumplings",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Veg-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Shanghai Sauce-SF",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Kung Pao Veg Dumplings",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Veg-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Honey Chilli Veg Dumplings",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Veg-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Honey",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chilli Style Veg Dumplings",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Veg-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Schezwan Veg Momos",
+          "ingredient_count": 2,
+          "ingredients": [
+            {
+              "ingredient": "Momo Filling Veg-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Schezwan Sauce",
+              "quantity_ep": 40.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        }
+      ],
+      "dish_count": 7
+    },
+    {
+      "category": "Mains (Non Veg)",
+      "dishes": [
+        {
+          "dish": " Chicken Kung Pao Sauce",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 100.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chilli Chicken Gravy",
+          "ingredient_count": 6,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Green Chilli",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 5.0
+            }
+          ]
+        },
+        {
+          "dish": " Chk Manchurian Gravy",
+          "ingredient_count": 6,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 15.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Coriander",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            }
+          ]
+        },
+        {
+          "dish": " Chk Black Pepper Sauce",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Pepper Crushed",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Oyster Sauce",
+              "quantity_ep": 30.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chicken Schezwan Sauce",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Schezwan Sauce",
+              "quantity_ep": 100.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 100.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chk Oyster Chilli Sauce",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Oyster Chilli Base-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 100.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Mongolian Chicken",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Fried Chicken Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Mongolian Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            }
+          ]
+        },
+        {
+          "dish": " Beef Black Pepper",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Beef Strips-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Pepper Crushed",
+              "quantity_ep": 12.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Oyster Sauce",
+              "quantity_ep": 30.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Mongolian Beef",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Beef Strips-SF",
+              "quantity_ep": 160.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Mongolian Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            }
+          ]
+        },
+        {
+          "dish": " Kung Pao Prawns",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Fried Shrimp Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 50.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 100.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        }
+      ],
+      "dish_count": 10
+    },
+    {
+      "category": "Mains (Veg)",
+      "dishes": [
+        {
+          "dish": " Paneer Chilli Gravy",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Fried Paneer Base-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Veg Schezwan Gravy",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Mixed Vegetables",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            },
+            {
+              "ingredient": "Schezwan Sauce",
+              "quantity_ep": 100.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 100.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Veg Manchurian Gravy",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Veg Manchurian Balls-SF",
+              "quantity_ep": 8.0,
+              "uom": "pc",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 15.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Veg Kung Pao Sauce",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Broccoli/Baby Corn/Carrot",
+              "quantity_ep": 150.0,
+              "uom": "g",
+              "wastage_pct": 10.0
+            },
+            {
+              "ingredient": "Kung Pao Sauce-SF",
+              "quantity_ep": 80.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Peanut",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        }
+      ],
+      "dish_count": 4
+    },
+    {
+      "category": "Rice & Noodles",
+      "dishes": [
+        {
+          "dish": " Schezwan Fried Rice",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Basmati Rice-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Schezwan Sauce-SF",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Salt / MSG / Pepper",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Spring Onion",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 0.1
+            }
+          ]
+        },
+        {
+          "dish": " Fried Rice",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Basmati Rice-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce (Light/Red)",
+              "quantity_ep": 10.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Salt / MSG / Pepper",
+              "quantity_ep": 10.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Burnt Garlic Rice",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Basmati Rice-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Burnt Garlic-SF",
+              "quantity_ep": 30.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Steamed Rice",
+          "ingredient_count": 1,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Basmati Rice-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chilli Garlic Rice",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Basmati Rice-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 0.05
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Mix Fine-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Street Style Chowmein",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Noodles-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF (Shredded)",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce Dark",
+              "quantity_ep": 20.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Vinegar White",
+              "quantity_ep": 10.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Hakka Noodles",
+          "ingredient_count": 4,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Noodles-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF (Shredded)",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Soy Sauce (Light)",
+              "quantity_ep": 10.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Salt / White Pepper",
+              "quantity_ep": 8.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Schezwan Noodles",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Noodles-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Schezwan Sauce-SF",
+              "quantity_ep": 50.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF (Shredded)",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Singapore Noodles",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Noodles-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Turmeric Powder",
+              "quantity_ep": 3.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Curry Powder (Chicken Masala)",
+              "quantity_ep": 5.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Cashew Broken",
+              "quantity_ep": 15.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF (Shredded)",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Chilli Garlic Noodles",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Noodles-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Garlic Peeled",
+              "quantity_ep": 25.0,
+              "uom": "g",
+              "wastage_pct": 0.05
+            },
+            {
+              "ingredient": "Chili Paste-SF",
+              "quantity_ep": 20.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Shanghai Noodles",
+          "ingredient_count": 3,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Noodles-SF",
+              "quantity_ep": 300.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Shanghai Sauce-SF",
+              "quantity_ep": 50.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Veg Petals-SF (Shredded)",
+              "quantity_ep": 80.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        },
+        {
+          "dish": " Triple Schezwan Rice",
+          "ingredient_count": 5,
+          "ingredients": [
+            {
+              "ingredient": "Cooked Basmati Rice-SF",
+              "quantity_ep": 200.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Cooked Noodles-SF",
+              "quantity_ep": 100.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Schezwan Sauce-SF",
+              "quantity_ep": 60.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Gravy Stock Base-SF",
+              "quantity_ep": 150.0,
+              "uom": "ml",
+              "wastage_pct": 0.0
+            },
+            {
+              "ingredient": "Fried Noodles",
+              "quantity_ep": 40.0,
+              "uom": "g",
+              "wastage_pct": 0.0
+            }
+          ]
+        }
+      ],
+      "dish_count": 12
+    }
+  ],
+  "summary": {
+    "total_dishes": 90,
+    "total_unique_ingredients": 79,
+    "total_ingredient_rows": 306,
+    "categories": [
+      "Soups (Veg)",
+      "Soups (Non-Veg)",
+      "Starters (Non Veg)",
+      "Starters (Veg)",
+      "Dumplings (Non Veg)",
+      "Dumplings (Veg)",
+      "Mains (Non Veg)",
+      "Mains (Veg)",
+      "Rice & Noodles"
+    ],
+    "category_count": 9
+  }
+}

@@ -1,0 +1,2196 @@
+{
+  "Loco Taco": [
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 4,
+          "max": 4,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 4,
+          "max": 4,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Grilled Chicken Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 4,
+          "max": 4,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 6,
+          "max": 6,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 6,
+          "max": 6,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Grilled Chicken Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 6,
+          "max": 6,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    }
+  ],
+  "Picante": [
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Fajita Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Fajita Wrap",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Fajita Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Fajita Meal",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 4,
+          "max": 4,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Fajita Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Fajita Meal",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 6,
+          "max": 6,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    }
+  ],
+  "MexiGo": [
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Grilled Chicken Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Grilled Chicken Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 4,
+          "max": 4,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Fajita Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Fajita Meal",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Grilled Chicken Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 6,
+          "max": 6,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    }
+  ],
+  "Casa Del Queso": [
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Grilled Chicken Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 4,
+          "max": 4,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Fajita Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Fajita Meal",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Grilled Chicken Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 6,
+          "max": 6,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    }
+  ],
+  "Fiesta": [
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Solo",
+      "price": 69.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Duo",
+      "price": 119.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Grilled Chicken Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 4,
+          "max": 4,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Meal Family of 4",
+      "price": 219.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": [
+        {
+          "group_name": "Choose your Fajita Protein",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Spiced Veggie Fajita Meal",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Style",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Ranchero - Smoky Tomato",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Burrito Protein",
+          "min": 2,
+          "max": 2,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Grilled Chicken Burrito",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Quesadilla",
+          "min": 1,
+          "max": 1,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Cheese Quesadilla",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your Tacos Protein",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Veggie Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "How do you like your Tacos",
+          "min": 3,
+          "max": 3,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Soft Tacos",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Choose your drink",
+          "min": 6,
+          "max": 6,
+          "mandatory": "Mandatory",
+          "options": [
+            {
+              "name": "Mineral Water",
+              "price": 0.0
+            }
+          ]
+        },
+        {
+          "group_name": "Add ons",
+          "min": 1,
+          "max": 6,
+          "mandatory": "Optional",
+          "options": [
+            {
+              "name": "Extra Guacamole",
+              "price": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    },
+    {
+      "item_name": "Ramadan Iftar Mexican Feast 6 Servings",
+      "price": 279.0,
+      "modifier_groups": []
+    }
+  ]
+}

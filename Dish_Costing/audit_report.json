@@ -1,0 +1,2069 @@
+{
+  "Korean": {
+    "match": 34,
+    "drift": 21,
+    "error": 13,
+    "missing": 0,
+    "total": 68,
+    "errors": [
+      [
+        "Japchae Beef",
+        9.23,
+        12.11,
+        2.879999999999999
+      ],
+      [
+        "Japchae Chicken",
+        6.46,
+        9.34,
+        2.88
+      ],
+      [
+        "Japchae Veg",
+        5.59,
+        8.48,
+        2.8900000000000006
+      ],
+      [
+        "Shrimp Japchae",
+        7.19,
+        10.08,
+        2.8899999999999997
+      ],
+      [
+        "Jjamppong Bap",
+        7.26,
+        22.08,
+        14.819999999999999
+      ],
+      [
+        "Jjamppong",
+        7.63,
+        22.45,
+        14.82
+      ],
+      [
+        "Soy and Garlic Wings",
+        9.35,
+        111.24,
+        101.89
+      ],
+      [
+        "Yangnyeom Wings",
+        9.51,
+        111.4,
+        101.89
+      ],
+      [
+        "Spicy Wings",
+        9.75,
+        111.65,
+        101.9
+      ],
+      [
+        "Honey Garlic Wings",
+        9.63,
+        111.52,
+        101.89
+      ],
+      [
+        "Gyeran-mari (Rolled Omelette)",
+        3.42,
+        1.39,
+        2.0300000000000002
+      ],
+      [
+        "Solo Chicken Set",
+        14.27,
+        12.23,
+        2.039999999999999
+      ],
+      [
+        "Chicken Combo for Two",
+        32.77,
+        28.18,
+        4.590000000000003
+      ]
+    ],
+    "drifts": [
+      [
+        "Beef Bibimbap",
+        9.29,
+        8.78,
+        0.5099999999999998
+      ],
+      [
+        "Chicken Bibimbap",
+        5.97,
+        5.46,
+        0.5099999999999998
+      ],
+      [
+        "Tofu Bibimbap",
+        5.41,
+        4.9,
+        0.5099999999999998
+      ],
+      [
+        "Veg Bibimbap",
+        5.09,
+        4.58,
+        0.5099999999999998
+      ],
+      [
+        "Shrimp Bibimbap",
+        6.69,
+        6.18,
+        0.5100000000000007
+      ],
+      [
+        "Kimchi Shrimp Fried Rice",
+        4.38,
+        3.87,
+        0.5099999999999998
+      ],
+      [
+        "Donkkaseu",
+        6.99,
+        6.48,
+        0.5099999999999998
+      ],
+      [
+        "Soondubu Jjigae",
+        6.29,
+        5.79,
+        0.5
+      ],
+      [
+        "Shrimp Soondubu Jjigae",
+        6.18,
+        5.67,
+        0.5099999999999998
+      ],
+      [
+        "Yukgaejang",
+        7.47,
+        6.96,
+        0.5099999999999998
+      ],
+      [
+        "Shin Ramen",
+        5.26,
+        4.75,
+        0.5099999999999998
+      ],
+      [
+        "Beef Ramen",
+        9.42,
+        8.91,
+        0.5099999999999998
+      ],
+      [
+        "Prawn Ramen",
+        7.62,
+        7.12,
+        0.5
+      ],
+      [
+        "Garlic Butter Shrimp Ramen",
+        7.52,
+        7.01,
+        0.5099999999999998
+      ],
+      [
+        "Chicken Ramen",
+        6.67,
+        6.16,
+        0.5099999999999998
+      ],
+      [
+        "Rabokki",
+        7.82,
+        7.31,
+        0.5100000000000007
+      ],
+      [
+        "Tteokbokki with Cheese",
+        6.86,
+        6.35,
+        0.5100000000000007
+      ],
+      [
+        "Spicy Shrimp Tteokbokki",
+        8.42,
+        7.91,
+        0.5099999999999998
+      ],
+      [
+        "Deep Fried Chicken Mandu",
+        4.52,
+        4.35,
+        0.16999999999999993
+      ],
+      [
+        "Steamed Chicken Mandu",
+        4.39,
+        4.22,
+        0.16999999999999993
+      ],
+      [
+        "Japchae & Shrimp Kimbap",
+        4.41,
+        4.7,
+        0.29000000000000004
+      ]
+    ]
+  },
+  "American": {
+    "match": 16,
+    "drift": 84,
+    "error": 33,
+    "missing": 0,
+    "total": 133,
+    "errors": [
+      [
+        "Chicken House Slaw (Portion) Burger",
+        5.38,
+        0.67,
+        4.71
+      ],
+      [
+        "Chili Chicken Burger",
+        5.73,
+        4.62,
+        1.1100000000000003
+      ],
+      [
+        "Chicken House Slaw (Portion) Sliders",
+        3.75,
+        2.01,
+        1.7400000000000002
+      ],
+      [
+        "Chili Chicken Sliders",
+        5.46,
+        4.34,
+        1.12
+      ],
+      [
+        "Classic Falafel Slider",
+        6.49,
+        4.09,
+        2.4000000000000004
+      ],
+      [
+        "Buffalo Falafel Slider",
+        6.46,
+        4.06,
+        2.4000000000000004
+      ],
+      [
+        "BBQ Falafel Slider",
+        6.19,
+        3.79,
+        2.4000000000000004
+      ],
+      [
+        "Honey Mustard Falafel Slider",
+        6.39,
+        3.99,
+        2.3999999999999995
+      ],
+      [
+        "Avocado Falafel Slider",
+        6.73,
+        4.33,
+        2.4000000000000004
+      ],
+      [
+        "Plain Tenders",
+        8.12,
+        1.43,
+        6.6899999999999995
+      ],
+      [
+        "Smokey BBQ Tenders",
+        8.5,
+        1.81,
+        6.6899999999999995
+      ],
+      [
+        "Tangy Buffalo Tenders",
+        9.04,
+        2.34,
+        6.699999999999999
+      ],
+      [
+        "Hot Honey Tenders",
+        9.11,
+        2.41,
+        6.699999999999999
+      ],
+      [
+        "Sesame & Sweet Tenders",
+        8.56,
+        1.84,
+        6.720000000000001
+      ],
+      [
+        "Chili Hoisin Tenders",
+        9.62,
+        2.9,
+        6.719999999999999
+      ],
+      [
+        "Garlic Parmesan Tenders",
+        9.09,
+        2.39,
+        6.699999999999999
+      ],
+      [
+        "Honey Mustard Tenders",
+        8.9,
+        2.2,
+        6.7
+      ],
+      [
+        "Dynamite Tenders",
+        9.0,
+        2.3,
+        6.7
+      ],
+      [
+        "Chicken Caesar Wrap",
+        7.55,
+        6.44,
+        1.1099999999999994
+      ],
+      [
+        "Mozzarella Sticks",
+        2.79,
+        0.89,
+        1.9
+      ],
+      [
+        "Dynamite Shrimp",
+        5.69,
+        1.55,
+        4.140000000000001
+      ],
+      [
+        "Wings Meal for 1",
+        19.48,
+        18.16,
+        1.3200000000000003
+      ],
+      [
+        "Wings Meal for 2",
+        19.48,
+        18.16,
+        1.3200000000000003
+      ],
+      [
+        "Wings Meal for 4",
+        38.96,
+        36.32,
+        2.6400000000000006
+      ],
+      [
+        "Beef Sliders Meal for 2",
+        25.3,
+        23.98,
+        1.3200000000000003
+      ],
+      [
+        "Beef Sliders Meal for 4",
+        50.6,
+        47.97,
+        2.6300000000000026
+      ],
+      [
+        "Chicken Sliders Meal for 1",
+        15.05,
+        13.73,
+        1.3200000000000003
+      ],
+      [
+        "Chicken Sliders Meal for 2",
+        15.05,
+        13.73,
+        1.3200000000000003
+      ],
+      [
+        "Chicken Sliders Meal for 4",
+        30.09,
+        27.46,
+        2.629999999999999
+      ],
+      [
+        "Chicken Burger Combo (2 Pax)",
+        14.29,
+        12.97,
+        1.3199999999999985
+      ],
+      [
+        "Chicken Burger Combo (4 Pax)",
+        28.58,
+        25.94,
+        2.639999999999997
+      ],
+      [
+        "Beef Burger Combo (2 Pax)",
+        26.8,
+        25.48,
+        1.3200000000000003
+      ],
+      [
+        "Beef Burger Combo (4 Pax)",
+        53.6,
+        50.97,
+        2.6300000000000026
+      ]
+    ],
+    "drifts": [
+      [
+        "Classic Beef Burger",
+        11.84,
+        11.18,
+        0.6600000000000001
+      ],
+      [
+        "Cowboy Beef Burger",
+        14.38,
+        13.72,
+        0.6600000000000001
+      ],
+      [
+        "Beef Slaw Burger",
+        12.2,
+        11.54,
+        0.6600000000000001
+      ],
+      [
+        "Beef Burger Quesadilla",
+        10.91,
+        10.25,
+        0.6600000000000001
+      ],
+      [
+        "Buffalo Beef Burger",
+        11.99,
+        11.33,
+        0.6600000000000001
+      ],
+      [
+        "Texas Beef Burger",
+        12.09,
+        11.43,
+        0.6600000000000001
+      ],
+      [
+        "Mushroom Beef Burger",
+        12.3,
+        11.64,
+        0.6600000000000001
+      ],
+      [
+        "Mushroom Truffle Beef Burger",
+        12.45,
+        11.8,
+        0.6499999999999986
+      ],
+      [
+        "Beef Double Cheese Burger",
+        12.49,
+        11.83,
+        0.6600000000000001
+      ],
+      [
+        "Double Beef Burger",
+        18.7,
+        18.04,
+        0.6600000000000001
+      ],
+      [
+        "Bacon Beef Burger",
+        14.43,
+        13.77,
+        0.6600000000000001
+      ],
+      [
+        "BBQ Crispy Beef Burger",
+        14.38,
+        13.72,
+        0.6600000000000001
+      ],
+      [
+        "Mexican Crunch Beef Burger",
+        12.32,
+        11.67,
+        0.6500000000000004
+      ],
+      [
+        "Grilled Classic Chicken Burger",
+        7.21,
+        6.55,
+        0.6600000000000001
+      ],
+      [
+        "Crispy Chicken Burger",
+        5.59,
+        4.93,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Truffle Burger",
+        5.92,
+        5.26,
+        0.6600000000000001
+      ],
+      [
+        "Honey BBQ Chicken Burger",
+        5.49,
+        4.83,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Crunchy Slaw Burger",
+        5.28,
+        4.62,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Dynamite Burger",
+        5.71,
+        5.05,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Honey Mustard Burger",
+        5.67,
+        5.01,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Avocado Burger",
+        6.18,
+        5.52,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Buffalo Burger",
+        5.73,
+        5.07,
+        0.6600000000000001
+      ],
+      [
+        "Mexican Crunch Chicken Burger",
+        6.07,
+        5.41,
+        0.6600000000000001
+      ],
+      [
+        "Hot Honey Burger",
+        5.77,
+        5.11,
+        0.6599999999999993
+      ],
+      [
+        "Asian Ranch Burger",
+        5.61,
+        4.95,
+        0.6600000000000001
+      ],
+      [
+        "Italian Chicken Burger",
+        5.75,
+        5.09,
+        0.6600000000000001
+      ],
+      [
+        "Classic Beef Sliders",
+        10.61,
+        9.95,
+        0.6600000000000001
+      ],
+      [
+        "Cowboy Beef Sliders",
+        13.15,
+        12.49,
+        0.6600000000000001
+      ],
+      [
+        "Beef Slaw Sliders",
+        10.97,
+        10.31,
+        0.6600000000000001
+      ],
+      [
+        "Beef Sliders Quesadilla",
+        10.42,
+        9.76,
+        0.6600000000000001
+      ],
+      [
+        "Buffalo Beef Sliders",
+        11.0,
+        10.34,
+        0.6600000000000001
+      ],
+      [
+        "Texas Beef Sliders",
+        10.85,
+        10.19,
+        0.6600000000000001
+      ],
+      [
+        "Mushroom Beef Sliders",
+        10.97,
+        10.31,
+        0.6600000000000001
+      ],
+      [
+        "Mushroom Truffle Beef Sliders",
+        11.22,
+        10.56,
+        0.6600000000000001
+      ],
+      [
+        "Beef Double Cheese Sliders",
+        11.03,
+        10.37,
+        0.6600000000000001
+      ],
+      [
+        "Double Beef Sliders",
+        17.0,
+        16.35,
+        0.6499999999999986
+      ],
+      [
+        "Bacon Beef Sliders",
+        13.2,
+        12.54,
+        0.6600000000000001
+      ],
+      [
+        "BBQ Crispy Beef Sliders",
+        13.15,
+        12.49,
+        0.6600000000000001
+      ],
+      [
+        "Mexican Crunch Beef Sliders",
+        10.96,
+        10.3,
+        0.6600000000000001
+      ],
+      [
+        "Grilled Classic Chicken Sliders",
+        6.65,
+        5.99,
+        0.6600000000000001
+      ],
+      [
+        "Crispy Chicken Sliders",
+        5.4,
+        4.74,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Truffle Sliders",
+        5.64,
+        4.98,
+        0.6599999999999993
+      ],
+      [
+        "Honey BBQ Chicken Sliders",
+        5.21,
+        4.55,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Crunchy Slaw Sliders",
+        3.65,
+        2.99,
+        0.6599999999999997
+      ],
+      [
+        "Chicken Dynamite Sliders",
+        5.43,
+        4.78,
+        0.6499999999999995
+      ],
+      [
+        "Chicken Honey Mustard Sliders",
+        5.39,
+        4.73,
+        0.6599999999999993
+      ],
+      [
+        "Chicken Avocado Sliders",
+        5.9,
+        5.24,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Buffalo Sliders",
+        5.7,
+        5.04,
+        0.6600000000000001
+      ],
+      [
+        "Mexican Crunch Chicken Sliders",
+        5.66,
+        5.0,
+        0.6600000000000001
+      ],
+      [
+        "Hot Honey Sliders",
+        5.49,
+        4.83,
+        0.6600000000000001
+      ],
+      [
+        "Asian Ranch Sliders",
+        5.34,
+        4.68,
+        0.6600000000000001
+      ],
+      [
+        "Italian Chicken Sliders",
+        5.47,
+        4.81,
+        0.6600000000000001
+      ],
+      [
+        "Classic Grilled Halloumi Slider",
+        8.59,
+        7.93,
+        0.6600000000000001
+      ],
+      [
+        "Buffalo Grilled Halloumi Slider",
+        8.56,
+        7.9,
+        0.6600000000000001
+      ],
+      [
+        "BBQ Grilled Halloumi Slider",
+        8.29,
+        7.63,
+        0.6599999999999993
+      ],
+      [
+        "Honey Mustard Grilled Halloumi",
+        8.49,
+        7.83,
+        0.6600000000000001
+      ],
+      [
+        "Avocado Grilled Halloumi Slider",
+        8.83,
+        8.17,
+        0.6600000000000001
+      ],
+      [
+        "Plain Wings",
+        7.21,
+        6.56,
+        0.6500000000000004
+      ],
+      [
+        "Smokey BBQ Wings",
+        7.94,
+        7.28,
+        0.6600000000000001
+      ],
+      [
+        "Tangy Buffalo Wings",
+        8.15,
+        7.49,
+        0.6600000000000001
+      ],
+      [
+        "Hot Honey Wings",
+        8.23,
+        7.54,
+        0.6900000000000004
+      ],
+      [
+        "Sesame & Sweet Wings",
+        7.65,
+        6.96,
+        0.6900000000000004
+      ],
+      [
+        "Chili Hoisin Wings",
+        8.73,
+        8.05,
+        0.6799999999999997
+      ],
+      [
+        "Garlic Parmesan Wings",
+        8.37,
+        7.71,
+        0.6599999999999993
+      ],
+      [
+        "Honey Mustard Wings",
+        8.02,
+        7.33,
+        0.6899999999999995
+      ],
+      [
+        "Dynamite Wings",
+        8.09,
+        7.43,
+        0.6600000000000001
+      ],
+      [
+        "Classic Chicken Wrap",
+        7.3,
+        6.5,
+        0.7999999999999998
+      ],
+      [
+        "BBQ Chicken Wrap",
+        7.3,
+        6.5,
+        0.7999999999999998
+      ],
+      [
+        "Buffalo Chicken Wrap",
+        7.46,
+        6.66,
+        0.7999999999999998
+      ],
+      [
+        "Hot Honey Chicken Wrap",
+        8.06,
+        7.27,
+        0.7900000000000009
+      ],
+      [
+        "Asian Chicken Wrap",
+        7.99,
+        7.19,
+        0.7999999999999998
+      ],
+      [
+        "Fries",
+        1.75,
+        1.09,
+        0.6599999999999999
+      ],
+      [
+        "Spicy Fries",
+        1.83,
+        1.17,
+        0.6600000000000001
+      ],
+      [
+        "Dynamite Fries",
+        2.64,
+        1.98,
+        0.6600000000000001
+      ],
+      [
+        "Cheesy Fries",
+        3.43,
+        3.1,
+        0.33000000000000007
+      ],
+      [
+        "Tex Mex Fries",
+        4.04,
+        3.72,
+        0.31999999999999984
+      ],
+      [
+        "Onion Rings",
+        3.16,
+        2.51,
+        0.6500000000000004
+      ],
+      [
+        "Curly Fries",
+        3.13,
+        2.47,
+        0.6599999999999997
+      ],
+      [
+        "Nachos",
+        5.69,
+        5.37,
+        0.3200000000000003
+      ],
+      [
+        "Loaded Nachos",
+        10.38,
+        10.06,
+        0.3200000000000003
+      ],
+      [
+        "Beef Sliders Meal for 1",
+        12.65,
+        11.99,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Burger Combo (1 Pax)",
+        7.14,
+        6.49,
+        0.6499999999999995
+      ],
+      [
+        "Beef Burger Combo (1 Pax)",
+        13.4,
+        12.74,
+        0.6600000000000001
+      ],
+      [
+        "Chicken Burger",
+        7.14,
+        6.49,
+        0.6499999999999995
+      ]
+    ]
+  },
+  "Mexican": {
+    "match": 19,
+    "drift": 27,
+    "error": 38,
+    "missing": 0,
+    "total": 84,
+    "errors": [
+      [
+        "Smoky Beef and Cheese Quesadilla",
+        9.11,
+        10.81,
+        1.700000000000001
+      ],
+      [
+        "Grilled Shrimp Sichuan Tacos",
+        8.63,
+        7.63,
+        1.0000000000000009
+      ],
+      [
+        "Shrimp Tacos",
+        8.47,
+        7.47,
+        1.0000000000000009
+      ],
+      [
+        "Beef Tacos",
+        8.77,
+        10.47,
+        1.700000000000001
+      ],
+      [
+        "Chimichurri Shrimp Tacos",
+        8.56,
+        7.56,
+        1.0000000000000009
+      ],
+      [
+        "Chimichurri Beef Tacos",
+        8.86,
+        10.56,
+        1.700000000000001
+      ],
+      [
+        "Spiced Veggie Burrito",
+        6.79,
+        5.71,
+        1.08
+      ],
+      [
+        "Grilled Chicken Burrito",
+        7.67,
+        6.6,
+        1.0700000000000003
+      ],
+      [
+        "Crispy Chicken Burrito",
+        5.79,
+        4.71,
+        1.08
+      ],
+      [
+        "Avocado and Chicken Burrito",
+        7.77,
+        6.69,
+        1.0799999999999992
+      ],
+      [
+        "Spicy Shrimp Burrito",
+        8.98,
+        7.9,
+        1.08
+      ],
+      [
+        "Smoky Beef Burrito",
+        9.52,
+        11.14,
+        1.620000000000001
+      ],
+      [
+        "Ground Beef Burrito",
+        11.57,
+        10.5,
+        1.0700000000000003
+      ],
+      [
+        "Veg Ranchero Burrito",
+        6.94,
+        5.87,
+        1.0700000000000003
+      ],
+      [
+        "Grilled Chicken Ranchero Burrito",
+        7.44,
+        6.37,
+        1.0700000000000003
+      ],
+      [
+        "Grilled Shrimp Ranchero Burrito",
+        8.75,
+        7.68,
+        1.0700000000000003
+      ],
+      [
+        "Smoky Beef Ranchero Burrito",
+        9.29,
+        10.91,
+        1.620000000000001
+      ],
+      [
+        "Ground Beef Ranchero Burrito",
+        11.34,
+        10.27,
+        1.0700000000000003
+      ],
+      [
+        "Spiced Veggie Chimichurri Burrito",
+        6.82,
+        5.74,
+        1.08
+      ],
+      [
+        "Grilled Chicken Chimichurri Burrito",
+        7.7,
+        6.62,
+        1.08
+      ],
+      [
+        "Crispy Chicken Chimichurri Burrito",
+        5.65,
+        4.58,
+        1.0700000000000003
+      ],
+      [
+        "Spicy Shrimp Chimichurri Burrito",
+        8.59,
+        7.52,
+        1.0700000000000003
+      ],
+      [
+        "Smoky Beef Chimichurri Burrito",
+        9.13,
+        10.75,
+        1.6199999999999992
+      ],
+      [
+        "Veg Chimichanga",
+        6.23,
+        5.15,
+        1.08
+      ],
+      [
+        "Grilled Chicken Chimichanga",
+        15.79,
+        13.64,
+        2.1499999999999986
+      ],
+      [
+        "Smoky Beef Chimichanga",
+        8.89,
+        10.52,
+        1.629999999999999
+      ],
+      [
+        "Ground Beef Chimichanga",
+        11.36,
+        10.28,
+        1.08
+      ],
+      [
+        "Steak Enchilada",
+        9.17,
+        11.36,
+        2.1899999999999995
+      ],
+      [
+        "Spiced Veggie Fajita Wrap",
+        6.65,
+        5.58,
+        1.0700000000000003
+      ],
+      [
+        "Grilled Chicken Fajita Wrap",
+        8.15,
+        7.08,
+        1.0700000000000003
+      ],
+      [
+        "Spicy Shrimp Fajita Wrap",
+        9.46,
+        8.39,
+        1.0700000000000003
+      ],
+      [
+        "Smoky Beef Fajita Wrap",
+        10.0,
+        11.62,
+        1.6199999999999992
+      ],
+      [
+        "Crispy Chicken Fajita Wrap",
+        6.27,
+        5.2,
+        1.0699999999999994
+      ],
+      [
+        "Smoky Beef Fajita Meal",
+        10.97,
+        12.84,
+        1.8699999999999992
+      ],
+      [
+        "Smoky Beef Burrito Bowl",
+        7.63,
+        9.82,
+        2.1900000000000004
+      ],
+      [
+        "Smoky Beef Taco Salad",
+        8.97,
+        11.17,
+        2.1999999999999993
+      ],
+      [
+        "Cheese Fries",
+        2.86,
+        1.82,
+        1.0399999999999998
+      ],
+      [
+        "Dynamite Fries",
+        3.23,
+        2.19,
+        1.04
+      ]
+    ],
+    "drifts": [
+      [
+        "Cheese Quesadilla",
+        4.92,
+        3.92,
+        1.0
+      ],
+      [
+        "Spiced Veggies and Cheese Quesadilla",
+        5.66,
+        4.66,
+        1.0
+      ],
+      [
+        "Grilled Chicken and Cheese Quesadilla",
+        7.26,
+        6.27,
+        0.9900000000000002
+      ],
+      [
+        "Spicy Shrimp and Cheese Quesadilla",
+        8.57,
+        7.57,
+        1.0
+      ],
+      [
+        "Veggie Tacos",
+        6.1,
+        5.11,
+        0.9899999999999993
+      ],
+      [
+        "Chicken Tacos",
+        7.07,
+        6.08,
+        0.9900000000000002
+      ],
+      [
+        "Grilled BBQ Chicken Tacos",
+        7.03,
+        6.03,
+        1.0
+      ],
+      [
+        "Ground Beef Tacos",
+        11.23,
+        10.24,
+        0.9900000000000002
+      ],
+      [
+        "Chimichurri Veg Tacos",
+        6.13,
+        5.13,
+        1.0
+      ],
+      [
+        "Chimichurri Chicken Tacos",
+        7.16,
+        6.17,
+        0.9900000000000002
+      ],
+      [
+        "Veg Fiesta Enchilada",
+        6.29,
+        5.78,
+        0.5099999999999998
+      ],
+      [
+        "Chicken Enchilada",
+        7.47,
+        6.97,
+        0.5
+      ],
+      [
+        "Shrimp Enchilada",
+        8.87,
+        8.37,
+        0.5
+      ],
+      [
+        "Spiced Veggie Fajita Meal",
+        7.63,
+        6.79,
+        0.8399999999999999
+      ],
+      [
+        "Grilled Chicken Fajita Meal",
+        9.43,
+        8.6,
+        0.8300000000000001
+      ],
+      [
+        "Spicy Prawn Fajita Meal",
+        10.91,
+        10.08,
+        0.8300000000000001
+      ],
+      [
+        "Grilled Fish Fajita Meal",
+        8.28,
+        7.44,
+        0.839999999999999
+      ],
+      [
+        "Veg Burrito Bowl",
+        4.9,
+        4.4,
+        0.5
+      ],
+      [
+        "Grilled Chicken Burrito Bowl",
+        5.78,
+        5.28,
+        0.5
+      ],
+      [
+        "Grilled Shrimp Burrito Bowl",
+        7.09,
+        6.59,
+        0.5
+      ],
+      [
+        "Ground Beef Burrito Bowl",
+        9.68,
+        9.18,
+        0.5
+      ],
+      [
+        "Grilled Chicken Taco Salad",
+        7.13,
+        6.62,
+        0.5099999999999998
+      ],
+      [
+        "Grilled Shrimp Taco Salad",
+        8.44,
+        7.93,
+        0.5099999999999998
+      ],
+      [
+        "Ground Beef Taco Salad",
+        11.03,
+        10.52,
+        0.5099999999999998
+      ],
+      [
+        "Veg Taco Salad",
+        6.01,
+        5.51,
+        0.5
+      ],
+      [
+        "Cheesy Nachos",
+        5.22,
+        4.89,
+        0.33000000000000007
+      ],
+      [
+        "Dynamite Shrimps",
+        5.68,
+        5.36,
+        0.3199999999999994
+      ]
+    ]
+  },
+  "Japanese": {
+    "match": 6,
+    "drift": 21,
+    "error": 45,
+    "missing": 0,
+    "total": 72,
+    "errors": [
+      [
+        "Prawn Tempura",
+        5.21,
+        3.65,
+        1.56
+      ],
+      [
+        "Prawn Katsu",
+        5.77,
+        3.96,
+        1.8099999999999996
+      ],
+      [
+        "Shrimp Gyoza",
+        4.75,
+        3.19,
+        1.56
+      ],
+      [
+        "Chicken Gyoza",
+        4.19,
+        2.64,
+        1.5500000000000003
+      ],
+      [
+        "Calamari",
+        5.01,
+        3.45,
+        1.5599999999999996
+      ],
+      [
+        "Chicken Robatayaki",
+        4.69,
+        3.13,
+        1.5600000000000005
+      ],
+      [
+        "Miso Chicken Ramen",
+        5.89,
+        4.46,
+        1.4299999999999997
+      ],
+      [
+        "Spicy Tuna Salad",
+        8.77,
+        2.73,
+        6.039999999999999
+      ],
+      [
+        "Cucumber Hosomaki",
+        2.56,
+        1.0,
+        1.56
+      ],
+      [
+        "Avocado Hosomaki",
+        2.88,
+        1.32,
+        1.5599999999999998
+      ],
+      [
+        "Kani Hosomaki",
+        3.77,
+        2.21,
+        1.56
+      ],
+      [
+        "Salmon Hosomaki",
+        4.21,
+        2.65,
+        1.56
+      ],
+      [
+        "Tuna Hosomaki",
+        5.81,
+        1.63,
+        4.18
+      ],
+      [
+        "California Roll",
+        5.23,
+        3.67,
+        1.5600000000000005
+      ],
+      [
+        "Dragon Roll",
+        4.25,
+        2.69,
+        1.56
+      ],
+      [
+        "Spicy Tuna Roll",
+        6.91,
+        2.07,
+        4.84
+      ],
+      [
+        "Rainbow Roll",
+        5.87,
+        3.0,
+        2.87
+      ],
+      [
+        "Mango Roll",
+        3.84,
+        2.28,
+        1.56
+      ],
+      [
+        "Crab Roll",
+        3.92,
+        2.36,
+        1.56
+      ],
+      [
+        "Philadelphia Roll",
+        5.23,
+        3.67,
+        1.5600000000000005
+      ],
+      [
+        "Tempura Roll",
+        3.4,
+        1.84,
+        1.5599999999999998
+      ],
+      [
+        "Spicy Salmon Roll",
+        4.91,
+        3.35,
+        1.56
+      ],
+      [
+        "Okinawa Roll",
+        5.07,
+        3.51,
+        1.5600000000000005
+      ],
+      [
+        "Dynamite Roll",
+        3.03,
+        1.47,
+        1.5599999999999998
+      ],
+      [
+        "Triple Crunch Prawn Roll",
+        4.65,
+        3.09,
+        1.5600000000000005
+      ],
+      [
+        "Sakuragi Prawn Roll",
+        3.94,
+        2.38,
+        1.56
+      ],
+      [
+        "Crispy Chicken Fried Roll",
+        4.24,
+        2.68,
+        1.56
+      ],
+      [
+        "Crispy Shrimp Fried Roll",
+        4.71,
+        3.16,
+        1.5499999999999998
+      ],
+      [
+        "Crispy Salmon Fried Roll",
+        5.84,
+        4.28,
+        1.5599999999999996
+      ],
+      [
+        "Crispy Tuna Fried Roll",
+        7.34,
+        2.5,
+        4.84
+      ],
+      [
+        "Crispy Vegetarian Fried Roll",
+        3.93,
+        2.37,
+        1.56
+      ],
+      [
+        "Salmon Nigiri (2 pcs)",
+        3.33,
+        1.77,
+        1.56
+      ],
+      [
+        "Ebi Nigiri (2 pcs)",
+        3.85,
+        2.29,
+        1.56
+      ],
+      [
+        "Tuna Nigiri (2 pcs)",
+        4.53,
+        1.0,
+        3.5300000000000002
+      ],
+      [
+        "Salmon Sashimi (3 pcs)",
+        6.02,
+        4.46,
+        1.5599999999999996
+      ],
+      [
+        "Tuna Sashimi (3 pcs)",
+        9.41,
+        2.28,
+        7.130000000000001
+      ],
+      [
+        "Stir Fry Beef Rice",
+        5.84,
+        7.78,
+        1.9400000000000004
+      ],
+      [
+        "Beef Teriyaki Rice",
+        5.95,
+        7.58,
+        1.63
+      ],
+      [
+        "The Solo Play",
+        30.44,
+        18.06,
+        12.380000000000003
+      ],
+      [
+        "Date Night Box",
+        30.08,
+        13.02,
+        17.06
+      ],
+      [
+        "The Power Feed",
+        14.47,
+        5.61,
+        8.86
+      ],
+      [
+        "The Crowd Pleaser",
+        19.51,
+        8.43,
+        11.080000000000002
+      ],
+      [
+        "Signature Flex",
+        15.88,
+        8.08,
+        7.800000000000001
+      ],
+      [
+        "Raw Bar Feast",
+        42.26,
+        16.1,
+        26.159999999999997
+      ],
+      [
+        "The Party Starter",
+        48.01,
+        22.6,
+        25.409999999999997
+      ]
+    ],
+    "drifts": [
+      [
+        "Shrimp Dynamite",
+        5.57,
+        4.77,
+        0.8000000000000007
+      ],
+      [
+        "Chicken Dynamite",
+        3.9,
+        3.11,
+        0.79
+      ],
+      [
+        "Spicy Edamame",
+        4.02,
+        3.22,
+        0.7999999999999994
+      ],
+      [
+        "Edamame",
+        3.06,
+        2.26,
+        0.8000000000000003
+      ],
+      [
+        "Beef Robatayaki",
+        6.04,
+        6.81,
+        0.7699999999999996
+      ],
+      [
+        "Tom Yum Soup",
+        2.61,
+        1.76,
+        0.8499999999999999
+      ],
+      [
+        "Tom Yum Udon Soup",
+        5.84,
+        4.93,
+        0.9100000000000001
+      ],
+      [
+        "Creamy Tom Yum",
+        3.03,
+        2.18,
+        0.8499999999999996
+      ],
+      [
+        "Miso Soup",
+        1.64,
+        0.79,
+        0.8499999999999999
+      ],
+      [
+        "Miso Beef Ramen",
+        6.61,
+        6.43,
+        0.1800000000000006
+      ],
+      [
+        "Salmon Crunch Salad",
+        5.41,
+        4.62,
+        0.79
+      ],
+      [
+        "Chuka Wakame",
+        3.44,
+        2.65,
+        0.79
+      ],
+      [
+        "Crab Salad",
+        4.11,
+        3.31,
+        0.8000000000000003
+      ],
+      [
+        "Shrimp Udon",
+        6.56,
+        5.79,
+        0.7699999999999996
+      ],
+      [
+        "Green Curry Udon",
+        7.35,
+        6.58,
+        0.7699999999999996
+      ],
+      [
+        "Shrimp Yakisoba",
+        6.61,
+        5.84,
+        0.7700000000000005
+      ],
+      [
+        "Vegetable Yakisoba",
+        4.92,
+        4.15,
+        0.7699999999999996
+      ],
+      [
+        "Chicken Yakisoba",
+        5.74,
+        4.97,
+        0.7700000000000005
+      ],
+      [
+        "Chicken Katsu Curry",
+        4.55,
+        3.7,
+        0.8499999999999996
+      ],
+      [
+        "Chicken Katsu with Rice",
+        4.65,
+        3.8,
+        0.8500000000000005
+      ],
+      [
+        "Chicken Teriyaki Rice",
+        4.5,
+        3.65,
+        0.8500000000000001
+      ]
+    ]
+  },
+  "Poke": {
+    "match": 8,
+    "drift": 31,
+    "error": 13,
+    "missing": 0,
+    "total": 52,
+    "errors": [
+      [
+        "Spicy Edamame",
+        3.57,
+        0.86,
+        2.71
+      ],
+      [
+        "Prawn Katsu",
+        5.28,
+        3.94,
+        1.3400000000000003
+      ],
+      [
+        "Calamari",
+        4.95,
+        3.61,
+        1.3400000000000003
+      ],
+      [
+        "Classic Chicken Wrap",
+        16.19,
+        26.58,
+        10.389999999999997
+      ],
+      [
+        "Chicken Caesar Wrap",
+        4.51,
+        26.52,
+        22.009999999999998
+      ],
+      [
+        "BBQ Chicken Wrap",
+        16.35,
+        26.13,
+        9.779999999999998
+      ],
+      [
+        "Buffalo Chicken Wrap",
+        16.45,
+        26.23,
+        9.780000000000001
+      ],
+      [
+        "Hot Honey Chicken Wrap",
+        4.13,
+        26.44,
+        22.310000000000002
+      ],
+      [
+        "Asian Chicken Wrap",
+        4.08,
+        26.4,
+        22.32
+      ],
+      [
+        "Signature Combo",
+        12.51,
+        10.71,
+        1.799999999999999
+      ],
+      [
+        "Lunch Special",
+        11.9,
+        10.14,
+        1.7599999999999998
+      ],
+      [
+        "Sashimi Set",
+        18.36,
+        15.94,
+        2.42
+      ],
+      [
+        "Family Deal",
+        55.45,
+        48.4,
+        7.050000000000004
+      ]
+    ],
+    "drifts": [
+      [
+        "The Classic Salmon",
+        8.84,
+        7.87,
+        0.9699999999999998
+      ],
+      [
+        "Spicy Tuna & Mango",
+        5.84,
+        4.87,
+        0.9699999999999998
+      ],
+      [
+        "The Grand Tuna",
+        5.27,
+        4.3,
+        0.9699999999999998
+      ],
+      [
+        "The All-Star",
+        7.34,
+        6.38,
+        0.96
+      ],
+      [
+        "Spicy Salmon Umami",
+        8.1,
+        7.14,
+        0.96
+      ],
+      [
+        "Island Fusion",
+        7.16,
+        6.19,
+        0.9699999999999998
+      ],
+      [
+        "California Crab Bowl",
+        9.07,
+        8.1,
+        0.9700000000000006
+      ],
+      [
+        "Shrimp Ceviche Bowl",
+        5.23,
+        4.26,
+        0.9700000000000006
+      ],
+      [
+        "The Veggie Bliss",
+        5.59,
+        4.62,
+        0.9699999999999998
+      ],
+      [
+        "Build Your Own - Regular Bowl (3 Proteins)",
+        7.29,
+        6.38,
+        0.9100000000000001
+      ],
+      [
+        "Build Your Own - Large Bowl (4 Proteins)",
+        8.89,
+        7.92,
+        0.9700000000000006
+      ],
+      [
+        "Build Your Own - Super Bowl (5 Proteins)",
+        10.76,
+        9.8,
+        0.9599999999999991
+      ],
+      [
+        "Grilled Chicken Teppanyaki",
+        5.11,
+        4.14,
+        0.9700000000000006
+      ],
+      [
+        "Grilled Shrimp Teppanyaki",
+        5.77,
+        4.8,
+        0.9699999999999998
+      ],
+      [
+        "Miso Beef Ramen",
+        9.09,
+        8.26,
+        0.8300000000000001
+      ],
+      [
+        "Miso Chicken Ramen",
+        6.64,
+        5.81,
+        0.8300000000000001
+      ],
+      [
+        "Salmon Crunch Salad",
+        7.98,
+        7.07,
+        0.9100000000000001
+      ],
+      [
+        "Spicy Tuna Salad",
+        5.78,
+        4.87,
+        0.9100000000000001
+      ],
+      [
+        "Crab Salad",
+        8.69,
+        7.78,
+        0.9099999999999993
+      ],
+      [
+        "Chuka Wakame",
+        3.66,
+        2.86,
+        0.8000000000000003
+      ],
+      [
+        "Miso Soup",
+        1.71,
+        0.88,
+        0.83
+      ],
+      [
+        "Tom Yum Soup",
+        3.78,
+        2.95,
+        0.8299999999999996
+      ],
+      [
+        "Creamy Tom Yum",
+        4.29,
+        3.46,
+        0.8300000000000001
+      ],
+      [
+        "Tom Yum Udon Soup",
+        7.01,
+        6.17,
+        0.8399999999999999
+      ],
+      [
+        "Edamame",
+        3.06,
+        2.27,
+        0.79
+      ],
+      [
+        "Dynamite Shrimp",
+        4.66,
+        3.83,
+        0.8300000000000001
+      ],
+      [
+        "Prawn Tempura",
+        4.38,
+        3.54,
+        0.8399999999999999
+      ],
+      [
+        "Honey Chilli Potato",
+        2.18,
+        1.35,
+        0.8300000000000001
+      ],
+      [
+        "Honey Chilli Shrimp",
+        5.09,
+        4.25,
+        0.8399999999999999
+      ],
+      [
+        "Chicken Dynamite",
+        3.92,
+        3.09,
+        0.8300000000000001
+      ],
+      [
+        "Chicken Gyoza",
+        3.32,
+        2.49,
+        0.8299999999999996
+      ]
+    ]
+  },
+  "Chinese": {
+    "match": 83,
+    "drift": 6,
+    "error": 0,
+    "missing": 0,
+    "total": 89,
+    "errors": [],
+    "drifts": [
+      [
+        "Chicken Manchow Soup",
+        1.23,
+        0.97,
+        0.26
+      ],
+      [
+        "Street Style Chowmein",
+        2.72,
+        3.14,
+        0.41999999999999993
+      ],
+      [
+        "Hakka Noodles",
+        2.31,
+        2.65,
+        0.33999999999999986
+      ],
+      [
+        "Schezwan Noodles",
+        2.9,
+        3.24,
+        0.3400000000000003
+      ],
+      [
+        "Singapore Noodles",
+        2.72,
+        3.06,
+        0.33999999999999986
+      ],
+      [
+        "Shanghai Noodles",
+        3.01,
+        3.36,
+        0.3500000000000001
+      ]
+    ]
+  },
+  "Indian": {
+    "match": 99,
+    "drift": 0,
+    "error": 0,
+    "missing": 0,
+    "total": 99,
+    "errors": [],
+    "drifts": [],
+    "note": "Pre-computed from recipe file - not independently verified"
+  }
+}
