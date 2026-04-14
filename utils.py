@@ -17,6 +17,15 @@ from io import BytesIO
 from dotenv import load_dotenv
 load_dotenv(override=True)
 
+# Load API key from Streamlit secrets if available (for Streamlit Cloud deployment)
+import os
+try:
+    import streamlit as st
+    if "ANTHROPIC_API_KEY" in st.secrets:
+        os.environ["ANTHROPIC_API_KEY"] = st.secrets["ANTHROPIC_API_KEY"]
+except Exception:
+    pass
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 COSTING_DIR = os.path.join(BASE_DIR, "Dish_Costing")
 INVOICES_DIR = os.path.join(BASE_DIR, "Invoices")
