@@ -136,12 +136,12 @@ elif st.session_state.upload_mode == "review":
     if len(invoices) > 1:
         st.info(f"Invoice {idx + 1} of {len(invoices)} — This PDF contains {len(invoices)} separate invoices. Confirm each one individually.")
 
-    # Header
+    # Header (editable)
     col1, col2, col3, col4 = st.columns(4)
-    with col1: st.text_input("Supplier", value=inv.get("supplier_name", ""), key="rev_supplier", disabled=True)
-    with col2: st.text_input("Invoice Date", value=inv.get("invoice_date", ""), key="rev_date", disabled=True)
-    with col3: st.text_input("Invoice #", value=inv.get("invoice_number", ""), key="rev_number", disabled=True)
-    with col4: st.text_input("Total", value=f"AED {inv.get('grand_total', 0):.2f}", key="rev_total", disabled=True)
+    with col1: inv["supplier_name"] = st.text_input("Supplier", value=inv.get("supplier_name", ""), key=f"rev_supplier_{idx}")
+    with col2: inv["invoice_date"] = st.text_input("Invoice Date", value=inv.get("invoice_date", ""), key=f"rev_date_{idx}")
+    with col3: inv["invoice_number"] = st.text_input("Invoice #", value=inv.get("invoice_number", ""), key=f"rev_number_{idx}")
+    with col4: st.text_input("Total", value=f"AED {inv.get('grand_total', 0):.2f}", key=f"rev_total_{idx}", disabled=True)
 
     # Price alerts
     increases = [i for i in inv.get("items", []) if (i.get("price_change_pct") or 0) > 10]
