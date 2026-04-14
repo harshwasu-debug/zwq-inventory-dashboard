@@ -373,7 +373,7 @@ def fuzzy_match_ingredient(invoice_item_name, canonical_data, aliases):
         scored.append((ratio * 0.6 + word_overlap * 0.4, item))
     scored.sort(key=lambda x: -x[0])
     top = scored[:5]
-    if top and top[0][0] >= 0.75:
+    if top and top[0][0] >= 0.55:
         return {"matched": True, "match_type": "fuzzy", "canonical_name": top[0][1]["ingredient"],
                 "confidence": round(top[0][0], 3),
                 "suggestions": [{"name": s[1]["ingredient"], "score": round(s[0], 3),

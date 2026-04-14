@@ -148,37 +148,77 @@ elif st.session_state.upload_mode == "review":
     if increases:
         st.warning(f"{len(increases)} item(s) with >10% price increase detected!")
 
-    # Items table
+    # Build ingredient options for dropdowns
     canonical_data = load_canonical_prices_raw()
-    all_ingredient_names = ["(skip)"] + sorted([i["ingredient"] for i in canonical_data.get("items", [])])
+    all_ingredient_names = sorted([i["ingredient"] for i in canonical_data.get("items", [])])
+    ingredient_options = ["(no match — skip)"] + all_ingredient_names
 
-    rows = []
+    # Editable items — each row has a dropdown to select/change the matched ingredient
+    st.markdown("#### Line Items")
+    st.caption("Select the correct ingredient match for each item. Change '(no match)' items to the right ingredient.")
+
     for i, item in enumerate(inv.get("items", [])):
         match = item.get("match", {})
-        matched_name = match.get("canonical_name", "(no match)")
+        matched_name = match.get("canonical_name")
+        suggestions = match.get("suggestions", [])
         change = item.get("price_change_pct")
-        change_str = f"{change:+.1f}%" if change is not None else "-"
 
-        rows.append({
-            "#": i + 1,
-            "Invoice Item": item.get("item_name", ""),
-            "Matched Ingredient": matched_name or "(no match)",
-            "Qty": item.get("quantity", 0),
-            "Unit": item.get("unit", ""),
-            "Invoice Price": item.get("unit_price", 0),
-            "Internal Price": f"{item.get('internal_price', 0):.2f}" if item.get("internal_price") else "-",
-            "Change": change_str,
-            "Total": item.get("total_price", 0),
-        })
+        # Build default index for selectbox
+        if matched_name and matched_name in all_ingredient_names:
+            default_idx = all_ingredient_names.index(matched_name) + 1  # +1 for "(no match)" option
+        elif suggestions:
+            # Use first suggestion as default
+            first_sug = suggestions[0]["name"]
+            if first_sug in all_ingredient_names:
+                default_idx = all_ingredient_names.index(first_sug) + 1
+            else:
+                default_idx = 0
+        else:
+            default_idx = 0
 
-    df_items = pd.DataFrame(rows)
-    st.dataframe(df_items, use_container_width=True, hide_index=True,
-                 column_config={
-                     "Invoice Price": st.column_config.NumberColumn(format="%.2f"),
-                     "Total": st.column_config.NumberColumn(format="%.2f"),
-                 })
+        # Color coding
+        if change and change > 5:
+            bg = "background-color: rgba(239,68,68,0.1)"
+        elif change and change < -5:
+            bg = "background-color: rgba(34,197,94,0.1)"
+        else:
+            bg = ""
+
+        cols = st.columns([1, 4, 4, 1, 1, 2, 2])
+        with cols[0]: st.text(f"{i+1}")
+        with cols[1]:
+            st.caption(item.get("item_name", ""))
+            if suggestions and not matched_name:
+                hint = ", ".join([f"{s['name']} ({s['score']:.0%})" for s in suggestions[:3]])
+                st.caption(f"Suggestions: {hint}")
+        with cols[2]:
+            selected = st.selectbox(
+                f"Match {i}", options=ingredient_options, index=default_idx,
+                key=f"match_{idx}_{i}", label_visibility="collapsed"
+            )
+            # Store selection back into the invoice data
+            if selected != "(no match — skip)":
+                inv["items"][i]["_confirmed_match"] = selected
+            else:
+                inv["items"][i]["_confirmed_match"] = None
+        with cols[3]: st.text(f"{item.get('quantity', 0)}")
+        with cols[4]: st.text(f"{item.get('unit', '')}")
+        with cols[5]:
+            inv_price = item.get("unit_price", 0)
+            int_price = item.get("internal_price")
+            st.text(f"AED {inv_price:.2f}")
+            if int_price:
+                st.caption(f"Internal: {int_price:.2f}")
+        with cols[6]:
+            if change is not None:
+                color = "red" if change > 0 else "green"
+                st.markdown(f":{color}[{change:+.1f}%]")
+                st.caption(f"AED {item.get('total_price', 0):.2f}")
+            else:
+                st.text(f"AED {item.get('total_price', 0):.2f}")
 
     # Totals
+    st.divider()
     col1, col2, col3 = st.columns(3)
     with col1: st.metric("Subtotal", f"AED {inv.get('subtotal', 0):.2f}")
     with col2: st.metric(f"VAT ({inv.get('vat_percentage', 0)}%)", f"AED {inv.get('vat_amount', 0):.2f}")
@@ -193,11 +233,18 @@ elif st.session_state.upload_mode == "review":
             st.rerun()
     with col2:
         if st.button("Confirm Invoice", type="primary", use_container_width=True):
-            # Build confirmation data
+            # Build confirmation data from dropdown selections
             for item in inv.get("items", []):
-                match = item.get("match", {})
-                item["confirmed_canonical_name"] = match.get("canonical_name")
-                item["confirmed_price"] = item.get("normalized_invoice_price")
+                confirmed = item.get("_confirmed_match")
+                item["confirmed_canonical_name"] = confirmed
+                # Look up normalized price for the confirmed match
+                if confirmed:
+                    for ci in canonical_data.get("items", []):
+                        if ci["ingredient"] == confirmed:
+                            item["confirmed_price"] = normalize_price(
+                                item.get("unit_price", 0), 1, item.get("unit", ""),
+                                ci["uom"], ci.get("buying_unit"))
+                            break
 
             price_updates = confirm_invoice(inv)
 
