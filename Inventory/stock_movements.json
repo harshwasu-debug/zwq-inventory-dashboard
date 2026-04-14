@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-04-14",
+    "type": "receipt",
+    "ingredient": "Cooking Oil",
+    "quantity": 5.0,
+    "uom": "L",
+    "reference": "Test receipt",
+    "running_balance": 5.0
+  }
+]

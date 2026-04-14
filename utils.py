@@ -576,4 +576,206 @@ def confirm_invoice(invoice_data):
     safe_number = re.sub(r'[^\w\-]', '_', str(inv_number))
     save_json(os.path.join(INVOICES_DIR, f"{inv_date}_{safe_number}.json"),
               {**invoice_data, "confirmed_at": datetime.now().isoformat(), "price_updates": price_updates})
+
+    # Update stock levels for received items
+    for item in invoice_data.get("items", []):
+        canonical_name = item.get("confirmed_canonical_name")
+        if canonical_name and item.get("quantity", 0) > 0:
+            update_stock(canonical_name, item["quantity"], item.get("unit", ""),
+                         "receipt", f"Invoice {invoice_data.get('invoice_number', '?')}")
+
     return price_updates
+
+
+# ============================================================================
+# STOCK MANAGEMENT
+# ============================================================================
+
+INVENTORY_DIR = os.path.join(BASE_DIR, "Inventory")
+STOCK_LEVELS_FILE = os.path.join(INVENTORY_DIR, "stock_levels.json")
+STOCK_MOVEMENTS_FILE = os.path.join(INVENTORY_DIR, "stock_movements.json")
+BRAND_RECIPE_MAP_FILE = os.path.join(INVENTORY_DIR, "brand_recipe_map.json")
+SALES_UPLOADS_DIR = os.path.join(INVENTORY_DIR, "sales_uploads")
+
+os.makedirs(INVENTORY_DIR, exist_ok=True)
+os.makedirs(SALES_UPLOADS_DIR, exist_ok=True)
+
+
+def load_stock_levels():
+    return load_json(STOCK_LEVELS_FILE, default={})
+
+def save_stock_levels(levels):
+    save_json(STOCK_LEVELS_FILE, levels)
+
+def load_stock_movements():
+    return load_json(STOCK_MOVEMENTS_FILE, default=[])
+
+def save_stock_movements(movements):
+    save_json(STOCK_MOVEMENTS_FILE, movements)
+
+def load_brand_recipe_map():
+    return load_json(BRAND_RECIPE_MAP_FILE, default={"mappings": []})
+
+def save_brand_recipe_map(data):
+    save_json(BRAND_RECIPE_MAP_FILE, data)
+
+def load_brand_menus():
+    """Load brand menu items from Menu_Deliverect_All_Brands.json."""
+    path = os.path.join(BASE_DIR, "Menu_Deliverect_All_Brands.json")
+    data = load_json(path, default={})
+    return data.get("brands", data)
+
+
+def update_stock(ingredient_name, quantity, unit, movement_type, reference):
+    """Update stock level for an ingredient and log the movement."""
+    levels = load_stock_levels()
+    movements = load_stock_movements()
+    today = date.today().isoformat()
+
+    key = ingredient_name.strip().lower()
+
+    # Normalize quantity to canonical UOM using ingredient price list
+    canonical = load_canonical_prices_dict()
+    canon_info = canonical.get(key, {})
+    canon_uom = canon_info.get("uom", unit)
+
+    # Simple unit conversion
+    qty = float(quantity)
+    unit_lower = str(unit).lower().strip()
+    if canon_uom == "Kg" and unit_lower in ("g", "gm"): qty /= 1000
+    elif canon_uom == "L" and unit_lower == "ml": qty /= 1000
+
+    # Update level
+    current = levels.get(key, {"ingredient": ingredient_name, "quantity": 0, "uom": canon_uom, "last_updated": today})
+    if movement_type == "receipt":
+        current["quantity"] = round(current.get("quantity", 0) + qty, 4)
+        current["last_received"] = today
+    elif movement_type == "depletion":
+        current["quantity"] = round(current.get("quantity", 0) - qty, 4)
+    elif movement_type == "adjustment":
+        current["quantity"] = round(qty, 4)
+    current["uom"] = canon_uom
+    current["ingredient"] = ingredient_name
+    current["last_updated"] = today
+    levels[key] = current
+    save_stock_levels(levels)
+
+    # Log movement
+    movements.append({
+        "date": today,
+        "type": movement_type,
+        "ingredient": ingredient_name,
+        "quantity": round(qty, 4),
+        "uom": canon_uom,
+        "reference": reference,
+        "running_balance": current["quantity"],
+    })
+    save_stock_movements(movements)
+
+
+def process_sales_depletion(sales_items, reference="Sales"):
+    """Process sales items and deplete stock based on recipe mappings.
+
+    sales_items: list of dicts with keys: brand, menu_item, modifier, qty
+    Returns: {consumed: [...], unmatched: [...], depletion_summary: [...]}
+    """
+    brm = load_brand_recipe_map()
+    canonical_prices = load_canonical_prices_dict()
+    all_recipes = load_all_recipes()
+    sf_costs_index = build_sf_cost_index(all_recipes, canonical_prices)
+
+    # Build lookup: (brand_lower, menu_item_lower) -> mapping
+    mapping_lookup = {}
+    modifier_lookup = {}  # (brand_lower, menu_item_lower, modifier_lower) -> modifier_info
+    for m in brm.get("mappings", []):
+        key = (m["brand"].strip().lower(), m["menu_item"].strip().lower())
+        mapping_lookup[key] = m
+        for mod in m.get("modifiers", []):
+            mod_key = (m["brand"].strip().lower(), m["menu_item"].strip().lower(), mod["modifier_name"].strip().lower())
+            modifier_lookup[mod_key] = mod
+
+    # Build recipe lookup by code and name
+    recipe_by_code = {}
+    recipe_by_name = {}
+    for r in all_recipes:
+        if r.get("recipe_code"): recipe_by_code[r["recipe_code"].lower()] = r
+        recipe_by_name[r["dish_name"].strip().lower()] = r
+
+    consumed = defaultdict(float)  # ingredient_lower -> total qty consumed
+    unmatched = []
+    matched_count = 0
+
+    for sale in sales_items:
+        brand = str(sale.get("brand", "")).strip()
+        menu_item = str(sale.get("menu_item", "")).strip()
+        modifier = str(sale.get("modifier", "") or "").strip()
+        qty = float(sale.get("qty", 1))
+
+        # Find recipe mapping
+        key = (brand.lower(), menu_item.lower())
+        mapping = mapping_lookup.get(key)
+
+        if not mapping:
+            unmatched.append({"brand": brand, "menu_item": menu_item, "modifier": modifier, "qty": qty})
+            continue
+
+        # Find recipe
+        recipe = None
+        rc = mapping.get("recipe_code", "").lower()
+        rn = mapping.get("recipe_name", "").lower()
+        if rc: recipe = recipe_by_code.get(rc)
+        if not recipe and rn: recipe = recipe_by_name.get(rn)
+
+        if not recipe:
+            unmatched.append({"brand": brand, "menu_item": menu_item, "modifier": modifier, "qty": qty, "reason": "recipe not found"})
+            continue
+
+        matched_count += 1
+
+        # Deplete base recipe ingredients × qty sold
+        for ing in recipe.get("ingredients", []):
+            ing_name = ing["ingredient"].strip().lower()
+            ing_qty = ing["quantity"] * qty
+            wastage = ing.get("wastage_pct", 0)
+            if wastage > 0: ing_qty *= (1 + wastage / 100)
+            consumed[ing_name] += ing_qty
+
+        # Handle modifier additional ingredients
+        if modifier:
+            mod_key = (brand.lower(), menu_item.lower(), modifier.lower())
+            mod_info = modifier_lookup.get(mod_key)
+            if mod_info:
+                for add_ing in mod_info.get("additional_ingredients", []):
+                    ing_name = add_ing["ingredient"].strip().lower()
+                    ing_qty = add_ing["quantity"] * qty
+                    consumed[ing_name] += ing_qty
+
+    # Apply depletion to stock
+    depletion_summary = []
+    stock_levels = load_stock_levels()
+    for ing_lower, total_qty in consumed.items():
+        # Find canonical name
+        canon = canonical_prices.get(ing_lower, {})
+        display_name = canon.get("ingredient", ing_lower)
+        uom = canon.get("uom", "Kg")
+
+        update_stock(display_name, round(total_qty, 4), uom, "depletion", reference)
+
+        # Get updated stock level
+        updated = load_stock_levels().get(ing_lower, {})
+        depletion_summary.append({
+            "ingredient": display_name,
+            "consumed": round(total_qty, 4),
+            "uom": uom,
+            "remaining": updated.get("quantity", 0),
+        })
+
+    depletion_summary.sort(key=lambda x: -x["consumed"])
+
+    return {
+        "matched_count": matched_count,
+        "unmatched": unmatched,
+        "consumed": dict(consumed),
+        "depletion_summary": depletion_summary,
+        "total_ingredients_depleted": len(consumed),
+    }
