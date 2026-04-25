@@ -779,3 +779,166 @@ def process_sales_depletion(sales_items, reference="Sales"):
         "depletion_summary": depletion_summary,
         "total_ingredients_depleted": len(consumed),
     }
+
+
+# ============================================================================
+# WASTAGE TRACKING (Staff Meals, Expired, Damaged, etc.)
+# ============================================================================
+
+WASTAGE_FILE = os.path.join(INVENTORY_DIR, "wastage_log.json")
+STOCK_COUNTS_FILE = os.path.join(INVENTORY_DIR, "stock_counts.json")
+
+WASTAGE_TYPES = [
+    {"name": "Staff Meal", "expense": True, "description": "Free meal for staff"},
+    {"name": "Expired Goods", "expense": False, "description": "Past expiration date"},
+    {"name": "Overcooked / Burnt", "expense": False, "description": "Kitchen error"},
+    {"name": "Damaged on Receipt", "expense": False, "description": "Damaged supplier delivery"},
+    {"name": "Spoilage", "expense": False, "description": "Food spoiled before use"},
+    {"name": "Photoshoot / Marketing", "expense": True, "description": "Used for content/marketing"},
+    {"name": "Management Meal", "expense": True, "description": "Management consumption"},
+    {"name": "Customer Complaint Replacement", "expense": False, "description": "Re-made for customer"},
+    {"name": "Testing / R&D", "expense": True, "description": "Recipe development"},
+    {"name": "Other", "expense": False, "description": "Other reason"},
+]
+
+
+def load_wastage_log():
+    return load_json(WASTAGE_FILE, default=[])
+
+def save_wastage_log(log):
+    save_json(WASTAGE_FILE, log)
+
+
+def record_wastage(ingredient, quantity, uom, wastage_type, notes="", brand=""):
+    """Record a wastage event and deplete stock."""
+    log = load_wastage_log()
+    today = date.today().isoformat()
+
+    is_expense = next((wt["expense"] for wt in WASTAGE_TYPES if wt["name"] == wastage_type), False)
+
+    entry = {
+        "date": today,
+        "ingredient": ingredient,
+        "quantity": round(float(quantity), 4),
+        "uom": uom,
+        "type": wastage_type,
+        "is_expense": is_expense,
+        "brand": brand,
+        "notes": notes,
+        "logged_at": datetime.now().isoformat(),
+    }
+    log.append(entry)
+    save_wastage_log(log)
+
+    # Deplete stock
+    update_stock(ingredient, quantity, uom, "depletion", f"Wastage: {wastage_type}")
+    return entry
+
+
+# ============================================================================
+# STOCK COUNT (Physical Inventory) & VARIANCE
+# ============================================================================
+
+def load_stock_counts():
+    return load_json(STOCK_COUNTS_FILE, default=[])
+
+def save_stock_counts(counts):
+    save_json(STOCK_COUNTS_FILE, counts)
+
+
+def record_stock_count(count_data, count_date=None, notes=""):
+    """Record a stock count event.
+
+    count_data: list of {ingredient, counted_qty, uom}
+    Returns: variance report comparing system stock vs counted stock
+    """
+    counts = load_stock_counts()
+    if count_date is None:
+        count_date = date.today().isoformat()
+
+    stock_levels = load_stock_levels()
+    canonical = load_canonical_prices_dict()
+
+    variances = []
+    for item in count_data:
+        ing_name = item["ingredient"]
+        counted = float(item.get("counted_qty", 0))
+        uom = item.get("uom", "")
+
+        key = ing_name.strip().lower()
+        system_qty = stock_levels.get(key, {}).get("quantity", 0)
+        diff = counted - system_qty
+        diff_pct = (diff / system_qty * 100) if system_qty > 0 else (100 if counted > 0 else 0)
+
+        unit_price = canonical.get(key, {}).get("price_per_unit", 0)
+        value_impact = diff * unit_price
+
+        variances.append({
+            "ingredient": ing_name,
+            "system_qty": round(system_qty, 4),
+            "counted_qty": round(counted, 4),
+            "variance": round(diff, 4),
+            "variance_pct": round(diff_pct, 1),
+            "uom": uom,
+            "unit_price": round(unit_price, 2),
+            "value_impact": round(value_impact, 2),
+        })
+
+        # Apply count adjustment to stock
+        update_stock(ing_name, counted, uom, "adjustment", f"Stock Count {count_date}")
+
+    count_event = {
+        "date": count_date,
+        "logged_at": datetime.now().isoformat(),
+        "items_counted": len(count_data),
+        "total_value_impact": round(sum(v["value_impact"] for v in variances), 2),
+        "notes": notes,
+        "variances": variances,
+    }
+    counts.append(count_event)
+    save_stock_counts(counts)
+    return count_event
+
+
+def calculate_slow_moving(days_lookback=30, threshold_movements=2):
+    """Identify ingredients with low consumption over the lookback period."""
+    movements = load_stock_movements()
+    stock_levels = load_stock_levels()
+    canonical = load_canonical_prices_dict()
+
+    cutoff = (date.today() - __import__("datetime").timedelta(days=days_lookback)).isoformat()
+
+    # Count depletion events per ingredient
+    consumption = defaultdict(lambda: {"count": 0, "total_qty": 0})
+    for m in movements:
+        if m.get("date", "") >= cutoff and m.get("type") == "depletion":
+            key = m.get("ingredient", "").strip().lower()
+            consumption[key]["count"] += 1
+            consumption[key]["total_qty"] += abs(m.get("quantity", 0))
+
+    slow_items = []
+    for key, info in stock_levels.items():
+        qty = info.get("quantity", 0)
+        if qty <= 0: continue
+        cons = consumption.get(key, {"count": 0, "total_qty": 0})
+        canon = canonical.get(key, {})
+        unit_price = canon.get("price_per_unit", 0)
+        stock_value = qty * unit_price
+
+        if cons["count"] <= threshold_movements:
+            avg_daily = cons["total_qty"] / max(days_lookback, 1)
+            days_supply = qty / avg_daily if avg_daily > 0 else float("inf")
+            slow_items.append({
+                "ingredient": info.get("ingredient", key),
+                "current_stock": round(qty, 3),
+                "uom": info.get("uom", ""),
+                "stock_value": round(stock_value, 2),
+                "movements_in_period": cons["count"],
+                "consumed_qty": round(cons["total_qty"], 3),
+                "avg_daily_use": round(avg_daily, 4),
+                "days_supply": round(days_supply, 1) if days_supply != float("inf") else "infinite",
+                "category": canon.get("category", ""),
+            })
+
+    slow_items.sort(key=lambda x: -x["stock_value"])
+    return slow_items

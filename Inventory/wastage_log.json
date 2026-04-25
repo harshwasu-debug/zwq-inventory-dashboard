@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-04-25",
+    "ingredient": "Cooking Oil",
+    "quantity": 0.5,
+    "uom": "L",
+    "type": "Staff Meal",
+    "is_expense": true,
+    "brand": "Smashville",
+    "notes": "Lunch for 5 staff",
+    "logged_at": "2026-04-25T17:30:25.129240"
+  }
+]

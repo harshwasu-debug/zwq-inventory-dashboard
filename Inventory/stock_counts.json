@@ -1,0 +1,21 @@
+[
+  {
+    "date": "2026-04-20",
+    "logged_at": "2026-04-25T17:30:25.185687",
+    "items_counted": 1,
+    "total_value_impact": -2.16,
+    "notes": "Test count",
+    "variances": [
+      {
+        "ingredient": "Cooking Oil",
+        "system_qty": 4.5,
+        "counted_qty": 4.0,
+        "variance": -0.5,
+        "variance_pct": -11.1,
+        "uom": "L",
+        "unit_price": 4.32,
+        "value_impact": -2.16
+      }
+    ]
+  }
+]

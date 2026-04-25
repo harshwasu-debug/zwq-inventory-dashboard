@@ -7,5 +7,23 @@
     "uom": "L",
     "reference": "Test receipt",
     "running_balance": 5.0
+  },
+  {
+    "date": "2026-04-25",
+    "type": "depletion",
+    "ingredient": "Cooking Oil",
+    "quantity": 0.5,
+    "uom": "L",
+    "reference": "Wastage: Staff Meal",
+    "running_balance": 4.5
+  },
+  {
+    "date": "2026-04-25",
+    "type": "adjustment",
+    "ingredient": "Cooking Oil",
+    "quantity": 4.0,
+    "uom": "L",
+    "reference": "Stock Count 2026-04-20",
+    "running_balance": 4.0
   }
 ]

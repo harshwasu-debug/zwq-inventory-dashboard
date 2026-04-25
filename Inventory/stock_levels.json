@@ -1,9 +1,9 @@
 {
   "cooking oil": {
     "ingredient": "Cooking Oil",
-    "quantity": 5.0,
+    "quantity": 4.0,
     "uom": "L",
-    "last_updated": "2026-04-14",
+    "last_updated": "2026-04-25",
     "last_received": "2026-04-14"
   }
 }
