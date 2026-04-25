@@ -70,14 +70,15 @@ def _spreadsheet():
 
 
 def _ws(name: str):
+    """Find worksheet by case-insensitive name; create if truly missing."""
     sh = _spreadsheet()
-    try:
-        return sh.worksheet(name)
-    except gspread.WorksheetNotFound:
-        ws = sh.add_worksheet(title=name, rows=1000, cols=10)
-        header = MEALS_HEADER if name == "meals" else TARGETS_HEADER
-        ws.append_row(header)
-        return ws
+    for w in sh.worksheets():
+        if w.title.strip().lower() == name.lower():
+            return w
+    ws = sh.add_worksheet(title=name, rows=1000, cols=10)
+    header = MEALS_HEADER if name == "meals" else TARGETS_HEADER
+    ws.append_row(header)
+    return ws
 
 
 def ensure_headers() -> None:
