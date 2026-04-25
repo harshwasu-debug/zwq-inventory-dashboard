@@ -9,7 +9,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils import (load_canonical_prices_raw, load_aliases, process_uploaded_file,
                    fuzzy_match_ingredient, normalize_price, confirm_invoice, INVOICES_DIR,
-                   load_vendor_profiles, validate_invoice_math)
+                   load_vendor_profiles, validate_invoice_math,
+                   get_open_pos_for_supplier, link_invoice_to_po)
 
 st.set_page_config(page_title="Invoice Receiving", page_icon="🗃", layout="wide")
 st.markdown("## Invoice Receiving")
@@ -193,6 +194,21 @@ elif st.session_state.upload_mode == "review":
     if increases:
         st.warning(f"{len(increases)} item(s) with >10% price increase detected!")
 
+    # Link to open PO from same supplier (optional)
+    open_pos = get_open_pos_for_supplier(inv.get("supplier_name", ""))
+    if open_pos:
+        po_options = ["(no PO link)"] + [f"{p['po_number']} — AED {p.get('grand_total', 0):.2f} ({p.get('po_date', '')})" for p in open_pos]
+        po_pick = st.selectbox(
+            f"Link to Purchase Order ({len(open_pos)} open POs from this supplier)",
+            po_options, key=f"po_link_{idx}",
+            help="Optional: link this invoice to an open PO. The PO will be marked as delivered when you confirm."
+        )
+        if po_pick != "(no PO link)":
+            picked_idx = po_options.index(po_pick) - 1
+            inv["_linked_po_number"] = open_pos[picked_idx]["po_number"]
+        else:
+            inv["_linked_po_number"] = None
+
     # Build ingredient options for dropdowns
     canonical_data = load_canonical_prices_raw()
     all_ingredient_names = sorted([i["ingredient"] for i in canonical_data.get("items", [])])
@@ -308,6 +324,12 @@ elif st.session_state.upload_mode == "review":
                             break
 
             price_updates = confirm_invoice(inv)
+
+            # If user linked this invoice to a PO, mark the PO delivered
+            linked_po = inv.get("_linked_po_number")
+            if linked_po:
+                inv_filename = f"{inv.get('invoice_date', '')}_{inv.get('invoice_number', '')}.json"
+                link_invoice_to_po(linked_po, inv_filename)
 
             if idx < len(invoices) - 1:
                 st.session_state.current_invoice_idx = idx + 1

@@ -1458,3 +1458,168 @@ def calculate_slow_moving(days_lookback=30, threshold_movements=2):
 
     slow_items.sort(key=lambda x: -x["stock_value"])
     return slow_items
+
+
+# ============================================================================
+# SUPPLIERS MASTER & PURCHASE ORDERS
+# ============================================================================
+
+import urllib.parse as _urlparse
+import uuid as _uuid
+
+SUPPLIERS_FILE = os.path.join(INVENTORY_DIR, "suppliers.json")
+POS_FILE = os.path.join(INVENTORY_DIR, "purchase_orders.json")
+
+
+def load_suppliers():
+    return load_json(SUPPLIERS_FILE, default={"suppliers": []}).get("suppliers", [])
+
+
+def save_suppliers(suppliers):
+    save_json(SUPPLIERS_FILE, {"suppliers": suppliers})
+
+
+def init_suppliers_from_canonical():
+    """Bootstrap suppliers.json from unique suppliers in canonical price list.
+
+    Idempotent — only adds suppliers that don't already exist (matched by name).
+    """
+    existing = load_suppliers()
+    existing_names = {s["name"].strip().lower() for s in existing}
+
+    canonical = load_canonical_prices_dict()
+    canonical_suppliers = {}
+    for info in canonical.values():
+        sname = (info.get("supplier") or "").strip()
+        if sname:
+            canonical_suppliers.setdefault(sname.lower(), sname)
+
+    added = 0
+    for sname_lower, sname in canonical_suppliers.items():
+        if sname_lower in existing_names:
+            continue
+        existing.append({
+            "supplier_id": _uuid.uuid4().hex[:12],
+            "name": sname,
+            "whatsapp": "",
+            "contact_person": "",
+            "email": "",
+            "payment_terms": "",
+            "delivery_days": [],
+            "notes": "",
+            "active": True,
+            "created_at": datetime.now().isoformat(),
+        })
+        added += 1
+    if added > 0:
+        save_suppliers(existing)
+    return added
+
+
+def get_supplier_items(supplier_name):
+    """Return list of canonical items supplied by this supplier."""
+    canonical = load_canonical_prices_dict()
+    items = []
+    for info in canonical.values():
+        if (info.get("supplier") or "").strip().lower() == supplier_name.strip().lower():
+            items.append({
+                "ingredient": info["ingredient"],
+                "uom": info["uom"],
+                "price_per_unit": info["price_per_unit"],
+                "category": info.get("category", ""),
+                "buying_unit": info.get("buying_unit", ""),
+                "supplier_code": info.get("supplier_code", ""),
+            })
+    items.sort(key=lambda x: x["ingredient"])
+    return items
+
+
+def load_purchase_orders():
+    return load_json(POS_FILE, default={"purchase_orders": []}).get("purchase_orders", [])
+
+
+def save_purchase_orders(pos):
+    save_json(POS_FILE, {"purchase_orders": pos})
+
+
+def generate_po_number():
+    """Generate next PO number like PO-2026-0001."""
+    year = date.today().year
+    pos = load_purchase_orders()
+    year_pos = [p for p in pos if p.get("po_number", "").startswith(f"PO-{year}-")]
+    next_seq = len(year_pos) + 1
+    return f"PO-{year}-{next_seq:04d}"
+
+
+def build_whatsapp_url(phone, message):
+    """Build a wa.me click-to-chat URL with the message URL-encoded.
+
+    phone: E.164 string like '+971501234567' or '971501234567' (we strip + and spaces)
+    message: plain text (will be URL-encoded)
+    Returns None if phone is invalid.
+    """
+    if not phone:
+        return None
+    clean = re.sub(r"[\s\-\+\(\)]", "", str(phone))
+    if not clean.isdigit() or len(clean) < 8:
+        return None
+    encoded = _urlparse.quote(message)
+    return f"https://wa.me/{clean}?text={encoded}"
+
+
+def format_po_message(po):
+    """Render a PO as a plain-text WhatsApp message."""
+    lines = [f"*{po.get('po_number', 'PO-?')} — ZwQ Cloud Kitchens*"]
+    if po.get("po_date"):
+        try:
+            d = datetime.strptime(po["po_date"], "%Y-%m-%d").strftime("%d %b %Y")
+            lines.append(f"Date: {d}")
+        except Exception:
+            lines.append(f"Date: {po['po_date']}")
+    if po.get("expected_delivery"):
+        try:
+            d = datetime.strptime(po["expected_delivery"], "%Y-%m-%d").strftime("%d %b %Y")
+            lines.append(f"Expected: {d}")
+        except Exception:
+            lines.append(f"Expected: {po['expected_delivery']}")
+    lines.append("")
+    lines.append("Items:")
+    for item in po.get("items", []):
+        qty = item.get("quantity", 0)
+        uom = item.get("uom", "")
+        ing = item.get("ingredient", "")
+        unit_price = item.get("unit_price", 0)
+        total = item.get("total", qty * unit_price)
+        lines.append(f"• {qty} {uom} — {ing} @ AED {unit_price:.2f} = AED {total:.2f}")
+
+    lines.append("")
+    lines.append(f"Subtotal: AED {po.get('subtotal', 0):.2f}")
+    if po.get("vat_amount"):
+        lines.append(f"VAT ({po.get('vat_percentage', 5)}%): AED {po['vat_amount']:.2f}")
+    lines.append(f"*Total: AED {po.get('grand_total', 0):.2f}*")
+    if po.get("notes"):
+        lines.append("")
+        lines.append(f"Notes: {po['notes']}")
+    lines.append("")
+    lines.append("Please confirm receipt. Thanks.")
+    return "\n".join(lines)
+
+
+def link_invoice_to_po(po_number, invoice_filename):
+    """Mark a PO as delivered and store the linked invoice filename."""
+    pos = load_purchase_orders()
+    for p in pos:
+        if p.get("po_number") == po_number:
+            p["status"] = "delivered"
+            p["linked_invoice"] = invoice_filename
+            p["delivered_at"] = datetime.now().isoformat()
+            break
+    save_purchase_orders(pos)
+
+
+def get_open_pos_for_supplier(supplier_name):
+    """Return open POs (sent/draft) for a supplier — for invoice linking."""
+    pos = load_purchase_orders()
+    return [p for p in pos
+            if p.get("supplier_name", "").strip().lower() == supplier_name.strip().lower()
+            and p.get("status") in ("sent", "draft")]
