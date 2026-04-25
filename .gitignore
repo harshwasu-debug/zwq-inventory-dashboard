@@ -6,3 +6,11 @@ Invoices/*.jpg
 Invoices/*.jpeg
 Invoices/*.png
 Invoices/*.pdf
+
+# Timestamped backups + auto-generated review artifacts
+*_backup_*.json
+Dish_Costing/price_refresh_report.csv
+Invoices/auto_resolve_report.csv
+Invoices/auto_resolve_review_needed.csv
+Invoices/canonical_review*.xlsx
+Invoices/pack_size_review.xlsx
