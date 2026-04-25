@@ -1,0 +1,4536 @@
+{
+  "schema_version": "1.0",
+  "brand": "Toast & Co",
+  "source_file": "Toast_&_Co_Recipes.xlsx",
+  "extracted_at": "2026-04-22",
+  "last_updated": "2026-04-24",
+  "recipe_count": 47,
+  "methodology": {
+    "allergens": "Allergens re-tagged 2026-04-24 using strict 'essential only' rule: flag ONLY when an ingredient is unambiguously an allergen source. Dairy: milk/butter/cream/cheese/yogurt/labneh/ranch/sour cream/ghee. Eggs: egg/mayo/aioli/hollandaise. Gluten: bread/flour/bun/bagel/wrap/pita/wheat/pasta/oats/panko/breadcrumbs/soy sauce/gochujang (NOT corn tortilla, hashbrowns, chicken sausage, falafel). Soya: soy sauce/tofu/edamame/gochujang/miso/Biscoff (soy lecithin). Sesame: sesame seeds/tahini/za'atar (NOT dukkah). Fish: salmon/tuna/cod/anchovy (NOT Worcestershire trace). Crustaceans: shrimp/prawn/crab/lobster. Molluscs: mussel/clam/oyster/squid/octopus. Nuts: explicit tree nut/Nutella/almond butter (NOT dukkah). Peanuts: peanut/peanut butter. Sulphites: wine/explicit sulphite-preserved/dried fruit (NOT pickles, capers, balsamic). Mustard/Celery/Lupin/Lentils: explicit. Sugared drink: sugary Coke/Sprite/Fanta only. Empty set -> ['NO_ALLERGENS'].",
+    "calories": "Estimated from ingredient quantities using USDA/standard food composition per-100g values. Wastage not applied. Rounded to nearest integer. Estimates only — verify with lab testing for regulatory labeling.",
+    "wastage_pct": "wastage_pct is stored as a decimal fraction (e.g. 0.05 = 5%); null means no wastage value available"
+  },
+  "changelog": [
+    {
+      "date": "2026-04-24",
+      "change": "Dial-back allergen re-tag: applied strict 'essential only' rule across all recipes. Removed conservative/trace tags (Worcestershire->Fish, dukkah->Sesame/Nuts, pickles/capers/balsamic->Sulphites). Biscoff recipes retain Soya (soy lecithin essential). Empty allergen sets now tagged ['NO_ALLERGENS']."
+    },
+    {
+      "date": "2026-04-24",
+      "change": "Re-tagged allergens across all 47 recipes using standardized 16-tag vocabulary (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). Replaced Soybeans label with Soya on Lotus Biscoff Pancake (#27) and Biscoff Sauce (#40). Removed non-applicable Sulphites tags (pickles, capers, balsamic are not sulphite-preserved in new taxonomy)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Moved bagels (#15 Plain, #16/17/18 Sesame) from packaging[] to ingredients[]."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Added Gluten to allergens for all 4 bagel recipes; added Sesame Seeds for sesame bagels (#16, #17, #18)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recomputed calories for bagels: +250 kcal for plain/sesame bagel base (#15, #16, #17, #18)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Added new recipe #48 'Berry Blast Acai Bowl' (AÇAÍ BOWLS, AED 68 menu line) with BOM built from menu description."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Added pending_decisions array flagging 6 items for user review (no changes applied)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Scanned all 47 pre-existing recipes for food items in packaging[]; flagged 6 non-bagel cases (strawberries in #23, #28, #29, #43, #44, #46) — left unchanged per scope rules."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Updated recipe_count to 48 and set last_updated to 2026-04-22."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Merged Smoked Salmon Toast SKU — kept Chilled 80g as canonical, deleted Frozen 50g variant per operator decision 2026-04-22"
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Added Soybeans to allergens for Lotus Biscoff Pancake and Biscoff Sauce — commercial Lotus Biscoff contains soy (2026-04-22)"
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Menu descriptions rewritten to match recipe BOM as source of truth; stripped unsubstantiated brand-DNA claims (wild-caught, free-range, organic, heritage, sustainable) and limited \"artisan\" to in-house preparations per Phase 2 audit (2026-04-22)"
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Renamed \"Maple Syrup (Taste Basics Honey)\" to \"Maple Syrup\" across all recipes (2026-04-22)"
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Resolved all slashed ingredients to single SKUs per Phase 2 costing prep (2026-04-22)"
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Rebuilt Levantine Shakshuka (#10) tomato base — split 50g combined into 15g Tomato Paste (Anna) + 120g Peeled Tomato (canned, crushed); kcal recomputed (2026-04-22)"
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Operator confirmed procurement reality: standard smoked salmon (no wild-caught claim), standard eggs (no free-range claim), bagel type is customer modifier. Generalized bagel ingredient names, applied conservative Gluten+Sesame allergen declaration, cleared related pending decisions."
+    }
+  ],
+  "pending_decisions": [],
+  "recipes": [
+    {
+      "recipe_number": 1,
+      "recipe_name": "Truffle Mushrooms Scramble",
+      "brand": "Toast & Co",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Butter (for mushrooms)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for eggs)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Truffle Oil (Black Truffle Oil)",
+          "quantity": 2,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Parmesan Grated",
+          "quantity": 8,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Truffle Mayo",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Chives (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 586,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 2,
+      "recipe_name": "Classic Smash Avo",
+      "brand": "Toast & Co",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lemon Zest (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 401,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 3,
+      "recipe_name": "Mediterranean Za'atar Toast",
+      "brand": "Toast & Co",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.4,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Zaatar",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Zest (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 1.5",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 1.5",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 280,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 4,
+      "recipe_name": "Smoked Salmon Toast",
+      "brand": "Toast & Co",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Smoked Salmon (Chilled)",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cream Cheese (Philadelphia)",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Capers",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Red Onion (thinly sliced)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Dill Leaves (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 428,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 5,
+      "recipe_name": "Caprese & Pesto Toasts",
+      "brand": "Toast & Co",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Mozzarella (Pinar)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Basil Pesto",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Balsamic Vinegar (Mara Balsamic)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Basil Leaves (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 399,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 6,
+      "recipe_name": "The Spicy Tuna Melt",
+      "brand": "Toast & Co",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tuna (Kingway Tuna in Water)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Cheddar Shredded",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Jalapeno Sliced (Amer. Classic)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Chili Sauce",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo (drizzle garnish)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion Sliced (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 443,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 7,
+      "recipe_name": "Three-Cheese Fold",
+      "brand": "Toast & Co",
+      "category": "OMELETTES",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for cooking)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Cheddar Shredded",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Mozzarella Shredded",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese (3 Cow)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Side Salad Greens (Lollo Rosso)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (for salad)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chives (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs"
+      ],
+      "calories_kcal": 402,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 8,
+      "recipe_name": "Egg White (Fit)",
+      "brand": "Toast & Co",
+      "category": "OMELETTES",
+      "ingredients": [
+        {
+          "name": "Egg White (separated from 4 eggs)",
+          "quantity": 4,
+          "unit": "Piece",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Spinach Leaves",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (for cooking)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 253,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 9,
+      "recipe_name": "Spanish Potato Omelette",
+      "brand": "Toast & Co",
+      "category": "OMELETTES",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Potato (Diced & Pre-cooked)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Onion (diced)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Bell Pepper Mixed",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cheese Cheddar Sliced",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (for cooking)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flat-leaf Parsley (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Smoked Paprika (garnish dusting)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs"
+      ],
+      "calories_kcal": 379,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 10,
+      "recipe_name": "The Levantine Shakshuka",
+      "brand": "Toast & Co",
+      "category": "EGGS",
+      "ingredients": [
+        {
+          "name": "Tomato Paste (Anna)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Peeled Tomato (canned, crushed)",
+          "quantity": 120,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Bell Pepper Mixed",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Onion (diced)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Harissa Paste",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (poached in sauce)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese (3 Cow)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olives Black Sliced",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Coriander (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Sourdough Bread (side)",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 415,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": [
+        "Recipe rebuilt 2026-04-22 — user to confirm with chef."
+      ]
+    },
+    {
+      "recipe_number": 11,
+      "recipe_name": "Turkish Egg (Cilbir)",
+      "brand": "Toast & Co",
+      "category": "EGGS",
+      "ingredients": [
+        {
+          "name": "Egg (Poached)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Yoghurt (ZAD Catering)",
+          "quantity": 70,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Ghee (AMUL)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Aleppo Pepper",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Dill Leaves",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Sourdough Bread (side)",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 359,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 12,
+      "recipe_name": "Full American Plate",
+      "brand": "Toast & Co",
+      "category": "EGGS",
+      "ingredients": [
+        {
+          "name": "Egg (Fried)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Crispy Beef Bacon (Frozen Slices)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chicken Sausage",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Hashbrowns (Frozen)",
+          "quantity": 60,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Baked Beans (Canned)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tomato (Grilled)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Sourdough Toast",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for toast)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flat-leaf Parsley (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 789,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 13,
+      "recipe_name": "Steak and Eggs",
+      "brand": "Toast & Co",
+      "category": "EGGS",
+      "ingredients": [
+        {
+          "name": "Beef Tenderloin (Brazil)",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Egg (Fried)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Hashbrowns (Frozen)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chimichurri Sauce",
+          "quantity": 15,
+          "unit": "ML",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Butter (for cooking)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs"
+      ],
+      "calories_kcal": 609,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 14,
+      "recipe_name": "The BEC Bagel",
+      "brand": "Toast & Co",
+      "category": "BAGELS",
+      "ingredients": [
+        {
+          "name": "Bagel",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Fried)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Crispy Beef Bacon",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Slices Yellow",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for toasting)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo (drizzle)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Burger Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greaseproof Paper",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 553,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Bagel type (Plain / Sesame / Everything) is a customer modifier. Sesame Seeds allergen applied conservatively."
+    },
+    {
+      "recipe_number": 15,
+      "recipe_name": "The Lox & Cream Cheese",
+      "brand": "Toast & Co",
+      "category": "BAGELS",
+      "ingredients": [
+        {
+          "name": "Bagel",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Smoked Salmon",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cream Cheese (Philadelphia)",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Capers",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Red Onion (for pickling)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "White Vinegar (pickling liquid)",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Dill Leaves (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Burger Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greaseproof Paper",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 408,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Bagel type (Plain / Sesame / Everything) is a customer modifier. Sesame Seeds allergen applied conservatively."
+    },
+    {
+      "recipe_number": 16,
+      "recipe_name": "Halloumi Bagel",
+      "brand": "Toast & Co",
+      "category": "BAGELS",
+      "ingredients": [
+        {
+          "name": "Bagel",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Halloumi Cheese (Green Hill)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Black Sliced (blended as tapenade)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (for tapenade)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Rocca Lettuce",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Burger Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greaseproof Paper",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 464,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Bagel type (Plain / Sesame / Everything) is a customer modifier. Sesame Seeds allergen applied conservatively."
+    },
+    {
+      "recipe_number": 17,
+      "recipe_name": "Avocados & Egg Bagel",
+      "brand": "Toast & Co",
+      "category": "BAGELS",
+      "ingredients": [
+        {
+          "name": "Bagel",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Egg (Poached)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Burger Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greaseproof Paper",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 521,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Bagel type (Plain / Sesame / Everything) is a customer modifier. Sesame Seeds allergen applied conservatively."
+    },
+    {
+      "recipe_number": 18,
+      "recipe_name": "The Grilled Chicken Protein Bowl",
+      "brand": "Toast & Co",
+      "category": "BOWLS",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Quinoa",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Harissa Paste (marinade)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (halved, roasted)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Cucumber (sliced)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Mixed Greens",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Tahini",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Dukkah (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 720,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 19,
+      "recipe_name": "The Middle Eastern Breakfast Bowl",
+      "brand": "Toast & Co",
+      "category": "BOWLS",
+      "ingredients": [
+        {
+          "name": "Hummus",
+          "quantity": 60,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Labneh",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Falafel (frozen)",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Poached)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (halved)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cucumber (sliced)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olives Black",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Zaatar (on hummus)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Parsley (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Pita Bread (side)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 722,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 20,
+      "recipe_name": "The Veggie Power Bowl",
+      "brand": "Toast & Co",
+      "category": "BOWLS",
+      "ingredients": [
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Broccoli (steamed)",
+          "quantity": 60,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (halved)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (cold-pressed drizzle)",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pumpkin Seeds (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for eggs)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sourdough Bread (side)",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 511,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 21,
+      "recipe_name": "The Salmon Super Bowl",
+      "brand": "Toast & Co",
+      "category": "BOWLS",
+      "ingredients": [
+        {
+          "name": "Rice (Sushi)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Smoked Salmon",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Poached)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Edamame (Frozen)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Microgreens (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 454,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 22,
+      "recipe_name": "Classic Acai Bowl",
+      "brand": "Toast & Co",
+      "category": "AÇAÍ BOWLS",
+      "ingredients": [
+        {
+          "name": "Açaí Puree (Frozen)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Frozen)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Honey (drizzle)",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Toasted Coconut Flakes (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Strawberry (Frozen Fresh)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 328,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 23,
+      "recipe_name": "Tropical Acai Bowl",
+      "brand": "Toast & Co",
+      "category": "AÇAÍ BOWLS",
+      "ingredients": [
+        {
+          "name": "Açaí Puree (Frozen)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mango (Fresh, sliced)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Kiwi (sliced into rounds)",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh (coin slices)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pineapple (Fresh, chunks)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Toasted Coconut Flakes (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds (garnish)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Passion Fruit (drizzle garnish)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 355,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 24,
+      "recipe_name": "Protein Acai Bowl",
+      "brand": "Toast & Co",
+      "category": "AÇAÍ BOWLS",
+      "ingredients": [
+        {
+          "name": "Açaí Puree (Frozen)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Peanut Butter",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh (coin slices)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cacao Nibs",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Hemp Seeds (garnish)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Almond Butter (drizzle)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Nuts",
+        "Peanuts"
+      ],
+      "calories_kcal": 475,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 25,
+      "recipe_name": "Date & Pistachio Acai Bowl",
+      "brand": "Toast & Co",
+      "category": "AÇAÍ BOWLS",
+      "ingredients": [
+        {
+          "name": "Açaí Puree (Frozen)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Medjool Dates (chopped)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pistachios (crushed)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Toasted Coconut Flakes",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tahini (drizzle)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Nuts",
+        "Sesame"
+      ],
+      "calories_kcal": 470,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 26,
+      "recipe_name": "Peanut Butter Acai Bowl",
+      "brand": "Toast & Co",
+      "category": "AÇAÍ BOWLS",
+      "ingredients": [
+        {
+          "name": "Açaí Puree (Frozen)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Peanut Butter",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh (coin slices)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cacao Nibs",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Honey (drizzle)",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Peanuts"
+      ],
+      "calories_kcal": 456,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 27,
+      "recipe_name": "Lotus Biscoff Pancake",
+      "brand": "Toast & Co",
+      "category": "PANCAKES & FRENCH TOAST",
+      "ingredients": [
+        {
+          "name": "All-Purpose Flour",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 60,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Baking Powder",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for cooking)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lotus Biscoff Sauce",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lotus Biscoff Biscuit (crushed garnish)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Fresh Strawberry",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Container 750cc with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 528,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 28,
+      "recipe_name": "Nutella & Berries Pancakes",
+      "brand": "Toast & Co",
+      "category": "PANCAKES & FRENCH TOAST",
+      "ingredients": [
+        {
+          "name": "All-Purpose Flour",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 60,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Baking Powder",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for cooking)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Hazelnut Choco Spread (Nutella)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Powdered Sugar (garnish dusting)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Fresh Strawberry",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Container 750cc with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten",
+        "Nuts"
+      ],
+      "calories_kcal": 466,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 29,
+      "recipe_name": "The Classic French Toast",
+      "brand": "Toast & Co",
+      "category": "PANCAKES & FRENCH TOAST",
+      "ingredients": [
+        {
+          "name": "Brioche Bun (Sliced Thick)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (for batter)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk Full Fat (for batter)",
+          "quantity": 30,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Vanilla Extract (for batter)",
+          "quantity": 1,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cinnamon (for batter)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for pan)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Maple Syrup",
+          "quantity": 30,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Powdered Sugar (garnish dusting)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Container 750cc with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 480,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 30,
+      "recipe_name": "Hash Browns (2 Pcs)",
+      "brand": "Toast & Co",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Hashbrowns (Frozen)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ketchup (side)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 290,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 31,
+      "recipe_name": "The Crispy Beef Bacon",
+      "brand": "Toast & Co",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Crispy Beef Bacon (Frozen Slices)",
+          "quantity": 60,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 255,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 32,
+      "recipe_name": "Chicken Sausages",
+      "brand": "Toast & Co",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Chicken Sausage",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Flat-leaf Parsley (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Grain Mustard (side)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Mustard"
+      ],
+      "calories_kcal": 152,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 33,
+      "recipe_name": "The Grilled Halloumi",
+      "brand": "Toast & Co",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Halloumi Cheese (Green Hill)",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (for grilling)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Fresh Thyme",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 304,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 34,
+      "recipe_name": "Sliced Avocados",
+      "brand": "Toast & Co",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (drizzle)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 108,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 35,
+      "recipe_name": "Fresh Fruit Cup",
+      "brand": "Toast & Co",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Watermelon (cubed)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Mango (cubed)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Kiwi (cubed)",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Fresh Mint Leaves (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lime Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Honey (optional drizzle)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 500ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 88,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 36,
+      "recipe_name": "Truffled Mayo",
+      "brand": "Toast & Co",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Truffle Oil (Black Truffle Oil)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chives (garnish)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 230,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 37,
+      "recipe_name": "Sriracha Chili Mayo",
+      "brand": "Toast & Co",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Chili Sauce",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds (garnish)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Sesame"
+      ],
+      "calories_kcal": 182,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 38,
+      "recipe_name": "Chipotle Mayo",
+      "brand": "Toast & Co",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chipotle in Adobo",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lime Juice",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Fresh Cilantro (garnish)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 151,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 39,
+      "recipe_name": "Fresh Guacamole",
+      "brand": "Toast & Co",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lime Juice",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Red Onion (finely diced)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (finely diced)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Fresh Cilantro",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Jalapeño",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lime Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 4oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 89,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 40,
+      "recipe_name": "Biscoff Sauce",
+      "brand": "Toast & Co",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Lotus Biscoff Sauce",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lotus Biscoff Biscuit (crushed, optional garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Soya"
+      ],
+      "calories_kcal": 157,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 41,
+      "recipe_name": "Pure Maple Syrup",
+      "brand": "Toast & Co",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Maple Syrup",
+          "quantity": 30,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 78,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 42,
+      "recipe_name": "Original Oats",
+      "brand": "Toast & Co",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Red Apple (cubed)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Green Apple (cubed)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Fresh)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Peanut Butter (drizzle)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Juice (anti-browning for apple)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Strawberry (Fresh Frozen, halved)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Peanuts"
+      ],
+      "calories_kcal": 724,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 43,
+      "recipe_name": "The Berry Blast",
+      "brand": "Toast & Co",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Fresh)",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Raspberry (Fresh)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Strawberry (Fresh Frozen, halved)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 600,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 44,
+      "recipe_name": "Banana and Peanut Butter",
+      "brand": "Toast & Co",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh (coin slices)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Medjool Dates (chopped)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Fresh)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Peanut Butter (drizzle)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Juice (anti-browning for banana)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Peanuts"
+      ],
+      "calories_kcal": 793,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 45,
+      "recipe_name": "Mango & Berries",
+      "brand": "Toast & Co",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango (Fresh, sliced)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Raspberry (Fresh)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Fresh)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Strawberry (Fresh Frozen, halved)",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 609,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 46,
+      "recipe_name": "Apple & Dates",
+      "brand": "Toast & Co",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Red Apple (cubed)",
+          "quantity": 35,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Green Apple (cubed)",
+          "quantity": 35,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Medjool Dates (chopped)",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lemon Juice (anti-browning for apple)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 682,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 47,
+      "recipe_name": "Berry Blast Acai Bowl",
+      "brand": "Toast & Co",
+      "category": "AÇAÍ BOWLS",
+      "ingredients": [
+        {
+          "name": "Açaí Puree (Frozen)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Strawberry (Frozen, blended)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Frozen, blended)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Raspberry (Frozen, blended)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Strawberry (Fresh, sliced, topping)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Fresh, topping)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Raspberry (Fresh, topping)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Honey (drizzle)",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 310,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Built from menu description on 2026-04-22 — verify ingredients with kitchen."
+    }
+  ]
+}

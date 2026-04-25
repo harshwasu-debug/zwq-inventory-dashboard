@@ -1,0 +1,3277 @@
+{
+  "schema_version": "1.0",
+  "brand": "Wings of Fury",
+  "source_file": "Wing_Brands_V3_Recipes.xlsx",
+  "extracted_at": "2026-04-22",
+  "last_updated": "2026-04-24",
+  "recipe_count": 51,
+  "methodology": {
+    "allergens": "Essential-only tagging using the locked 16-tag aggregator vocabulary (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). A recipe is flagged for an allergen only when an ingredient is an unambiguous source (e.g., breaded wings/tenders/shrimp -> Gluten+Eggs+Dairy; mayo-based sauces -> Eggs; gochujang/hoisin -> Soya+Gluten+Sesame; explicit sesame seeds -> Sesame; full-sugar colas/Sprite/Fanta -> Sugared drink). No speculation. Recipes with no essential allergens are tagged ['NO_ALLERGENS'].",
+    "calories": "Estimated per recipe by summing ingredient quantities x USDA per-100g kcal values (or per-piece for canned drinks/tortillas). Sub-recipe portions (wings, tenders, shrimp, ranch portion, classic fries portion) resolved to component kcal totals before summation. Combo and Fury Meal dishes inherit the union of component allergens and the sum of component kcal. Rounded to integer; wastage not applied. Estimates only — verify with lab testing for labeling.",
+    "wastage_pct": "Wastage percentages stored as decimals (e.g., 0.05 = 5%). Applied at ingredient level to account for trim, cook loss, and handling waste. Sourced from Recipe Build sheet of Wing_Brands_V3_Recipes.xlsx.",
+    "enriched_at": "2026-04-24"
+  },
+  "changelog": [
+    {
+      "date": "2026-04-22",
+      "entry": "Initial extraction from Wing_Brands_V3_Recipes.xlsx"
+    },
+    {
+      "date": "2026-04-23",
+      "entry": "Enriched all recipes with allergens and calories estimated from ingredient lists."
+    },
+    {
+      "date": "2026-04-23",
+      "entry": "Enriched all recipes with allergens and calories estimated from ingredient lists."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Reconciled allergens and calories identically across WoF + Winging It (shared recipe builds). Retagged using new 16-item aggregator allergen vocabulary (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils)."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Dialed back allergen tagging to strict / essential-only rule. Recipes with no essential allergens now tagged ['NO_ALLERGENS']. Arrays reconciled identically across WoF + Winging It by recipe_number."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Allergen + calorie enrichment pass applied (essential-only 16-tag vocab; USDA per-100g kcal)."
+    }
+  ],
+  "pending_decisions": [],
+  "recipes": [
+    {
+      "recipe_number": 1,
+      "recipe_name": "Smokey BBQ Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "BBQ Sauce Original",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Liquid Smoke",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 992,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 2,
+      "recipe_name": "Tangy Buffalo Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Buffalo Wings Sauce",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 1004,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 3,
+      "recipe_name": "Hot Honey Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hot Honey Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Chili Flakes Red",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 1059,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 4,
+      "recipe_name": "Sesame & Sweet Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Chilli Sauce",
+          "quantity": 40,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 996,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 5,
+      "recipe_name": "Chili Hoisin Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Hoisin Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Soya",
+        "Dairy"
+      ],
+      "calories_kcal": 1033,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 6,
+      "recipe_name": "Garlic Parmesan Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Aioli (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Parmesan Cheese",
+          "quantity": 8,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 1206,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 7,
+      "recipe_name": "Honey Mustard Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey Mustard Sauce (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Mustard",
+        "Dairy"
+      ],
+      "calories_kcal": 1011,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 8,
+      "recipe_name": "Dynamite Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 1183,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 9,
+      "recipe_name": "Plain Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper Crushed",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 872,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 10,
+      "recipe_name": "Korean Fury Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gochujang",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 10,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Soya",
+        "Dairy"
+      ],
+      "calories_kcal": 1045,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 11,
+      "recipe_name": "Honey Chipotle Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey Chipotle Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 1051,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 12,
+      "recipe_name": "Cajun Dry Rub Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cajun Seasoning",
+          "quantity": 10,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 898,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 13,
+      "recipe_name": "Lemon Pepper Wings (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemon Pepper Seasoning",
+          "quantity": 10,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.5,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 897,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 14,
+      "recipe_name": "Smokey BBQ Tenders (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "BBQ Sauce Original",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Liquid Smoke",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 1056,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 15,
+      "recipe_name": "Tangy Buffalo Tenders (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Buffalo Wings Sauce",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 1067,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 16,
+      "recipe_name": "Hot Honey Tenders (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hot Honey Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Chili Flakes Red",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 1122,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 17,
+      "recipe_name": "Sesame & Sweet Tenders (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Chilli Sauce",
+          "quantity": 40,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 1058,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 18,
+      "recipe_name": "Chili Hoisin Tenders (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Hoisin Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Soya",
+        "Dairy"
+      ],
+      "calories_kcal": 1097,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 19,
+      "recipe_name": "Garlic Parmesan Tenders (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Aioli (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Parmesan Cheese",
+          "quantity": 8,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 1269,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 20,
+      "recipe_name": "Honey Mustard Tenders (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey Mustard Sauce (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Mustard",
+        "Dairy"
+      ],
+      "calories_kcal": 1075,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 21,
+      "recipe_name": "Dynamite Tenders (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 1247,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 22,
+      "recipe_name": "Plain Tenders (5pc)",
+      "brand": "Wings of Fury",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper Crushed",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 936,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 23,
+      "recipe_name": "Buffalo Chicken Wrap",
+      "brand": "Wings of Fury",
+      "category": "Wraps",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.5,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Buffalo Wings Sauce",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Flour Tortilla 12in",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Cabbage",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 15,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 20,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Wrap Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 909,
+      "yield": "1 wrap (12 inch flour tortilla)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 24,
+      "recipe_name": "Hot Honey Chicken Wrap",
+      "brand": "Wings of Fury",
+      "category": "Wraps",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.5,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hot Honey Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Flour Tortilla 12in",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Cabbage",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 15,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 20,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Chili Flakes Red",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Wrap Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 937,
+      "yield": "1 wrap (12 inch flour tortilla)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 25,
+      "recipe_name": "Dynamite Shrimp Poppers",
+      "brand": "Wings of Fury",
+      "category": "Shrimp Poppers",
+      "ingredients": [
+        {
+          "name": "Breaded Shrimp Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo (SF)",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Crustaceans",
+        "Eggs"
+      ],
+      "calories_kcal": 571,
+      "yield": "1 portion (8-10 pcs) + dip",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 26,
+      "recipe_name": "Buffalo Shrimp Poppers",
+      "brand": "Wings of Fury",
+      "category": "Shrimp Poppers",
+      "ingredients": [
+        {
+          "name": "Breaded Shrimp Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Buffalo Wings Sauce",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Crustaceans",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 572,
+      "yield": "1 portion (8-10 pcs) + dip",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 27,
+      "recipe_name": "Hot Honey Shrimp Poppers",
+      "brand": "Wings of Fury",
+      "category": "Shrimp Poppers",
+      "ingredients": [
+        {
+          "name": "Breaded Shrimp Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hot Honey Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Chili Flakes Red",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Crustaceans",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 599,
+      "yield": "1 portion (8-10 pcs) + dip",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 28,
+      "recipe_name": "Classic Fries",
+      "brand": "Wings of Fury",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Frozen Fries Straight Cut",
+          "quantity": 143,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 667,
+      "yield": "1 portion (~145g cooked)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 29,
+      "recipe_name": "Spicy Fries",
+      "brand": "Wings of Fury",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Frozen Fries Straight Cut",
+          "quantity": 143,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spicy Seasoning",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 681,
+      "yield": "1 portion (~145g cooked)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 30,
+      "recipe_name": "Dynamite Fries",
+      "brand": "Wings of Fury",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Frozen Fries Straight Cut",
+          "quantity": 143,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo (SF)",
+          "quantity": 10,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Jalapeno Sliced",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Loaded Fries Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 909,
+      "yield": "1 portion + toppings",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 31,
+      "recipe_name": "Cheesy Fries",
+      "brand": "Wings of Fury",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Frozen Fries Straight Cut",
+          "quantity": 143,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cheese Sauce (SF)",
+          "quantity": 120,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Loaded Fries Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 968,
+      "yield": "1 portion + cheese sauce",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 32,
+      "recipe_name": "Onion Rings",
+      "brand": "Wings of Fury",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Onion Ring Battered Frozen",
+          "quantity": 170,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 920,
+      "yield": "1 portion (~170g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 33,
+      "recipe_name": "House Slaw",
+      "brand": "Wings of Fury",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "White Cabbage",
+          "quantity": 80,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl Packaging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 203,
+      "yield": "1 portion (~130g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 34,
+      "recipe_name": "Honey Chilli Potatoes",
+      "brand": "Wings of Fury",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Potato Bites Frozen",
+          "quantity": 150,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Chilli Sauce",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 515,
+      "yield": "1 portion (~150g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 35,
+      "recipe_name": "Ranch Dip",
+      "brand": "Wings of Fury",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Ranch Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 145,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 36,
+      "recipe_name": "Blue Cheese Dip",
+      "brand": "Wings of Fury",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 20,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Blue Cheese Crumbles",
+          "quantity": 8,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.5,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 165,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 37,
+      "recipe_name": "Honey Mustard Dip",
+      "brand": "Wings of Fury",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Honey Mustard Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Mustard"
+      ],
+      "calories_kcal": 84,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 38,
+      "recipe_name": "Garlic Aioli Dip",
+      "brand": "Wings of Fury",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Garlic Aioli (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 180,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 39,
+      "recipe_name": "Sriracha Mayo Dip",
+      "brand": "Wings of Fury",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Sriracha Mayo (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 180,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 40,
+      "recipe_name": "Dynamite Sauce Dip",
+      "brand": "Wings of Fury",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 180,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 41,
+      "recipe_name": "Truffle Mayo Dip",
+      "brand": "Wings of Fury",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Truffle Mayo (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 204,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 42,
+      "recipe_name": "Honey BBQ Dip",
+      "brand": "Wings of Fury",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Honey BBQ Sauce Original (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 66,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 43,
+      "recipe_name": "Cheese Dip",
+      "brand": "Wings of Fury",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Cheese Sauce (SF)",
+          "quantity": 120,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 300,
+      "yield": "1 portion (120g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 44,
+      "recipe_name": "Mineral Water",
+      "brand": "Wings of Fury",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Mineral Water 330ml",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": "330ml bottle",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 45,
+      "recipe_name": "Coca-Cola",
+      "brand": "Wings of Fury",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Coca-Cola 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 139,
+      "yield": "330ml can",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 46,
+      "recipe_name": "Coca-Cola Zero",
+      "brand": "Wings of Fury",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Coca-Cola Zero 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": "330ml can",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 47,
+      "recipe_name": "Sprite",
+      "brand": "Wings of Fury",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Sprite 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 139,
+      "yield": "330ml can",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 48,
+      "recipe_name": "Fanta",
+      "brand": "Wings of Fury",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Fanta 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 145,
+      "yield": "330ml can",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 49,
+      "recipe_name": "Fury Snack â€” 3 Wings, Fries & Drink",
+      "brand": "Wings of Fury",
+      "category": "Fury Meals",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 0.6,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avg Wing Sauce",
+          "quantity": 36,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Classic Fries Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Sugared drink",
+        "Dairy"
+      ],
+      "calories_kcal": 1267,
+      "yield": "1 combo (3 wings + fries + dip + drink)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 50,
+      "recipe_name": "Fury Meal â€” Wings, Tenders, Fries & Drink",
+      "brand": "Wings of Fury",
+      "category": "Fury Meals",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.333,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avg Wing Sauce",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Avg Tender Sauce",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Classic Fries Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Other Components",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 2,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Combo Box Packaging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sugared drink",
+        "Dairy"
+      ],
+      "calories_kcal": 1995,
+      "yield": "1 combo (5 wings + 2 tenders + fries + dip + drink)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 51,
+      "recipe_name": "Fury Feast for 2 â€” 10 Wings, 4 Tenders, 2 Fries & 2 Drinks",
+      "brand": "Wings of Fury",
+      "category": "Fury Meals",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 2,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.667,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avg Wing Sauce",
+          "quantity": 120,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Avg Tender Sauce",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Classic Fries Portion",
+          "quantity": 2,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 2,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola 330ml Can",
+          "quantity": 2,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Other Components",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 4,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Large Platter Packaging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sugared drink",
+        "Dairy"
+      ],
+      "calories_kcal": 3992,
+      "yield": "1 large combo for 2 people",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    }
+  ]
+}

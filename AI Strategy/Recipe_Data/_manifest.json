@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "canonical_location": "E:\\Cloud Kitchen\\AI Teams\\AI Strategy\\Recipe_Data",
+  "consolidated_at": "2026-04-24",
+  "policy": "All recipe JSONs live here. Source files (xlsx) in original brand folders are READ-ONLY references; future updates write here only. Originals at source_path remain in place as a backup until confirmed safe to remove.",
+  "common_schema": {
+    "allergen_vocab_16": [
+      "Celery",
+      "Gluten",
+      "Crustaceans",
+      "Fish",
+      "Eggs",
+      "Lupin",
+      "Molluscs",
+      "Mustard",
+      "Nuts",
+      "Peanuts",
+      "Sesame",
+      "Soya",
+      "Sulphites",
+      "Sugared drink",
+      "Dairy",
+      "Lentils"
+    ],
+    "allergen_method": "Essential-only — flagged when ingredient is unambiguously an allergen source. NO_ALLERGENS marker when no triggers.",
+    "calories_method": "Estimated from ingredient qty × USDA/standard per-100g values. Wastage not applied. Rounded to integer.",
+    "wastage_storage": "Decimal fraction (0.05 = 5%)."
+  },
+  "files": [
+    {
+      "filename": "breakfast_before_noon.json",
+      "cuisine": "Breakfast",
+      "brand": "Before Noon",
+      "recipe_count": 63,
+      "semi_finished_components": 0,
+      "size_kb": 148,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\Breakfast Brands\\04 - Recipes\\Before_Noon_Recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "breakfast_breakfast_counter.json",
+      "cuisine": "Breakfast",
+      "brand": "Breakfast Counter",
+      "recipe_count": 48,
+      "semi_finished_components": 0,
+      "size_kb": 115,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\Breakfast Brands\\04 - Recipes\\Breakfast_Counter_Recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "breakfast_sunrise_and_co.json",
+      "cuisine": "Breakfast",
+      "brand": "Sunrise & Co",
+      "recipe_count": 45,
+      "semi_finished_components": 0,
+      "size_kb": 107,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\Breakfast Brands\\04 - Recipes\\Sunrise_&_Co_Recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "breakfast_toast_and_co.json",
+      "cuisine": "Breakfast",
+      "brand": "Toast & Co",
+      "recipe_count": 47,
+      "semi_finished_components": 0,
+      "size_kb": 110,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\Breakfast Brands\\04 - Recipes\\Toast_&_Co_Recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "american_wings_of_fury_v3.json",
+      "cuisine": "American (V3)",
+      "brand": "Wings of Fury",
+      "recipe_count": 51,
+      "semi_finished_components": 0,
+      "size_kb": 78,
+      "source_path": "E:\\Cloud Kitchen\\AI Teams\\Menu_Assessment\\01_American\\Wings_of_Fury\\V3_Revamp\\01_Menu\\Wings_of_Fury_Recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "american_winging_it_v3.json",
+      "cuisine": "American (V3)",
+      "brand": "Wingin' It",
+      "recipe_count": 51,
+      "semi_finished_components": 0,
+      "size_kb": 77,
+      "source_path": "E:\\Cloud Kitchen\\AI Teams\\Menu_Assessment\\01_American\\Winging_It\\V3_Revamp\\Winging_It_Recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "american_legacy.json",
+      "cuisine": "American (Legacy)",
+      "brand": "All American Brands (shared pool)",
+      "recipe_count": 144,
+      "semi_finished_components": 56,
+      "size_kb": 327,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\American Brands\\American_Recipes_Legacy.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "indian.json",
+      "cuisine": "Indian",
+      "brand": "All Indian Brands (shared pool)",
+      "recipe_count": 102,
+      "semi_finished_components": 26,
+      "size_kb": 213,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\Indian Brands\\Recipes\\indian_recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "korean_seoul_food.json",
+      "cuisine": "Korean",
+      "brand": "Seoul Food",
+      "recipe_count": 68,
+      "semi_finished_components": 26,
+      "size_kb": 161,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\Korean Food\\Recipes\\seoul_food_recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "japanese_norii.json",
+      "cuisine": "Japanese",
+      "brand": "Norii",
+      "recipe_count": 72,
+      "semi_finished_components": 15,
+      "size_kb": 118,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\Japanese Food\\Recipes\\norii_recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "chinese.json",
+      "cuisine": "Chinese",
+      "brand": "All Chinese Brands (shared pool)",
+      "recipe_count": 90,
+      "semi_finished_components": 24,
+      "size_kb": 111,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\Chinese Brands\\Recipes\\chinese_recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "mexican.json",
+      "cuisine": "Mexican",
+      "brand": "All Mexican Brands (shared pool)",
+      "recipe_count": 84,
+      "semi_finished_components": 27,
+      "size_kb": 174,
+      "source_path": "C:\\Users\\harsh\\Desktop\\Cloud Kitchen\\Brands Home\\Mexican Brands\\Recipes\\mexican_recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "poke_big_kahuna.json",
+      "cuisine": "Poke",
+      "brand": "The Big Kahuna",
+      "recipe_count": 45,
+      "semi_finished_components": 13,
+      "size_kb": 91,
+      "source_path": "E:\\Cloud Kitchen\\AI Teams\\Menu_Assessment\\07_Poke\\AI_Prompts\\Recipes\\The_Big_Kahuna_Recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "poke_pokeman.json",
+      "cuisine": "Poke",
+      "brand": "PokeMan",
+      "recipe_count": 52,
+      "semi_finished_components": 13,
+      "size_kb": 102,
+      "source_path": "E:\\Cloud Kitchen\\AI Teams\\Menu_Assessment\\07_Poke\\AI_Prompts\\Recipes\\PokeMan_Recipes.json",
+      "last_updated": "2026-04-24"
+    },
+    {
+      "filename": "healthy.json",
+      "cuisine": "Healthy",
+      "brand": "Healthy Food",
+      "recipe_count": 75,
+      "semi_finished_components": 14,
+      "size_kb": 148,
+      "source_path": "E:\\Cloud Kitchen\\AI Teams\\AI Strategy\\Healthy_Food_Dubai_Assessment\\Recipes\\Healthy_Recipes.json",
+      "last_updated": "2026-04-24"
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "recipes": 1037,
+    "semi_finished_components": 214,
+    "cuisines": 10
+  }
+}

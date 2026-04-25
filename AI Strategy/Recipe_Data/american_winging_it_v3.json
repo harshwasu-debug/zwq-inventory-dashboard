@@ -1,0 +1,3263 @@
+{
+  "schema_version": "1.0",
+  "brand": "Wingin' It",
+  "source_file": "Wing_Brands_V3_Recipes.xlsx",
+  "extracted_at": "2026-04-22",
+  "last_updated": "2026-04-24",
+  "recipe_count": 51,
+  "methodology": {
+    "allergens": "Essential-only tagging using 16-tag vocabulary (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). A recipe is flagged ONLY when an ingredient is an unambiguous source. No speculation. Recipes with no essential allergens tagged ['NO_ALLERGENS']. Reconciled identically across WoF + Winging It (shared recipe builds) by recipe_number.",
+    "calories": "Estimated from ingredient quantities x USDA/standard per-100g values. Component references (cooked wings/tenders/shrimp/fries portions) resolved to cooked weight kcal. Rounded to integer. Wastage NOT applied. Packaging ignored. Estimates only - verify with lab testing for labeling.",
+    "wastage_pct": "Wastage percentages stored as decimals (e.g., 0.05 = 5%). Applied at ingredient level to account for trim, cook loss, and handling waste. Sourced from Recipe Build sheet of Wing_Brands_V3_Recipes.xlsx.",
+    "enriched_at": "2026-04-24"
+  },
+  "changelog": [
+    {
+      "date": "2026-04-22",
+      "entry": "Initial extraction from Wing_Brands_V3_Recipes.xlsx"
+    },
+    {
+      "date": "2026-04-23",
+      "entry": "Enriched all recipes with allergens and calories estimated from ingredient lists."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Reconciled allergens and calories identically across WoF + Winging It (shared recipe builds). Retagged using new 16-item aggregator allergen vocabulary (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils)."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Dialed back allergen tagging to strict / essential-only rule. Recipes with no essential allergens now tagged ['NO_ALLERGENS']. Arrays reconciled identically across WoF + Winging It by recipe_number."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Allergen + calorie enrichment pass applied (essential-only 16-tag vocab; USDA per-100g kcal)."
+    }
+  ],
+  "pending_decisions": [],
+  "recipes": [
+    {
+      "recipe_number": 1,
+      "recipe_name": "Classic BBQ Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "BBQ Sauce Original",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Liquid Smoke",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 627,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 2,
+      "recipe_name": "OG Buffalo Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Buffalo Wings Sauce",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 639,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 3,
+      "recipe_name": "The Hot Honey Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hot Honey Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Chili Flakes Red",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 694,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 4,
+      "recipe_name": "Sweet Sesame Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Chilli Sauce",
+          "quantity": 40,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 637,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 5,
+      "recipe_name": "Hoisin Glazed Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Hoisin Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Soya",
+        "Dairy"
+      ],
+      "calories_kcal": 656,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 6,
+      "recipe_name": "Garlic Parm Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Aioli (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Parmesan Cheese",
+          "quantity": 8,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 766,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 7,
+      "recipe_name": "The Honey Mustard Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey Mustard Sauce (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Mustard",
+        "Dairy"
+      ],
+      "calories_kcal": 646,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 8,
+      "recipe_name": "The Dynamite Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 743,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 9,
+      "recipe_name": "Naked Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper Crushed",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 508,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 10,
+      "recipe_name": "Korean Style Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gochujang",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 10,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Soya",
+        "Dairy"
+      ],
+      "calories_kcal": 680,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 11,
+      "recipe_name": "Chipotle Honey Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey Chipotle Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 668,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 12,
+      "recipe_name": "Cajun Rubbed Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cajun Seasoning",
+          "quantity": 10,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 536,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 13,
+      "recipe_name": "Lemon Pepper Dry Rub Wings (5pc)",
+      "brand": "Wingin' It",
+      "category": "Wings",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemon Pepper Seasoning",
+          "quantity": 10,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.5,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 537,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 14,
+      "recipe_name": "Classic BBQ Tenders (5pc)",
+      "brand": "Wingin' It",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "BBQ Sauce Original",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Liquid Smoke",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 661,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 15,
+      "recipe_name": "OG Buffalo Tenders (5pc)",
+      "brand": "Wingin' It",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Buffalo Wings Sauce",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 673,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 16,
+      "recipe_name": "The Hot Honey Tenders (5pc)",
+      "brand": "Wingin' It",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hot Honey Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Chili Flakes Red",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 728,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 17,
+      "recipe_name": "Sweet Sesame Tenders (5pc)",
+      "brand": "Wingin' It",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Chilli Sauce",
+          "quantity": 40,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 670,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 18,
+      "recipe_name": "Hoisin Glazed Tenders (5pc)",
+      "brand": "Wingin' It",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Hoisin Sauce (SF)",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Soya",
+        "Dairy"
+      ],
+      "calories_kcal": 690,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 19,
+      "recipe_name": "Garlic Parm Tenders (5pc)",
+      "brand": "Wingin' It",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Aioli (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Parmesan Cheese",
+          "quantity": 8,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 800,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 20,
+      "recipe_name": "The Honey Mustard Tenders (5pc)",
+      "brand": "Wingin' It",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey Mustard Sauce (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Mustard",
+        "Dairy"
+      ],
+      "calories_kcal": 680,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 21,
+      "recipe_name": "The Dynamite Tenders (5pc)",
+      "brand": "Wingin' It",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 50,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 4,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sesame",
+        "Dairy"
+      ],
+      "calories_kcal": 777,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 22,
+      "recipe_name": "Naked Tenders (5pc)",
+      "brand": "Wingin' It",
+      "category": "Tenders",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.833,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper Crushed",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 542,
+      "yield": "5pc + ranch dip (no fries)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 23,
+      "recipe_name": "The Buffalo Wrap",
+      "brand": "Wingin' It",
+      "category": "Wraps",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.5,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Buffalo Wings Sauce",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Flour Tortilla 12in",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Cabbage",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 15,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 20,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Wrap Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 752,
+      "yield": "1 wrap (12 inch flour tortilla)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 24,
+      "recipe_name": "The Hot Honey Wrap",
+      "brand": "Wingin' It",
+      "category": "Wraps",
+      "ingredients": [
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.5,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hot Honey Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Flour Tortilla 12in",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Cabbage",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 15,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 20,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Chili Flakes Red",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Wrap Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs"
+      ],
+      "calories_kcal": 780,
+      "yield": "1 wrap (12 inch flour tortilla)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 25,
+      "recipe_name": "Dynamite Crispy Shrimp",
+      "brand": "Wingin' It",
+      "category": "Shrimp Poppers",
+      "ingredients": [
+        {
+          "name": "Breaded Shrimp Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo (SF)",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Crustaceans",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 454,
+      "yield": "1 portion (8-10 pcs) + dip",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 26,
+      "recipe_name": "Buffalo Crispy Shrimp",
+      "brand": "Wingin' It",
+      "category": "Shrimp Poppers",
+      "ingredients": [
+        {
+          "name": "Breaded Shrimp Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Buffalo Wings Sauce",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Crustaceans",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 500,
+      "yield": "1 portion (8-10 pcs) + dip",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 27,
+      "recipe_name": "Hot Honey Crispy Shrimp",
+      "brand": "Wingin' It",
+      "category": "Shrimp Poppers",
+      "ingredients": [
+        {
+          "name": "Breaded Shrimp Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hot Honey Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Chili Flakes Red",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Crustaceans",
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 528,
+      "yield": "1 portion (8-10 pcs) + dip",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 28,
+      "recipe_name": "House Fries",
+      "brand": "Wingin' It",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Frozen Fries Straight Cut",
+          "quantity": 143,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 436,
+      "yield": "1 portion (~145g cooked)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 29,
+      "recipe_name": "Hot Spiced Fries",
+      "brand": "Wingin' It",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Frozen Fries Straight Cut",
+          "quantity": 143,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spicy Seasoning",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 450,
+      "yield": "1 portion (~145g cooked)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 30,
+      "recipe_name": "Loaded Dynamite Fries",
+      "brand": "Wingin' It",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Frozen Fries Straight Cut",
+          "quantity": 143,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo (SF)",
+          "quantity": 10,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Jalapeno Sliced",
+          "quantity": 5,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Loaded Fries Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 633,
+      "yield": "1 portion + toppings",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 31,
+      "recipe_name": "Loaded Cheese Fries",
+      "brand": "Wingin' It",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Frozen Fries Straight Cut",
+          "quantity": 143,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cheese Sauce (SF)",
+          "quantity": 120,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Loaded Fries Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 736,
+      "yield": "1 portion + cheese sauce",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 32,
+      "recipe_name": "Crispy Onion Rings",
+      "brand": "Wingin' It",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Onion Ring Battered Frozen",
+          "quantity": 170,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 697,
+      "yield": "1 portion (~170g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 33,
+      "recipe_name": "Fresh Coleslaw",
+      "brand": "Wingin' It",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "White Cabbage",
+          "quantity": 80,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Parsley Chopped",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl Packaging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 203,
+      "yield": "1 portion (~130g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 34,
+      "recipe_name": "Sweet Chilli Potato Bites",
+      "brand": "Wingin' It",
+      "category": "Sides",
+      "ingredients": [
+        {
+          "name": "Potato Bites Frozen",
+          "quantity": 150,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Chilli Sauce",
+          "quantity": 25,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 563,
+      "yield": "1 portion (~150g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 35,
+      "recipe_name": "Ranch Sauce",
+      "brand": "Wingin' It",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Ranch Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 145,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 36,
+      "recipe_name": "Blue Cheese Sauce",
+      "brand": "Wingin' It",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 20,
+          "unit": "g",
+          "wastage_pct": 0.01,
+          "notes": null
+        },
+        {
+          "name": "Blue Cheese Crumbles",
+          "quantity": 8,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 1,
+          "unit": "g",
+          "wastage_pct": 0.5,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 165,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 37,
+      "recipe_name": "Honey Mustard Sauce",
+      "brand": "Wingin' It",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Honey Mustard Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Mustard"
+      ],
+      "calories_kcal": 84,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 38,
+      "recipe_name": "Garlic Aioli Sauce",
+      "brand": "Wingin' It",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Garlic Aioli (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 135,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 39,
+      "recipe_name": "Sriracha Mayo Sauce",
+      "brand": "Wingin' It",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Sriracha Mayo (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 180,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 40,
+      "recipe_name": "Dynamite Sauce",
+      "brand": "Wingin' It",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Dynamite Sauce (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Dairy"
+      ],
+      "calories_kcal": 135,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 41,
+      "recipe_name": "Truffle Mayo Sauce",
+      "brand": "Wingin' It",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Truffle Mayo (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 195,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 42,
+      "recipe_name": "Honey BBQ Sauce",
+      "brand": "Wingin' It",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Honey BBQ Sauce Original (SF)",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 75,
+      "yield": "1 portion (30g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 43,
+      "recipe_name": "Cheese Sauce",
+      "brand": "Wingin' It",
+      "category": "Dips",
+      "ingredients": [
+        {
+          "name": "Cheese Sauce (SF)",
+          "quantity": 120,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Dip Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 300,
+      "yield": "1 portion (120g)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 44,
+      "recipe_name": "Bottled Water",
+      "brand": "Wingin' It",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Mineral Water 330ml",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": "330ml bottle",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 45,
+      "recipe_name": "Coke",
+      "brand": "Wingin' It",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Coca-Cola 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 139,
+      "yield": "330ml can",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 46,
+      "recipe_name": "Coke Zero",
+      "brand": "Wingin' It",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Coca-Cola Zero 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": "330ml can",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 47,
+      "recipe_name": "Sprite",
+      "brand": "Wingin' It",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Sprite 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 139,
+      "yield": "330ml can",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 48,
+      "recipe_name": "Fanta",
+      "brand": "Wingin' It",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Fanta 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 145,
+      "yield": "330ml can",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 49,
+      "recipe_name": "The Wing Box â€” 3pc, Fries & Drink",
+      "brand": "Wingin' It",
+      "category": "Fury Meals",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 0.6,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avg Wing Sauce",
+          "quantity": 36,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 3,
+          "unit": "g",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Classic Fries Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Sesame",
+        "Sugared drink",
+        "Dairy"
+      ],
+      "calories_kcal": 958,
+      "yield": "1 combo (3 wings + fries + dip + drink)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 50,
+      "recipe_name": "The Classic Combo",
+      "brand": "Wingin' It",
+      "category": "Fury Meals",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.333,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avg Wing Sauce",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Avg Tender Sauce",
+          "quantity": 30,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Classic Fries Portion",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 1,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola 330ml Can",
+          "quantity": 1,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Other Components",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 2,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Combo Box Packaging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sugared drink",
+        "Dairy"
+      ],
+      "calories_kcal": 1297,
+      "yield": "1 combo (5 wings + 2 tenders + fries + dip + drink)",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 51,
+      "recipe_name": "The Wing Feast for Two",
+      "brand": "Wingin' It",
+      "category": "Fury Meals",
+      "ingredients": [
+        {
+          "name": "Cooked Wings Portion (5pc)",
+          "quantity": 2,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooked Tenders Portion (6pc)",
+          "quantity": 0.667,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avg Wing Sauce",
+          "quantity": 120,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Avg Tender Sauce",
+          "quantity": 60,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Classic Fries Portion",
+          "quantity": 2,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ranch Sauce Portion (SF)",
+          "quantity": 2,
+          "unit": "portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola 330ml Can",
+          "quantity": 2,
+          "unit": "pc",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Other Components",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Standard Packaging Set",
+          "quantity": 4,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Final Bagging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Large Platter Packaging",
+          "quantity": 1,
+          "unit": "set",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Eggs",
+        "Sugared drink",
+        "Dairy"
+      ],
+      "calories_kcal": 2399,
+      "yield": "1 large combo for 2 people",
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,4822 @@
+{
+  "schema_version": "1.0",
+  "dataset": "Chinese Recipes — Semi-Finished Components",
+  "source_file": "Chinese Recipes.csv + Chinese Recipes - Finished Recipe.csv",
+  "extracted_at": "2026-04-24",
+  "last_updated": "2026-04-24",
+  "recipe_count": 90,
+  "methodology": {
+    "allergens": "Derived using cloud-kitchen aggregator taxonomy (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). Flagged only when ingredient is unambiguously an allergen source — no speculative tagging. Recipes without allergen sources marked ['NO_ALLERGENS'].",
+    "calories": "Estimated from ingredient qty × USDA/standard per-100g values. Wastage not applied. Rounded to integer. Estimates only — verify with lab testing for regulatory labeling.",
+    "wastage_pct": "Decimal fraction (0.05 = 5%)."
+  },
+  "changelog": [
+    {
+      "date": "2026-04-24",
+      "change": "Initial extraction from Chinese Recipes.csv; parsed 22 semi-finished components, enriched with essential-only allergens and computed calories_per_100g."
+    },
+    {
+      "date": "2026-04-24",
+      "note": "Extracted finished recipes from sibling CSV and merged with existing SF components."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Added 2 missing SF components (Fried Shrimp Base-SF, Beef Strips-SF) with chef-reconstructable defaults. Fixed kcal + allergens on Chk Spring Rolls 8pc (440 kcal) and Veg Spring Rolls 8pc (400 kcal) using standard commercial per-piece spec."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Drift fix: methodology converted from string to standard dict {allergens, calories, wastage_pct}."
+    }
+  ],
+  "pending_decisions": [
+    "Oyster sauce Fish+Molluscs dual-flag: kept per Chinese mapping brief (oyster sauce contains fish-derived traces in many commercial brands; flag both to be safe).",
+    "Cooking Oil treated as neutral vegetable oil (884 kcal/100g, no Peanuts flag) since brand/type not specified. If actually peanut oil, Peanuts would be required."
+  ],
+  "semi_finished_components": [
+    {
+      "name": "Ginger Garlic Paste-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Garlic Peeled",
+          "quantity": 0.6,
+          "uom": "kg",
+          "wastage": 0.05
+        },
+        {
+          "name": "Ginger",
+          "quantity": 0.4,
+          "uom": "kg",
+          "wastage": 0.05
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_per_100g": 121
+    },
+    {
+      "name": "Chili Paste-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Chilli Whole Dry",
+          "quantity": 0.5,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.05,
+          "uom": "l",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_per_100g": 337
+    },
+    {
+      "name": "Veg Mix Fine-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Cabbage White",
+          "quantity": 0.7,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.3,
+          "uom": "kg",
+          "wastage": 0.1
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_per_100g": 30
+    },
+    {
+      "name": "Veg Petals-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Capsicum Green",
+          "quantity": 0.5,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.5,
+          "uom": "kg",
+          "wastage": 0.1
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_per_100g": 30
+    },
+    {
+      "name": "Kung Pao Sauce-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.3,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Black Vinegar",
+          "quantity": 0.2,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.15,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Oyster Sauce",
+          "quantity": 0.1,
+          "uom": "l",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_per_100g": 116
+    },
+    {
+      "name": "Dynamite Sauce-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 1.0,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Sriracha Chilli Sauce",
+          "quantity": 0.25,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Sweet Chilli Sauce",
+          "quantity": 0.15,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Honey",
+          "quantity": 0.05,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_per_100g": 519
+    },
+    {
+      "name": "Teriyaki Sauce-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 0.5,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Mirin",
+          "quantity": 0.4,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.25,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 0.02,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_per_100g": 195
+    },
+    {
+      "name": "Fried Paneer Base-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Paneer",
+          "quantity": 1.0,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 0.15,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "All Purpose Flour (Maida)",
+          "quantity": 0.1,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.15,
+          "uom": "l",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_per_100g": 391
+    },
+    {
+      "name": "Shanghai Sauce-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Oyster Sauce",
+          "quantity": 0.5,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 0.2,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Hoisin Sauce",
+          "quantity": 0.2,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.1,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_per_100g": 122
+    },
+    {
+      "name": "Gravy Stock Base-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Chicken Stock Powder",
+          "quantity": 0.05,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Water",
+          "quantity": 1.0,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 0.08,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_per_100g": 39
+    },
+    {
+      "name": "Mongolian Sauce-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 0.4,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Hoisin Sauce",
+          "quantity": 0.3,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.2,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 0.05,
+          "uom": "l",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_per_100g": 225
+    },
+    {
+      "name": "Cooked Basmati Rice-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Rice Basmati XXL",
+          "quantity": 1.0,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_per_100g": 130
+    },
+    {
+      "name": "Cooked Noodles-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Egg Noodles",
+          "quantity": 1.0,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_per_100g": 138
+    },
+    {
+      "name": "Burnt Garlic-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Garlic Peeled",
+          "quantity": 0.5,
+          "uom": "kg",
+          "wastage": 0.05
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.2,
+          "uom": "l",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_per_100g": 359
+    },
+    {
+      "name": "Fried Chicken Base-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Chicken Thigh Boneless",
+          "quantity": 1.0,
+          "uom": "kg",
+          "wastage": 0.05
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 0.15,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "All Purpose Flour (Maida)",
+          "quantity": 0.1,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 0.05,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.15,
+          "uom": "l",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_per_100g": 304
+    },
+    {
+      "name": "Veg Manchurian Balls-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Cabbage White",
+          "quantity": 1.0,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.3,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 0.2,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "All Purpose Flour (Maida)",
+          "quantity": 0.15,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 0.05,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_per_100g": 102
+    },
+    {
+      "name": "Momo Filling Chicken-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Chicken Mince",
+          "quantity": 1.0,
+          "uom": "kg",
+          "wastage": 0.05
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.2,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 0.04,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 0.02,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Ajinomoto (MSG)",
+          "quantity": 0.01,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.01,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_per_100g": 136
+    },
+    {
+      "name": "Momo Filling Prawn-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 1.0,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.15,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 0.03,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Crustaceans"
+      ],
+      "calories_per_100g": 91
+    },
+    {
+      "name": "Momo Filling Veg-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Cabbage White",
+          "quantity": 1.0,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.3,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 0.1,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 0.05,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_per_100g": 31
+    },
+    {
+      "name": "Tandoori Marinade-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Yoghurt",
+          "quantity": 0.5,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Chilli Powder Kashmiri",
+          "quantity": 0.05,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Garam Masala",
+          "quantity": 0.02,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 0.05,
+          "uom": "kg",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_per_100g": 94
+    },
+    {
+      "name": "Schezwan Sauce-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 0.5,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 0.2,
+          "uom": "kg",
+          "wastage": 0.05
+        },
+        {
+          "name": "Coriander",
+          "quantity": 0.1,
+          "uom": "kg",
+          "wastage": 0.1
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 0.05,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Vinegar White",
+          "quantity": 0.05,
+          "uom": "l",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_per_100g": 227
+    },
+    {
+      "name": "Oyster Chilli Base-SF",
+      "type": "semi_finished_component",
+      "category": "Semi-Finished Component",
+      "ingredients": [
+        {
+          "name": "Oyster Sauce",
+          "quantity": 0.6,
+          "uom": "l",
+          "wastage": 0.0
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 0.3,
+          "uom": "kg",
+          "wastage": 0.0
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 0.1,
+          "uom": "l",
+          "wastage": 0.0
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_per_100g": 138
+    },
+    {
+      "component_code": "SF-FSB",
+      "component_name": "Fried Shrimp Base-SF",
+      "ingredients": [
+        {
+          "name": "Shrimp (peeled, deveined)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (whole)",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Pepper",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil (for frying)",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten"
+      ],
+      "yield": null,
+      "notes": "Reconstructed 2026-04-24 from standard Chinese technique for missing SF reference. User to confirm with chef — quantities are starting-point defaults."
+    },
+    {
+      "component_code": "SF-BS",
+      "component_name": "Beef Strips-SF",
+      "ingredients": [
+        {
+          "name": "Beef (sliced strips)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Light Soy Sauce",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Shaoxing Wine",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Pepper",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "yield": null,
+      "notes": "Reconstructed 2026-04-24 from standard Chinese technique for missing SF reference. User to confirm with chef — quantities are starting-point defaults."
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_number": 1,
+      "recipe_name": "Cream of Tomato Soup",
+      "brand": null,
+      "category": "Soups (Veg)",
+      "ingredients": [
+        {
+          "name": "Tomato",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Tomato Ketchup",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Butter Unsalted",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Cream",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 336,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 2,
+      "recipe_name": "Cream of Mushroom Soup",
+      "brand": null,
+      "category": "Soups (Veg)",
+      "ingredients": [
+        {
+          "name": "Mushroom White",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cooking Cream",
+          "quantity": 50.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Milk UHT Full Fat",
+          "quantity": 100.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Butter Unsalted",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "All Purpose Flour (Maida)",
+          "quantity": 12.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 383,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 3,
+      "recipe_name": "Manchow Soup",
+      "brand": null,
+      "category": "Soups (Veg)",
+      "ingredients": [
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 70.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 15.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Vinegar White",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ajinomoto (MSG)",
+          "quantity": 4.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Egg Noodles",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 130,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 4,
+      "recipe_name": "Hot & Sour Soup",
+      "brand": null,
+      "category": "Soups (Veg)",
+      "ingredients": [
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Vinegar White",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 15.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 103,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 5,
+      "recipe_name": "Sweet Corn Soup",
+      "brand": null,
+      "category": "Soups (Veg)",
+      "ingredients": [
+        {
+          "name": "Sweet Corn Kernel",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 6.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 127,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 6,
+      "recipe_name": "Noodle Soup",
+      "brand": null,
+      "category": "Soups (Veg)",
+      "ingredients": [
+        {
+          "name": "Egg Noodles",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 117,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 7,
+      "recipe_name": "Clear Soup",
+      "brand": null,
+      "category": "Soups (Veg)",
+      "ingredients": [
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Bok Choy",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 34,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 8,
+      "recipe_name": "Cream of Chicken Soup",
+      "brand": null,
+      "category": "Soups (Non-Veg)",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cooking Cream",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Milk UHT Full Fat",
+          "quantity": 100.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "All Purpose Flour (Maida)",
+          "quantity": 12.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 356,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 9,
+      "recipe_name": "Chicken Manchow Soup",
+      "brand": null,
+      "category": "Soups (Non-Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 15.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 242,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 10,
+      "recipe_name": "Chk Hot & Sour Soup",
+      "brand": null,
+      "category": "Soups (Non-Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Vinegar White",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 254,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 11,
+      "recipe_name": "Chk Sweet Corn Soup",
+      "brand": null,
+      "category": "Soups (Non-Veg)",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sweet Corn Kernel",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 201,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 12,
+      "recipe_name": "Chicken Noodle Soup",
+      "brand": null,
+      "category": "Soups (Non-Veg)",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg Noodles",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 225,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 13,
+      "recipe_name": "Chicken Clear Soup",
+      "brand": null,
+      "category": "Soups (Non-Veg)",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 150,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 14,
+      "recipe_name": "Tom Yum Soup",
+      "brand": null,
+      "category": "Soups (Non-Veg)",
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tom Yum Paste",
+          "quantity": 25.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemongrass",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans"
+      ],
+      "calories_kcal": 99,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 15,
+      "recipe_name": "Kung Pao Chicken",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chilli Whole Dry",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Peanuts",
+        "Soya"
+      ],
+      "calories_kcal": 1134,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 16,
+      "recipe_name": "Honey Chilli Chicken",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt / MSG",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 922,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 17,
+      "recipe_name": "Teriyaki Chicken",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Teriyaki Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 853,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 18,
+      "recipe_name": "Chicken Lollipops",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Chicken Lollipop",
+          "quantity": 6.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Schezwan Sauce",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt / Pepper / MSG",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 136,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 19,
+      "recipe_name": "Dynamite Shrimp",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Shrimp Base-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce-SF",
+          "quantity": 60.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Eggs"
+      ],
+      "calories_kcal": 311,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 20,
+      "recipe_name": "Chicken 65",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 250.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Yoghurt",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chilly Powder",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Curry Leaves",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Food Colour Orange Red",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 760,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 21,
+      "recipe_name": "Chk Manchurian Dry",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 15.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 757,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 22,
+      "recipe_name": "Stir Fried Chk Chilli",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Green Chilli",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 723,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 23,
+      "recipe_name": "Black Pepper Chicken",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pepper Crushed",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Oyster Sauce",
+          "quantity": 30.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs"
+      ],
+      "calories_kcal": 733,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 24,
+      "recipe_name": "Hot Garlic Chicken",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 830,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 25,
+      "recipe_name": "Mountain Chilli Chk",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Green Chilli",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 816,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 26,
+      "recipe_name": "Chk Spring Rolls (8pc)",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Spring Roll Chicken",
+          "quantity": 8.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 440,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 27,
+      "recipe_name": "Tempura Shrimp",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 180.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tempura Batter Mix",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans"
+      ],
+      "calories_kcal": 178,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 28,
+      "recipe_name": "Chilli Garlic Prawns",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Shrimp Base-SF",
+          "quantity": 180.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans"
+      ],
+      "calories_kcal": 161,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 29,
+      "recipe_name": "Black Pepper Prawns",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Shrimp Base-SF",
+          "quantity": 180.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pepper Crushed",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Oyster Sauce",
+          "quantity": 30.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Molluscs"
+      ],
+      "calories_kcal": 35,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 30,
+      "recipe_name": "Teriyaki Prawns",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Shrimp Base-SF",
+          "quantity": 180.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Teriyaki Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 156,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 31,
+      "recipe_name": "Mountain Chilli Prawn",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Shrimp Base-SF",
+          "quantity": 180.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Green Chilli",
+          "quantity": 25.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans"
+      ],
+      "calories_kcal": 10,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 32,
+      "recipe_name": "Kung Pao Prawns",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Shrimp Base-SF",
+          "quantity": 180.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Peanuts",
+        "Soya"
+      ],
+      "calories_kcal": 433,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 33,
+      "recipe_name": "Tempura Chicken",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tempura Batter Mix",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 330,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 34,
+      "recipe_name": "Dynamite Chicken",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Sauce-SF",
+          "quantity": 60.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 980,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 35,
+      "recipe_name": "Mountain Chilli Beef",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Beef Strips-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Green Chilli",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 147,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 36,
+      "recipe_name": "Black Pepper Beef",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Beef Strips-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pepper Crushed",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Oyster Sauce",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Molluscs"
+      ],
+      "calories_kcal": 45,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 37,
+      "recipe_name": "Kung Pao Beef",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Beef Strips-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Peanuts",
+        "Soya"
+      ],
+      "calories_kcal": 433,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 38,
+      "recipe_name": "Teriyaki Beef",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Beef Strips-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Teriyaki Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 156,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 39,
+      "recipe_name": "Honey Chilli Shrimp",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Shrimp Base-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt / MSG",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans"
+      ],
+      "calories_kcal": 253,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 40,
+      "recipe_name": "Honey Chilli Beef",
+      "brand": null,
+      "category": "Starters (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Beef Strips-SF",
+          "quantity": 220.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt / MSG",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 253,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 41,
+      "recipe_name": "Kung Pao Paneer",
+      "brand": null,
+      "category": "Starters (Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Paneer Base-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Peanuts",
+        "Soya"
+      ],
+      "calories_kcal": 1239,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 42,
+      "recipe_name": "Paneer 65",
+      "brand": null,
+      "category": "Starters (Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Paneer Base-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Yoghurt",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Curry Leaves",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Chilly Powder",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt / MSG / Pepper",
+          "quantity": 12.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 782,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 43,
+      "recipe_name": "Honey Chilli Potato",
+      "brand": null,
+      "category": "Starters (Veg)",
+      "ingredients": [
+        {
+          "name": "Potato",
+          "quantity": 500.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 60.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tomato Ketchup",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 769,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 44,
+      "recipe_name": "Veg Spring Rolls (8pc)",
+      "brand": null,
+      "category": "Starters (Veg)",
+      "ingredients": [
+        {
+          "name": "Spring Roll Vegetable",
+          "quantity": 8.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 400,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 45,
+      "recipe_name": "Stir Fried Paneer Chilli",
+      "brand": null,
+      "category": "Starters (Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Paneer Base-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Green Chilli",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 843,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 46,
+      "recipe_name": "Veg Manchurian Dry",
+      "brand": null,
+      "category": "Starters (Veg)",
+      "ingredients": [
+        {
+          "name": "Veg Manchurian Balls-SF",
+          "quantity": 8.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ginger Garlic Paste-SF",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 136,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 47,
+      "recipe_name": "Steamed Chk Dumplings",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Chicken-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gyoza Wrapper",
+          "quantity": 8.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 218,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 48,
+      "recipe_name": "Steamed Prawns Gyoza",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Prawn-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gyoza Wrapper",
+          "quantity": 8.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Gluten"
+      ],
+      "calories_kcal": 146,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 49,
+      "recipe_name": "Chilli Style Chk Dumplings",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Chicken-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gyoza Wrapper",
+          "quantity": 8.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 337,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 50,
+      "recipe_name": "Spicy 65 Chk Momos",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Chicken-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Yoghurt",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chilly Powder",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Curry Leaves",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Sesame"
+      ],
+      "calories_kcal": 218,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 51,
+      "recipe_name": "Shanghai Style Chk Dumplings",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Chicken-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shanghai Sauce-SF",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 266,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 52,
+      "recipe_name": "Chilli Style Prawns Gyoza",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Prawn-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans"
+      ],
+      "calories_kcal": 247,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 53,
+      "recipe_name": "Schezwan Chk Momos",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Chicken-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Schezwan Sauce",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 318,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 54,
+      "recipe_name": "Kung Pao Chk Dumplings",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Chicken-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Peanuts",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 377,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 55,
+      "recipe_name": "Honey Chilli Chk Dumplings",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Chicken-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 346,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 56,
+      "recipe_name": "Chicken Tandoori Momos",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Chicken-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tandoori Marinade-SF",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Sesame"
+      ],
+      "calories_kcal": 265,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 57,
+      "recipe_name": "Kung Pao Prawns Gyoza",
+      "brand": null,
+      "category": "Dumplings (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Prawn-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 192,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 58,
+      "recipe_name": "Steamed Veg Dumplings",
+      "brand": null,
+      "category": "Dumplings (Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Veg-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gyoza Wrapper",
+          "quantity": 8.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 50,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 59,
+      "recipe_name": "Spicy 65 Veg Momos",
+      "brand": null,
+      "category": "Dumplings (Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Veg-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chilly Powder",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Yoghurt",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 50,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 60,
+      "recipe_name": "Shanghai Style Veg Dumplings",
+      "brand": null,
+      "category": "Dumplings (Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Veg-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shanghai Sauce-SF",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 98,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 61,
+      "recipe_name": "Kung Pao Veg Dumplings",
+      "brand": null,
+      "category": "Dumplings (Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Veg-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 96,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 62,
+      "recipe_name": "Honey Chilli Veg Dumplings",
+      "brand": null,
+      "category": "Dumplings (Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Veg-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 110,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 63,
+      "recipe_name": "Chilli Style Veg Dumplings",
+      "brand": null,
+      "category": "Dumplings (Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Veg-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 151,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 64,
+      "recipe_name": "Schezwan Veg Momos",
+      "brand": null,
+      "category": "Dumplings (Veg)",
+      "ingredients": [
+        {
+          "name": "Momo Filling Veg-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Schezwan Sauce",
+          "quantity": 40.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 150,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 65,
+      "recipe_name": "Chicken Kung Pao Sauce",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 100.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Peanuts",
+        "Soya"
+      ],
+      "calories_kcal": 833,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 66,
+      "recipe_name": "Chilli Chicken Gravy",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 150.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Green Chilli",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 650,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 67,
+      "recipe_name": "Chk Manchurian Gravy",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 150.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 15.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 605,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 68,
+      "recipe_name": "Chk Black Pepper Sauce",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 150.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pepper Crushed",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Oyster Sauce",
+          "quantity": 30.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs"
+      ],
+      "calories_kcal": 555,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 69,
+      "recipe_name": "Chicken Schezwan Sauce",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Schezwan Sauce",
+          "quantity": 100.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 100.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 745,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 70,
+      "recipe_name": "Chk Oyster Chilli Sauce",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Oyster Chilli Base-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 100.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 623,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 71,
+      "recipe_name": "Mongolian Chicken",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Chicken Base-SF",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mongolian Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 652,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 72,
+      "recipe_name": "Beef Black Pepper",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Beef Strips-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 150.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pepper Crushed",
+          "quantity": 12.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Oyster Sauce",
+          "quantity": 30.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs"
+      ],
+      "calories_kcal": 104,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 73,
+      "recipe_name": "Mongolian Beef",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Beef Strips-SF",
+          "quantity": 160.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mongolian Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 196,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 74,
+      "recipe_name": "Kung Pao Prawns",
+      "brand": null,
+      "category": "Mains (Non Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Shrimp Base-SF",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 100.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Peanuts",
+        "Soya"
+      ],
+      "calories_kcal": 415,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 75,
+      "recipe_name": "Paneer Chilli Gravy",
+      "brand": null,
+      "category": "Mains (Veg)",
+      "ingredients": [
+        {
+          "name": "Fried Paneer Base-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 150.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 984,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 76,
+      "recipe_name": "Veg Schezwan Gravy",
+      "brand": null,
+      "category": "Mains (Veg)",
+      "ingredients": [
+        {
+          "name": "Mixed Vegetables",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Schezwan Sauce",
+          "quantity": 100.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 100.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 289,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 77,
+      "recipe_name": "Veg Manchurian Gravy",
+      "brand": null,
+      "category": "Mains (Veg)",
+      "ingredients": [
+        {
+          "name": "Veg Manchurian Balls-SF",
+          "quantity": 8.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 150.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 15.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 80,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 78,
+      "recipe_name": "Veg Kung Pao Sauce",
+      "brand": null,
+      "category": "Mains (Veg)",
+      "ingredients": [
+        {
+          "name": "Broccoli/Baby Corn/Carrot",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Kung Pao Sauce-SF",
+          "quantity": 80.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Peanuts",
+        "Soya"
+      ],
+      "calories_kcal": 484,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 79,
+      "recipe_name": "Schezwan Fried Rice",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Basmati Rice-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Schezwan Sauce-SF",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt / MSG / Pepper",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 505,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 80,
+      "recipe_name": "Fried Rice",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Basmati Rice-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce (Light/Red)",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt / MSG / Pepper",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 420,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 81,
+      "recipe_name": "Burnt Garlic Rice",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Basmati Rice-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Burnt Garlic-SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 516,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 82,
+      "recipe_name": "Steamed Rice",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Basmati Rice-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 390,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 83,
+      "recipe_name": "Chilli Garlic Rice",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Basmati Rice-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Mix Fine-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 505,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 84,
+      "recipe_name": "Street Style Chowmein",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Noodles-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF (Shredded)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce Dark",
+          "quantity": 20.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Vinegar White",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 479,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 85,
+      "recipe_name": "Hakka Noodles",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Noodles-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF (Shredded)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce (Light)",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt / White Pepper",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 420,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 86,
+      "recipe_name": "Schezwan Noodles",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Noodles-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Schezwan Sauce-SF",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF (Shredded)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 528,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 87,
+      "recipe_name": "Singapore Noodles",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Noodles-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Turmeric Powder",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Curry Powder (Chicken Masala)",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cashew Broken",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF (Shredded)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Nuts"
+      ],
+      "calories_kcal": 506,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 88,
+      "recipe_name": "Chilli Garlic Noodles",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Noodles-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 25.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chili Paste-SF",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 519,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 89,
+      "recipe_name": "Shanghai Noodles",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Noodles-SF",
+          "quantity": 300.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shanghai Sauce-SF",
+          "quantity": 50.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Veg Petals-SF (Shredded)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 475,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 90,
+      "recipe_name": "Triple Schezwan Rice",
+      "brand": null,
+      "category": "Rice & Noodles",
+      "ingredients": [
+        {
+          "name": "Cooked Basmati Rice-SF",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooked Noodles-SF",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Schezwan Sauce-SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gravy Stock Base-SF",
+          "quantity": 150.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Fried Noodles",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 648,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    }
+  ]
+}

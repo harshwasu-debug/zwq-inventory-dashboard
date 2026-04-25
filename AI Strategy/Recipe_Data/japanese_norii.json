@@ -1,0 +1,5094 @@
+{
+  "schema_version": "1.0",
+  "brand": "Norii",
+  "source_file": "Matt New Menu Recipes.xlsx",
+  "extracted_at": "2026-04-24",
+  "last_updated": "2026-04-24",
+  "recipe_count": 72,
+  "methodology": {
+    "allergens": "Essential-only rule: tags applied solely when an ingredient unambiguously contains the allergen. Japanese-specific: shoyu -> Soya + Gluten (wheat); dashi/bonito -> Fish; tempura batter -> Gluten + Eggs; miso -> Soya; sesame flagged when explicit; tom yum paste -> Fish + Crustaceans due to fish sauce and shrimp paste base. No speculative tagging. Empty -> NO_ALLERGENS.",
+    "calories": "USDA-style per-100g reference table applied to each ingredient converted to grams (liquids via density, eggs 50g/piece). Sub-recipe (SF) kcal computed first and pro-rated into parent dishes by grams used. Combo boxes sum component recipes by quantity. Rounded to integer. Packaging excluded. Wastage not applied.",
+    "wastage_pct": "As-provided decimal from source."
+  },
+  "changelog": [
+    {
+      "date": "2026-04-24",
+      "change": "Initial extraction of 72 Norii (Japanese) finished recipes + 15 semi-finished components from Matt New Menu Recipes.xlsx. Allergens and kcal enriched."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Fixed Sugared drink tagging on Coca-Cola (NOR168) and Sprite (NOR170) full-sugar variants (prior regex miss)."
+    }
+  ],
+  "pending_decisions": [],
+  "semi_finished_components": [
+    {
+      "component_id": "JAP023",
+      "component_name": "SF - Pkg - Sushi Standard",
+      "ingredients": [],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Bamboo Leaves",
+          "quantity": 2.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 4oz Clear",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sauce Cup 4oz",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP024",
+      "component_name": "SF - Pkg - Bowl Set (Small)",
+      "ingredients": [],
+      "packaging": [
+        {
+          "name": "Salad Bowl 500ml",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Salad Bowl 150mm",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP025",
+      "component_name": "SF - Pkg - Main Bowl Set",
+      "ingredients": [],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Salad Bowl 150mm",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP026",
+      "component_name": "SF - Pkg - Rice Main Set",
+      "ingredients": [],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Salad Bowl 150mm",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP027",
+      "component_name": "SF - Pkg - Soup Set",
+      "ingredients": [],
+      "packaging": [
+        {
+          "name": "Soup Cup 16oz Brown",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP028",
+      "component_name": "SF - Pkg - Noodle Soup Set",
+      "ingredients": [],
+      "packaging": [
+        {
+          "name": "Soup Cup 16oz Brown",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP029",
+      "component_name": "SF - Sushi Rice Cooked",
+      "ingredients": [
+        {
+          "name": "Japonica Rice",
+          "quantity": 1.0,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 1.2,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Rice Vinegar",
+          "quantity": 0.25,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt Rock",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP030",
+      "component_name": "SF - Spicy Mayo",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 1.0,
+          "unit": "KG",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Chilli Sauce",
+          "quantity": 0.35,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shichimi Togarashi",
+          "quantity": 0.015,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP031",
+      "component_name": "SF - Teriyaki Sauce",
+      "ingredients": [
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.5,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mirin",
+          "quantity": 0.4,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ginger",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP032",
+      "component_name": "SF - Tempura Batter",
+      "ingredients": [
+        {
+          "name": "Tempura Batter Mix",
+          "quantity": 0.5,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.7,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP033",
+      "component_name": "SF - Gyoza Dip",
+      "ingredients": [
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.5,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Rice Vinegar",
+          "quantity": 0.4,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Oil",
+          "quantity": 0.05,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP034",
+      "component_name": "SF - Yakisoba Sauce",
+      "ingredients": [
+        {
+          "name": "Tonkatsu Sauce",
+          "quantity": 0.5,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Oyster Sauce",
+          "quantity": 0.3,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.15,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP035",
+      "component_name": "SF - Mongolian Sauce",
+      "ingredients": [
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.4,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.2,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ginger",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP036",
+      "component_name": "SF - Jap Curry Sauce",
+      "ingredients": [
+        {
+          "name": "Onion White",
+          "quantity": 0.5,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ghee",
+          "quantity": 0.1,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "All Purpose Flour (Maida)",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garam Masala",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Stock Powder",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 1.5,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "notes": null
+    },
+    {
+      "component_id": "JAP037",
+      "component_name": "SF - Green Curry Sauce",
+      "ingredients": [
+        {
+          "name": "Coconut Milk",
+          "quantity": 1.0,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tom Yum Paste",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Green Chilli",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Fish"
+      ],
+      "notes": null
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_number": "NOR101",
+      "recipe_name": "Prawn Tempura",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Teriyaki Sauce",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 483,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR102",
+      "recipe_name": "Prawn Katsu",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Panko Breadcrumbs",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tonkatsu Sauce",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 550,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR103",
+      "recipe_name": "Shrimp Dynamite",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Spicy Mayo",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Chilli Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Bowl Set (Small)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 694,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR104",
+      "recipe_name": "Chicken Dynamite",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Spicy Mayo",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Bowl Set (Small)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 739,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR105",
+      "recipe_name": "Shrimp Gyoza",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 0.065,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage White",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Gyoza Wrapper",
+          "quantity": 5.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.005,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Gyoza Dip",
+          "quantity": 0.03,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 225,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR106",
+      "recipe_name": "Chicken Gyoza",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Chicken Mince",
+          "quantity": 0.065,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage White",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Gyoza Wrapper",
+          "quantity": 5.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.005,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Gyoza Dip",
+          "quantity": 0.03,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 296,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR107",
+      "recipe_name": "Spicy Edamame",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Edamame",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chili Oil",
+          "quantity": 0.01,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Bowl Set (Small)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Soya"
+      ],
+      "calories_kcal": 264,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR108",
+      "recipe_name": "Edamame",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Edamame",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt Rock",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Bowl Set (Small)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Soya"
+      ],
+      "calories_kcal": 182,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR109",
+      "recipe_name": "Calamari",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Squid Tubes",
+          "quantity": 0.18,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "All Purpose Flour (Maida)",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Chilli Sauce",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Molluscs"
+      ],
+      "calories_kcal": 545,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR110",
+      "recipe_name": "Chicken Robatayaki",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Chicken Thigh Boneless",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Teriyaki Sauce",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Bamboo Skewers",
+          "quantity": 3.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 392,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR111",
+      "recipe_name": "Beef Robatayaki",
+      "brand": "Norii",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Beef Tenderloin (Brazil)",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "SF - Teriyaki Sauce",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Bamboo Skewers",
+          "quantity": 3.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 453,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR112",
+      "recipe_name": "Tom Yum Soup",
+      "brand": "Norii",
+      "category": "Soups & Ramen",
+      "ingredients": [
+        {
+          "name": "Tom Yum Paste",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.25,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Soup Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish"
+      ],
+      "calories_kcal": 68,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR113",
+      "recipe_name": "Tom Yum Udon Soup",
+      "brand": "Norii",
+      "category": "Soups & Ramen",
+      "ingredients": [
+        {
+          "name": "Udon Noodles",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tom Yum Paste",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.35,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Noodle Soup Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 76,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR114",
+      "recipe_name": "Creamy Tom Yum",
+      "brand": "Norii",
+      "category": "Other",
+      "ingredients": [
+        {
+          "name": "Tom Yum Paste",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coconut Milk",
+          "quantity": 0.05,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.2,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Soup Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Fish"
+      ],
+      "calories_kcal": 175,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR115",
+      "recipe_name": "Miso Soup",
+      "brand": "Norii",
+      "category": "Soups & Ramen",
+      "ingredients": [
+        {
+          "name": "White Miso Paste",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hondashi",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.25,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tofu",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.002,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Soup Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Soya"
+      ],
+      "calories_kcal": 74,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR116",
+      "recipe_name": "Miso Beef Ramen",
+      "brand": "Norii",
+      "category": "Soups & Ramen",
+      "ingredients": [
+        {
+          "name": "Egg Ramen Noodles",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Miso Paste",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.35,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Beef Tenderloin (Brazil)",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Noodle Soup Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 406,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR117",
+      "recipe_name": "Miso Chicken Ramen",
+      "brand": "Norii",
+      "category": "Soups & Ramen",
+      "ingredients": [
+        {
+          "name": "Egg Ramen Noodles",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Miso Paste",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.35,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Thigh Boneless",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Noodle Soup Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 373,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR118",
+      "recipe_name": "Salmon Crunch Salad",
+      "brand": "Norii",
+      "category": "Salads",
+      "ingredients": [
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 0.09,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Bowl Set (Small)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish"
+      ],
+      "calories_kcal": 186,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR119",
+      "recipe_name": "Spicy Tuna Salad",
+      "brand": "Norii",
+      "category": "Salads",
+      "ingredients": [
+        {
+          "name": "Tuna",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Spicy Mayo",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 0.09,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Bowl Set (Small)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish"
+      ],
+      "calories_kcal": 273,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR120",
+      "recipe_name": "Chuka Wakame",
+      "brand": "Norii",
+      "category": "Salads",
+      "ingredients": [
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Bowl Set (Small)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 54,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR121",
+      "recipe_name": "Crab Salad",
+      "brand": "Norii",
+      "category": "Salads",
+      "ingredients": [
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Bowl Set (Small)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 280,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR122",
+      "recipe_name": "Cucumber Hosomaki",
+      "brand": "Norii",
+      "category": "Hosomaki",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.015,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 89,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR123",
+      "recipe_name": "Avocado Hosomaki",
+      "brand": "Norii",
+      "category": "Hosomaki",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.045,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.015,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 155,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR124",
+      "recipe_name": "Kani Hosomaki",
+      "brand": "Norii",
+      "category": "Hosomaki",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.015,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 118,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR125",
+      "recipe_name": "Salmon Hosomaki",
+      "brand": "Norii",
+      "category": "Hosomaki",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.015,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 166,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR126",
+      "recipe_name": "Tuna Hosomaki",
+      "brand": "Norii",
+      "category": "Hosomaki",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tuna",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.015,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 136,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR127",
+      "recipe_name": "California Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Tobiko Orange",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 192,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR128",
+      "recipe_name": "Dragon Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.06,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "SF - Teriyaki Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 339,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR129",
+      "recipe_name": "Spicy Tuna Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tuna",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 287,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR130",
+      "recipe_name": "Rainbow Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tuna",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sushi Ebi",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 186,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR131",
+      "recipe_name": "Mango Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 187,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR132",
+      "recipe_name": "Crab Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mayonnaise",
+          "quantity": 0.015,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 254,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR133",
+      "recipe_name": "Philadelphia Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cream Cheese",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 303,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR134",
+      "recipe_name": "Tempura Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 203,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR135",
+      "recipe_name": "Spicy Salmon Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "SF - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 325,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR136",
+      "recipe_name": "Okinawa Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "SF - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Teriyaki Sauce",
+          "quantity": 0.015,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 354,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR137",
+      "recipe_name": "Dynamite Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Spicy Mayo",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 334,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR138",
+      "recipe_name": "Triple Crunch Prawn Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Panko Breadcrumbs",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 353,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR139",
+      "recipe_name": "Sakuragi Prawn Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 316,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR140",
+      "recipe_name": "Crispy Chicken Fried Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Panko Breadcrumbs",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 707,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR141",
+      "recipe_name": "Crispy Shrimp Fried Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Panko Breadcrumbs",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 674,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR142",
+      "recipe_name": "Crispy Salmon Fried Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Panko Breadcrumbs",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 728,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR143",
+      "recipe_name": "Crispy Tuna Fried Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tuna",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Panko Breadcrumbs",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 689,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR144",
+      "recipe_name": "Crispy Vegetarian Fried Roll",
+      "brand": "Norii",
+      "category": "Rolls",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Asparagus",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "SF - Tempura Batter",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Panko Breadcrumbs",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 623,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR145",
+      "recipe_name": "Salmon Nigiri (2 pcs)",
+      "brand": "Norii",
+      "category": "Nigiri",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.036,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.015,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 110,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR146",
+      "recipe_name": "Ebi Nigiri (2 pcs)",
+      "brand": "Norii",
+      "category": "Nigiri",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.036,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sushi Ebi",
+          "quantity": 2.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.015,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 47,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR147",
+      "recipe_name": "Tuna Nigiri (2 pcs)",
+      "brand": "Norii",
+      "category": "Nigiri",
+      "ingredients": [
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.036,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tuna",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.015,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 87,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR148",
+      "recipe_name": "Salmon Sashimi (3 pcs)",
+      "brand": "Norii",
+      "category": "Sashimi",
+      "ingredients": [
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.085,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Radish White",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.015,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 203,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR149",
+      "recipe_name": "Tuna Sashimi (3 pcs)",
+      "brand": "Norii",
+      "category": "Sashimi",
+      "ingredients": [
+        {
+          "name": "Tuna",
+          "quantity": 0.085,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Radish White",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.015,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 138,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR150",
+      "recipe_name": "Shrimp Udon",
+      "brand": "Norii",
+      "category": "Noodles",
+      "ingredients": [
+        {
+          "name": "Udon Noodles",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Yakisoba Sauce",
+          "quantity": 0.07,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage White",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Main Bowl Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 182,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR151",
+      "recipe_name": "Green Curry Udon",
+      "brand": "Norii",
+      "category": "Noodles",
+      "ingredients": [
+        {
+          "name": "Udon Noodles",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Green Curry Sauce",
+          "quantity": 0.15,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Main Bowl Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 389,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR152",
+      "recipe_name": "Shrimp Yakisoba",
+      "brand": "Norii",
+      "category": "Noodles",
+      "ingredients": [
+        {
+          "name": "Egg Ramen Noodles",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Yakisoba Sauce",
+          "quantity": 0.07,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage White",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Main Bowl Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 251,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR153",
+      "recipe_name": "Vegetable Yakisoba",
+      "brand": "Norii",
+      "category": "Noodles",
+      "ingredients": [
+        {
+          "name": "Egg Ramen Noodles",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage White",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "SF - Yakisoba Sauce",
+          "quantity": 0.07,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Main Bowl Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 184,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR154",
+      "recipe_name": "Chicken Yakisoba",
+      "brand": "Norii",
+      "category": "Noodles",
+      "ingredients": [
+        {
+          "name": "Egg Ramen Noodles",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Thigh Boneless",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Yakisoba Sauce",
+          "quantity": 0.07,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Main Bowl Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 326,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR155",
+      "recipe_name": "Stir Fry Beef Rice",
+      "brand": "Norii",
+      "category": "Rice & Curry",
+      "ingredients": [
+        {
+          "name": "Beef Tenderloin (Brazil)",
+          "quantity": 0.18,
+          "unit": "KG",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "SF - Mongolian Sauce",
+          "quantity": 0.07,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Rice Main Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 703,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR156",
+      "recipe_name": "Chicken Katsu Curry",
+      "brand": "Norii",
+      "category": "Rice & Curry",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Jap Curry Sauce",
+          "quantity": 0.15,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Panko Breadcrumbs",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Rice Main Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 623,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR157",
+      "recipe_name": "Chicken Katsu with Rice",
+      "brand": "Norii",
+      "category": "Rice & Curry",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Panko Breadcrumbs",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tonkatsu Sauce",
+          "quantity": 0.04,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Rice Main Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 598,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR158",
+      "recipe_name": "Chicken Teriyaki Rice",
+      "brand": "Norii",
+      "category": "Rice & Curry",
+      "ingredients": [
+        {
+          "name": "Chicken Thigh Boneless",
+          "quantity": 0.16,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Teriyaki Sauce",
+          "quantity": 0.07,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Rice Main Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 631,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR159",
+      "recipe_name": "Beef Teriyaki Rice",
+      "brand": "Norii",
+      "category": "Rice & Curry",
+      "ingredients": [
+        {
+          "name": "Beef Tenderloin (Brazil)",
+          "quantity": 0.16,
+          "unit": "KG",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "SF - Teriyaki Sauce",
+          "quantity": 0.07,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Sushi Rice Cooked",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Rice Main Set",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 697,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR160",
+      "recipe_name": "The Solo Play",
+      "brand": "Norii",
+      "category": "Combo Boxes",
+      "ingredients": [
+        {
+          "name": "Salmon Hosomaki",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR125"
+        },
+        {
+          "name": "Tuna Hosomaki",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR126"
+        },
+        {
+          "name": "Salmon Nigiri (2 pcs)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR145"
+        },
+        {
+          "name": "Tuna Nigiri (2 pcs)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR147"
+        },
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 499,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR161",
+      "recipe_name": "Date Night Box",
+      "brand": "Norii",
+      "category": "Combo Boxes",
+      "ingredients": [
+        {
+          "name": "Salmon Hosomaki",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR125"
+        },
+        {
+          "name": "Tuna Hosomaki",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR126"
+        },
+        {
+          "name": "California Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR127"
+        },
+        {
+          "name": "Salmon Nigiri (2 pcs)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR145"
+        },
+        {
+          "name": "Tuna Nigiri (2 pcs)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR147"
+        },
+        {
+          "name": "Ebi Nigiri (2 pcs)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR146"
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 2.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 738,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR162",
+      "recipe_name": "The Power Feed",
+      "brand": "Norii",
+      "category": "Combo Boxes",
+      "ingredients": [
+        {
+          "name": "Salmon Hosomaki",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR125"
+        },
+        {
+          "name": "Tuna Hosomaki",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR126"
+        },
+        {
+          "name": "Avocado Hosomaki",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR123"
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 457,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR163",
+      "recipe_name": "The Crowd Pleaser",
+      "brand": "Norii",
+      "category": "Combo Boxes",
+      "ingredients": [
+        {
+          "name": "California Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR127"
+        },
+        {
+          "name": "Dragon Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR128"
+        },
+        {
+          "name": "Spicy Tuna Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR129"
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 2.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 818,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR164",
+      "recipe_name": "Signature Flex",
+      "brand": "Norii",
+      "category": "Combo Boxes",
+      "ingredients": [
+        {
+          "name": "Dynamite Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR137"
+        },
+        {
+          "name": "Okinawa Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR136"
+        },
+        {
+          "name": "Triple Crunch Prawn Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR138"
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 2.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 1041,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR165",
+      "recipe_name": "Raw Bar Feast",
+      "brand": "Norii",
+      "category": "Combo Boxes",
+      "ingredients": [
+        {
+          "name": "Salmon Sashimi (3 pcs)",
+          "quantity": 1.33,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR148"
+        },
+        {
+          "name": "Tuna Sashimi (3 pcs)",
+          "quantity": 1.33,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR149"
+        },
+        {
+          "name": "Salmon Nigiri (2 pcs)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR145"
+        },
+        {
+          "name": "Tuna Nigiri (2 pcs)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR147"
+        },
+        {
+          "name": "Ebi Nigiri (2 pcs)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR146"
+        },
+        {
+          "name": "Spicy Tuna Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR129"
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 2.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 985,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR166",
+      "recipe_name": "The Party Starter",
+      "brand": "Norii",
+      "category": "Combo Boxes",
+      "ingredients": [
+        {
+          "name": "Salmon Hosomaki",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR125"
+        },
+        {
+          "name": "Tuna Hosomaki",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR126"
+        },
+        {
+          "name": "California Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR127"
+        },
+        {
+          "name": "Dragon Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR128"
+        },
+        {
+          "name": "Spicy Tuna Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR129"
+        },
+        {
+          "name": "Dynamite Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR137"
+        },
+        {
+          "name": "Okinawa Roll",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR136"
+        },
+        {
+          "name": "Chicken Gyoza",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": "combo-reference to NOR106"
+        },
+        {
+          "name": "Edamame",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "SF - Pkg - Sushi Standard",
+          "quantity": 4.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 2104,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR167",
+      "recipe_name": "Mineral Water",
+      "brand": "Norii",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Arwa 500ml",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR168",
+      "recipe_name": "Coca Cola",
+      "brand": "Norii",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Coca-Cola 330ml",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 139,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR169",
+      "recipe_name": "Coca Cola Zero",
+      "brand": "Norii",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Coca-Cola Zero 330ml",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR170",
+      "recipe_name": "Sprite",
+      "brand": "Norii",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Sprite 330ml",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 122,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR171",
+      "recipe_name": "Sprite Zero",
+      "brand": "Norii",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Sprite Zero 330ml",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "NOR172",
+      "recipe_name": "Fanta",
+      "brand": "Norii",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "name": "Fanta Orange 330ml",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 152,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    }
+  ]
+}

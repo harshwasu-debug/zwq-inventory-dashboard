@@ -1,0 +1,4722 @@
+{
+  "schema_version": "1.0",
+  "brand": "Breakfast Counter",
+  "source_file": "Breakfast_Counter_Recipes.xlsx",
+  "extracted_at": "2026-04-22",
+  "last_updated": "2026-04-24",
+  "recipe_count": 48,
+  "methodology": {
+    "allergens": "Strict-mode tagging: an allergen is flagged ONLY when an ingredient is unambiguously a source of that allergen (e.g., explicit wheat-based items for Gluten; explicit tree nuts for Nuts; wine/explicit sulphite-preserved/dried fruit for Sulphites). Trace/'may contain' signals and non-canonical cues (pickles, vinegar, balsamic, capers, dukkah, Worcestershire, corn tortilla, chicken sausage, falafel, hashbrowns) are NOT flagged. Recipes with no qualifying allergen ingredient use the sentinel allergens: [\"NO_ALLERGENS\"].",
+    "calories": "Estimated from ingredient quantities using USDA/standard food composition per-100g values. Wastage not applied. Rounded to nearest integer. Estimates only — verify with lab testing for regulatory labeling.",
+    "wastage_pct": "wastage_pct is stored as a decimal fraction (e.g. 0.05 = 5%)"
+  },
+  "changelog": [
+    {
+      "date": "2026-04-22",
+      "entry": "Moved bagel items from packaging[] to ingredients[] for recipes #13, #14, #15, #16, #31."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Re-derived allergens for bagel recipes (#13, #14, #15, #16, #31) — added Gluten for all bagels, added Sesame Seeds for sesame/plain-or-sesame bagels."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recomputed calories_kcal for recipes #13, #14, #15, #16, #31 to include bagel contribution."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Built recipe #48 Hearty Protein Bowl from menu description (BOM, packaging matched to #22/#23, allergens, kcal). Cleared prior 'not yet defined' note."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Added pending_decisions array flagging Maple Syrup (Taste Basics Honey) identity, Hearty Protein Bowl BOM verification, and other slashed/ambiguous ingredient names."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Renamed \"Maple Syrup (Taste Basics Honey)\" -> \"Maple Syrup\" in recipes [18, 26, 27, 29, 42]."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recipe #11: renamed \"Smoked Paprika / Aleppo Pepper\" -> \"Aleppo Pepper\" (slashed-ingredient resolution)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recipe #31: renamed \"Bagel Plain/Sesame (Mini)\" -> \"Bagel Plain (Mini)\" (slashed-ingredient resolution)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recipe #31: renamed \"Jam / Honey (optional side)\" -> \"Jam (optional side)\" (slashed-ingredient resolution)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recipe #36: renamed \"Blueberry / Grapes\" -> \"Blueberry\" (slashed-ingredient resolution)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recipe #39: renamed \"Chipotle Powder / Chipotle in Adobo\" -> \"Chipotle in Adobo\" (slashed-ingredient resolution)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recipe #40: renamed \"Chilli Flakes / Jalapeño\" -> \"Jalapeño\" (slashed-ingredient resolution)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recipe #10 Shakshuka rebuilt: split tomato base (Tomato Paste 15g + Peeled Tomato 120g); kcal 357->376."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recipe #48 Hearty Protein Bowl rebuilt per Deliverect live listing + photo: cheddar->feta crumbled, added broccoli/cherry tomato/avocado/seasoned rice; kcal 674->738."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Recipe #43 renamed \"Vanilla Classic Oats\" -> \"Apple Berry Oats\" (drops Vanilla; matches actual BOM)."
+    },
+    {
+      "date": "2026-04-22",
+      "entry": "Generalized bagel ingredient names — bagel type is a customer modifier. Applied conservative Gluten+Sesame allergen declaration. Cleared Hearty Protein Bowl pending decision — spec confirmed by operator."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Re-tagged allergens across all recipes using new 16-tag cloud-kitchen aggregator taxonomy (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). Consolidated specific tree-nut/grain sub-tags into umbrella tags; removed Sulphites from items lacking explicit sulphite preservation."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Dial-back allergen re-tagging (strict 'essential only' rule): Sulphites removed from non-wine/non-sulphite-preserved/non-dried-fruit ingredients; Gluten no longer tagged for corn tortilla, hashbrowns, chicken sausage, or falafel (unless explicit); Nuts no longer tagged from dukkah; Mustard/Celery now explicit-only. Recipes with no qualifying allergen now carry [\"NO_ALLERGENS\"] sentinel."
+    },
+    {
+      "date": "2026-04-24",
+      "change": "Alignment fixes: Nutella flagged Dairy+Nuts; Granola flagged Gluten; Medjool Dates Sulphites removed."
+    }
+  ],
+  "pending_decisions": [],
+  "recipes": [
+    {
+      "recipe_number": 1,
+      "recipe_name": "The Truffle Mushroom Scramble",
+      "brand": "Breakfast Counter",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Butter (for mushrooms)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for eggs)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Truffle Oil (Black Truffle Oil)",
+          "quantity": 2,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Parmesan Grated",
+          "quantity": 8,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Truffle Mayo",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Chives (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 620,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 2,
+      "recipe_name": "Classic Smashed Avo Toast",
+      "brand": "Breakfast Counter",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lemon Zest (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 361,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 3,
+      "recipe_name": "The Mediterranean Zaatar Toast",
+      "brand": "Breakfast Counter",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.4,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Zaatar",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Zest (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 1.5",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 1.5",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 236,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 4,
+      "recipe_name": "Caprese and Pesto Toast",
+      "brand": "Breakfast Counter",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Mozzarella (Pinar/Maestrella)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Basil Pesto",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Balsamic Vinegar (Mara Balsamic)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Basil Leaves (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 396,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 5,
+      "recipe_name": "Spicy Tuna Melt Toast",
+      "brand": "Breakfast Counter",
+      "category": "TOASTS",
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tuna (Kingway Tuna in Water)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Cheddar Shredded",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Jalapeno Sliced (Amer. Classic)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Chili Sauce",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo (drizzle garnish)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion Sliced (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 2.0",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 470,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 6,
+      "recipe_name": "The Three Cheese Fold",
+      "brand": "Breakfast Counter",
+      "category": "OMELETTES",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for cooking)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Cheddar Shredded",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Mozzarella Shredded",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese (3 Cow)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Side Salad Greens (Lollo Rosso/Iceberg)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (for salad)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chives (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs"
+      ],
+      "calories_kcal": 378,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 7,
+      "recipe_name": "The Egg Whites (Fit)",
+      "brand": "Breakfast Counter",
+      "category": "OMELETTES",
+      "ingredients": [
+        {
+          "name": "Egg White (separated from 4 eggs)",
+          "quantity": 4,
+          "unit": "Piece",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Spinach Leaves",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (for cooking)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 499,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 8,
+      "recipe_name": "Classic Spanish Potato Omelet",
+      "brand": "Breakfast Counter",
+      "category": "OMELETTES",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Potato (Diced & Pre-cooked)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Onion (diced)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Bell Pepper Mixed",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cheese Cheddar Sliced",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (for cooking)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flat-leaf Parsley (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Smoked Paprika (garnish dusting)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs"
+      ],
+      "calories_kcal": 395,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 9,
+      "recipe_name": "The Mexican Omelet",
+      "brand": "Breakfast Counter",
+      "category": "OMELETTES",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for cooking)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Beans (Canned)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pico de Gallo (Tomato/Onion/Cilantro/Jalapeno)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cheese Cheddar Sliced",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Guacamole",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Sour Cream (garnish)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Cilantro (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Jalapeno Sliced (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheddar Shredded (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs"
+      ],
+      "calories_kcal": 481,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 10,
+      "recipe_name": "Homestyle Levantine Shakshuka",
+      "brand": "Breakfast Counter",
+      "category": "EGGS",
+      "ingredients": [
+        {
+          "name": "Tomato Paste (Anna)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Peeled Tomato (canned, crushed)",
+          "quantity": 120,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Bell Pepper Mixed",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Onion (diced)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Harissa Paste",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (poached in sauce)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese (3 Cow)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olives Black Sliced",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Coriander (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Sourdough Bread (side)",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 376,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Recipe rebuilt 2026-04-22 — user to confirm with chef."
+    },
+    {
+      "recipe_number": 11,
+      "recipe_name": "Turkish Style Eggs (Cilbir)",
+      "brand": "Breakfast Counter",
+      "category": "EGGS",
+      "ingredients": [
+        {
+          "name": "Egg (Poached)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Yoghurt (ZAD Catering)",
+          "quantity": 70,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Ghee (AMUL/Aseel)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Aleppo Pepper",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Dill Leaves",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Sourdough Bread (side)",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 750ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 362,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 12,
+      "recipe_name": "The Full American Breakfast",
+      "brand": "Breakfast Counter",
+      "category": "EGGS",
+      "ingredients": [
+        {
+          "name": "Egg (Fried)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Crispy Beef Bacon (Frozen Slices)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chicken Sausage",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Hashbrowns (Frozen)",
+          "quantity": 60,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Baked Beans (Canned)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tomato (Grilled)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Sourdough Toast",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for toast)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flat-leaf Parsley (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 857,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 13,
+      "recipe_name": "The B.E.C. Bagel",
+      "brand": "Breakfast Counter",
+      "category": "BAGELS",
+      "ingredients": [
+        {
+          "name": "Bagel",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Fried)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Crispy Beef Bacon",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Slices Yellow",
+          "quantity": 1,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for toasting)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo (drizzle)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Burger Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greaseproof Paper",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 636,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Bagel type (Plain / Sesame / Everything) is a customer modifier. Sesame Seeds allergen applied conservatively."
+    },
+    {
+      "recipe_number": 14,
+      "recipe_name": "Lox & Cream Cheese Bagel",
+      "brand": "Breakfast Counter",
+      "category": "BAGELS",
+      "ingredients": [
+        {
+          "name": "Bagel",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Smoked Salmon",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cream Cheese (Philadelphia)",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Capers",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Red Onion (for pickling)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "White Vinegar (pickling liquid)",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Dill Leaves (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Burger Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greaseproof Paper",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 410,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Bagel type (Plain / Sesame / Everything) is a customer modifier. Sesame Seeds allergen applied conservatively."
+    },
+    {
+      "recipe_number": 15,
+      "recipe_name": "Halloumi Cheese Bagel",
+      "brand": "Breakfast Counter",
+      "category": "BAGELS",
+      "ingredients": [
+        {
+          "name": "Bagel",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Halloumi Cheese (Green Hill)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Black Sliced (blended as tapenade)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (for tapenade)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Rocca Lettuce",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Burger Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greaseproof Paper",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 412,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Bagel type (Plain / Sesame / Everything) is a customer modifier. Sesame Seeds allergen applied conservatively."
+    },
+    {
+      "recipe_number": 16,
+      "recipe_name": "The Avocado & Egg Bagel",
+      "brand": "Breakfast Counter",
+      "category": "BAGELS",
+      "ingredients": [
+        {
+          "name": "Bagel",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Egg (Poached)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Burger Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greaseproof Paper",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 485,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Bagel type (Plain / Sesame / Everything) is a customer modifier. Sesame Seeds allergen applied conservatively."
+    },
+    {
+      "recipe_number": 17,
+      "recipe_name": "The Breakfast Bao Trio",
+      "brand": "Breakfast Counter",
+      "category": "BUNS & BURGERS",
+      "ingredients": [
+        {
+          "name": "Bao Buns",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Slice",
+          "quantity": 0.5,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Crispy Beef Bacon",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White (sautéed)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Butter (for eggs)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Truffle Mayo",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion Sliced (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo (side)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box Kraft Large",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 830,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 18,
+      "recipe_name": "The Crispy Chicken Morning Bao",
+      "brand": "Breakfast Counter",
+      "category": "BUNS & BURGERS",
+      "ingredients": [
+        {
+          "name": "Bao Buns",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Americana Spicy Chicken Strip",
+          "quantity": 60,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Fried)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Gochujang Sauce",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Maple Syrup",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cucumber (julienned)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion Sliced (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box Kraft Large",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 569,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 19,
+      "recipe_name": "Fairfax Egg Bun",
+      "brand": "Breakfast Counter",
+      "category": "BUNS & BURGERS",
+      "ingredients": [
+        {
+          "name": "Brioche Bun",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 1.5,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Cheddar Shredded",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Caramelised Onion",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Butter (for eggs)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion Slivers (garnish)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Burger Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greaseproof Paper",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 432,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 20,
+      "recipe_name": "Classic Ranchero Burrito",
+      "brand": "Breakfast Counter",
+      "category": "BURRITOS & TACOS",
+      "ingredients": [
+        {
+          "name": "10\" Flour Tortilla",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 1.5,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Beans (Canned)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheddar Cheese Shredded",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Rice Basmati (cooked)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pico de Gallo",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Guacamole (side)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Sour Cream (side)",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Cilantro (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lime Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sandwich Paper White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag Brown",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 4oz Clear with Lid",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 509,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 21,
+      "recipe_name": "The Breakfast Tacos (3 Pcs)",
+      "brand": "Breakfast Counter",
+      "category": "BURRITOS & TACOS",
+      "ingredients": [
+        {
+          "name": "Corn Tortilla 6\"",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Red Onion (for pickling)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "White Vinegar (pickling liquid)",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chipotle Sauce",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Fresh Cilantro (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lime Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 500ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 642,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 22,
+      "recipe_name": "Classic Grilled Chicken Bowl",
+      "brand": "Breakfast Counter",
+      "category": "BOWLS",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Quinoa",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Harissa Paste (marinade)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (halved, roasted)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Cucumber (sliced)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Mixed Greens",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Tahini",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Dukkah (garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 558,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 23,
+      "recipe_name": "Classic Middle Eastern Breakfast Bowl",
+      "brand": "Breakfast Counter",
+      "category": "BOWLS",
+      "ingredients": [
+        {
+          "name": "Hummus",
+          "quantity": 60,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Labneh",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Falafel (frozen/pre-made)",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Poached)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (halved)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cucumber (sliced)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olives Black",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Zaatar (on hummus)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Parsley (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Pita Bread (side)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 692,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 24,
+      "recipe_name": "The Lotus Biscoff Pancakes",
+      "brand": "Breakfast Counter",
+      "category": "PANCAKES & FRENCH TOAST",
+      "ingredients": [
+        {
+          "name": "All-Purpose Flour",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 60,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Baking Powder",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for cooking)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lotus Biscoff Sauce",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Strawberry",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Lotus Biscoff Biscuit (crushed garnish)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Container 750cc with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 525,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 25,
+      "recipe_name": "Nutella and Berry Pancakes",
+      "brand": "Breakfast Counter",
+      "category": "PANCAKES & FRENCH TOAST",
+      "ingredients": [
+        {
+          "name": "All-Purpose Flour",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 60,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Baking Powder",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for cooking)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Hazelnut Choco Spread (Nutella)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Strawberry",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Powdered Sugar (garnish dusting)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Container 750cc with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten",
+        "Nuts"
+      ],
+      "calories_kcal": 493,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 26,
+      "recipe_name": "Homestyle French Toast",
+      "brand": "Breakfast Counter",
+      "category": "PANCAKES & FRENCH TOAST",
+      "ingredients": [
+        {
+          "name": "Brioche Bun (Sliced Thick)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (for batter)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk Full Fat (for batter)",
+          "quantity": 30,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Vanilla Extract (for batter)",
+          "quantity": 1,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cinnamon (for batter)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for pan)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Maple Syrup",
+          "quantity": 30,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Powdered Sugar (garnish dusting)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Container 750cc with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 383,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 27,
+      "recipe_name": "Mini Pancake Stack (5 pcs)",
+      "brand": "Breakfast Counter",
+      "category": "PANCAKES & FRENCH TOAST",
+      "ingredients": [
+        {
+          "name": "All-Purpose Flour",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 50,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Baking Powder",
+          "quantity": 1.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 4,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for cooking)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Maple Syrup",
+          "quantity": 15,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Fresh Strawberry",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Container 750cc with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 341,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 28,
+      "recipe_name": "Scrambled Eggs & Soldiers",
+      "brand": "Breakfast Counter",
+      "category": "KIDS MENU",
+      "ingredients": [
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 1.5,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Brioche Bun (cut into soldiers)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for eggs)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for toasting)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ketchup (side)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 328,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 29,
+      "recipe_name": "Kids Classic French Toast",
+      "brand": "Breakfast Counter",
+      "category": "KIDS MENU",
+      "ingredients": [
+        {
+          "name": "Brioche Bun (Sliced, half portion)",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (for batter)",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk Full Fat (for batter)",
+          "quantity": 15,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Vanilla Extract (for batter)",
+          "quantity": 0.5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cinnamon (for batter)",
+          "quantity": 0.25,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter (for pan)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Maple Syrup",
+          "quantity": 15,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Powdered Sugar (optional garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 197,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 30,
+      "recipe_name": "Warm Nutella Toast",
+      "brand": "Breakfast Counter",
+      "category": "KIDS MENU",
+      "ingredients": [
+        {
+          "name": "Brioche Bun (Sliced)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Hazelnut Choco Spread (Nutella)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh (sliced)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Butter (for toasting)",
+          "quantity": 3,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Powdered Sugar (optional garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Nuts"
+      ],
+      "calories_kcal": 332,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 31,
+      "recipe_name": "The Mini Bagel & Cream Cheese",
+      "brand": "Breakfast Counter",
+      "category": "KIDS MENU",
+      "ingredients": [
+        {
+          "name": "Bagel (Mini)",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cream Cheese (Philadelphia)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chives (optional garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (optional)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Jam (optional side)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 220,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Bagel type (Plain / Sesame / Everything) is a customer modifier. Sesame Seeds allergen applied conservatively."
+    },
+    {
+      "recipe_number": 32,
+      "recipe_name": "Crispy Hashbrowns (2 Pcs)",
+      "brand": "Breakfast Counter",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Hashbrowns (Frozen)",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Ketchup (side)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 276,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 33,
+      "recipe_name": "Beef Bacon (3 Strips)",
+      "brand": "Breakfast Counter",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Crispy Beef Bacon (Frozen Slices)",
+          "quantity": 60,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 327,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 34,
+      "recipe_name": "Chicken Sausage Patties",
+      "brand": "Breakfast Counter",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Chicken Sausage",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Flat-leaf Parsley (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Grain Mustard (side)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Mustard"
+      ],
+      "calories_kcal": 248,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 35,
+      "recipe_name": "Avocado Slices",
+      "brand": "Breakfast Counter",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil (drizzle)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Flaky Sea Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes (garnish)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Snack Box",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 86,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 36,
+      "recipe_name": "Classic Fruit Cup",
+      "brand": "Breakfast Counter",
+      "category": "SIDES",
+      "ingredients": [
+        {
+          "name": "Watermelon (cubed)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Mango (cubed)",
+          "quantity": 40,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Kiwi (cubed)",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Fresh Mint Leaves (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lime Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Honey (optional drizzle)",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 500ml Brown with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 88,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 37,
+      "recipe_name": "House Truffle Mayo",
+      "brand": "Breakfast Counter",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Truffle Oil (Black Truffle Oil)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chives (garnish)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 230,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 38,
+      "recipe_name": "Classic Sriracha Mayo",
+      "brand": "Breakfast Counter",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Chili Sauce",
+          "quantity": 10,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds (garnish)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Sesame"
+      ],
+      "calories_kcal": 182,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 39,
+      "recipe_name": "Smoky Chipotle Sauce",
+      "brand": "Breakfast Counter",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Mayonnaise",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chipotle in Adobo",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lime Juice",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Fresh Cilantro (garnish)",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 142,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 40,
+      "recipe_name": "Homestyle Guacamole",
+      "brand": "Breakfast Counter",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lime Juice",
+          "quantity": 5,
+          "unit": "ML",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Red Onion (finely diced)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (finely diced)",
+          "quantity": 10,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Fresh Cilantro",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Jalapeño",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lime Wedge",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 4oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 89,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 41,
+      "recipe_name": "Lotus Biscoff Dip",
+      "brand": "Breakfast Counter",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Lotus Biscoff Sauce",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lotus Biscoff Biscuit (crushed, optional garnish)",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 144,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 42,
+      "recipe_name": "Warm Maple Syrup",
+      "brand": "Breakfast Counter",
+      "category": "SAUCES",
+      "ingredients": [
+        {
+          "name": "Maple Syrup",
+          "quantity": 30,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 91,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 43,
+      "recipe_name": "Apple Berry Oats",
+      "brand": "Breakfast Counter",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Red Apple (cubed)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Green Apple (cubed)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Fresh/Frozen)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Strawberry (Fresh/Frozen, halved)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Peanut Butter (drizzle)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Juice (anti-browning for apple)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Peanuts"
+      ],
+      "calories_kcal": 759,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 44,
+      "recipe_name": "Classic Berry Blast Oats",
+      "brand": "Breakfast Counter",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Strawberry (Fresh/Frozen, halved)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Fresh/Frozen)",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Raspberry (Fresh/Frozen)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 613,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 45,
+      "recipe_name": "Banana Peanut Butter Overnight Oats",
+      "brand": "Breakfast Counter",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh (coin slices)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Medjool Dates (chopped)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Fresh/Frozen)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Peanut Butter (drizzle)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Juice (anti-browning for banana)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Peanuts"
+      ],
+      "calories_kcal": 820,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 46,
+      "recipe_name": "Apple and Date Oats",
+      "brand": "Breakfast Counter",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Red Apple (cubed)",
+          "quantity": 35,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Green Apple (cubed)",
+          "quantity": 35,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Medjool Dates (chopped)",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lemon Juice (anti-browning for apple)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 684,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 47,
+      "recipe_name": "The Banana Split Oats",
+      "brand": "Breakfast Counter",
+      "category": "OVERNIGHT OATS",
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk (Full Fat)",
+          "quantity": 250,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 45,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh (coin slices)",
+          "quantity": 50,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Strawberry (Fresh/Frozen, halved)",
+          "quantity": 25,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blueberry (Fresh/Frozen)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Raspberry (Fresh/Frozen)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lemon Juice (anti-browning for banana)",
+          "quantity": 3,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Soup Cup 26oz",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 643,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 48,
+      "recipe_name": "Hearty Protein Bowl",
+      "brand": "Breakfast Counter",
+      "category": "PROTEIN BOWLS",
+      "ingredients": [
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 2,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Crispy Beef Bacon",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cheese Feta Crumbled",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Rice Basmati (seasoned, cooked)",
+          "quantity": 80,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Mayo",
+          "quantity": 15,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Broccoli (steamed)",
+          "quantity": 30,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (halved)",
+          "quantity": 20,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass (sliced)",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion Sliced (garnish)",
+          "quantity": 2,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper (cracked)",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Salad Bowl 1100ml With Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce Cup 2oz Clear with Lid",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs"
+      ],
+      "calories_kcal": 738,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": "Built from Deliverect live listing + photo reference 2026-04-22; user to confirm with chef. Modifier: customer selects Crispy Beef Bacon (default) or Chicken Sausage 50 GM; costing tracks default."
+    }
+  ]
+}

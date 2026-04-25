@@ -1,0 +1,4366 @@
+{
+  "schema_version": "1.0",
+  "brand": "PokeMan",
+  "source_file": "PokeMan_Recipe_Sheet.xlsx",
+  "extracted_at": "2026-04-24",
+  "last_updated": "2026-04-24",
+  "recipe_count": 52,
+  "methodology": {
+    "allergens": "Essential-only tagging from a 16-tag vocabulary (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). Poke-specific mapping: soy/teriyaki/miso/edamame/tofu/ponzu -> Soya (and Gluten if wheat-soy); sesame/furikake -> Sesame; salmon/tuna/tobiko/dashi/surimi -> Fish (kani/surimi additionally Crustaceans); shrimp/crab/lobster -> Crustaceans; squid/octopus -> Molluscs; mayo-based sauces (Kewpie, spicy mayo, eel, sriracha mayo, yum-yum, wasabi mayo) -> Eggs. Empty -> NO_ALLERGENS.",
+    "calories": "Per-recipe kcal computed from a poke-specific per-100g reference table (sushi rice 165, salmon 208, tuna 132, tofu 76, avocado 160, mango 60, edamame 121, kewpie 710, spicy mayo 600, sesame seeds 573, sesame oil 884, furikake 437, etc.). Quantities in kg/L converted to per-100g; pieces priced via per-piece table. Packaging excluded. Wastage NOT applied to calories. Semi-finished components (sushi rice base, sauces, salad mix) computed as cal/kg from their sub-ingredients and rolled up. Rounded to int.",
+    "wastage_pct": "Wastage stored as decimal fraction (10% -> 0.10). Source values normalized from percentage strings."
+  },
+  "changelog": [
+    {
+      "date": "2026-04-24",
+      "entry": "Initial extraction + enrichment."
+    }
+  ],
+  "pending_decisions": [],
+  "semi_finished_components": [
+    {
+      "code": "POK002",
+      "name": "Base - Salad Mix",
+      "ingredients": [
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 0.5,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Lollo Bionda",
+          "quantity": 0.3,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 171
+    },
+    {
+      "code": "POK001",
+      "name": "Base - Sushi Rice (Cooked)",
+      "ingredients": [
+        {
+          "name": "Japonica Rice",
+          "quantity": 1.0,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 1.1,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Rice Vinegar",
+          "quantity": 0.15,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.08,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt Iodized",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 1680
+    },
+    {
+      "code": "POK004",
+      "name": "Garnish - Crispy Onions",
+      "ingredients": [
+        {
+          "name": "Onion Red",
+          "quantity": 1.0,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.5,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 2936
+    },
+    {
+      "code": "POK003",
+      "name": "Garnish - House Furikake",
+      "ingredients": [
+        {
+          "name": "Nori Sheets",
+          "quantity": 5.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Bonito flakes",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 4584
+    },
+    {
+      "code": "POK014",
+      "name": "PkgSet - Side Cold",
+      "ingredients": [
+        {
+          "name": "Salad Bowl 500ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Salad Bowl 150mm",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 0
+    },
+    {
+      "code": "POK013",
+      "name": "PkgSet - Side Hot",
+      "ingredients": [
+        {
+          "name": "Soup Cup 12oz Brown",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 0
+    },
+    {
+      "code": "POK010",
+      "name": "PkgSet - Signature Poke",
+      "ingredients": [
+        {
+          "name": "Salad Bowl 1100ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Salad Bowl 165mm",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 0
+    },
+    {
+      "code": "POK011",
+      "name": "PkgSet - Standard Poke",
+      "ingredients": [
+        {
+          "name": "Salad Bowl 750ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Salad Bowl 165mm",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 0
+    },
+    {
+      "code": "POK008",
+      "name": "Prep - Grilled Chicken",
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 1.0,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 1650
+    },
+    {
+      "code": "POK006",
+      "name": "Prep - Salmon Cubes",
+      "ingredients": [
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 1.0,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 2080
+    },
+    {
+      "code": "POK007",
+      "name": "Prep - Shrimp (Boiled)",
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 1.0,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 990
+    },
+    {
+      "code": "POK009",
+      "name": "Prep - Tempura Batter",
+      "ingredients": [
+        {
+          "name": "Tempura Batter Mix",
+          "quantity": 0.5,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.7,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 1521
+    },
+    {
+      "code": "POK005",
+      "name": "Prep - Tuna Cubes",
+      "ingredients": [
+        {
+          "name": "Tuna",
+          "quantity": 1.0,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "calories_per_kg": 1320
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_number": "PKM-101",
+      "recipe_name": "The Classic Salmon",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 0.001,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 831,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-102",
+      "recipe_name": "Spicy Tuna & Mango",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 748,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-103",
+      "recipe_name": "The Grand Tuna",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.001,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 0.001,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame"
+      ],
+      "calories_kcal": 723,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-104",
+      "recipe_name": "The All-Star",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - Crispy Onions",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.001,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 773,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-105",
+      "recipe_name": "Spicy Salmon Umami",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Beetroot Sliced",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame"
+      ],
+      "calories_kcal": 792,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-106",
+      "recipe_name": "Island Fusion",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cashew Nuts Whole",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shichimi Togarashi",
+          "quantity": 0.001,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Nuts",
+        "Peanuts"
+      ],
+      "calories_kcal": 857,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-107",
+      "recipe_name": "California Crab Bowl",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.12,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Tobiko Orange",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.002,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 761,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-108",
+      "recipe_name": "The Veggie Bliss",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tofu",
+          "quantity": 0.12,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Radish White",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 0.002,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 694,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-109",
+      "recipe_name": "Regular Bowl (3 Proteins)",
+      "brand": "PokeMan",
+      "category": "Build Your Own",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.06,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.06,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Soya"
+      ],
+      "calories_kcal": 795,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-110",
+      "recipe_name": "Large Bowl (4 Proteins)",
+      "brand": "PokeMan",
+      "category": "Build Your Own",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.08,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.08,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Soya"
+      ],
+      "calories_kcal": 896,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-111",
+      "recipe_name": "Super Bowl (5 Proteins)",
+      "brand": "PokeMan",
+      "category": "Build Your Own",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.05,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Soya"
+      ],
+      "calories_kcal": 1027,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-112",
+      "recipe_name": "Grilled Chicken Teppanyaki",
+      "brand": "PokeMan",
+      "category": "Hot Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Grilled Chicken",
+          "quantity": 0.15,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Green",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion White",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.002,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.05,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Cabbage Chinese",
+          "quantity": 0.05,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 799,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-113",
+      "recipe_name": "Grilled Shrimp Teppanyaki",
+      "brand": "PokeMan",
+      "category": "Hot Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.12,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Green",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion White",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.002,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.05,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Cabbage Chinese",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Sesame"
+      ],
+      "calories_kcal": 666,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-114",
+      "recipe_name": "Miso Beef Ramen",
+      "brand": "PokeMan",
+      "category": "Hot Bowls",
+      "ingredients": [
+        {
+          "name": "Egg Ramen Noodles",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.4,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Miso Paste",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hondashi",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Beef Tenderloin (India)",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sweet Corn Kernel",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 750,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-115",
+      "recipe_name": "Miso Chicken Ramen",
+      "brand": "PokeMan",
+      "category": "Hot Bowls",
+      "ingredients": [
+        {
+          "name": "Egg Ramen Noodles",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.4,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Miso Paste",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hondashi",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Grilled Chicken",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Corn Kernel",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 665,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-116",
+      "recipe_name": "Salmon Sashimi",
+      "brand": "PokeMan",
+      "category": "Sashimi & Salads",
+      "ingredients": [
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Radish White",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 1.5",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 1.5",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish"
+      ],
+      "calories_kcal": 230,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-117",
+      "recipe_name": "Tuna Sashimi",
+      "brand": "PokeMan",
+      "category": "Sashimi & Salads",
+      "ingredients": [
+        {
+          "name": "Tuna",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Radish White",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Sushi Tray 1.5",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 1.5",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish"
+      ],
+      "calories_kcal": 154,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-118",
+      "recipe_name": "Salmon Crunch Salad",
+      "brand": "PokeMan",
+      "category": "Sashimi & Salads",
+      "ingredients": [
+        {
+          "name": "Base - Salad Mix",
+          "quantity": 0.15,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.06,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tempura Batter Mix",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 680,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-119",
+      "recipe_name": "Spicy Tuna Salad",
+      "brand": "PokeMan",
+      "category": "Sashimi & Salads",
+      "ingredients": [
+        {
+          "name": "Base - Salad Mix",
+          "quantity": 0.15,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Umami Fusion",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame"
+      ],
+      "calories_kcal": 335,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-120",
+      "recipe_name": "Chuka Wakame",
+      "brand": "PokeMan",
+      "category": "Sashimi & Salads",
+      "ingredients": [
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.12,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.002,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Cold",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 108,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-121",
+      "recipe_name": "Miso Soup",
+      "brand": "PokeMan",
+      "category": "Soups",
+      "ingredients": [
+        {
+          "name": "Tap Water",
+          "quantity": 0.3,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Miso Paste",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hondashi",
+          "quantity": 0.003,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tofu",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.002,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 91,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-122",
+      "recipe_name": "Tom Yum Soup",
+      "brand": "PokeMan",
+      "category": "Soups",
+      "ingredients": [
+        {
+          "name": "Tap Water",
+          "quantity": 0.3,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tom Yum Paste",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Crab Whole",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Squid Tubes",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tomato",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 0.002,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Molluscs"
+      ],
+      "calories_kcal": 152,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-123",
+      "recipe_name": "Creamy Tom Yum",
+      "brand": "PokeMan",
+      "category": "Soups",
+      "ingredients": [
+        {
+          "name": "Tap Water",
+          "quantity": 0.25,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coconut Milk",
+          "quantity": 0.05,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tom Yum Paste",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Crab Whole",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Squid Tubes",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tomato",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Molluscs"
+      ],
+      "calories_kcal": 151,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-124",
+      "recipe_name": "Edamame",
+      "brand": "PokeMan",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Edamame",
+          "quantity": 0.15,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt Rock",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Cold",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Soya"
+      ],
+      "calories_kcal": 182,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-125",
+      "recipe_name": "Dynamite Shrimp",
+      "brand": "PokeMan",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.12,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tempura Batter",
+          "quantity": 0.05,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.05,
+          "unit": "L",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Dynamite",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.002,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten"
+      ],
+      "calories_kcal": 637,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-126",
+      "recipe_name": "Chicken Gyoza",
+      "brand": "PokeMan",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Gyoza Wrapper",
+          "quantity": 5.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Mince",
+          "quantity": 0.08,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ginger",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Cabbage Chinese",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 146,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-127",
+      "recipe_name": "Chicken Caesar Wrap",
+      "brand": "PokeMan",
+      "category": "Wraps",
+      "ingredients": [
+        {
+          "name": "Chicken Tenders Frozen",
+          "quantity": 3.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Frying Oil",
+          "quantity": 15.0,
+          "unit": "g",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tortilla Flour (12 inch)",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Caesar Sauce",
+          "quantity": 30.0,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Parmesan Cheese, Grated",
+          "quantity": 15.0,
+          "unit": "g",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Tomato",
+          "quantity": 30.0,
+          "unit": "g",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 50.0,
+          "unit": "g",
+          "wastage_pct": 0.12,
+          "notes": null
+        },
+        {
+          "name": "Classic Fries (Portion)",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Aioli Dip (Portion)",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wrap Packaging (Set)",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "Final Bagging (Set)",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 1206,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-128",
+      "recipe_name": "Signature Combo",
+      "brand": "PokeMan",
+      "category": "Combos",
+      "ingredients": [
+        {
+          "name": "The Classic Salmon",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Miso Soup",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 922,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-129",
+      "recipe_name": "Lunch Special",
+      "brand": "PokeMan",
+      "category": "Combos",
+      "ingredients": [
+        {
+          "name": "The Classic Salmon",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 1013,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-130",
+      "recipe_name": "Mineral Water",
+      "brand": "PokeMan",
+      "category": "Add-Ons",
+      "ingredients": [
+        {
+          "name": "Arwa Water",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Arwa Water",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-131",
+      "recipe_name": "Coca-Cola",
+      "brand": "PokeMan",
+      "category": "Add-Ons",
+      "ingredients": [
+        {
+          "name": "Coca-Cola 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 278,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-132",
+      "recipe_name": "Coca-Cola Zero",
+      "brand": "PokeMan",
+      "category": "Add-Ons",
+      "ingredients": [
+        {
+          "name": "Coca-Cola Zero 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola Zero 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-133",
+      "recipe_name": "Fanta",
+      "brand": "PokeMan",
+      "category": "Add-Ons",
+      "ingredients": [
+        {
+          "name": "Fanta Orange 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Fanta Orange 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 290,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-134",
+      "recipe_name": "Sprite",
+      "brand": "PokeMan",
+      "category": "Add-Ons",
+      "ingredients": [
+        {
+          "name": "Sprite 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sprite 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 278,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-135",
+      "recipe_name": "Sprite Zero",
+      "brand": "PokeMan",
+      "category": "Add-Ons",
+      "ingredients": [
+        {
+          "name": "Sprite Zero 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sprite Zero 330ml",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-136",
+      "recipe_name": "Korean BBQ Bowl",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Beef Tenderloin (India)",
+          "quantity": 0.1,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kimchi",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Radish",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Gochujang",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 753,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-137",
+      "recipe_name": "Blackened Dory Fish Bowl",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dory Fish Fillet",
+          "quantity": 0.11,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Chipotle Mayo",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Blackening Spice Mix",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 525,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-138",
+      "recipe_name": "Chipotle Shrimp Bowl",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.11,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Corn",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Jalapeño",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Chipotle Mayo",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coriander Fresh",
+          "quantity": 0.003,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs"
+      ],
+      "calories_kcal": 609,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-139",
+      "recipe_name": "California Roll Bowl",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Crab Surimi",
+          "quantity": 0.08,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Tobiko",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 0.25,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish",
+        "Sesame"
+      ],
+      "calories_kcal": 759,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-140",
+      "recipe_name": "Garlic Butter Shrimp Bowl",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.12,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Asparagus",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Corn",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Butter",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teriyaki",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 618,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-141",
+      "recipe_name": "Mediterranean Falafel Bowl",
+      "brand": "PokeMan",
+      "category": "Signature Bowls",
+      "ingredients": [
+        {
+          "name": "Base - Salad Mix",
+          "quantity": 0.15,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Falafel Balls",
+          "quantity": 0.08,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Hummus",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Tahini",
+          "quantity": 0.025,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coriander Fresh",
+          "quantity": 0.003,
+          "unit": "kg",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 526,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-142",
+      "recipe_name": "Poke Nachos",
+      "brand": "PokeMan",
+      "category": "Starters",
+      "ingredients": [
+        {
+          "name": "Wonton Wrappers",
+          "quantity": 0.05,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.06,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.05,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sriracha",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tobiko",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.05,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 1001,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-143",
+      "recipe_name": "Salmon Pokerrito",
+      "brand": "PokeMan",
+      "category": "Pokerritos",
+      "ingredients": [
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.08,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 759,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-144",
+      "recipe_name": "Shrimp Dynamite Pokerrito",
+      "brand": "PokeMan",
+      "category": "Pokerritos",
+      "ingredients": [
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.06,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Dynamite",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Tobiko",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish"
+      ],
+      "calories_kcal": 588,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-145",
+      "recipe_name": "Chicken Teriyaki Pokerrito",
+      "brand": "PokeMan",
+      "category": "Pokerritos",
+      "ingredients": [
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Grilled Chicken",
+          "quantity": 0.08,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teriyaki",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.005,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 530,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-146",
+      "recipe_name": "BYO Pokerrito",
+      "brand": "PokeMan",
+      "category": "Pokerritos",
+      "ingredients": [
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Protein - Guest Choice",
+          "quantity": 0.08,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Toppings - 3 choices",
+          "quantity": 0.06,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - 1 choice",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 337,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-147",
+      "recipe_name": "Salmon Poke Tacos (3pc)",
+      "brand": "PokeMan",
+      "category": "Poke Tacos",
+      "ingredients": [
+        {
+          "name": "Nori Taco Shell",
+          "quantity": 3.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.12,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.06,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 0.5,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Cold",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Sesame"
+      ],
+      "calories_kcal": 512,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-148",
+      "recipe_name": "Spicy Tuna Poke Tacos (3pc)",
+      "brand": "PokeMan",
+      "category": "Poke Tacos",
+      "ingredients": [
+        {
+          "name": "Nori Taco Shell",
+          "quantity": 3.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.12,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.06,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sriracha",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Cold",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish"
+      ],
+      "calories_kcal": 476,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-149",
+      "recipe_name": "Shrimp Dynamite Poke Tacos (3pc)",
+      "brand": "PokeMan",
+      "category": "Poke Tacos",
+      "ingredients": [
+        {
+          "name": "Nori Taco Shell",
+          "quantity": 3.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.12,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.06,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Dynamite",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.015,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Cold",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs"
+      ],
+      "calories_kcal": 402,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-150",
+      "recipe_name": "Classic Acai Bowl",
+      "brand": "PokeMan",
+      "category": "Acai Bowls",
+      "ingredients": [
+        {
+          "name": "Acai Puree (Frozen)",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Banana",
+          "quantity": 0.05,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Strawberry",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coconut Flakes",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 499,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-151",
+      "recipe_name": "Tropical Acai Bowl",
+      "brand": "PokeMan",
+      "category": "Acai Bowls",
+      "ingredients": [
+        {
+          "name": "Acai Puree (Frozen)",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Banana",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.05,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pineapple",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Passion Fruit",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Coconut Flakes",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 480,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "PKM-152",
+      "recipe_name": "Arabian Acai Bowl",
+      "brand": "PokeMan",
+      "category": "Acai Bowls",
+      "ingredients": [
+        {
+          "name": "Acai Puree (Frozen)",
+          "quantity": 0.2,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Banana",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 0.04,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Medjool Dates",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pistachio",
+          "quantity": 0.02,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 0.03,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 0.01,
+          "unit": "kg",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1.0,
+          "unit": "piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Nuts"
+      ],
+      "calories_kcal": 615,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    }
+  ]
+}
