@@ -1,0 +1,1547 @@
+{
+  "Al Adil Trading": {
+    "canonical_name": "Al Adil Trading Co. L.L.C.",
+    "slug": "Al-Adil-Trading",
+    "detection_aliases": [
+      "Al Adil Trading"
+    ],
+    "language": "Mixed (English + Arabic headers)",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 1,
+    "typical_items": [],
+    "typical_units": [
+      "PCS"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "code",
+      "description",
+      "packing",
+      "qty",
+      "unit",
+      "rate",
+      "vat_pct",
+      "excl_vat",
+      "vat_amount",
+      "incl_vat"
+    ],
+    "known_quirks": [
+      "Arabic sub-headers above every English column header — OCR may double-read.",
+      "Packing column often empty; can mis-align with Qty.",
+      "Item codes are 10-digit numeric strings, confusable with barcodes.",
+      "Multiple logos/watermarks overlay cells — crop carefully.",
+      "Use 'Price Including VAT' as authoritative line total; validate against Qty * Unit_Price * 1.05."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": false,
+    "line_total_vat_treatment": "both_shown",
+    "typical_item_category": "Bulk groceries — spices, masala mixes, ghee, oils",
+    "pack_convention": "Pack size embedded in description (e.g. '1KG PET', '18 LTR'); separate Packing column often blank",
+    "handwritten": false,
+    "expense_category": "cogs_food"
+  },
+  "Al Deyafa": {
+    "canonical_name": "Al Deyafa Typing / Government Services Center",
+    "slug": "Al-Deyafa",
+    "detection_aliases": [
+      "Al Deyafa"
+    ],
+    "language": "Mixed (Arabic + English bilingual)",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 12,
+    "typical_items": [],
+    "typical_units": [],
+    "sample_invoice": null,
+    "column_layout_hint": null,
+    "known_quirks": [
+      "NOT A FOOD SUPPLIER — route to OPEX/admin pipeline, not inventory.",
+      "Typing center invoices for government services; no physical goods.",
+      "Bilingual RTL/LTR concatenation breaks naive text extraction.",
+      "Use column position (not token splitting) for parsing."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped-nonfood",
+    "pipeline_category": "opex_admin",
+    "is_food_supplier": false,
+    "typical_item_category": "UAE government PRO / typing center services — Emirates ID, medical fitness, labour contract, unemployment insurance, work permits",
+    "expense_category": "opex_admin"
+  },
+  "Al Ekwan Al Khamsa Fish Canning LLC": {
+    "canonical_name": "Al Ekwan Al Khamsa Fish Canning LLC",
+    "slug": "Al-Ekwan-Al-Khamsa-Fish-Canning",
+    "detection_aliases": [
+      "Al Ekwan",
+      "Al Ekwan Al Khamsa Fish Canning LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 6,
+    "typical_items": [],
+    "typical_units": [
+      "KG"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "sr",
+      "item_code",
+      "description",
+      "unit",
+      "qty",
+      "rate",
+      "gross"
+    ],
+    "known_quirks": [
+      "Multi-page PDFs; page 1 carries the invoice, later pages may be duplicate copies.",
+      "Cash Sales customer; buyer identified via 'Narration' field (not Name/Address).",
+      "Totals stack: Gross -> Less Discount -> Taxable -> VAT 5% -> Net.",
+      "PDF has no text layer; requires OCR."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": false,
+    "invoice_has_discount_field": true,
+    "line_total_vat_treatment": "exclusive",
+    "typical_item_category": "Fresh/processed seafood — fish fillets",
+    "pack_convention": "Per KG; item code format NNNN-NNN",
+    "handwritten": false,
+    "expense_category": "cogs_food"
+  },
+  "Al Nasr Meat Trading": {
+    "canonical_name": "Al Nasr Meat Trading LLC",
+    "slug": "Al-Nasr-Meat-Trading",
+    "detection_aliases": [
+      "Al Nasr Meat Trading"
+    ],
+    "language": "Mixed (English + Arabic labels)",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 8,
+    "typical_items": [],
+    "typical_units": [
+      "kg"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "sr",
+      "description",
+      "qty",
+      "rate_dhs",
+      "rate_fils",
+      "amount_dhs",
+      "amount_fils"
+    ],
+    "known_quirks": [
+      "HANDWRITTEN on pre-printed template with fixed 30-row item list — only rows with handwritten qty/rate are actual purchases.",
+      "Rate & Amount split into Dirhams / Fils sub-columns.",
+      "Typical items (pre-printed): Fresh Pakistani Mutton, Indian Beef, Beef Steak, Beef Nihari, Mutton Boneless, Mutton Chops, Chicken Boneless, Chicken Kabab, etc.",
+      "Decimals ambiguous due to handwriting; cross-check qty x rate = amount."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": false,
+    "line_total_vat_treatment": "exclusive",
+    "typical_item_category": "Fresh meat & poultry (mutton, beef, chicken, fish, prawns)",
+    "pack_convention": "Loose by weight (kg); no case/pack",
+    "handwritten": true,
+    "expense_category": "cogs_food"
+  },
+  "Bait Al Bahar Gen. Trading LLC": {
+    "canonical_name": "Bait Al Bahar Gen. Trading L.L.C",
+    "slug": "Bait-Al-Bahar-Gen-Trading",
+    "detection_aliases": [
+      "Bait Al Bahar Gen. Trading LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 3,
+    "typical_items": [],
+    "typical_units": [
+      "PCS"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "sl",
+      "code",
+      "description",
+      "qty_unit",
+      "rate",
+      "discount",
+      "taxable",
+      "vat_pct",
+      "vat_amount",
+      "amount_incl_vat"
+    ],
+    "known_quirks": [
+      "NOT a food/ingredient supplier — kitchenware / equipment CAPEX.",
+      "'Qty./Unit' is a single combined column ('1.00 PCS').",
+      "Footer 'Total' label is pre-discount gross (not grand total) — easy to mis-label.",
+      "'Gross Amount' is post-discount, pre-VAT."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "pipeline_category": "kitchenware_capex",
+    "has_discount_column": true,
+    "line_total_vat_treatment": "both_shown",
+    "typical_item_category": "Kitchen smallwares / hotel supplies — woks, knives, chopping boards, measuring jugs, trays",
+    "pack_convention": "Pieces; pack size sometimes embedded in description ('4 PCS SET')",
+    "handwritten": false,
+    "expense_category": "opex_kitchen_supplies"
+  },
+  "Bellomassi Food Industries": {
+    "canonical_name": "Bellomassi Food Industries",
+    "slug": "Bellomassi-Food-Industries",
+    "detection_aliases": [
+      "Bellomassi Food Industries"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 6,
+    "file_count_older_archives": 0,
+    "typical_items": [
+      "Chilled Tender Chicken Breast Uncalibrated 4x2.5 kg"
+    ],
+    "typical_units": [
+      "KGS"
+    ],
+    "sample_invoice": "by_supplier/Bellomassi-Food-Industries/2026-04-13__44618__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Carrefour Market": {
+    "canonical_name": "Carrefour Market",
+    "slug": "Carrefour-Market",
+    "detection_aliases": [
+      "Carrefour Market (Majid Al Futtaim Hypermarkets LLC)"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 2,
+    "file_count_older_archives": 0,
+    "typical_items": [
+      "Alarz Arabic Bread L 540g",
+      "Plastic Shopping Bag",
+      "Figaro Olives 450g"
+    ],
+    "typical_units": [
+      "pcs"
+    ],
+    "sample_invoice": "by_supplier/Carrefour-Market/2026-04-11__6083800301162604110746__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Caterpack": {
+    "canonical_name": "Cater Pack Trading LLC",
+    "slug": "Caterpack",
+    "detection_aliases": [
+      "Caterpack"
+    ],
+    "language": "Mixed (English + Arabic labels)",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 1,
+    "typical_items": [],
+    "typical_units": [
+      "Ctn"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "sl",
+      "description",
+      "quantity",
+      "rate_excl_vat",
+      "rate_incl_vat",
+      "per",
+      "vat_pct",
+      "amount_excl_vat",
+      "total_incl_vat"
+    ],
+    "known_quirks": [
+      "Two rate columns side-by-side (excl VAT and incl VAT) — easy to misread which is the line total.",
+      "Pack codes like 'AB 750cc' prefix SKU family by container volume.",
+      "Salesman contact embedded in header — ignore."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": false,
+    "line_total_vat_treatment": "both_shown",
+    "typical_item_category": "Food packaging / disposables — containers, lids, cups",
+    "pack_convention": "'<code/size> <desc> <packs>x<pcs> Pcs' e.g. AB 750cc, 1x500 Pcs per Ctn",
+    "handwritten": false,
+    "expense_category": "cogs_packaging"
+  },
+  "Chef Middle East LLC": {
+    "canonical_name": "Chef Middle East LLC",
+    "slug": "Chef-Middle-East",
+    "detection_aliases": [
+      "Chef Middle East",
+      "Chef Middle East LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 6,
+    "file_count_older_archives": 79,
+    "typical_items": [
+      "Beef Breakfast Slices CAB-Frozen (4X5LB)",
+      "Chicken Wings Flaming-Frozen-PF (12KG)",
+      "Beef Breakfast Slices Gab-Frozen (4x5LB)",
+      "Breaded Chicken Tenderloin (5x2KG)",
+      "Beef CAB Ground Beef 80/20 USA - Frozen",
+      "Puree Acai-Byou (1KG)",
+      "Breaded Chicken Tenderloin (5X2KG)"
+    ],
+    "typical_units": [
+      "KG",
+      "EA"
+    ],
+    "sample_invoice": "by_supplier/Chef-Middle-East/2026-04-14__DINV-4489547__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Coca-Cola Al Ahlia Beverages Company": {
+    "canonical_name": "Coca-Cola Al Ahlia Beverages Company",
+    "slug": "Coca-Cola-Al-Ahlia-Beverages-Company",
+    "detection_aliases": [
+      "Coca Cola Beverages",
+      "Coca cola",
+      "Coca-Cola Al Ahlia Beverages Company L.L.C."
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 1,
+    "file_count_older_archives": 14,
+    "typical_items": [
+      "Coke 300ml 1x24 Can",
+      "Coke Zero 300ml 1x24 Can",
+      "Sprite 300ml 1x24 Can",
+      "Sprite Zero 300ml 1x24 Can"
+    ],
+    "typical_units": [
+      "CS"
+    ],
+    "sample_invoice": "by_supplier/Coca-Cola-Al-Ahlia-Beverages-Company/2026-04-16__1217894611__p1of1.jpg",
+    "column_layout_hint": [
+      "sl",
+      "item",
+      "qty",
+      "unit",
+      "gross_rate",
+      "discount",
+      "net_rate",
+      "total"
+    ],
+    "known_quirks": [
+      "Has a DISCOUNT column (typically ~6.5 AED per case off gross). Net rate = gross - discount. OCR often misses the discount column.",
+      "Store net_rate in unit_price (not gross)."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_beverages"
+  },
+  "Ecoway Global L.L.C": {
+    "canonical_name": "Ecoway Global L.L.C",
+    "slug": "Ecoway-Global",
+    "detection_aliases": [
+      "Ecoway",
+      "Ecoway Global L.L.C",
+      "Ecoway Global LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 2,
+    "file_count_older_archives": 22,
+    "typical_items": [
+      "Bagasse Sushi Tray 2.0 (1X300)",
+      "PET Lid for Bagasse Sushi Tray 2.0 (1X300)",
+      "Bagasse Sushi Tray 1.5 (1X600)",
+      "PET Lid for Bagasse Sushi Tray 1.5 (1X600)",
+      "BLK Salad Bowl 750 ML (1X300)",
+      "BLK Salad Bowl 500 ML (1X300)",
+      "PP Lids for Salad Bowl 150 MM with Centre Flip Hole (1X300)",
+      "BLK Salad Bowl 1100 ML (1X300)",
+      "PP Lid for Salad Bowls 165 MM with Centre Flip Hole-White (1X300)",
+      "PP Lid for Salad Bowls 165 MM with Centre Flip Hole - White (1X300)"
+    ],
+    "typical_units": [
+      "CTN"
+    ],
+    "sample_invoice": "by_supplier/Ecoway-Global/2026-04-14__INV-GEW17608__p1of1.jpg",
+    "column_layout_hint": [
+      "sl",
+      "item",
+      "qty",
+      "unit",
+      "rate",
+      "total"
+    ],
+    "known_quirks": [
+      "Watch for RETURN ADJUSTMENTS: sometimes a handwritten net total appears on the printed invoice when items were reduced or returned at delivery. Use handwritten total for accounts."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_packaging"
+  },
+  "Freshia Foodstuff Trading": {
+    "canonical_name": "Freshia Foodstuff Trading LLC",
+    "slug": "Freshia-Foodstuff-Trading",
+    "detection_aliases": [
+      "Freshia",
+      "Freshia Foodstuff Trading"
+    ],
+    "language": "Mixed (English + Arabic)",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 8,
+    "typical_items": [
+      "Lettuce Iceberg",
+      "Lettuce Lollo Bionda",
+      "Lemon Yellow",
+      "Peeled Garlic",
+      "Onion Spring",
+      "Coriander",
+      "Bell Pepper Red",
+      "Bell Pepper Yellow",
+      "Bell Pepper Green",
+      "Avocado Hass"
+    ],
+    "typical_units": [
+      "Kg"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "no",
+      "item_description",
+      "qty",
+      "rate",
+      "unit",
+      "amount",
+      "vat_pct",
+      "taxable_amt",
+      "tax_amount"
+    ],
+    "known_quirks": [
+      "Multi-page invoices common ('Continued on next page'); totals only on final page.",
+      "Taxable Amt and Amount columns often equal (VAT-exclusive model).",
+      "Similar item universe to MIY — cross-use canonical ingredient names."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": false,
+    "line_total_vat_treatment": "exclusive",
+    "typical_item_category": "Fresh produce — vegetables, herbs, fruits",
+    "pack_convention": "Loose weight-based (Kg with decimal qty)",
+    "handwritten": false,
+    "expense_category": "cogs_food"
+  },
+  "Gate Supermarket": {
+    "canonical_name": "Gate Supermarket",
+    "slug": "Gate-Supermarket",
+    "detection_aliases": [
+      "Gate (Gate UAE)",
+      "Gate Supermarket"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 2,
+    "file_count_older_archives": 0,
+    "typical_items": [
+      "Raj Sada Vatti 4.5cm",
+      "Stationery Clear Tape",
+      "EKK Maxi Roll 2 Ply 2 pcs",
+      "Carry Bag 25 fils",
+      "R/F Frypan W/Glass L pcs",
+      "Clear Tape Small",
+      "Carry Bag 25 Fils"
+    ],
+    "typical_units": [
+      "pcs",
+      "pack"
+    ],
+    "sample_invoice": "by_supplier/Gate-Supermarket/2026-04-12__368250__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Gourmet Essentials Trading": {
+    "canonical_name": "Gourmet Essentials General Trading L.L.C",
+    "slug": "Gourmet-Essentials-Trading",
+    "detection_aliases": [
+      "Gourmet Essentials Trading",
+      "GET",
+      "GET/25/7382"
+    ],
+    "language": "Mixed (English + Arabic header)",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 4,
+    "typical_items": [
+      "Burger Fry Seasoning",
+      "Tropical Seasoning"
+    ],
+    "typical_units": [
+      "Nos"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "sr",
+      "description",
+      "no_of_ctn",
+      "qty",
+      "unit",
+      "rate_per_unit",
+      "taxable",
+      "vat_pct",
+      "vat_amount",
+      "total_with_tax"
+    ],
+    "known_quirks": [
+      "Two qty-like columns: 'No. of CTN' (often 0) and 'Qty' (units/Nos) — customer often buys loose units, not cartons.",
+      "Invoice number format: GET/YY/NNNN.",
+      "Bank details printed on invoice — ignore for data extraction."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": false,
+    "line_total_vat_treatment": "both_shown",
+    "typical_item_category": "Seasonings / dry spice blends / gourmet food essentials",
+    "pack_convention": "'CartonQty x UnitSize' embedded in description (e.g. 20X500GM)",
+    "handwritten": false,
+    "expense_category": "cogs_food"
+  },
+  "Green Basket": {
+    "canonical_name": "Green Basket Vegetables and Fruits Trading LLC",
+    "slug": "Green-Basket",
+    "detection_aliases": [
+      "Green Basket"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 126,
+    "typical_items": [
+      "Garlic Peeled",
+      "Mushroom White - Oman",
+      "Tomato",
+      "Onion White",
+      "Avocado Hass",
+      "Lemon Yellow",
+      "Iceberg Lettuce",
+      "Lolo Green - Holland",
+      "Cabbage Round",
+      "Cauliflower",
+      "Broccoli",
+      "Parsley",
+      "Green Beans",
+      "Green Chilli",
+      "Coriander Leaves",
+      "Spring Onion",
+      "Capsicum Green",
+      "Capsicum Red",
+      "Fresh Jalapeno"
+    ],
+    "typical_units": [
+      "Kg",
+      "Pkt"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "sr",
+      "description",
+      "quantity_compound",
+      "rate",
+      "per",
+      "amount",
+      "vat_pct",
+      "vat_aed"
+    ],
+    "known_quirks": [
+      "MULTI-INVOICE PDFs: single file often contains many invoices, one per page. Split by 'Invoice No.' + 'Dated'.",
+      "Duplicate/carbon-copy pages common — dedupe by Invoice No.",
+      "'Quantity' cell is compound ('1.00 Kg') — parse as value + UoM.",
+      "'Rate' and 'per' are separate columns; 'per' holds the UoM. Don't confuse with Quantity's inline unit.",
+      "Stray 'PM'/'PKT' tokens in the per column — 'PM' is misread 'Pkt'.",
+      "Thin gridlines often drop in OCR; columns must be inferred by x-position.",
+      "Two totals lines: a Qty sum in Kg (e.g. '16.00 Kg') and an AED grand total — don't double-count the Kg sum as money.",
+      "NCR carbonless paper: bleed-through and skew common."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": false,
+    "line_total_vat_treatment": "exclusive",
+    "typical_item_category": "Fresh vegetables, fruits, herbs",
+    "pack_convention": "Loose by weight (decimal kg); small number of lines use Pkt for bundled herbs",
+    "handwritten": false,
+    "expense_category": "cogs_food"
+  },
+  "Grubtech": {
+    "canonical_name": "Grubtech Software Design LLC",
+    "slug": "Grubtech",
+    "detection_aliases": [
+      "Grubtech"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 10,
+    "typical_items": [],
+    "typical_units": [],
+    "sample_invoice": null,
+    "column_layout_hint": null,
+    "known_quirks": [
+      "NOT A FOOD SUPPLIER — route to OPEX/SaaS subscriptions pipeline.",
+      "Typical line: 'g'Online - <Brand>/GhostKitchens' at AED 139.55/month.",
+      "One line per ZwQ brand subscribed.",
+      "Billing period is forward-looking (Dec 16 - Jan 15), not the calendar month in filename."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped-nonfood",
+    "pipeline_category": "opex_saas",
+    "is_food_supplier": false,
+    "typical_item_category": "SaaS subscription — g'Online ordering platform, billed per brand/month",
+    "expense_category": "opex_saas"
+  },
+  "Gulf Bagel Factory L.L.C": {
+    "canonical_name": "Gulf Bagel Factory L.L.C",
+    "slug": "Gulf-Bagel-Factory",
+    "detection_aliases": [
+      "Gulf Bagel Factory L.L.C",
+      "Gulf Bagel Factory L.L.C."
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 3,
+    "file_count_older_archives": 0,
+    "typical_items": [
+      "Pave Loaf Sliced 1.5Kg (x2)",
+      "Brown Pave Loaf Sliced 1.5Kg (x2)",
+      "Black Bao Bao Bun 25g (10pcs)",
+      "White Bao Bao Bun 25g (10pcs)",
+      "White Sesame Seeds Bagel 120g (x36)",
+      "Brioche Loaf 1000g (x4)-Sliced",
+      "Brown Sliced Bread 1200g"
+    ],
+    "typical_units": [
+      "box",
+      "pack",
+      "PACK",
+      "Pcs"
+    ],
+    "sample_invoice": "by_supplier/Gulf-Bagel-Factory/2026-04-16__TIN200638__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Hanaram": {
+    "canonical_name": "Hanaram Supermarket",
+    "slug": "Hanaram",
+    "detection_aliases": [
+      "Hanaram"
+    ],
+    "language": "Mixed (English + transliterated Korean; occasional Hangul)",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 4,
+    "typical_items": [],
+    "typical_units": [
+      "each",
+      "pack"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "item_name",
+      "qty",
+      "amount"
+    ],
+    "known_quirks": [
+      "Thermal POS receipt (not formal tax invoice) — narrow thermal strip, often faded.",
+      "Product names are Korean transliterations; may include Hangul characters — OCR may need Korean language support.",
+      "Discount shown as negative line under each item (e.g. '<10% D/C>').",
+      "Cashier name printed; 'Paid Full' stamp."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": true,
+    "line_total_vat_treatment": "exclusive",
+    "typical_item_category": "Korean grocery — pastes, sauces, noodles, banchan",
+    "pack_convention": "Pack size embedded in item name in parentheses, e.g. '(1kg)' or Korean unit markers",
+    "handwritten": false,
+    "expense_category": "cogs_food"
+  },
+  "Jaleel Traders LLC": {
+    "canonical_name": "Jaleel Traders LLC",
+    "slug": "Jaleel-Traders",
+    "detection_aliases": [
+      "Jaleel Traders",
+      "Jaleel Traders LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 7,
+    "file_count_older_archives": 32,
+    "typical_items": [
+      "Mabrook Veg Oil 17 Ltr Sq Tin",
+      "Delivery Charge",
+      "Spoonz White Vinegar 4x1Gln",
+      "NFM Maida (Jenan) Flour No 1 10kg",
+      "Uncle J's Extra Virgin Olive Oil 12x1Ltr",
+      "Gautam Longest Ind Basmati Rice XXL 1121 20kg",
+      "Honey 4x3kg",
+      "Maggi Chicken Stock Powder 6x1kg",
+      "Al Baker Chakki Fresh Atta 10kg",
+      "Uncle J'S Extra Virgin Olive Oil 12x1Ltr",
+      "Safa Tomato Paste 12x800gm",
+      "Spoonz Catering Ketchup 4x5Kg",
+      "Spoonz Pld 6x2Kg",
+      "Lacnor Full Cream Milk Red 12x1ltr",
+      "Uncle J's Und Whole 1kg",
+      "Tomato Paste 12x800gm",
+      "Amul Pure Ghee 12x1ltr",
+      "Uncle J's Sunflower Oil 4x5ltr",
+      "Taste Basics Vegetable Oil 1Ltr",
+      "Uncle J's Cinnamon (Patta) Powder 1kg",
+      "Sara Tomato Paste 12x800gm",
+      "Gautam Longest Ind Basm Rice XXL 1121 20kg",
+      "Sugar Pkt 6x2kg",
+      "Uncle J's Corn Flour Powder 4kg",
+      "Taste Basics Honey 4x3kg",
+      "Uncle J's Masoor Dal 1kg",
+      "Uncle J's Chana Dal 1 kg",
+      "White Pepper Powder 1kg",
+      "Mahin Sunflower Oil 4x5 ltr",
+      "Uncle J's Garam Masala Powder 500gm"
+    ],
+    "typical_units": [
+      "EA",
+      "BAG",
+      "CAR",
+      "BDL"
+    ],
+    "sample_invoice": "by_supplier/Jaleel-Traders/2026-04-15__20S1185527__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [
+      "Line totals are VAT-INCLUSIVE; Subtotal is pre-VAT. Both are printed explicitly.",
+      "Units commonly 'EA' (each) or 'BAG' for bulk sacks."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_food"
+  },
+  "Luna Land": {
+    "canonical_name": "Luna Land",
+    "slug": "Luna-Land",
+    "detection_aliases": [
+      "Luna Land"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 2,
+    "file_count_older_archives": 0,
+    "typical_items": [
+      "3 in 1 Electro Screwdriver Set 1802",
+      "FTC:37 BOPP Clear Tape",
+      "Bread Knife",
+      "Jiham Lighter",
+      "SFK-685 6 Cup Muffin Pan"
+    ],
+    "typical_units": [
+      "Units"
+    ],
+    "sample_invoice": "by_supplier/Luna-Land/2026-04-08__220__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [
+      "Small retail receipt. Date can be obscured by paper/ink damage — use scan batch date as fallback."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_food"
+  },
+  "M.H. Enterprises L.L.C": {
+    "canonical_name": "M.H. Enterprises L.L.C",
+    "slug": "M-H-Enterprises",
+    "detection_aliases": [
+      "M.H. Enterprises",
+      "M.H. Enterprises L.L.C",
+      "MH Enterprises_"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 5,
+    "file_count_older_archives": 21,
+    "typical_items": [
+      "3 Cow Feta Cheese (Red) 500 GMS",
+      "Sucrobec Maple Syrup Canada - 540 ML",
+      "Heinz Baked Beans -A10 UK",
+      "Amer.Classic Peanut Butter Creamy - 510 GMS",
+      "Gourmet Classic Pumpkin Seeds W/O Skin",
+      "Classic Zatar Powder",
+      "American Classic Icing Sugar",
+      "Mara Pesto Sauce Green - 580 GMS (500 gr)",
+      "Heinz Baked Beans - A10 UK"
+    ],
+    "typical_units": [
+      "pcs",
+      "PCS",
+      "KG",
+      "GMS",
+      "PC"
+    ],
+    "sample_invoice": "by_supplier/M-H-Enterprises/2026-04-11__CI-2604034857__p1of1.jpg",
+    "column_layout_hint": [
+      "sl",
+      "item_code",
+      "item",
+      "pack",
+      "qty_cases",
+      "qty_pcs",
+      "price_per_case",
+      "amount",
+      "vat",
+      "gross"
+    ],
+    "known_quirks": [
+      "Case-pack pricing: 'Pack' column shows e.g. '24/500gm' = 24 pcs x 500gm per case.",
+      "Two qty columns: Cases and PCS. If PCS > 0 and Cases = 0, customer bought loose units.",
+      "'Price' column is PER-CASE rate (e.g. 221 for a 24-pack case).",
+      "'Amount' column is pre-VAT line total = qty_pcs * (price_per_case / pack_size).",
+      "For canonical pricing, store unit_price = price_per_case / pack_size (per-piece rate).",
+      "EXCISE DUTY column present on certain product lines (sodas/Jarritos = 50% excise). Column structure: Amount Before Tax | Excise Amount | Net Amount (=ABT+Excise) | VAT | Gross Total. Grand total = Net Amount + VAT, NOT ABT + VAT. Capture excise_amount_aed and use net_amount_aed as line subtotal source."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_food"
+  },
+  "Maa Almadeena General Trading": {
+    "canonical_name": "Maa Almadeena General Trading LLC",
+    "slug": "Maa-Almadeena-General-Trading",
+    "detection_aliases": [
+      "Maa Almadeena General Trading"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 2,
+    "typical_items": [],
+    "typical_units": [
+      "CTN"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "sl",
+      "description",
+      "quantity",
+      "rate",
+      "per",
+      "vat_pct",
+      "amount"
+    ],
+    "known_quirks": [
+      "'per' column sits between Rate and VAT% — unusual layout.",
+      "Scanned image PDF; no text layer — requires OCR.",
+      "Invoice number format: MAA-NNNNN."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": false,
+    "line_total_vat_treatment": "exclusive",
+    "typical_item_category": "Packaging / disposables — paper bags",
+    "pack_convention": "Pack size in item name (e.g. '250 PC' per carton); dimensions in 'WxDxH' inline",
+    "handwritten": false,
+    "expense_category": "cogs_packaging"
+  },
+  "Marhaba DHR General Trading L.L.C": {
+    "canonical_name": "Marhaba DHR General Trading L.L.C",
+    "slug": "Marhaba-DHR-General-Trading",
+    "detection_aliases": [
+      "Marhaba DHR General Trading L.L.C",
+      "Marhaba DHR General Trading L.L.C.",
+      "Marhaba DHR general trading",
+      "Marhaba Dhr General Trading LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 2,
+    "file_count_older_archives": 11,
+    "typical_items": [
+      "Shin Ramen",
+      "Fish Cake 3pcs",
+      "Shin Multi (Shin Ramen)"
+    ],
+    "typical_units": [
+      "box",
+      "pcs",
+      "PC"
+    ],
+    "sample_invoice": "by_supplier/Marhaba-DHR-General-Trading/2026-04-16__2833__p1of1.jpg",
+    "column_layout_hint": [
+      "sl",
+      "item_handwritten",
+      "qty",
+      "unit_price",
+      "total"
+    ],
+    "known_quirks": [
+      "HANDWRITTEN invoices. OCR reads item names unreliably.",
+      "Common items: Shin Ramen (box packs), Fish Cake (3pcs packs), Fak Card.",
+      "Quantity can be digit misread on 2 vs 3. Cross-check qty * unit_price vs printed total."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_food"
+  },
+  "Modern Bakery": {
+    "canonical_name": "Modern Bakery",
+    "slug": "Modern-Bakery",
+    "detection_aliases": [
+      "Modern Bakery",
+      "Modern bakery"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 5,
+    "file_count_older_archives": 76,
+    "typical_items": [
+      "Bread Bun 4.5\" Brioche Plain Sliced",
+      "Bread Pan Super Jumbo Vienna Brioche",
+      "Bread Bun 2.5\" Plain Potato",
+      "Roll Bun 2.5\" Plain Potato"
+    ],
+    "typical_units": [
+      "PAC",
+      "PC"
+    ],
+    "sample_invoice": "by_supplier/Modern-Bakery/2026-04-16__167F095500__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Muhammad Imran Yousaf Foodstuff Trading L.L.C": {
+    "canonical_name": "Muhammad Imran Yousaf Foodstuff Trading L.L.C",
+    "slug": "Muhammad-Imran-Yousaf-Foodstuff-Trading",
+    "detection_aliases": [
+      "MIY Foodstuffs Trading LLC",
+      "Muhammad Imran Yousaf Foods",
+      "Muhammad Imran Yousaf Foodstuff Trading L.L.C",
+      "Muhammad Imran Yousaf Foodstuff Trading L.L.C."
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 17,
+    "file_count_older_archives": 1,
+    "typical_items": [
+      "Spinach Leaves",
+      "Avocado Hass",
+      "Onion White",
+      "Beans Sprout",
+      "Lemon Yellow",
+      "Tomato",
+      "Mushroom",
+      "White Radish",
+      "Cucumber",
+      "Carrot",
+      "Onion Spring",
+      "Coriander Leaves",
+      "Banana",
+      "Lettuce Iceberg",
+      "Garlic",
+      "Blueberry (Pkt)",
+      "Strawberry (Pkt)",
+      "Mango",
+      "Potato",
+      "Onion Red",
+      "Cherry Tomato",
+      "Lettuce Lolobionda",
+      "Eggs Turkey Box",
+      "Capsicum Yellow",
+      "Capsicum Red",
+      "Capsicum Green",
+      "Egg",
+      "Zucchni Green",
+      "Zucchini Green",
+      "Cabbage Red"
+    ],
+    "typical_units": [
+      "KG",
+      "Pkt",
+      "CTN"
+    ],
+    "sample_invoice": "by_supplier/Muhammad-Imran-Yousaf-Foodstuff-Trading/2026-04-13__MIY366443867__p1of1.jpg",
+    "column_layout_hint": [
+      "sl",
+      "item",
+      "qty",
+      "unit",
+      "rate",
+      "total"
+    ],
+    "known_quirks": [
+      "Dense grid of 15-25 line items. Prone to ROW-ALIGNMENT DRIFT: OCR can pick the next row's qty or rate for the current item's line.",
+      "Sanity-check each row: qty * rate should equal total (allowing small rounding).",
+      "Use AMOUNT column as authoritative if unit prices are obscured — back-calculate unit_price = total/qty."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_food"
+  },
+  "Royal Caviar Canning and Preservation of Seafood L.L.C": {
+    "canonical_name": "Royal Caviar Canning and Preservation of Seafood L.L.C",
+    "slug": "Royal-Caviar-Canning-and-Preservation-of-Seafood",
+    "detection_aliases": [
+      "Royal Caviar",
+      "Royal Caviar Canning and Preservation of Seafood L.L.C",
+      "Royal Caviar Canning and Preservation of Seafood L.L.C."
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 5,
+    "file_count_older_archives": 18,
+    "typical_items": [
+      "Salmon Fillet Skin On Chilled Norway",
+      "Smoked Salmon Presliced Chilled Norway"
+    ],
+    "typical_units": [
+      "Kgs"
+    ],
+    "sample_invoice": "by_supplier/Royal-Caviar-Canning-and-Preservation-of-Seafood/2026-04-13__RCS-313074__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "SNH Packing General Trading L.L.C": {
+    "canonical_name": "SNH Packing General Trading L.L.C",
+    "slug": "SNH-Packing-General-Trading",
+    "detection_aliases": [
+      "SNH Packing General Trading L.L.C",
+      "SNH Packing General Trading LLC",
+      "SNH Packing_"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 2,
+    "file_count_older_archives": 58,
+    "typical_items": [
+      "Paper Bag Twisted Handle White 34X18X33 CM - 250 PCS",
+      "Endura Black Snack Box Large 205x107x78 mm - 1X200 PCS",
+      "Aluminium Foil 45CM 2KG - 1X6 PCS",
+      "Cling Film 45CM 2KG - 1X6PCS",
+      "Clear Sauce Cup 2OZ Base Only - 1 X 2000 PCS",
+      "Clear Lid for 2OZ Sauce Cup - 1 X 2000 PCS",
+      "Paper Soup Cup Brown 12OZ 98DIA Double PE Base - 1X500PCS",
+      "PP Lid for Soup Cup 96DIA - 1X500PCS",
+      "Bagasse Cont Rect CR750 750ML Base - 1X300 PCS",
+      "PP Lid for CR750/900-2/1000/1400 - 1X300 PCS",
+      "Zipper Bag 27X30CM - 12PKTSX100PCS",
+      "SNH-Vinyl Gloves CLR Large PF - 100PCS X 10PKTS",
+      "Ctlry Pack HD BLK (SPN, KNF, FRK & NPK) - 1X500 PCS",
+      "Sandwich Paper White (1x10X800)",
+      "Clear Sauce Cup 4OZ Base Only - 1 X 2000 PCS",
+      "Clear Lid for 3OZ and 4OZ Sauce Cup - 2000 PCS",
+      "Paper Bag Twisted Handle White 34x18x33 CM - 250 PCS"
+    ],
+    "typical_units": [
+      "CTN"
+    ],
+    "sample_invoice": "by_supplier/SNH-Packing-General-Trading/2026-04-14__202604-307946__p1of3.jpg",
+    "column_layout_hint": [
+      "sl",
+      "item",
+      "pack",
+      "qty_ctn",
+      "unit_price_per_ctn",
+      "amount",
+      "vat",
+      "net"
+    ],
+    "known_quirks": [
+      "Multi-page invoice common (2-3 pages). Ensure all pages grouped together.",
+      "qty is in CTN (cartons). pack size varies widely (200, 500, 800, 2000 pcs/ctn).",
+      "Amount column is pre-VAT; Net column is VAT-inclusive."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_packaging"
+  },
+  "Sawhney Foodstuff Tr. Co. LLC SP": {
+    "canonical_name": "Sawhney Foodstuff Tr. Co. LLC SP",
+    "slug": "Sawhney-Foodstuff-Tr",
+    "detection_aliases": [
+      "Sawhney Foodstuff Tr. Co",
+      "Sawhney Foodstuff Tr. Co. LLC SP",
+      "Sawhney Foodstuff Tr. Co. LLC SP (SAFCO)",
+      "Sawhney Foodstuff_"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 11,
+    "file_count_older_archives": 119,
+    "typical_items": [
+      "Tahina Hammous - SC, 24x400 GM",
+      "French Fries Supercut 7/7 MM-4x2.5 KG",
+      "French Fries Supercut 7/7 mm - 4x2.5 KG",
+      "Sauce Cheddar Cheese - SC, 6x A10",
+      "CV Oats Quaker Whole Grain 12x900GM",
+      "Mayonnaise Classic - Hellmann's - 4x1 GL",
+      "Sushi Nori 100 Sheets (1 X 250G) Ishin",
+      "CV Black Beans in Brine 6 x A10",
+      "Hellmanns Tomato Ketchup 4x4.8 KGS",
+      "Cream Dory Pangasius Fillet S/Less 4x2.5KG",
+      "Cheddar Cheese Grated Red 6x2KG - Arla",
+      "Butter Unsalted - Lurpak - 20x500 GM",
+      "Cheese Halloumi Esperance - Cyprus 250 GMS",
+      "Cheese Greek Feta 2KG - Galactic",
+      "Sauce Cheddar Cheese - SC, 6XA10",
+      "Cheese Parmesan Block (4 KG Apprx) Grangusto",
+      "Sauce Cheddar Cheese - SC, 6X A10",
+      "CV Oats Quaker Whole Grain 12x900gm"
+    ],
+    "typical_units": [
+      "PCE",
+      "CTN",
+      "TIN",
+      "KGS",
+      "PKT"
+    ],
+    "sample_invoice": "by_supplier/Sawhney-Foodstuff-Tr/2026-04-13__1064707__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Sea Land Foodstuff Trading L.L.C": {
+    "canonical_name": "Sea Land Foodstuff Trading L.L.C",
+    "slug": "Sea-Land-Foodstuff-Trading",
+    "detection_aliases": [
+      "Sea Land Foodstuff Trading L.L.C",
+      "Sea Land Foodstuff Trading LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 1,
+    "file_count_older_archives": 13,
+    "typical_items": [
+      "PD Shrimps 16/20 (GL)"
+    ],
+    "typical_units": [
+      "Kg"
+    ],
+    "sample_invoice": "by_supplier/Sea-Land-Foodstuff-Trading/2026-04-04__AJM-06320-26__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Senor Pepe's Mexican Foods Factory L.L.C": {
+    "canonical_name": "Senor Pepe's Mexican Foods Factory L.L.C",
+    "slug": "Senor-Pepe-s-Mexican-Foods-Factory",
+    "detection_aliases": [
+      "Senor Pepe's Mexican Foods Factory L.L.C",
+      "Senor Pepe's Mexican Foods Factory L.L.C.",
+      "Senor Pepe's Mexican Foods Factory LLC",
+      "Senor Pepe_s",
+      "Senor Pepes Mexican Foods Factory_"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 5,
+    "file_count_older_archives": 66,
+    "typical_items": [
+      "Corn Tortilla Chips Triangle 4x500g",
+      "Thick & Chunky Salsa (Senor Pepers) 6x2.17 kg",
+      "12\" Flour Tortilla Plain (20x6 Pc) Ambient",
+      "6\" Plain Tortilla (20x8 Pc) Ambient",
+      "Jalapeno Pepper Slices (Egypt) 6x2.95 kg",
+      "Thick & Chunky Salsa (Senor Pepers)",
+      "12\" Flour Tortilla Plain (20 x 6 Pc) Ambient",
+      "6\" Plain Tortilla (20 x 8 Pc) Ambient",
+      "Tomatilo Whole",
+      "Jalapeno Pepper Slices (Egypt)",
+      "Black Beans in Water (Furmanos)",
+      "6\" Corn Tortilla 10GM 12x10DOZ",
+      "Jalapeno Pepper Slices (Egypt) 6x2.95kg",
+      "Black Beans In Water (Furmanos) 6x A10",
+      "Thick & Chunky Salsa (Senor Pepe's)"
+    ],
+    "typical_units": [
+      "CTN",
+      "PCS",
+      "CTN 1 pcs",
+      "piece",
+      "CTN 0 pkt"
+    ],
+    "sample_invoice": "by_supplier/Senor-Pepe-s-Mexican-Foods-Factory/2026-04-13__378814__p1of1.jpg",
+    "column_layout_hint": [
+      "sl",
+      "item",
+      "qty_cartons",
+      "qty_pcs",
+      "unit",
+      "rate_per_pc",
+      "total"
+    ],
+    "known_quirks": [
+      "Compound quantity notation: qty_total = cartons*carton_size + pieces. Typical carton = 6 pieces. 'Rate' column is per-piece.",
+      "Do NOT flatten compound qty into a single number — OCR tends to capture only one of the two qty columns."
+    ],
+    "known_pack_sizes": {
+      "Thick & Chunky Salsa": 6,
+      "Jalapeno Pepper Slices": 6,
+      "Black Beans In Water": 6,
+      "Corn Tortilla": 6
+    },
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_food"
+  },
+  "Sharif Hassan Ali Trading": {
+    "canonical_name": "Sharif Hassan Ali Trading",
+    "slug": "Sharif-Hassan-Ali-Trading",
+    "detection_aliases": [
+      "Sharif Hasan",
+      "Sharif Hassan Ali Trading (LLC)",
+      "Sharif Hassan Ali Trading (LLC) (Shali)",
+      "Sharif Hassan Ali Trading (LLC) - Shali",
+      "Sharif Hassan Trading"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 4,
+    "file_count_older_archives": 74,
+    "typical_items": [
+      "Mozzarella Cheese Shredded 50% Grande 6x2KG",
+      "Sweet Chilli Sauce Chix Pantai 3x4.5LTR"
+    ],
+    "typical_units": [
+      "CASE",
+      "CASE 6X2KG",
+      "PCS"
+    ],
+    "sample_invoice": "by_supplier/Sharif-Hassan-Ali-Trading/2026-04-11__1423156__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Sidco Foods Trading LLC": {
+    "canonical_name": "Sidco Foods Trading LLC",
+    "slug": "Sidco-Foods-Trading",
+    "detection_aliases": [
+      "Sidco",
+      "Sidco Foods Trading",
+      "Sidco Foods Trading LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 7,
+    "file_count_older_archives": 16,
+    "typical_items": [
+      "PD Shrimps 16/20 - 10KG F4",
+      "Beef Tenderloin - 20KG (Premium) B3",
+      "Beef Tenderloin - 20KG (Premium) B2",
+      "FD Shrimps 16/20 - 10KG F4",
+      "Egg Noodles (Frozen) 10x1KG B2",
+      "Egg Noodles (Frozen) 10x1KG B2 - Online",
+      "Beef Tenderloin - 20KG (Premium) BS",
+      "Cheese Slice 4X2.267 KGS (748 Slices) B3 Chile",
+      "Sweet Corn 4X2.5KG (Golden Fresh) F4",
+      "Whole Chicken (1100GM) - Brazil N3",
+      "Beef Tenderloin - 20KG (Premium) 33",
+      "Hash Brown 4x2.5 KG American Mark",
+      "Chicken Franks 24x340 G",
+      "Chicken Thigh B/L J20 (6X2KG) Premium B2"
+    ],
+    "typical_units": [
+      "CTN",
+      "PCS",
+      "CTN (6X2 KG)"
+    ],
+    "sample_invoice": "by_supplier/Sidco-Foods-Trading/2026-04-13__290907__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Speedway Mini Mart LLC": {
+    "canonical_name": "Speedway Mini Mart LLC",
+    "slug": "Speedway-Mini-Mart",
+    "detection_aliases": [
+      "Speedway Mini Mart LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 5,
+    "file_count_older_archives": 0,
+    "typical_items": [
+      "Dolphin Arabic Bread Big",
+      "Alarz Arabic Bread Big 2.5",
+      "Foster Clarks Vanilla Essence 28ml",
+      "Al Ain Chicken Frank 340gm",
+      "NAD Greek Yoghurt Low Fat 360GM",
+      "Almarai Premium Labneh FF 400G",
+      "Dolphin Arabic Bread M",
+      "Axe Candle Lighter"
+    ],
+    "typical_units": [
+      "PCS",
+      "pcs"
+    ],
+    "sample_invoice": "by_supplier/Speedway-Mini-Mart/2026-04-15__3302172__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [
+      "POS receipt format. Line totals are VAT-INCLUSIVE. 'Amount Before VAT' is pre-tax subtotal."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_food"
+  },
+  "Taste Masters LLC": {
+    "canonical_name": "Taste Masters LLC",
+    "slug": "Taste-Masters",
+    "detection_aliases": [
+      "Taste Masters",
+      "Taste Masters LLC",
+      "Taste master LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 13,
+    "file_count_older_archives": 93,
+    "typical_items": [
+      "Takwan Taro 500Gm",
+      "Japonica Rice Short Grain 20Kg",
+      "Fresh Tofu 500gm",
+      "Tuna Sako Kg",
+      "Kanikamaboko Thailand 500Gm",
+      "Ottogi Korean Vermicelli 1KG",
+      "Marukome Miso Shiro 1 Kg",
+      "Chuka Wakame 1Kg",
+      "Rice Vinegar Mizkan 800ML",
+      "Chilli Powder with Flakes 1Kg (Yimgane)",
+      "Egg Ramen Taiwan (5X200)Gm",
+      "BBQ Sauce Bulgogi 500Gm",
+      "Garishoga Pink New Packing (Pickled Ginger) 1Kg",
+      "SoyBean Kernal 500Gm",
+      "Fundodai Koikuchi Shoyu 1.8Ltr",
+      "Goma Abura (Sesame Oil) 1.8 Ltr",
+      "Fundodai Koikuchi Shoyu 1.8 Ltr",
+      "Shichimi Togarashi 300Gm",
+      "Tempurako 2Kg",
+      "Edamame Otosan 500 Gm",
+      "QP Mayonnaise 450 gm",
+      "Jongga Rice Cake Daesang 1kg",
+      "Hot Pepper Paste (Korea) 14Kg",
+      "Beef Dashida 1kg",
+      "Kumazasa 100Pcs",
+      "Tobiko Orange Taiwan 500Gm"
+    ],
+    "typical_units": [
+      "PCS",
+      "EA",
+      "PC",
+      "KG"
+    ],
+    "sample_invoice": "by_supplier/Taste-Masters/2026-04-13__INV-2026-24827__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [
+      "Japanese/Asian ingredients (Kanikamaboko, Wakame, Miso, etc.). Item names may include Japanese-origin words that OCR can misread."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_food"
+  },
+  "Triton Foods LLC": {
+    "canonical_name": "Triton Foods LLC",
+    "slug": "Triton-Foods",
+    "detection_aliases": [
+      "Triton Foods LLC"
+    ],
+    "language": "Mixed (English + Arabic bilingual)",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 1,
+    "typical_items": [
+      "Frozen Breaded Chicken Tender"
+    ],
+    "typical_units": [
+      "KG"
+    ],
+    "sample_invoice": null,
+    "column_layout_hint": [
+      "sl",
+      "item_code",
+      "description",
+      "uom",
+      "qty",
+      "price",
+      "amount",
+      "vat_pct",
+      "total_amount"
+    ],
+    "known_quirks": [
+      "Handwritten annotations sometimes appear on invoices (phone number, payment notes).",
+      "Invoice # format: LSI-YY-NNNNNN.",
+      "Multi-invoice files common (sample had 6 pages = 6 invoices).",
+      "Date format DD-Mmm-YYYY."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "bootstrapped",
+    "has_discount_column": false,
+    "line_total_vat_treatment": "exclusive",
+    "typical_item_category": "Frozen meat / poultry — frozen breaded chicken products",
+    "pack_convention": "Sold by weight in KG; item code format KF####",
+    "handwritten": false,
+    "expense_category": "cogs_food"
+  },
+  "United Sales Partners LLC": {
+    "canonical_name": "United Sales Partners LLC",
+    "slug": "United-Sales-Partners",
+    "detection_aliases": [
+      "United Sales Partner",
+      "United Sales Partners LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 7,
+    "file_count_older_archives": 12,
+    "typical_items": [
+      "Sour Cream - 1 KG",
+      "Greek Yoghurt Plain - 1 KG",
+      "Labneh - 1KG",
+      "Sour Cream 1 KG",
+      "Greek Yoghurt Plain - 1KG",
+      "Chef's Choice Yog - 10 KG"
+    ],
+    "typical_units": [
+      "PCS",
+      "PCK",
+      "PC",
+      "Pcs"
+    ],
+    "sample_invoice": "by_supplier/United-Sales-Partners/2026-04-16__16226204863__p1of1.jpg",
+    "column_layout_hint": [
+      "sl",
+      "item",
+      "qty",
+      "unit",
+      "unit_price",
+      "total"
+    ],
+    "known_quirks": [
+      "Quantity column sometimes shows '@ Pcs' prefix — OCR can misread the '@' as '2'.",
+      "Some invoices are billed to a different customer (Yalla Mansaf Kitchen) but ship to our address."
+    ],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded+quirks",
+    "expense_category": "cogs_food"
+  },
+  "Viva Premiere Investment LLC": {
+    "canonical_name": "Viva Premiere Investment LLC",
+    "slug": "Viva-Premiere-Investment",
+    "detection_aliases": [
+      "ViVA Premiere Investment LLC",
+      "Viva Premiere Investment LLC"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 4,
+    "file_count_older_archives": 0,
+    "typical_items": [
+      "Full Cream Milk 1 gal 3.78 L",
+      "Tender Chicken Breast",
+      "ViVA Shopping P/Bag"
+    ],
+    "typical_units": [
+      "pcs",
+      "kg",
+      "pc",
+      "PCS"
+    ],
+    "sample_invoice": "by_supplier/Viva-Premiere-Investment/2026-04-15__IDXB03601279272__p1of1.jpg",
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "seeded",
+    "expense_category": "cogs_food"
+  },
+  "Yashtech Trading": {
+    "canonical_name": "Yashtech Trading",
+    "slug": "Yashtech-Trading",
+    "detection_aliases": [
+      "Yashtech Trading"
+    ],
+    "language": "English",
+    "vat_pct": 5,
+    "invoice_count_in_april": 0,
+    "file_count_older_archives": 2,
+    "typical_items": [],
+    "typical_units": [],
+    "sample_invoice": null,
+    "column_layout_hint": null,
+    "known_quirks": [],
+    "known_pack_sizes": {},
+    "last_reviewed": "2026-04-22",
+    "status": "unprofiled_retry_later",
+    "retry_reason": "PDF rasterization failed (pdftoppm unavailable); will retry via Folder 1 JPG or alternative renderer.",
+    "is_food_supplier": null,
+    "expense_category": "cogs_packaging"
+  }
+}

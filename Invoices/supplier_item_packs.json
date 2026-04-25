@@ -1,0 +1,131 @@
+{
+  "Coca-Cola": {
+    "Arwa 200ml 1x24 PET": 24,
+    "Coke 330ml 1x24 NP Sleek Can": 24,
+    "Coke Zero 330ml 4x6 NP Sleek Can": 24,
+    "Fanta Orange 330ml 1x24 NP Sleek Can": 24,
+    "Sprite Zero 330ml 4x6 NP Sleek Can": 24
+  },
+  "Ecoway": {
+    "BAGASSE SUSHI TRAY 1.5 (1X600)": 600,
+    "Bagasse Sushi Tray 1.5 (1X600)": 300,
+    "BAGASSE SUSHI TRAY 2.0 (1X300)": 300,
+    "Bagasse Sushi Tray 2.0 (1X300)": 300,
+    "BLK SALAD BOWL 1100 ML (1X300)": 300,
+    "BLK Salad Bowl 1100 ML (1X300)": 300,
+    "BLK SALAD BOWL 500 ML (1X300)": 300,
+    "BLK Salad Bowl 500 ML (1X300)": 300,
+    "BLK SALAD BOWL 750 ML (1X300)": 300,
+    "BLK Salad Bowl 750 ML (1X300)": 300,
+    "PET LID FOR BAGASSE SUSHI TRAY 1.5 (1X600)": 600,
+    "PET Lid for Bagasse Sushi Tray 1.5 (1X600)": 600,
+    "PET LID FOR BAGASSE SUSHI TRAY 2.0 (1X300)": 300,
+    "PET Lid for Bagasse Sushi Tray 2.0 (1X300)": 300,
+    "PP LID FOR SALAD BOWLS 165 MM WITH CENTRE FLIP HOLE-CLEAR (1X300)": 300,
+    "PP LIDS FOR SALAD BOWL 150 MM WITH CENTRE FLIP HOLE (1X300)": 300,
+    "PP Lids for Salad Bowl 150 MM with Centre Flip Hole (1X300)": 300
+  },
+  "Freshia": {
+    "Baby Corn Pkt": 0.1
+  },
+  "Green Basket": {
+    "Asparagus": 0.25,
+    "Bok Choy": 0.2,
+    "Cherry Tomato": 0.25,
+    "Curry Leaves": 0.2,
+    "Eggs Turkey": 360,
+    "Garlic Peeled": 1,
+    "Mushroom White - Oman": 0.25,
+    "Strawberry": 0.25
+  },
+  "Jaleel Traders": {
+    "American Garden Mustard Cream 4x105onz": 11.92,
+    "MDH Kitchen King 6x10x100g": 0.1,
+    "Nadec UHT Full Fat Milk 3x4x1ltr": 12,
+    "Safa Baking Powder 4x12x100gm": 0.1,
+    "Shan Chat Masala 24x6x100gm": 0.1,
+    "Taste Basics Soy Sauce 4x1Gln": 3.7854
+  },
+  "Maa Almadeena": {
+    "16OZ BROWN SOUP CUP W/KRFT LD": 500,
+    "33X33X18 WHITE PAPER BAG 250 PC": 250,
+    "A1 BLACK CUTLERY SET 500 PC": 500,
+    "FALCON 18X23 MULIPURPOSE": 20,
+    "HC 2OZ CLEAR SAUCE CUP W/L 2K": 2000,
+    "L VYNL GLOVES CLEAR 10X100": 1000
+  },
+  "Marhaba DHR": {
+    "Shin Ramen Multi": 40
+  },
+  "MH Enterprises": {
+    "AMERICAN CLASSIC BAMBOO SHOOTS- 20 OZ": 0.567,
+    "AMERICAN CLASSIC BEETROOT SLICED": 3,
+    "AMERICAN CLASSIC CHILLI SAUCE- UAE": 0.34,
+    "AMERICAN CLASSIC DILL PICKLE 32 OZ": 0.91,
+    "ANGEL INSTANT DRY YEAST": 0.5,
+    "GOURMET CLASSIC RAISINS GOLDEN KG": 1,
+    "JARRITOS MANGO NATURAL FLAVOUR SODA-370 ML": 1,
+    "TOMEX CUT GREEN BEANS - BELGIUM": 2.5
+  },
+  "Modern Bakery": {
+    "BREAD BUN 2.5 PLAIN SLICED": 6,
+    "BREAD BUN 4.5\" BRIOCHE PLAIN SLICED": 6,
+    "Bread Bun 4.5\" Brioche Plain Sliced": 6
+  },
+  "Muhammad Imran Yousaf": {
+    "Egg": 360,
+    "Egg Tray (SHJ)": 30,
+    "Onion Spring (Pcs)": 0.2,
+    "Tofu": 0.5
+  },
+  "Senor Pepe": {
+    "10\" Flour Tortilla Plain (20 x 6) Ambient": 1,
+    "Black Beans in Water (Furmanos)": 3,
+    "Black Beans In Water (Furmanos)": 18,
+    "Cheddar Cheese Sauce": 18,
+    "CHEDDAR CHEESE SAUCE": 3,
+    "Chipotle Peppers Whole in Adobo": 16.8,
+    "Chipotle Peppers Whole In Adobo": 16.8,
+    "Corn Tortilla Chips Triangle": 2,
+    "CORN TORTILLA CHIPS TRIANGLE": 2,
+    "Jalapeno Pepper Slices (Egypt)": 17.7,
+    "Paprika Powder SP": 1,
+    "Thick & Chunky Salsa (Senor Pepers)": 13.02
+  },
+  "Sidco Foods": {
+    "Chicken Lollypop 10x1 Golden Fresh": 1,
+    "CHICKEN LOLLYPOP 10X1 GOLDEN FRESH": 10,
+    "Fish Fillet 500 UP": 10,
+    "FISH FILLET 500 UP": 10,
+    "Green Peas 4x2.5 (Nowaco Belgium)": 10,
+    "Mix Vegetable 4x2.5 3Way (Nowaco Belgium)": 10
+  },
+  "SNH Packing": {
+    "CLEAR LID FOR 2OZ SAUCE CUP": 2000
+  },
+  "Taste Masters": {
+    "Beef Dashida 1kg": 1,
+    "Chilli Paste Chua Hah Seng 3.2kg": 3.2,
+    "Egg Ramen Taiwan (5X200)Gm": 1,
+    "Honteri Mirin 1.8Ltr": 1.8,
+    "Hot Pepper Paste (Korea) 14Kg": 14,
+    "Jongga Rice Cake Daesang 1kg": 1,
+    "Rice Vinegar Mizkan 800ML": 0.8,
+    "Sambal Olek 510Gm": 0.51,
+    "Sanuki Udon (5X250)Gm": 1.25,
+    "Tonkatsu Sauce 1.8Ltr": 1.8,
+    "Wasabi Powder 1Kg": 1
+  },
+  "Sharif Hassan": {
+    "BBQ DRESSING HERMAN 4X1GAL": 15.1416,
+    "BBQ Dressing Herman 4x1gal": 7.5708,
+    "BBQ SAUCE DAILY FRESH 4X1GAL": 3.7854,
+    "CAESAR DRESSING A/GOURMET 4X1GAL": 3.7854
+  },
+  "United Sales Partners": {
+    "Sour Cream - 1 KG": 1,
+    "SOUR CREAM 1 KG": 1,
+    "Sour Cream 1 KG": 1,
+    "SOUR CREAM -1 KG": 1
+  }
+}

@@ -1,7 +1,7 @@
 {
   "title": "Canonical Price List - Cloud Kitchen Ingredients",
   "description": "Lowest price per standardized unit (Kg/L/Piece) for each ingredient. Only the cheapest supplier is retained per ingredient.",
-  "generated_date": "2026-04-13",
+  "generated_date": "2026-04-25",
   "total_unique_ingredients": 425,
   "uom_legend": {
     "Kg": "Price per Kilogram (AED)",
@@ -112,14 +112,16 @@
       "category": "Vegetables",
       "sub_category": "Other Vegetables",
       "uom": "Kg",
-      "price_per_unit": 28.0,
+      "price_per_unit": 112.0,
       "supplier": "GREEN BASKET VEGETABLES AND FRUITS TRADING LLC",
       "supplier_item": "Asparagus",
       "supplier_code": "",
       "buying_unit": "1Bnh",
       "buying_price": 28,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T13:48:59.099821",
+      "_resolution_method": "user_pack_0.25"
     },
     {
       "ingredient": "Atta Flour",
@@ -140,42 +142,48 @@
       "category": "Vegetables",
       "sub_category": "Avocado",
       "uom": "Kg",
-      "price_per_unit": 10.5,
+      "price_per_unit": 23.0,
       "supplier": "FRESHIA FOODSTUFF TRADING LLC",
       "supplier_item": "AVOCADO HASS",
       "supplier_code": "",
       "buying_unit": "1kg",
       "buying_price": 10.5,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.009167",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "BBQ Dressing",
       "category": "Dry Goods",
       "sub_category": "Dressings",
-      "uom": "Kg",
-      "price_per_unit": 6.1905,
+      "uom": "L",
+      "price_per_unit": 0,
       "supplier": "Sharif Hassan Ali Trading LLC",
       "supplier_item": "BBQ DRESSING HERMAN 4X1GAL",
       "supplier_code": "16657",
       "buying_unit": "4.2 Kg",
       "buying_price": 26,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_uom_changed_from": "Kg",
+      "_uom_change_note": "Changed canonical UOM from Kg to L on 20260425-134836 — supplier invoicing convention. Old price 6.1905 (per Kg) cleared; will be recomputed by auto_resolve_canonical.py."
     },
     {
       "ingredient": "BBQ Sauce Original",
       "category": "Dry Goods",
       "sub_category": "Sauces",
-      "uom": "Kg",
-      "price_per_unit": 6.1905,
+      "uom": "L",
+      "price_per_unit": 0,
       "supplier": "Sharif Hassan Ali Trading LLC",
       "supplier_item": "BBQ SAUCE DAILY FRESH 4X1GAL",
       "supplier_code": "23831",
       "buying_unit": "4.2 Kg",
       "buying_price": 26,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_uom_changed_from": "Kg",
+      "_uom_change_note": "Changed canonical UOM from Kg to L on 20260425-134836 — supplier invoicing convention. Old price 6.1905 (per Kg) cleared; will be recomputed by auto_resolve_canonical.py."
     },
     {
       "ingredient": "Bacharny 1kg",
@@ -308,14 +316,16 @@
       "category": "Meat",
       "sub_category": "Beef",
       "uom": "Kg",
-      "price_per_unit": 66.0,
+      "price_per_unit": 69.0,
       "supplier": "Chef Middle East LLC",
       "supplier_item": "BEEF BREAKFAST SLICES CAB-FROZEN (4X5LB)",
       "supplier_code": "36454",
       "buying_unit": "1kg",
       "buying_price": 66,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.010065",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Beef Bouillon Powder",
@@ -406,14 +416,16 @@
       "category": "Vegetables",
       "sub_category": "Canned Vegetables",
       "uom": "Kg",
-      "price_per_unit": 8.89,
+      "price_per_unit": 4.4433,
       "supplier": "M.H. Enterprises L.L.C.",
       "supplier_item": "AMERICAN CLASSIC BEETROOT SLICED",
       "supplier_code": "FCVG126",
       "buying_unit": "3 Kg",
       "buying_price": 26.67,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T13:48:59.102554",
+      "_resolution_method": "user_pack_3_chosen_by_proximity"
     },
     {
       "ingredient": "Bitter Gourd",
@@ -700,14 +712,16 @@
       "category": "Vegetables",
       "sub_category": "Cabbage",
       "uom": "Kg",
-      "price_per_unit": 5.0,
+      "price_per_unit": 6.75,
       "supplier": "FRESHIA FOODSTUFF TRADING LLC",
       "supplier_item": "Cabbage Chinese",
       "supplier_code": "",
       "buying_unit": "1kg",
       "buying_price": 5,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.020382",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Cabbage Red",
@@ -741,15 +755,17 @@
       "ingredient": "Caesar Dressing",
       "category": "Dry Goods",
       "sub_category": "Dressings",
-      "uom": "Kg",
-      "price_per_unit": 10.0,
+      "uom": "L",
+      "price_per_unit": 0,
       "supplier": "Sharif Hassan Ali Trading LLC",
       "supplier_item": "CAESAR DRESSING A/GOURMET 4X1GAL",
       "supplier_code": "18096",
       "buying_unit": "3.8 Kg",
       "buying_price": 38,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_uom_changed_from": "Kg",
+      "_uom_change_note": "Changed canonical UOM from Kg to L on 20260425-134836 — supplier invoicing convention. Old price 10.0 (per Kg) cleared; will be recomputed by auto_resolve_canonical.py."
     },
     {
       "ingredient": "Cajun Seasoning",
@@ -770,14 +786,16 @@
       "category": "Vegetables",
       "sub_category": "Capsicum",
       "uom": "Kg",
-      "price_per_unit": 3.95,
+      "price_per_unit": 6.0,
       "supplier": "MUHAMMAD IMRAN YOUSAF FOODSTUFF TRADING L.L.C.",
       "supplier_item": "CAPCIUM GREEN",
       "supplier_code": "",
       "buying_unit": "1 Kg",
       "buying_price": 3.95,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.021932",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Capsicum Red",
@@ -868,14 +886,16 @@
       "category": "Vegetables",
       "sub_category": "Cauliflower",
       "uom": "Kg",
-      "price_per_unit": 5.5,
+      "price_per_unit": 4.5,
       "supplier": "FRESHIA FOODSTUFF TRADING LLC",
       "supplier_item": "Cauliflower",
       "supplier_code": "",
       "buying_unit": "1kg",
       "buying_price": 5.5,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.023886",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Celery",
@@ -1022,14 +1042,16 @@
       "category": "Vegetables",
       "sub_category": "Onion",
       "uom": "Kg",
-      "price_per_unit": 4.5,
+      "price_per_unit": 19.0,
       "supplier": "GREEN BASKET VEGETABLES AND FRUITS TRADING LLC",
       "supplier_item": "Cherry Tomato",
       "supplier_code": "",
       "buying_unit": "1Pkt",
       "buying_price": 4.5,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.026039",
+      "_resolution_method": "direct_unit_match"
     },
     {
       "ingredient": "Chicken Breast (Aurora)",
@@ -1078,14 +1100,16 @@
       "category": "Meat",
       "sub_category": "Chicken",
       "uom": "Kg",
-      "price_per_unit": 16.5,
+      "price_per_unit": 24.0,
       "supplier": "SIDCO FOODS TRADING LLC",
       "supplier_item": "CHICKEN LOLLYPOP 10X1 GOLDEN FRESH",
       "supplier_code": "",
       "buying_unit": "10 Kg",
       "buying_price": 165,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.027198",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Chicken Masala",
@@ -1246,14 +1270,16 @@
       "category": "Dry Goods",
       "sub_category": "Sauces",
       "uom": "Kg",
-      "price_per_unit": 22.8125,
+      "price_per_unit": 27.5,
       "supplier": "Taste Masters LLC",
       "supplier_item": "Chilli Paste Chua Hah Seng 3.2kg",
       "supplier_code": "TM-00766",
       "buying_unit": "3.2kg",
       "buying_price": 73,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.027887",
+      "_resolution_method": "per_unit_div_3.2kg_chosen_by_proximity"
     },
     {
       "ingredient": "Chilli Flakes",
@@ -1288,14 +1314,16 @@
       "category": "Dry Goods",
       "sub_category": "Spices",
       "uom": "Kg",
-      "price_per_unit": 10.0,
+      "price_per_unit": 21.75,
       "supplier": "Jaleel Traders LLC",
       "supplier_item": "Uncle J's Kashmiri Chilly Powder 1kg",
       "supplier_code": "1053120",
       "buying_unit": "1kg",
       "buying_price": 10,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.027979",
+      "_resolution_method": "per_unit_div_1.0kg_chosen_by_proximity"
     },
     {
       "ingredient": "Chilli Sauce",
@@ -1372,14 +1400,16 @@
       "category": "Dry Goods",
       "sub_category": "Spices",
       "uom": "Kg",
-      "price_per_unit": 22.0,
+      "price_per_unit": 13.0,
       "supplier": "Jaleel Traders LLC",
       "supplier_item": "Uncle J's Chilly Powder 1Kg",
       "supplier_code": "1053140",
       "buying_unit": "1 Kg",
       "buying_price": 22,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.028016",
+      "_resolution_method": "per_unit_div_1.0kg_chosen_by_proximity"
     },
     {
       "ingredient": "Chinese Wok 40cm",
@@ -1456,42 +1486,48 @@
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "Piece",
-      "price_per_unit": 2.0417,
+      "price_per_unit": 1.9688,
       "supplier": "COCA-COLA AL AHLIA BEVERAGES COMPANY L.L.C",
       "supplier_item": "Coke 300ml 1x24 Can",
       "supplier_code": "10181700",
       "buying_unit": "24 Pcs",
       "buying_price": 49,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.028309",
+      "_resolution_method": "pack_div_24_chosen_by_proximity"
     },
     {
       "ingredient": "Coca-Cola 330ml",
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "Piece",
-      "price_per_unit": 1.9583,
+      "price_per_unit": 1.9688,
       "supplier": "COCA-COLA AL AHLIA BEVERAGES COMPANY L.L.C",
       "supplier_item": "Coke 330ml 1x24 NP Sleek Can",
       "supplier_code": "10211701",
       "buying_unit": "24 Pcs",
       "buying_price": 47,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T13:48:59.108951",
+      "_resolution_method": "user_pack_24_chosen_by_proximity"
     },
     {
       "ingredient": "Coca-Cola Zero 300ml",
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "Piece",
-      "price_per_unit": 2.0417,
+      "price_per_unit": 1.9583,
       "supplier": "COCA-COLA AL AHLIA BEVERAGES COMPANY L.L.C",
       "supplier_item": "Coke Zero 300ml 1x24 Can",
       "supplier_code": "12181700",
       "buying_unit": "24 Pcs",
       "buying_price": 49,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.028577",
+      "_resolution_method": "pack_div_24_chosen_by_proximity"
     },
     {
       "ingredient": "Coca-Cola Zero 330ml",
@@ -1582,14 +1618,16 @@
       "category": "Dairy",
       "sub_category": "Milk",
       "uom": "Kg",
-      "price_per_unit": 39.8741,
+      "price_per_unit": 19.9496,
       "supplier": "M.H. Enterprises L.L.C.",
       "supplier_item": "RAINBOW CONDENSED MILK -397GMS",
       "supplier_code": "FCDP002",
       "buying_unit": "397gm",
       "buying_price": 15.83,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.028750",
+      "_resolution_method": "per_unit_div_397.0g_chosen_by_proximity"
     },
     {
       "ingredient": "Container 750cc with Lid",
@@ -1750,14 +1788,16 @@
       "category": "Dry Goods",
       "sub_category": "Baking",
       "uom": "Kg",
-      "price_per_unit": 3.7375,
+      "price_per_unit": 3.5375,
       "supplier": "Jaleel Traders LLC",
       "supplier_item": "Uncle J's Corn Flour Powder 4kg",
       "supplier_code": "1037456",
       "buying_unit": "4kg",
       "buying_price": 14.95,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.032257",
+      "_resolution_method": "per_unit_div_4.0kg_chosen_by_proximity"
     },
     {
       "ingredient": "Crab Whole",
@@ -1806,14 +1846,16 @@
       "category": "Dry Goods",
       "sub_category": "Spices",
       "uom": "Kg",
-      "price_per_unit": 24.0,
+      "price_per_unit": 40.0,
       "supplier": "Al Adil trading co. L.L.C.",
       "supplier_item": "PCK JEERA POWDER 1KG",
       "supplier_code": "3141150000117",
       "buying_unit": "1kg",
       "buying_price": 24,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.037887",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Cumin Seeds",
@@ -1834,14 +1876,16 @@
       "category": "Vegetables",
       "sub_category": "Herbs",
       "uom": "Kg",
-      "price_per_unit": 16.0,
+      "price_per_unit": 80.0,
       "supplier": "GREEN BASKET VEGETABLES AND FRUITS TRADING LLC",
       "supplier_item": "Curry Leaves",
       "supplier_code": "",
       "buying_unit": "1Bnh",
       "buying_price": 16,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T13:48:59.110896",
+      "_resolution_method": "user_pack_0.2"
     },
     {
       "ingredient": "Cutlery Set Black",
@@ -1974,14 +2018,16 @@
       "category": "Dairy",
       "sub_category": "Egg",
       "uom": "Piece",
-      "price_per_unit": 0.5417,
+      "price_per_unit": 0.4861,
       "supplier": "GREEN BASKET VEGETABLES AND FRUITS TRADING LLC",
       "supplier_item": "Eggs Turkey",
       "supplier_code": "",
       "buying_unit": "1Box",
       "buying_price": 195,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T13:48:59.111330",
+      "_resolution_method": "user_pack_360_chosen_by_proximity"
     },
     {
       "ingredient": "Egg Noodles",
@@ -2072,14 +2118,16 @@
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "Piece",
-      "price_per_unit": 2.0417,
+      "price_per_unit": 1.9583,
       "supplier": "COCA-COLA AL AHLIA BEVERAGES COMPANY L.L.C",
       "supplier_item": "Fanta Orange 300ml 1x24 Can",
       "supplier_code": "30181700",
       "buying_unit": "24 Pcs",
       "buying_price": 49,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.039337",
+      "_resolution_method": "pack_div_24_chosen_by_proximity"
     },
     {
       "ingredient": "Fanta Orange 330ml",
@@ -2408,14 +2456,16 @@
       "category": "Vegetables",
       "sub_category": "Garlic",
       "uom": "Kg",
-      "price_per_unit": 11.5,
+      "price_per_unit": 10.0,
       "supplier": "FRESHIA FOODSTUFF TRADING LLC",
       "supplier_item": "Peeled Garlic",
       "supplier_code": "",
       "buying_unit": "1kg",
       "buying_price": 11.5,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.039986",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Garlic Powder",
@@ -2436,14 +2486,16 @@
       "category": "Dairy",
       "sub_category": "Butter & Ghee",
       "uom": "L",
-      "price_per_unit": 31.25,
+      "price_per_unit": 32.25,
       "supplier": "Jaleel Traders LLC",
       "supplier_item": "Amul Pure ghee",
       "supplier_code": "1001494",
       "buying_unit": "1 Ltr",
       "buying_price": 31.25,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.040068",
+      "_resolution_method": "per_inner_unit_1.0l_chosen_by_proximity"
     },
     {
       "ingredient": "Ghee Vegetable",
@@ -2478,14 +2530,16 @@
       "category": "Vegetables",
       "sub_category": "Root Vegetables",
       "uom": "Kg",
-      "price_per_unit": 6.0,
+      "price_per_unit": 12.0,
       "supplier": "MUHAMMAD IMRAN YOUSAF FOODSTUFF TRADING L.L.C.",
       "supplier_item": "GINGER",
       "supplier_code": "",
       "buying_unit": "1 Kg",
       "buying_price": 6,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.040189",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Gloves Vinyl Black Large",
@@ -2716,14 +2770,16 @@
       "category": "Dry Goods",
       "sub_category": "Spreads",
       "uom": "Kg",
-      "price_per_unit": 8.3333,
+      "price_per_unit": 8.9392,
       "supplier": "Jaleel Traders LLC",
       "supplier_item": "Taste Basics Honey 4x3kg",
       "supplier_code": "1071368",
       "buying_unit": "12 Kg",
       "buying_price": 100,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.041144",
+      "_resolution_method": "case_kg_4x3.0_chosen_by_proximity"
     },
     {
       "ingredient": "Instant Dry Yeast",
@@ -2814,84 +2870,96 @@
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "L",
-      "price_per_unit": 16.8919,
+      "price_per_unit": 17.4549,
       "supplier": "M.H. Enterprises L.L.C.",
       "supplier_item": "JARRITOS FRUIT PUNCH NATURAL FLAVOR SODA-370 ML",
       "supplier_code": "FEFM320",
       "buying_unit": "370ml",
       "buying_price": 6.25,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.042488",
+      "_resolution_method": "per_unit_div_370.0ml_chosen_by_proximity"
     },
     {
       "ingredient": "Jarritos Lime",
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "L",
-      "price_per_unit": 16.8919,
+      "price_per_unit": 23.6486,
       "supplier": "M.H. Enterprises L.L.C.",
       "supplier_item": "JARRITOS LIME NATURAL FLAVOR SODA - 370 ML",
       "supplier_code": "FEFM888",
       "buying_unit": "370ml",
       "buying_price": 6.25,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.042529",
+      "_resolution_method": "per_unit_div_370.0ml_chosen_by_proximity"
     },
     {
       "ingredient": "Jarritos Mandarin",
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "L",
-      "price_per_unit": 16.8919,
+      "price_per_unit": 23.6486,
       "supplier": "M.H. Enterprises L.L.C.",
       "supplier_item": "JARRITOS MANDARIN NATURAL FLAVOR SODA - 370 ML",
       "supplier_code": "FEFM887",
       "buying_unit": "370ml",
       "buying_price": 6.25,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.042560",
+      "_resolution_method": "per_unit_div_370.0ml_chosen_by_proximity"
     },
     {
       "ingredient": "Jarritos Mango",
       "category": "Beverages",
       "sub_category": "Sodas",
       "uom": "Piece",
-      "price_per_unit": 16.8919,
+      "price_per_unit": 6.4583,
       "supplier": "M.H. Enterprises L.L.C.",
       "supplier_item": "JARRITOS MANGO NATURAL FLAVOUR SODA- 370 ML",
       "supplier_code": "FEFM317",
       "buying_unit": "370ml",
       "buying_price": 6.25,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T13:48:59.114039",
+      "_resolution_method": "user_pack_1_chosen_by_proximity"
     },
     {
       "ingredient": "Jarritos Mexican Cola",
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "L",
-      "price_per_unit": 16.8919,
+      "price_per_unit": 23.6486,
       "supplier": "M.H. Enterprises L.L.C.",
       "supplier_item": "JARRITOS MEXICAN COLA - 370 ML",
       "supplier_code": "FEFM890",
       "buying_unit": "370ml",
       "buying_price": 6.25,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.042609",
+      "_resolution_method": "per_unit_div_370.0ml_chosen_by_proximity"
     },
     {
       "ingredient": "Jarritos Pineapple",
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "L",
-      "price_per_unit": 16.8919,
+      "price_per_unit": 23.6486,
       "supplier": "M.H. Enterprises L.L.C.",
       "supplier_item": "JARRITOS PINEAPPLE NATURAL FLAVOR SODA - 370 ML",
       "supplier_code": "FEFM889",
       "buying_unit": "370ml",
       "buying_price": 6.25,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.042638",
+      "_resolution_method": "per_unit_div_370.0ml_chosen_by_proximity"
     },
     {
       "ingredient": "Jeera Powder",
@@ -3122,14 +3190,16 @@
       "category": "Vegetables",
       "sub_category": "Lettuce",
       "uom": "Kg",
-      "price_per_unit": 29.0,
+      "price_per_unit": 23.5,
       "supplier": "FRESHIA FOODSTUFF TRADING LLC",
       "supplier_item": "LETTUCE LOLLO BIONDA",
       "supplier_code": "",
       "buying_unit": "1kg",
       "buying_price": 29,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.044336",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Lettuce Lollo Green",
@@ -3164,14 +3234,16 @@
       "category": "Vegetables",
       "sub_category": "Lettuce",
       "uom": "Kg",
-      "price_per_unit": 4.25,
+      "price_per_unit": 8.5,
       "supplier": "GREEN BASKET VEGETABLES AND FRUITS TRADING LLC",
       "supplier_item": "Romine //",
       "supplier_code": "",
       "buying_unit": "1kg",
       "buying_price": 4.25,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.045431",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Lid for Bagasse Container",
@@ -3402,14 +3474,16 @@
       "category": "Dry Goods",
       "sub_category": "Condiments",
       "uom": "Kg",
-      "price_per_unit": 14.5503,
+      "price_per_unit": 27.0,
       "supplier": "Sharif Hassan Ali Trading LLC",
       "supplier_item": "MAYONNAISE HELLMANS 4X3.78LTR",
       "supplier_code": "11039",
       "buying_unit": "15.12 Ltr",
       "buying_price": 220,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.048467",
+      "_resolution_method": "per_unit_div_450.0g_chosen_by_proximity"
     },
     {
       "ingredient": "Measuring Cup Set",
@@ -3598,14 +3672,16 @@
       "category": "Vegetables",
       "sub_category": "Mushroom",
       "uom": "Kg",
-      "price_per_unit": 5.0,
+      "price_per_unit": 20.0,
       "supplier": "GREEN BASKET VEGETABLES AND FRUITS TRADING LLC",
       "supplier_item": "Mushroom White - Oman",
       "supplier_code": "",
       "buying_unit": "1Pkt",
       "buying_price": 5,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T13:48:59.118954",
+      "_resolution_method": "user_pack_0.25"
     },
     {
       "ingredient": "Mustard Cream",
@@ -3738,14 +3814,16 @@
       "category": "Dry Goods",
       "sub_category": "Oil",
       "uom": "L",
-      "price_per_unit": 10.9375,
+      "price_per_unit": 10.625,
       "supplier": "Jaleel Traders LLC",
       "supplier_item": "Taste Basics Blended Olive Oil 4x4LTR",
       "supplier_code": "1066869",
       "buying_unit": "4 Ltr",
       "buying_price": 43.75,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.054112",
+      "_resolution_method": "case_l_4x4.0_chosen_by_proximity"
     },
     {
       "ingredient": "Olives Black Sliced",
@@ -3766,14 +3844,16 @@
       "category": "Vegetables",
       "sub_category": "Onion",
       "uom": "Kg",
-      "price_per_unit": 3.75,
+      "price_per_unit": 2.75,
       "supplier": "FRESHIA FOODSTUFF TRADING LLC",
       "supplier_item": "ONION RED",
       "supplier_code": "",
       "buying_unit": "1kg",
       "buying_price": 3.75,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.055059",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Onion Rings",
@@ -3794,14 +3874,16 @@
       "category": "Vegetables",
       "sub_category": "Onion",
       "uom": "Kg",
-      "price_per_unit": 4.25,
+      "price_per_unit": 4.0,
       "supplier": "FRESHIA FOODSTUFF TRADING LLC",
       "supplier_item": "ONION WHITE",
       "supplier_code": "",
       "buying_unit": "1kg",
       "buying_price": 4.25,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.056818",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Orange",
@@ -4242,14 +4324,16 @@
       "category": "Dry Goods",
       "sub_category": "Legumes",
       "uom": "Kg",
-      "price_per_unit": 8.0,
+      "price_per_unit": 13.125,
       "supplier": "Jaleel Traders LLC",
       "supplier_item": "Uncle J's Red Kidney Beans 1kg",
       "supplier_code": "1025222",
       "buying_unit": "1kg",
       "buying_price": 8,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.058833",
+      "_resolution_method": "per_unit_div_1.0kg_chosen_by_proximity"
     },
     {
       "ingredient": "Rice Basmati",
@@ -4536,14 +4620,16 @@
       "category": "Dry Goods",
       "sub_category": "Seasoning",
       "uom": "Kg",
-      "price_per_unit": 1.0,
+      "price_per_unit": 0.9167,
       "supplier": "Jaleel Traders LLC",
       "supplier_item": "Spoonz Iodized Salt Pkt 12x1kg",
       "supplier_code": "1038441",
       "buying_unit": "1kg",
       "buying_price": 1,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.060997",
+      "_resolution_method": "case_kg_12x1.0_chosen_by_proximity"
     },
     {
       "ingredient": "Salt Rock",
@@ -4746,14 +4832,16 @@
       "category": "Dry Goods",
       "sub_category": "Spices",
       "uom": "Kg",
-      "price_per_unit": 112.0,
+      "price_per_unit": 66.6667,
       "supplier": "Taste Masters LLC",
       "supplier_item": "Shichimi Togarashi",
       "supplier_code": "TM-01789",
       "buying_unit": "500 gm",
       "buying_price": 56,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.061515",
+      "_resolution_method": "per_unit_div_300.0g_chosen_by_proximity"
     },
     {
       "ingredient": "Shrimp",
@@ -4843,15 +4931,17 @@
       "ingredient": "Sour Cream",
       "category": "Dairy",
       "sub_category": "Cream",
-      "uom": "L",
-      "price_per_unit": 18.0,
+      "uom": "Kg",
+      "price_per_unit": 0,
       "supplier": "UNITED SALES PARTNERS LLC",
       "supplier_item": "SOUR CREAM -1 KG",
       "supplier_code": "2077",
       "buying_unit": "1 KG",
       "buying_price": 18,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_uom_changed_from": "L",
+      "_uom_change_note": "Changed canonical UOM from L to Kg on 20260425-134836 — supplier invoicing convention. Old price 18.0 (per L) cleared; will be recomputed by auto_resolve_canonical.py."
     },
     {
       "ingredient": "Soy Sauce",
@@ -4942,28 +5032,32 @@
       "category": "Vegetables",
       "sub_category": "Onion",
       "uom": "Kg",
-      "price_per_unit": 4.0,
+      "price_per_unit": 7.0,
       "supplier": "MUHAMMAD IMRAN YOUSAF FOODSTUFF TRADING L.L.C.",
       "supplier_item": "ONION SPRING (Pcs)",
       "supplier_code": "",
       "buying_unit": "PCS",
       "buying_price": 4,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.063316",
+      "_resolution_method": "direct_unit_match_chosen_by_proximity"
     },
     {
       "ingredient": "Spring Roll Chicken",
       "category": "Dry Goods",
       "sub_category": "Frozen Appetizers",
       "uom": "Kg",
-      "price_per_unit": 16.0,
+      "price_per_unit": 17.4,
       "supplier": "SIDCO FOODS TRADING LLC",
       "supplier_item": "CHICKEN SPRING ROLL 5X1KG GOLDEN FRESH",
       "supplier_code": "",
       "buying_unit": "1 Kg",
       "buying_price": 16,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.063351",
+      "_resolution_method": "per_inner_unit_1.25kg_chosen_by_proximity"
     },
     {
       "ingredient": "Spring Roll Vegetable",
@@ -4984,14 +5078,16 @@
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "Piece",
-      "price_per_unit": 2.0417,
+      "price_per_unit": 1.9583,
       "supplier": "COCA-COLA AL AHLIA BEVERAGES COMPANY L.L.C",
       "supplier_item": "Sprite 300ml 1x24 Can",
       "supplier_code": "20181700",
       "buying_unit": "24 Pcs",
       "buying_price": 49,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.063561",
+      "_resolution_method": "pack_div_24_chosen_by_proximity"
     },
     {
       "ingredient": "Sprite 330ml",
@@ -5012,14 +5108,16 @@
       "category": "Beverages",
       "sub_category": "Carbonated Drinks",
       "uom": "Piece",
-      "price_per_unit": 2.0417,
+      "price_per_unit": 1.9583,
       "supplier": "COCA-COLA AL AHLIA BEVERAGES COMPANY L.L.C",
       "supplier_item": "Sprite Zero 300ml 1x24 Can",
       "supplier_code": "86181700",
       "buying_unit": "24 Pcs",
       "buying_price": 49,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.064401",
+      "_resolution_method": "pack_div_24_chosen_by_proximity"
     },
     {
       "ingredient": "Sprite Zero 330ml",
@@ -5068,14 +5166,16 @@
       "category": "Fruits",
       "sub_category": "Berries",
       "uom": "Kg",
-      "price_per_unit": 13.0,
+      "price_per_unit": 52.0,
       "supplier": "GREEN BASKET VEGETABLES AND FRUITS TRADING LLC",
       "supplier_item": "Strawberry",
       "supplier_code": "",
       "buying_unit": "1Pkt",
       "buying_price": 13,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T13:48:59.125059",
+      "_resolution_method": "user_pack_0.25"
     },
     {
       "ingredient": "Strawberry Jam",
@@ -5096,14 +5196,16 @@
       "category": "Dry Goods",
       "sub_category": "Sugar",
       "uom": "Kg",
-      "price_per_unit": 2.55,
+      "price_per_unit": 2.5833,
       "supplier": "Jaleel Traders LLC",
       "supplier_item": "Spoonz Sugar 10kg",
       "supplier_code": "1063762",
       "buying_unit": "10kg",
       "buying_price": 25.5,
       "taxable": "Yes",
-      "affects_cogs": "Yes"
+      "affects_cogs": "Yes",
+      "_last_auto_resolved": "2026-04-25T10:10:59.065369",
+      "_resolution_method": "per_unit_div_10.0kg_chosen_by_proximity"
     },
     {
       "ingredient": "Sugar Syrup",
@@ -5959,5 +6061,6 @@
       "taxable": "Yes",
       "affects_cogs": "Yes"
     }
-  ]
+  ],
+  "_last_auto_resolve": "2026-04-25T13:48:59.128060"
 }

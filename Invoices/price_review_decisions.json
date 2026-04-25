@@ -1,0 +1,11 @@
+{
+  "Lid for Sauce Cup 2oz": {
+    "action": "accept_pack_converted",
+    "accepted_price": 0.02,
+    "case_price_used": 40.0,
+    "pack_size_used": 2000,
+    "old_price": 0.02,
+    "change_pct": 0.0,
+    "timestamp": "2026-04-22T23:22:00.441624"
+  }
+}

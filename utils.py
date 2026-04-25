@@ -32,6 +32,8 @@ INVOICES_DIR = os.path.join(BASE_DIR, "Invoices")
 CANONICAL_PRICE_FILE = os.path.join(COSTING_DIR, "canonical_price_list.json")
 ALIASES_FILE = os.path.join(INVOICES_DIR, "ingredient_aliases.json")
 PRICE_HISTORY_FILE = os.path.join(INVOICES_DIR, "price_history.json")
+VENDOR_PROFILES_FILE = os.path.join(INVOICES_DIR, "vendor_profiles.json")
+PRICE_OBSERVATIONS_FILE = os.path.join(INVOICES_DIR, "price_observations.json")
 
 os.makedirs(INVOICES_DIR, exist_ok=True)
 
@@ -415,6 +417,396 @@ def normalize_price(invoice_price, invoice_qty, invoice_unit, canonical_uom, buy
     return round(price_per_qty, 4)
 
 # ============================================================================
+# VENDOR PROFILES (format hints per supplier)
+# ============================================================================
+
+def load_vendor_profiles():
+    """Return {canonical_name: profile_dict} from vendor_profiles.json."""
+    return load_json(VENDOR_PROFILES_FILE, default={})
+
+
+def match_vendor_profile(supplier_hint, profiles=None):
+    """Best-effort match a supplier name/hint to a profile key.
+
+    `supplier_hint` can be: a folder name, OCR'd supplier string, or canonical name.
+    Matches against canonical_name + detection_aliases (case-insensitive substring).
+    Returns (profile_key, profile_dict) or (None, None).
+    """
+    if profiles is None:
+        profiles = load_vendor_profiles()
+    if not supplier_hint:
+        return None, None
+    s = supplier_hint.lower().strip("_ ")
+    # Exact-key match first
+    for key in profiles:
+        if key.lower() == s:
+            return key, profiles[key]
+    # Substring on canonical + aliases
+    for key, p in profiles.items():
+        hits = [p.get("canonical_name", ""), key] + list(p.get("detection_aliases", []))
+        for h in hits:
+            if h and (h.lower() in s or s in h.lower()):
+                return key, p
+    return None, None
+
+
+def build_profile_context(profile, supplier_hint=None):
+    """Render a profile's structural hints as a prompt-injectable string.
+
+    Returns empty string if profile is None (falls through to generic prompt).
+
+    If supplier_hint is provided, also inject any saved pack mappings for that
+    supplier so the OCR knows the structural answer for repeat items.
+    """
+    if not profile:
+        # Even without profile, still try to inject supplier-pack hints if any
+        if supplier_hint:
+            return _build_supplier_packs_context(supplier_hint)
+        return ""
+    lines = [f"SUPPLIER CONTEXT — {profile.get('canonical_name', '')}:"]
+    if profile.get("language"):
+        lines.append(f"  - Language: {profile['language']}")
+    if profile.get("column_layout_hint"):
+        lines.append(f"  - Expected columns (in order): {profile['column_layout_hint']}")
+    if profile.get("has_discount_column"):
+        lines.append("  - Has a DISCOUNT column — capture net price, not gross.")
+    tr = profile.get("line_total_vat_treatment")
+    if tr == "inclusive":
+        lines.append("  - Line totals are VAT-INCLUSIVE.")
+    elif tr == "exclusive":
+        lines.append("  - Line totals are VAT-EXCLUSIVE (separate VAT column).")
+    elif tr == "both_shown":
+        lines.append("  - Both pre- and post-VAT columns present — capture pre-VAT as line total.")
+    if profile.get("typical_units"):
+        lines.append(f"  - Typical units: {profile['typical_units']}")
+    if profile.get("pack_convention"):
+        lines.append(f"  - Pack convention: {profile['pack_convention']}")
+    if profile.get("handwritten"):
+        lines.append("  - HANDWRITTEN invoice — validate qty*unit_price vs printed total.")
+    if profile.get("typical_items"):
+        lines.append(f"  - Typical items: {', '.join(profile['typical_items'][:15])}")
+    quirks = profile.get("known_quirks", [])
+    if quirks:
+        lines.append("  - Known quirks for this supplier:")
+        for q in quirks:
+            lines.append(f"      * {q}")
+    cat = profile.get("expense_category")
+    if cat:
+        lines.append(f"  - Expense category: {cat}")
+
+    # Append known pack mappings for this supplier
+    if supplier_hint:
+        pack_ctx = _build_supplier_packs_context(supplier_hint)
+        if pack_ctx:
+            lines.append("")
+            lines.append(pack_ctx)
+
+    return "\n".join(lines)
+
+
+def _build_supplier_packs_context(supplier_hint):
+    """Render the saved pack mappings for a supplier as a prompt fragment."""
+    if not supplier_hint:
+        return ""
+    packs = load_supplier_item_packs()
+    # Match supplier_hint to a key in packs (substring, case-insensitive)
+    matched_key = None
+    s = supplier_hint.lower().strip()
+    for k in packs:
+        if k.lower() == s or s in k.lower() or k.lower() in s:
+            matched_key = k
+            break
+    if not matched_key:
+        return ""
+    items = packs[matched_key]
+    if not items:
+        return ""
+    lines = [f"KNOWN PACK SIZES for {matched_key} (use these exact item names if matching, "
+             f"and capture pack_size in the JSON output for each line item):"]
+    # Limit to top 25 most useful entries to keep prompt size sane
+    sample_items = list(items.items())[:25]
+    for raw, pack in sample_items:
+        lines.append(f"  - '{raw}' -> pack_size={pack}")
+    if len(items) > 25:
+        lines.append(f"  ...and {len(items) - 25} more saved pack mappings")
+    return "\n".join(lines)
+
+
+# ============================================================================
+# HISTORICAL PRICE OBSERVATIONS (time-series per ingredient)
+# ============================================================================
+
+_price_observations_cache = None
+
+
+def load_price_observations():
+    """Load and cache the full price_observations.json."""
+    global _price_observations_cache
+    if _price_observations_cache is None:
+        _price_observations_cache = load_json(PRICE_OBSERVATIONS_FILE, default={})
+    return _price_observations_cache
+
+
+def clear_price_observations_cache():
+    global _price_observations_cache
+    _price_observations_cache = None
+
+
+def get_price_at_date(ingredient, as_of_date, unit=None, supplier=None):
+    """Return the most recent unit_price for `ingredient` on or before `as_of_date`.
+
+    Args:
+        ingredient: canonical ingredient name (exact match against price_observations.json keys)
+        as_of_date: date string 'YYYY-MM-DD', or datetime.date / datetime.datetime
+        unit: optional filter on normalized unit (e.g. 'kg', 'piece') to get only
+              observations in the matching UOM — useful when an ingredient has
+              multi-unit observations (kg vs pcs).
+        supplier: optional filter on supplier name (substring, case-insensitive).
+
+    Returns:
+        dict with {unit_price, date, supplier, unit_raw, invoice_number, raw_item_name}
+        if any observation exists at or before as_of_date; else None.
+
+    Example:
+        get_price_at_date("Tomato", "2025-08-15") →
+          {"unit_price": 4.25, "date": "2025-07-30", "supplier": "Green Basket", ...}
+    """
+    obs_map = load_price_observations()
+    entry = obs_map.get(ingredient)
+    if not entry:
+        return None
+    obs_list = entry.get("observations", [])
+
+    # Normalize as_of_date to ISO string
+    if hasattr(as_of_date, "isoformat"):
+        as_of = as_of_date.isoformat()[:10]
+    else:
+        as_of = str(as_of_date)[:10]
+
+    # Filters
+    matching = obs_list
+    if unit:
+        u = unit.lower().strip()
+        matching = [o for o in matching if o.get("unit_normalized") == u]
+    if supplier:
+        s = supplier.lower().strip()
+        matching = [o for o in matching if s in (o.get("supplier") or "").lower()]
+
+    # Binary-search-like — observations are pre-sorted ascending by date
+    best = None
+    for o in matching:
+        if o["date"] <= as_of:
+            best = o
+        else:
+            break
+    return best
+
+
+def get_price_series(ingredient, start_date=None, end_date=None, unit=None):
+    """Return full observation list for an ingredient within a date window.
+
+    Useful for charting / analysis. Returns list of dicts in date-ascending order.
+    """
+    obs_map = load_price_observations()
+    entry = obs_map.get(ingredient)
+    if not entry:
+        return []
+    obs = entry.get("observations", [])
+    if unit:
+        u = unit.lower().strip()
+        obs = [o for o in obs if o.get("unit_normalized") == u]
+    if start_date:
+        s = str(start_date)[:10]
+        obs = [o for o in obs if o["date"] >= s]
+    if end_date:
+        e = str(end_date)[:10]
+        obs = [o for o in obs if o["date"] <= e]
+    return obs
+
+
+def list_priced_ingredients():
+    """Return list of canonical ingredient names that have observations."""
+    obs_map = load_price_observations()
+    return sorted(k for k in obs_map if not k.startswith("__unmatched__:"))
+
+
+# ============================================================================
+# SUPPLIER-ITEM PACK MAPPINGS (user-curated; never overwritten by OCR)
+# ============================================================================
+
+SUPPLIER_PACKS_FILE = os.path.join(INVOICES_DIR, "supplier_item_packs.json")
+_supplier_packs_cache = None
+
+
+def load_supplier_item_packs():
+    """Return {supplier: {raw_item_name: pack_size}} mapping.
+
+    Pack size = number of canonical-UOM units per supplier billing unit.
+    """
+    global _supplier_packs_cache
+    if _supplier_packs_cache is None:
+        _supplier_packs_cache = load_json(SUPPLIER_PACKS_FILE, default={})
+    return _supplier_packs_cache
+
+
+def clear_supplier_packs_cache():
+    global _supplier_packs_cache
+    _supplier_packs_cache = None
+
+
+def lookup_pack_for_item(supplier, raw_item_name):
+    """Return saved pack_size for (supplier, raw_item_name), or None if not set.
+
+    Uses fuzzy supplier matching (substring, case-insensitive) so OCR'd
+    supplier names like 'SNH Packing General Trading L.L.C' match against
+    saved keys like 'SNH Packing' or any other variant.
+    """
+    packs = load_supplier_item_packs()
+    # Exact match first (cheapest)
+    if supplier in packs and raw_item_name in packs[supplier]:
+        return packs[supplier][raw_item_name]
+    # Fuzzy supplier match: substring either direction, case-insensitive
+    s = (supplier or "").lower().strip()
+    if not s:
+        return None
+    for sup_key, items in packs.items():
+        sk = sup_key.lower().strip()
+        if sk == s or sk in s or s in sk:
+            if raw_item_name in items:
+                return items[raw_item_name]
+            # Also try case-insensitive item match within this supplier
+            for k, v in items.items():
+                if k.lower().strip() == raw_item_name.lower().strip():
+                    return v
+    return None
+
+
+def parse_pack_from_text(text):
+    """Parse a pack size from invoice item text. Mirrors auto_resolve_canonical's
+    parser; kept here so OCR-time enrichment doesn't depend on the Invoices module.
+
+    Returns (pack_count_int, inner_size_float, inner_unit_str) or (None, None, None).
+    """
+    if not text:
+        return None, None, None
+    s = text.lower()
+
+    m = re.search(r"\b(\d+)\s*[x×]\s*(\d+)\s*(?:pcs?|pkt|pack|p\b|nos|units?)", s)
+    if m: return int(m.group(2)), None, "piece"
+    m = re.search(r"\b(\d+)\s*[x×]\s*(\d+)\s*(?:can|bottle|ea|dozen|dz)\b", s)
+    if m: return int(m.group(2)), None, "piece"
+    m = re.search(r"\b(\d+)\s*[x×]\s*(\d+(?:\.\d+)?)\s*(kg|kgs|ltr|l\b|gm|gms|g\b|ml)", s)
+    if m: return int(m.group(1)), float(m.group(2)), m.group(3)
+    m = re.search(r"\b(\d+)\s*/\s*(\d+(?:\.\d+)?)\s*(gm|gms|g\b|ml|kg|oz|pcs?|pkt)", s)
+    if m: return int(m.group(1)), float(m.group(2)), m.group(3)
+    m = re.search(r"\b(\d+)\s*pcs?\s+(?:pac|pack|pkt)\b", s)
+    if m: return int(m.group(1)), None, "piece"
+    m = re.search(r"\b(\d+)\s*[x×]\s*(\d+)\s*pc\b", s)
+    if m: return int(m.group(2)), None, "piece"
+    m = re.search(r"\b(\d+)\s*/\s*[aA]\d+\b", s)
+    if m: return int(m.group(1)), None, "piece"
+    m = re.search(r"\(\s*(\d+)\s*(?:sheets?|slices?|pcs?|pieces?|nos)\s*\)", s)
+    if m: return int(m.group(1)), None, "piece"
+    m = re.search(r"\b(\d+)\s*(?:sheets?|slices?|pcs)\b", s)
+    if m: return int(m.group(1)), None, "piece"
+    return None, None, None
+
+
+def enrich_items_with_packs(invoice):
+    """Mutate invoice.items[] to populate pack_size/case_price fields where missing.
+
+    Priority: supplier_item_packs.json (user-curated) > parser on item_name.
+    Adds `_pack_source` field documenting how pack was determined.
+    """
+    supplier = invoice.get("supplier_name", "")
+    for item in invoice.get("items", []) or []:
+        if item.get("pack_size"):
+            continue  # already populated by OCR or upstream
+
+        raw = item.get("item_name", "")
+        # 1. User-curated lookup
+        user_pack = lookup_pack_for_item(supplier, raw)
+        if user_pack:
+            item["pack_size"] = user_pack
+            item["_pack_source"] = "user_curated"
+            # case_price = unit_price * pack_size? Only if user_pack > 1 and unit_price seems case-level
+            continue
+
+        # 2. Parser
+        pack, inner_size, inner_unit = parse_pack_from_text(raw)
+        if pack:
+            item["pack_size"] = pack
+            if inner_size:
+                item["pack_inner_size"] = inner_size
+                item["pack_inner_unit"] = inner_unit
+            item["_pack_source"] = "parsed_from_name"
+    return invoice
+
+
+def append_invoice_to_observations(invoice):
+    """Append a confirmed invoice's line items to price_observations.json.
+
+    Each line becomes one observation under the canonical ingredient (if mapped via
+    confirmed_canonical_name) — preserving the historical-truth ledger.
+    """
+    obs = load_price_observations()
+    date = invoice.get("invoice_date", "")
+    supplier = invoice.get("supplier_name", "")
+    inv_num = invoice.get("invoice_number", "")
+    if not date:
+        return 0  # can't observe without a date
+
+    appended = 0
+    for item in invoice.get("items", []) or []:
+        canonical = item.get("confirmed_canonical_name")
+        if not canonical:
+            # store under unmatched bucket so nothing is lost
+            canonical = f"__unmatched__:{item.get('item_name', '')}"
+
+        unit_price = item.get("confirmed_price") or item.get("unit_price") or 0
+        if unit_price <= 0:
+            qty = item.get("quantity") or 0
+            tp = item.get("total_price") or 0
+            if qty > 0 and tp > 0:
+                unit_price = tp / qty
+        if unit_price <= 0:
+            continue
+
+        entry = obs.setdefault(canonical, {"canonical_uom": "", "observations": []})
+
+        # De-dup by (supplier, invoice_number, date, item_name)
+        new_obs = {
+            "date": date,
+            "unit_price": round(unit_price, 4),
+            "unit_raw": item.get("unit", ""),
+            "unit_normalized": item.get("unit", "").lower().strip(),
+            "quantity": item.get("quantity"),
+            "total_price": item.get("total_price"),
+            "supplier": supplier,
+            "invoice_number": inv_num,
+            "raw_item_name": item.get("item_name", ""),
+            "pack_size": item.get("pack_size"),
+            "case_price": item.get("case_price"),
+            "match_method": "live_confirm",
+        }
+        dup_key = (supplier, inv_num, date, new_obs["raw_item_name"])
+        existing = [
+            (o.get("supplier"), o.get("invoice_number"), o.get("date"), o.get("raw_item_name"))
+            for o in entry["observations"]
+        ]
+        if dup_key in existing:
+            continue
+
+        entry["observations"].append(new_obs)
+        entry["observations"].sort(key=lambda o: o.get("date", ""))
+        appended += 1
+
+    save_json(PRICE_OBSERVATIONS_FILE, obs)
+    clear_price_observations_cache()
+    return appended
+
+
+# ============================================================================
 # CLAUDE VISION OCR
 # ============================================================================
 
@@ -481,27 +873,133 @@ def _parse_json(text):
     m = re.search(r'```(?:json)?\s*([\s\S]*?)```', text)
     return json.loads(m.group(1) if m else text)
 
-def extract_invoice_single(image_b64, media_type):
+
+# ============================================================================
+# MATH VALIDATION + AUTO-RETRY
+# ============================================================================
+
+HEADER_MATH_TOL = 0.15  # AED
+
+
+def validate_invoice_math(inv):
+    """Return (is_valid, list_of_issues).
+
+    Checks:
+      1. subtotal + vat_amount == grand_total within 0.15 AED
+      2. sum(line_total_price) ≈ subtotal OR ≈ grand_total
+         (some invoices VAT-include line totals; both are accepted)
+    """
+    issues = []
+    sub = inv.get("subtotal") or 0
+    vat = inv.get("vat_amount") or 0
+    grand = inv.get("grand_total") or 0
+
+    # Header math
+    if grand > 0 and abs((sub + vat) - grand) > HEADER_MATH_TOL:
+        issues.append(
+            f"HEADER_MATH: subtotal {sub:.2f} + VAT {vat:.2f} = "
+            f"{sub+vat:.2f} != grand {grand:.2f} (gap {grand-(sub+vat):+.2f})"
+        )
+
+    # Line sum check — must equal either subtotal (VAT-exclusive) OR grand_total (VAT-inclusive)
+    items = inv.get("items") or []
+    if items and grand > 0:
+        line_sum = sum((it.get("total_price") or 0) for it in items)
+        if line_sum > 0:
+            matches_sub = abs(line_sum - sub) < HEADER_MATH_TOL
+            matches_grand = abs(line_sum - grand) < HEADER_MATH_TOL
+            if not matches_sub and not matches_grand:
+                issues.append(
+                    f"LINE_SUM: sum(line_totals)={line_sum:.2f} matches neither "
+                    f"subtotal {sub:.2f} nor grand_total {grand:.2f}"
+                )
+
+    return (len(issues) == 0, issues)
+
+
+def _build_retry_prompt(prev_issues, original_prompt):
+    """Build a stricter prompt that injects the previous extraction's failures."""
+    issues_text = "\n".join(f"  - {i}" for i in prev_issues)
+    return (
+        f"⚠️ PREVIOUS EXTRACTION HAD MATH ERRORS:\n{issues_text}\n\n"
+        "RE-READ THE INVOICE CAREFULLY. Common OCR errors:\n"
+        "  - Decimal point shifts (15.50 vs 1550)\n"
+        "  - Digit confusions: 5↔6, 0↔8, 1↔7, 3↔5, 4↔9\n"
+        "  - Missing line items (especially with excise duty or returns)\n"
+        "  - Wrong column captured (e.g. gross vs net rate when discount column exists)\n\n"
+        "VALIDATION REQUIREMENT: subtotal + vat_amount MUST equal grand_total within 0.15 AED.\n"
+        "Each line's quantity * unit_price MUST equal total_price (allow ±5% for VAT).\n\n"
+        + original_prompt
+    )
+
+
+def extract_invoice_single(image_b64, media_type, supplier_hint=None, _retry_count=0):
     import anthropic
     client = anthropic.Anthropic()
+    _, profile = match_vendor_profile(supplier_hint) if supplier_hint else (None, None)
+    ctx = build_profile_context(profile, supplier_hint=supplier_hint)
+    prompt = (ctx + "\n\n" + SINGLE_INVOICE_PROMPT) if ctx else SINGLE_INVOICE_PROMPT
     msg = _call_claude(client, model="claude-sonnet-4-20250514", max_tokens=4096,
         messages=[{"role": "user", "content": [
             {"type": "image", "source": {"type": "base64", "media_type": media_type, "data": image_b64}},
-            {"type": "text", "text": SINGLE_INVOICE_PROMPT}]}])
-    return _parse_json(msg.content[0].text)
+            {"type": "text", "text": prompt}]}])
+    extracted = _parse_json(msg.content[0].text)
 
-def extract_invoice_multipage(pages):
+    # Math validation + auto-retry (max 1 retry to avoid infinite cost)
+    if _retry_count == 0:
+        is_valid, issues = validate_invoice_math(extracted)
+        if not is_valid:
+            # Auto-retry once with stricter prompt
+            retry_prompt = _build_retry_prompt(issues, (ctx + "\n\n" + SINGLE_INVOICE_PROMPT) if ctx else SINGLE_INVOICE_PROMPT)
+            msg2 = _call_claude(client, model="claude-sonnet-4-20250514", max_tokens=4096,
+                messages=[{"role": "user", "content": [
+                    {"type": "image", "source": {"type": "base64", "media_type": media_type, "data": image_b64}},
+                    {"type": "text", "text": retry_prompt}]}])
+            retried = _parse_json(msg2.content[0].text)
+            # If retry's math is better, use it; otherwise keep original with flag
+            is_valid_retry, issues_retry = validate_invoice_math(retried)
+            if is_valid_retry:
+                retried["_math_validation"] = {"status": "passed_on_retry", "original_issues": issues}
+                return retried
+            else:
+                # Both attempts failed — return original but mark for review
+                extracted["_math_validation"] = {
+                    "status": "failed_both_attempts",
+                    "first_pass_issues": issues,
+                    "retry_issues": issues_retry,
+                }
+                return extracted
+        else:
+            extracted["_math_validation"] = {"status": "passed_first_try"}
+
+    return extracted
+
+def extract_invoice_multipage(pages, supplier_hint=None):
     import anthropic
     client = anthropic.Anthropic()
+    _, profile = match_vendor_profile(supplier_hint) if supplier_hint else (None, None)
+    ctx = build_profile_context(profile, supplier_hint=supplier_hint)
+    header = f"This PDF has {len(pages)} page(s). Check if these contain ONE or MULTIPLE invoices.\n\n"
+    prompt = ((ctx + "\n\n") if ctx else "") + header + MULTI_PAGE_PROMPT
     content = [{"type": "image", "source": {"type": "base64", "media_type": mt, "data": b64}} for b64, mt in pages]
-    content.append({"type": "text", "text": f"This PDF has {len(pages)} page(s). Check if these contain ONE or MULTIPLE invoices.\n\n" + MULTI_PAGE_PROMPT})
+    content.append({"type": "text", "text": prompt})
     msg = _call_claude(client, model="claude-sonnet-4-20250514", max_tokens=16384,
         messages=[{"role": "user", "content": content}])
     result = _parse_json(msg.content[0].text)
-    if "invoices" in result: return result
-    return {"invoices": [result]}
+    if "invoices" not in result:
+        result = {"invoices": [result]}
 
-def process_uploaded_file(file_bytes, filename):
+    # Math-validate each invoice; flag (no auto-retry on multi-page since cost would
+    # spike for batches of 20+ invoices)
+    for inv in result.get("invoices", []):
+        is_valid, issues = validate_invoice_math(inv)
+        inv["_math_validation"] = {
+            "status": "passed" if is_valid else "failed",
+            "issues": issues,
+        }
+    return result
+
+def process_uploaded_file(file_bytes, filename, supplier_hint=None):
     """Process an uploaded file (image or PDF) and return matched invoice data."""
     ext = filename.rsplit(".", 1)[-1].lower() if "." in filename else "jpg"
 
@@ -509,14 +1007,25 @@ def process_uploaded_file(file_bytes, filename):
         pages = pdf_to_images(file_bytes, dpi=200)
         if not pages: raise ValueError("PDF has no pages")
         if len(pages) == 1:
-            extracted = extract_invoice_single(pages[0][0], pages[0][1])
+            extracted = extract_invoice_single(pages[0][0], pages[0][1], supplier_hint=supplier_hint)
             extracted = {"invoices": [extracted]}
         else:
-            extracted = extract_invoice_multipage(pages)
+            extracted = extract_invoice_multipage(pages, supplier_hint=supplier_hint)
     else:
         media_types = {"jpg": "image/jpeg", "jpeg": "image/jpeg", "png": "image/png", "webp": "image/webp"}
         b64, mt = compress_image(file_bytes, media_types.get(ext, "image/jpeg"))
-        extracted = {"invoices": [extract_invoice_single(b64, mt)]}
+        extracted = {"invoices": [extract_invoice_single(b64, mt, supplier_hint=supplier_hint)]}
+
+    # Propagate expense_category from profile onto every invoice (for P&L)
+    if supplier_hint:
+        _, profile = match_vendor_profile(supplier_hint)
+        if profile and profile.get("expense_category"):
+            for inv in extracted.get("invoices", []):
+                inv["expense_category"] = profile["expense_category"]
+
+    # Enrich items with pack size from user-curated mappings + name parser
+    for inv in extracted.get("invoices", []):
+        enrich_items_with_packs(inv)
 
     canonical_data = load_canonical_prices_raw()
     aliases = load_aliases()
@@ -583,6 +1092,15 @@ def confirm_invoice(invoice_data):
         if canonical_name and item.get("quantity", 0) > 0:
             update_stock(canonical_name, item["quantity"], item.get("unit", ""),
                          "receipt", f"Invoice {invoice_data.get('invoice_number', '?')}")
+
+    # Append every line as a fact-of-record into price_observations.json
+    # (the historical-truth ledger; never overwritten, used by get_price_at_date)
+    try:
+        appended = append_invoice_to_observations(invoice_data)
+    except Exception as e:
+        # Don't fail the whole confirmation if observations append breaks
+        print(f"Warning: append_invoice_to_observations failed: {e}")
+        appended = 0
 
     return price_updates
 
@@ -779,8 +1297,6 @@ def process_sales_depletion(sales_items, reference="Sales"):
         "depletion_summary": depletion_summary,
         "total_ingredients_depleted": len(consumed),
     }
-
-
 # ============================================================================
 # WASTAGE TRACKING (Staff Meals, Expired, Damaged, etc.)
 # ============================================================================

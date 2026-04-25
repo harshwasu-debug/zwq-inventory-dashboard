@@ -8,7 +8,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils import (load_canonical_prices_raw, load_aliases, process_uploaded_file,
-                   fuzzy_match_ingredient, normalize_price, confirm_invoice, INVOICES_DIR)
+                   fuzzy_match_ingredient, normalize_price, confirm_invoice, INVOICES_DIR,
+                   load_vendor_profiles, validate_invoice_math)
 
 st.set_page_config(page_title="Invoice Receiving", page_icon="🗃", layout="wide")
 st.markdown("## Invoice Receiving")
@@ -35,13 +36,35 @@ if st.session_state.upload_mode == "choose":
     with col1:
         st.markdown("### Upload Supplier Invoice")
         st.caption("Supports JPG, PNG, WebP, PDF (multi-page)")
+
+        # Supplier picker — activates the matching vendor profile (column layout,
+        # known quirks, pack conventions) for this OCR run.
+        profiles = load_vendor_profiles()
+        supplier_options = ["(auto-detect)"] + sorted(profiles.keys())
+        supplier_pick = st.selectbox(
+            "Supplier (helps OCR — pick if known)",
+            supplier_options,
+            key="invoice_supplier_pick",
+            help="Picking the supplier injects their column layout, known quirks, and "
+                 "saved pack mappings into the OCR prompt — much better extraction. "
+                 "Leave on auto-detect only if the supplier isn't in the list."
+        )
+        if supplier_pick != "(auto-detect)" and supplier_pick in profiles:
+            p = profiles[supplier_pick]
+            st.caption(
+                f"📋 Profile loaded — UOM hints: {', '.join(p.get('typical_units', []))} | "
+                f"Expense category: {p.get('expense_category', '?')} | "
+                f"{len(p.get('known_quirks', []))} quirks active"
+            )
+
         uploaded = st.file_uploader("Drop an image or PDF", type=["jpg", "jpeg", "png", "webp", "pdf"],
                                      key="invoice_upload", label_visibility="collapsed")
         if uploaded:
             with st.spinner("Reading invoice with AI... (this may take 30-60 seconds)"):
                 try:
                     file_bytes = uploaded.read()
-                    results = process_uploaded_file(file_bytes, uploaded.name)
+                    supplier_hint = None if supplier_pick == "(auto-detect)" else supplier_pick
+                    results = process_uploaded_file(file_bytes, uploaded.name, supplier_hint=supplier_hint)
                     st.session_state.invoices_to_review = results
                     st.session_state.current_invoice_idx = 0
                     st.session_state.upload_mode = "review"
@@ -143,6 +166,28 @@ elif st.session_state.upload_mode == "review":
     with col3: inv["invoice_number"] = st.text_input("Invoice #", value=inv.get("invoice_number", ""), key=f"rev_number_{idx}")
     with col4: st.text_input("Total", value=f"AED {inv.get('grand_total', 0):.2f}", key=f"rev_total_{idx}", disabled=True)
 
+    # Math validation banner — re-check live so edits to totals reflect immediately
+    is_valid, math_issues = validate_invoice_math(inv)
+    mv = inv.get("_math_validation", {})
+    if not is_valid:
+        st.error("**Math check failed** — totals don't reconcile. Review and edit the Subtotal / VAT / Grand Total below before confirming.")
+        for issue in math_issues:
+            st.caption(f"• {issue}")
+        if mv.get("status") == "failed_after_retry":
+            st.caption("OCR was auto-retried once and still failed math. Likely a scan quality or layout issue — fix manually.")
+    elif mv.get("status") == "passed_on_retry":
+        st.info("Math reconciled on auto-retry (first OCR pass had a gap).")
+
+    # Editable totals (so user can correct math without leaving the page)
+    with st.expander("Edit totals", expanded=not is_valid):
+        tcol1, tcol2, tcol3 = st.columns(3)
+        with tcol1:
+            inv["subtotal"] = st.number_input("Subtotal", value=float(inv.get("subtotal") or 0), step=0.01, key=f"rev_sub_{idx}")
+        with tcol2:
+            inv["vat_amount"] = st.number_input("VAT amount", value=float(inv.get("vat_amount") or 0), step=0.01, key=f"rev_vat_{idx}")
+        with tcol3:
+            inv["grand_total"] = st.number_input("Grand total", value=float(inv.get("grand_total") or 0), step=0.01, key=f"rev_grand_{idx}")
+
     # Price alerts
     increases = [i for i in inv.get("items", []) if (i.get("price_change_pct") or 0) > 10]
     if increases:
@@ -232,7 +277,23 @@ elif st.session_state.upload_mode == "review":
             st.session_state.invoices_to_review = []
             st.rerun()
     with col2:
-        if st.button("Confirm Invoice", type="primary", use_container_width=True):
+        # Re-validate live (user may have edited totals above)
+        confirm_valid, confirm_issues = validate_invoice_math(inv)
+        force_confirm = False
+        if not confirm_valid:
+            force_confirm = st.checkbox(
+                "Confirm anyway (math doesn't reconcile — flag for follow-up)",
+                key=f"rev_force_{idx}",
+                help="Tick this only if you're knowingly accepting a math gap (e.g. supplier rounding error). The invoice will be tagged for review."
+            )
+        can_confirm = confirm_valid or force_confirm
+        if st.button("Confirm Invoice", type="primary", use_container_width=True, disabled=not can_confirm):
+            # Stamp final validation state onto the invoice
+            inv["_math_validation"] = {
+                "status": "passed" if confirm_valid else "user_override",
+                "issues": confirm_issues,
+                "user_override": force_confirm and not confirm_valid,
+            }
             # Build confirmation data from dropdown selections
             for item in inv.get("items", []):
                 confirmed = item.get("_confirmed_match")
