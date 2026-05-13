@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-05-13",
+    "timestamp": "2026-05-13T20:44:58.664988",
+    "total_value": 17.29,
+    "item_count": 1,
+    "by_category": {
+      "Dry Goods": 17.29
+    },
+    "notes": "Test snapshot"
+  }
+]

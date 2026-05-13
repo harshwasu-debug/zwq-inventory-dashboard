@@ -1623,3 +1623,360 @@ def get_open_pos_for_supplier(supplier_name):
     return [p for p in pos
             if p.get("supplier_name", "").strip().lower() == supplier_name.strip().lower()
             and p.get("status") in ("sent", "draft")]
+
+
+# ============================================================================
+# SETTINGS (Costing Method, Period Close, etc.)
+# ============================================================================
+
+SETTINGS_FILE = os.path.join(INVENTORY_DIR, "settings.json")
+
+DEFAULT_SETTINGS = {
+    "costing_method": "moving_average",     # or "weighted_average", "last_cost"
+    "discounted_items_affect_cost": False,
+    "zero_priced_items_affect_cost": False,
+    "fees_affect_cost": True,
+    "inventory_period_lock_date": None,     # ISO date; movements before this can't be edited
+    "stock_count_restriction": "no_period_restriction",  # or "lock_after_count", "period_close"
+    "currency": "AED",
+    "vat_percentage": 5,
+    "delivery_charge": 4,
+    "commission_pct": 30,
+    "target_cm_pct": 20,
+}
+
+
+def load_settings():
+    saved = load_json(SETTINGS_FILE, default={})
+    merged = {**DEFAULT_SETTINGS, **saved}
+    return merged
+
+
+def save_settings(settings):
+    save_json(SETTINGS_FILE, settings)
+
+
+def is_period_locked(check_date_iso=None):
+    """Return True if the given date is on or before the period lock date."""
+    s = load_settings()
+    lock = s.get("inventory_period_lock_date")
+    if not lock:
+        return False
+    if check_date_iso is None:
+        check_date_iso = date.today().isoformat()
+    return check_date_iso <= lock
+
+
+def apply_costing_method(old_price, old_qty_on_hand, new_invoice_price, new_qty, method=None):
+    """Calculate new effective cost using the configured costing method.
+
+    method: "moving_average" | "weighted_average" | "last_cost"
+    Returns the new effective unit cost to store as canonical price.
+    """
+    if method is None:
+        method = load_settings().get("costing_method", "moving_average")
+
+    if method == "last_cost":
+        return new_invoice_price
+    elif method == "moving_average":
+        # Weighted by qty: (old_qty*old_price + new_qty*new_price) / total_qty
+        total_qty = (old_qty_on_hand or 0) + (new_qty or 0)
+        if total_qty <= 0:
+            return new_invoice_price
+        return ((old_qty_on_hand or 0) * (old_price or 0) + (new_qty or 0) * new_invoice_price) / total_qty
+    elif method == "weighted_average":
+        # Simple 50/50 blend
+        if not old_price:
+            return new_invoice_price
+        return (old_price + new_invoice_price) / 2
+    return new_invoice_price
+
+
+# ============================================================================
+# PRODUCTION TRACKING (Semi-Finished Recipe Batches)
+# ============================================================================
+
+PRODUCTION_FILE = os.path.join(INVENTORY_DIR, "production_log.json")
+
+
+def load_production_log():
+    return load_json(PRODUCTION_FILE, default=[])
+
+
+def save_production_log(log):
+    save_json(PRODUCTION_FILE, log)
+
+
+def record_production(recipe_name, batches, notes="", produced_by=""):
+    """Record a production batch of a semi-finished recipe.
+
+    Looks up the SF recipe, depletes input ingredients × batches,
+    increments the SF output stock.
+
+    Returns: {success, depleted, output_qty, notes_list}
+    """
+    all_recipes = load_all_recipes()
+    canonical = load_canonical_prices_dict()
+
+    # Find the SF recipe (case-insensitive)
+    target = recipe_name.strip().lower()
+    recipe = next((r for r in all_recipes
+                   if r["dish_name"].strip().lower() == target
+                   and r["type"] == "semi_finished"), None)
+
+    if not recipe:
+        # Try partial match
+        recipe = next((r for r in all_recipes
+                       if target in r["dish_name"].lower()
+                       and r["type"] == "semi_finished"), None)
+
+    if not recipe:
+        return {"success": False, "error": f"SF recipe '{recipe_name}' not found", "depleted": []}
+
+    today = date.today().isoformat()
+    depleted = []
+    notes_list = []
+
+    # Deplete each input ingredient × batches
+    for ing in recipe.get("ingredients", []):
+        ing_name = ing["ingredient"]
+        qty = ing["quantity"] * batches
+        wastage = ing.get("wastage_pct", 0)
+        if wastage > 0:
+            qty *= (1 + wastage / 100)
+        uom = ing.get("uom", "Kg")
+        # Check if it's available in canonical
+        canon = canonical.get(ing_name.strip().lower(), {})
+        if canon:
+            update_stock(canon.get("ingredient", ing_name), qty, uom,
+                         "depletion", f"Production: {recipe['dish_name']} ({batches} batch)")
+            depleted.append({"ingredient": canon.get("ingredient", ing_name), "qty": round(qty, 4), "uom": uom})
+        else:
+            notes_list.append(f"Skipped (no canonical match): {ing_name}")
+
+    # Log the production
+    log = load_production_log()
+    entry = {
+        "date": today,
+        "recipe_name": recipe["dish_name"],
+        "recipe_code": recipe.get("recipe_code", ""),
+        "cuisine": recipe.get("cuisine", ""),
+        "batches": batches,
+        "depleted": depleted,
+        "produced_by": produced_by,
+        "notes": notes,
+        "logged_at": datetime.now().isoformat(),
+    }
+    log.append(entry)
+    save_production_log(log)
+
+    return {"success": True, "depleted": depleted, "batches": batches,
+            "recipe": recipe["dish_name"], "notes_list": notes_list}
+
+
+# ============================================================================
+# DELIVERY NOTES (GRN — Goods Received Notes, partial receipts)
+# ============================================================================
+
+GRN_FILE = os.path.join(INVENTORY_DIR, "delivery_notes.json")
+
+
+def load_grns():
+    return load_json(GRN_FILE, default=[])
+
+
+def save_grns(grns):
+    save_json(GRN_FILE, grns)
+
+
+def generate_grn_number():
+    """Generate next GRN number like GRN-YYYY-NNNN."""
+    year = date.today().year
+    grns = load_grns()
+    year_grns = [g for g in grns if g.get("grn_number", "").startswith(f"GRN-{year}-")]
+    return f"GRN-{year}-{len(year_grns)+1:04d}"
+
+
+def record_grn(supplier_name, items, delivery_date=None, linked_po=None,
+               vehicle_number="", driver_name="", notes=""):
+    """Record a Goods Received Note (a delivery without a full invoice yet).
+
+    Used for partial receipts or when invoice arrives later.
+    Updates stock on receipt; can be linked to an invoice later.
+    """
+    grns = load_grns()
+    grn_number = generate_grn_number()
+    delivery_date = delivery_date or date.today().isoformat()
+
+    canonical = load_canonical_prices_dict()
+    total_value = 0
+    for item in items:
+        ing_key = item["ingredient"].strip().lower()
+        canon = canonical.get(ing_key, {})
+        price = canon.get("price_per_unit", 0)
+        item["unit_price"] = price
+        item["value"] = round(item.get("quantity", 0) * price, 2)
+        total_value += item["value"]
+        # Update stock
+        update_stock(item["ingredient"], item["quantity"], item.get("uom", ""),
+                     "receipt", f"GRN {grn_number}")
+
+    grn = {
+        "grn_number": grn_number,
+        "supplier_name": supplier_name,
+        "delivery_date": delivery_date,
+        "linked_po": linked_po,
+        "linked_invoice": None,
+        "vehicle_number": vehicle_number,
+        "driver_name": driver_name,
+        "items": items,
+        "total_value": round(total_value, 2),
+        "status": "received",  # received -> matched (with invoice)
+        "notes": notes,
+        "created_at": datetime.now().isoformat(),
+    }
+    grns.append(grn)
+    save_grns(grns)
+    return grn
+
+
+def link_invoice_to_grn(grn_number, invoice_filename):
+    grns = load_grns()
+    for g in grns:
+        if g.get("grn_number") == grn_number:
+            g["linked_invoice"] = invoice_filename
+            g["status"] = "matched"
+            g["matched_at"] = datetime.now().isoformat()
+            break
+    save_grns(grns)
+
+
+# ============================================================================
+# STOCK VALUE SNAPSHOTS
+# ============================================================================
+
+STOCK_SNAPSHOTS_FILE = os.path.join(INVENTORY_DIR, "stock_value_snapshots.json")
+
+
+def load_stock_snapshots():
+    return load_json(STOCK_SNAPSHOTS_FILE, default=[])
+
+
+def save_stock_snapshots(snaps):
+    save_json(STOCK_SNAPSHOTS_FILE, snaps)
+
+
+def take_stock_snapshot(notes=""):
+    """Capture current stock value across all ingredients."""
+    levels = load_stock_levels()
+    canonical = load_canonical_prices_dict()
+
+    total_value = 0
+    item_count = 0
+    by_category = defaultdict(float)
+    for key, info in levels.items():
+        qty = info.get("quantity", 0)
+        if qty <= 0:
+            continue
+        canon = canonical.get(key, {})
+        price = canon.get("price_per_unit", 0)
+        value = qty * price
+        total_value += value
+        item_count += 1
+        cat = canon.get("category", "Other")
+        by_category[cat] += value
+
+    snapshot = {
+        "date": date.today().isoformat(),
+        "timestamp": datetime.now().isoformat(),
+        "total_value": round(total_value, 2),
+        "item_count": item_count,
+        "by_category": {k: round(v, 2) for k, v in by_category.items()},
+        "notes": notes,
+    }
+    snaps = load_stock_snapshots()
+    snaps.append(snapshot)
+    save_stock_snapshots(snaps)
+    return snapshot
+
+
+def get_item_activity(ingredient_name, days_back=90):
+    """Get all stock movements for an ingredient over a period."""
+    movements = load_stock_movements()
+    cutoff = (date.today() - __import__("datetime").timedelta(days=days_back)).isoformat()
+    name_lower = ingredient_name.strip().lower()
+
+    item_moves = [m for m in movements
+                  if m.get("date", "") >= cutoff
+                  and m.get("ingredient", "").strip().lower() == name_lower]
+    item_moves.sort(key=lambda m: m.get("date", ""), reverse=True)
+    return item_moves
+
+
+# ============================================================================
+# SUPPLIER STATEMENT OF ACCOUNTS
+# ============================================================================
+
+def get_supplier_statement(supplier_name, days_back=180):
+    """Return all invoices + POs for a supplier over the period."""
+    cutoff = (date.today() - __import__("datetime").timedelta(days=days_back)).isoformat()
+    supplier_lower = supplier_name.strip().lower()
+
+    # Pull confirmed invoices
+    invoices = []
+    skip = {"ingredient_aliases.json", "price_history.json", "price_observations.json",
+            "supplier_item_packs.json", "vendor_profiles.json", "price_review_decisions.json"}
+    if os.path.exists(INVOICES_DIR):
+        for f in os.listdir(INVOICES_DIR):
+            if f.endswith(".json") and f not in skip:
+                try:
+                    data = load_json(os.path.join(INVOICES_DIR, f))
+                    # Skip non-invoice files (lists, partial data)
+                    if not isinstance(data, dict):
+                        continue
+                    if (data.get("supplier_name", "").strip().lower() == supplier_lower
+                        and data.get("invoice_date", "") >= cutoff):
+                        invoices.append({
+                            "type": "invoice",
+                            "date": data.get("invoice_date", ""),
+                            "reference": data.get("invoice_number", ""),
+                            "items": len(data.get("items", [])),
+                            "subtotal": data.get("subtotal", 0),
+                            "vat": data.get("vat_amount", 0),
+                            "total": data.get("grand_total", 0),
+                            "file": f,
+                        })
+                except (json.JSONDecodeError, KeyError):
+                    continue
+
+    # Pull POs
+    pos = load_purchase_orders()
+    pos_for_supplier = [
+        {"type": "po", "date": p.get("po_date", ""),
+         "reference": p.get("po_number", ""), "items": len(p.get("items", [])),
+         "subtotal": p.get("subtotal", 0), "vat": p.get("vat_amount", 0),
+         "total": p.get("grand_total", 0), "status": p.get("status", ""),
+         "linked_invoice": p.get("linked_invoice")}
+        for p in pos
+        if p.get("supplier_name", "").strip().lower() == supplier_lower
+        and p.get("po_date", "") >= cutoff
+    ]
+
+    # Combined timeline
+    all_entries = invoices + pos_for_supplier
+    all_entries.sort(key=lambda x: x["date"], reverse=True)
+
+    total_invoiced = sum(i["total"] for i in invoices)
+    total_pos = sum(p["total"] for p in pos_for_supplier)
+    outstanding_pos = sum(p["total"] for p in pos_for_supplier if p["status"] in ("draft", "sent"))
+
+    return {
+        "supplier": supplier_name,
+        "period_days": days_back,
+        "invoices": invoices,
+        "pos": pos_for_supplier,
+        "all_entries": all_entries,
+        "total_invoiced": round(total_invoiced, 2),
+        "total_pos": round(total_pos, 2),
+        "outstanding_pos": round(outstanding_pos, 2),
+    }
