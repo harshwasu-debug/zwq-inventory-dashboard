@@ -1,0 +1,6280 @@
+{
+  "schema_version": "1.0",
+  "brand": "Healthy",
+  "source_file": "Healthy_Brand_Recipe_Sheet.xlsx",
+  "extracted_at": "2026-04-24",
+  "last_updated": "2026-04-24",
+  "recipe_count": 75,
+  "methodology": {
+    "allergens": "Essential-only tagging from a 16-tag vocabulary (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). Healthy-cuisine mapping: oats -> Gluten (most commercial oats not certified GF); almond milk/butter -> Nuts; oat milk -> Gluten; coconut milk -> none; soy milk/tofu/tempeh/edamame/miso/teriyaki/gochujang -> Soya (soy sauce/teriyaki/miso/yakisoba/bulgogi/bibimbap also -> Gluten); tahini/sesame/furikake -> Sesame; salmon/tuna/dory/smoked salmon -> Fish; shrimp/prawn -> Crustaceans; squid/octopus -> Molluscs; Greek/regular yogurt + halloumi/feta/paneer/ricotta/cream cheese/cottage -> Dairy; egg/mayo/kewpie/omelette/tamago/shakshuka/cilbir -> Eggs; falafel/hummus/chickpeas/lentils/black beans/kidney beans -> Lentils; explicit mustard/dijon -> Mustard; celery (explicit) -> Celery. Dates -> NO Sulphites. Empty -> ['NO_ALLERGENS'].",
+    "calories": "Per-recipe kcal taken from the source sheet's DISH TOTAL kcal column where present (authoritative, kitchen-verified). Where derivation was needed, a healthy-cuisine per-100g reference table was used (quinoa cooked 120, brown rice cooked 112, chicken breast 165, salmon 208, tuna 132, tofu 76, Greek yogurt 59, halloumi 321, feta 264, avocado 160, olive oil 884, tahini 595, almond butter 614, hummus 166, falafel 333, chickpeas cooked 164, lentils cooked 116, etc.). Pieces priced via per-piece table (egg 72, lemon 17, kiwi 42, avocado 240, tortilla 145). Packaging excluded. Wastage NOT applied to calories. Rounded to int.",
+    "wastage_pct": "Wastage stored as decimal fraction (10% -> 0.10). Values >1 in source were treated as percentage and divided by 100."
+  },
+  "changelog": [
+    {
+      "date": "2026-04-24",
+      "entry": "Initial extraction + enrichment."
+    }
+  ],
+  "pending_decisions": [],
+  "semi_finished_components": [
+    {
+      "name": "Base - Sushi Rice (Cooked)",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "Bibimbap Sauce - SF",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "Bulgogi Marinade - SF",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "Crispy Tofu Glaze - SF",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "Garnish - House Furikake",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "House Kimchi - SF",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "SF - Chimichurri Sauce",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "SF - Chipotle Sauce",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "SF - Chipotle Sour Cream",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "SF - Guacamole",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "SF - Mexican Rice (cooked)",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "SF - Pico de Gallo",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "SF - Teriyaki Sauce",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    },
+    {
+      "name": "SF - Yakisoba Sauce",
+      "ingredients": [],
+      "calories_per_kg": null,
+      "notes": "Sub-ingredients not defined in source sheet."
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_number": 1,
+      "recipe_name": "Grilled Chicken Quinoa Power Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Mexican",
+      "hp_variant": true,
+      "price_aed": 40,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Broccoli",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Chimichurri Sauce",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 490,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 2,
+      "recipe_name": "Grilled Chicken Quinoa Power Bowl HP",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Mexican",
+      "hp_variant": true,
+      "price_aed": 48,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Broccoli",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Chimichurri Sauce",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 573,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 3,
+      "recipe_name": "Teriyaki Salmon Brown Rice Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Japanese",
+      "hp_variant": true,
+      "price_aed": 53,
+      "ingredients": [
+        {
+          "name": "Salmon Fillet (skinless)",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Brown Rice (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Teriyaki Sauce",
+          "quantity": 30.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 566,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 4,
+      "recipe_name": "Tuna Poke Bowl (Sushi Rice Base)",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Poke",
+      "hp_variant": true,
+      "price_aed": 52,
+      "ingredients": [
+        {
+          "name": "Tuna (sashimi grade)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Chuka Wakame (Seaweed Salad)",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 25.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 602,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 5,
+      "recipe_name": "Korean Bibimbap Bowl (Chicken)",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Korean",
+      "hp_variant": true,
+      "price_aed": 39,
+      "ingredients": [
+        {
+          "name": "Chicken Thigh Boneless",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Japonica Rice (cooked)",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.12,
+          "notes": null
+        },
+        {
+          "name": "Bulgogi Marinade - SF",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "Zucchini Green",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Green Beans",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Bibimbap Sauce - SF",
+          "quantity": 35.0,
+          "unit": "GM",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 1.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 759,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 6,
+      "recipe_name": "Tofu Bibimbap Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Korean",
+      "hp_variant": false,
+      "price_aed": 35,
+      "ingredients": [
+        {
+          "name": "Tofu",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Japonica Rice (cooked)",
+          "quantity": 200.0,
+          "unit": "GM",
+          "wastage_pct": 0.12,
+          "notes": null
+        },
+        {
+          "name": "Crispy Tofu Glaze - SF",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "Radish White",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Zucchini Green",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Green Beans",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Bibimbap Sauce - SF",
+          "quantity": 35.0,
+          "unit": "GM",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 1.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 621,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 7,
+      "recipe_name": "Tandoori Chicken Tikka Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Indian",
+      "hp_variant": true,
+      "price_aed": 45,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Red Tandoori Marinade",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Rice Basmati (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cauliflower (roasted)",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Mint Chutney",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Butter",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dill",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 577,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 8,
+      "recipe_name": "Mexican Chicken Burrito Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Mexican",
+      "hp_variant": true,
+      "price_aed": 36,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Chicken Fajita Seasoning",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Mexican Rice (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Beans (canned)",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Pico de Gallo",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Sweet Corn Kernel",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Guacamole",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sour Cream",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 559,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 9,
+      "recipe_name": "Mexican Chicken Burrito Bowl HP",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Mexican",
+      "hp_variant": true,
+      "price_aed": 44,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Chicken Fajita Seasoning",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Mexican Rice (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Beans (canned)",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Pico de Gallo",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Sweet Corn Kernel",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Guacamole",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sour Cream",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 642,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 10,
+      "recipe_name": "Chimichurri Fish Bowl (Dory)",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Mexican",
+      "hp_variant": true,
+      "price_aed": 35,
+      "ingredients": [
+        {
+          "name": "Dory Fillet",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "SF - Chimichurri Sauce",
+          "quantity": 25.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Rice Basmati (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Zucchini Green (roasted)",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red (slaw)",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Blackened Seasoning",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish"
+      ],
+      "calories_kcal": 447,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 11,
+      "recipe_name": "Beef Bulgogi Brown Rice Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Korean",
+      "hp_variant": true,
+      "price_aed": 49,
+      "ingredients": [
+        {
+          "name": "Beef Tenderloin",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Brown Rice (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Bulgogi Marinade - SF",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "Zucchini Green",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 1.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 613,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 12,
+      "recipe_name": "Spicy Shrimp & Edamame Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Mexican",
+      "hp_variant": true,
+      "price_aed": 48,
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Lime Chipotle Seasoning",
+          "quantity": 6.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Chilli Sauce",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Soya"
+      ],
+      "calories_kcal": 444,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 13,
+      "recipe_name": "Spicy Shrimp & Edamame Bowl HP",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Mexican",
+      "hp_variant": true,
+      "price_aed": 56,
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Lime Chipotle Seasoning",
+          "quantity": 6.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sriracha Chilli Sauce",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Soya"
+      ],
+      "calories_kcal": 492,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 14,
+      "recipe_name": "Achari Paneer & Quinoa Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Indian",
+      "hp_variant": true,
+      "price_aed": 44,
+      "ingredients": [
+        {
+          "name": "Paneer",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Achari Marinade",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cauliflower (roasted)",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mint Chutney",
+          "quantity": 25.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 599,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 15,
+      "recipe_name": "Japanese Chicken Yakisoba Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Japanese",
+      "hp_variant": true,
+      "price_aed": 34,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg Noodles (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Yakisoba Sauce",
+          "quantity": 30.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage White",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Bok Choy",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 475,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 16,
+      "recipe_name": "Japanese Chicken Yakisoba Bowl HP",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "Japanese",
+      "hp_variant": true,
+      "price_aed": 42,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg Noodles (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Yakisoba Sauce",
+          "quantity": 30.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage White",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Bok Choy",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 558,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 17,
+      "recipe_name": "Grilled Chicken Tzatziki Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "American",
+      "hp_variant": true,
+      "price_aed": 42,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Red Onion",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Mint Leaves",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Dill",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 422,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 18,
+      "recipe_name": "Spiced Chicken & Yogurt Rice Bowl",
+      "brand": "Healthy",
+      "category": "Power Bowls",
+      "source_cuisine": "American",
+      "hp_variant": true,
+      "price_aed": 42,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Brown Rice (cooked)",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Broccoli",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Bell Pepper",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cumin Powder",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paprika",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 462,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 19,
+      "recipe_name": "Grilled Chicken Caesar (Light)",
+      "brand": "Healthy",
+      "category": "Salad Bowls",
+      "source_cuisine": "American",
+      "hp_variant": true,
+      "price_aed": 35,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Lollo Bionda",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cheese Parmesan Grated",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dill",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 346,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 20,
+      "recipe_name": "Tandoori Chicken & Spinach Salad",
+      "brand": "Healthy",
+      "category": "Salad Bowls",
+      "source_cuisine": "Indian",
+      "hp_variant": true,
+      "price_aed": 39,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Red Tandoori Marinade",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Yoghurt",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cumin Powder",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dill",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 410,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 21,
+      "recipe_name": "Edamame, Avocado & Tofu Salad",
+      "brand": "Healthy",
+      "category": "Salad Bowls",
+      "source_cuisine": "Japanese",
+      "hp_variant": false,
+      "price_aed": 33,
+      "ingredients": [
+        {
+          "name": "Tofu",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Lollo Bionda",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 1.0,
+          "notes": null
+        },
+        {
+          "name": "Rice Vinegar",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 315,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 22,
+      "recipe_name": "Mexican Black Bean Chicken Salad",
+      "brand": "Healthy",
+      "category": "Salad Bowls",
+      "source_cuisine": "Mexican",
+      "hp_variant": true,
+      "price_aed": 37,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Chicken Fajita Seasoning",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Beans (canned)",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sweet Corn Kernel",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "SF - Pico de Gallo",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Chipotle Sour Cream",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 362,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 23,
+      "recipe_name": "Halloumi & Quinoa Salad",
+      "brand": "Healthy",
+      "category": "Salad Bowls",
+      "source_cuisine": "Poke",
+      "hp_variant": false,
+      "price_aed": 42,
+      "ingredients": [
+        {
+          "name": "Halloumi Cheese",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Balsamic Vinegar",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 498,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 24,
+      "recipe_name": "Korean Sesame Chicken Salad",
+      "brand": "Healthy",
+      "category": "Salad Bowls",
+      "source_cuisine": "Korean",
+      "hp_variant": true,
+      "price_aed": 34,
+      "ingredients": [
+        {
+          "name": "Chicken Thigh Boneless",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Bulgogi Marinade - SF",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Lollo Bionda",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 1.0,
+          "notes": null
+        },
+        {
+          "name": "Rice Vinegar",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 360,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 25,
+      "recipe_name": "Grilled Chicken & Avocado Wrap",
+      "brand": "Healthy",
+      "category": "Wraps",
+      "source_cuisine": "American",
+      "hp_variant": true,
+      "price_aed": 42,
+      "ingredients": [
+        {
+          "name": "Whole Wheat Wrap",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "SF - Chimichurri Sauce",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 455,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 26,
+      "recipe_name": "Falafel & Hummus Wrap",
+      "brand": "Healthy",
+      "category": "Wraps",
+      "source_cuisine": "Indian",
+      "hp_variant": false,
+      "price_aed": 34,
+      "ingredients": [
+        {
+          "name": "Whole Wheat Wrap",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Falafel",
+          "quantity": 3.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hummus",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Tahini",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dill",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils",
+        "Sesame"
+      ],
+      "calories_kcal": 515,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 27,
+      "recipe_name": "Grilled Fish Tacos (3 pcs)",
+      "brand": "Healthy",
+      "category": "Wraps",
+      "source_cuisine": "Mexican",
+      "hp_variant": false,
+      "price_aed": 36,
+      "ingredients": [
+        {
+          "name": "Corn Tortilla 6 inch",
+          "quantity": 3.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dory Fillet",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blackened Seasoning",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red (slaw)",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "SF - Pico de Gallo",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Guacamole",
+          "quantity": 25.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Chipotle Sauce",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 425,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 28,
+      "recipe_name": "Korean Chicken Lettuce Wraps (4 pcs)",
+      "brand": "Healthy",
+      "category": "Wraps",
+      "source_cuisine": "Korean",
+      "hp_variant": false,
+      "price_aed": 32,
+      "ingredients": [
+        {
+          "name": "Lettuce Iceberg (cups)",
+          "quantity": 4.0,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Chicken Thigh Boneless",
+          "quantity": 120.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Bulgogi Marinade - SF",
+          "quantity": 25.0,
+          "unit": "GM",
+          "wastage_pct": 0.02,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Gochujang",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 1.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 359,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 29,
+      "recipe_name": "Mexican Veggie Black Bean Wrap",
+      "brand": "Healthy",
+      "category": "Wraps",
+      "source_cuisine": "Mexican",
+      "hp_variant": false,
+      "price_aed": 31,
+      "ingredients": [
+        {
+          "name": "Whole Wheat Wrap",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Beans (canned)",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Mexican Rice (cooked)",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Pico de Gallo",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Sweet Corn Kernel",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Guacamole",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sour Cream",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "SF - Chipotle Sauce",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 390,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 30,
+      "recipe_name": "Egg White & Spinach Wrap",
+      "brand": "Healthy",
+      "category": "Wraps",
+      "source_cuisine": "American",
+      "hp_variant": false,
+      "price_aed": 36,
+      "ingredients": [
+        {
+          "name": "Whole Wheat Wrap",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Egg White (from 4 eggs)",
+          "quantity": 4.0,
+          "unit": "Piece",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Dill",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 323,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 31,
+      "recipe_name": "Smoked Salmon & Cream Cheese Wrap",
+      "brand": "Healthy",
+      "category": "Wraps",
+      "source_cuisine": "Poke",
+      "hp_variant": false,
+      "price_aed": 44,
+      "ingredients": [
+        {
+          "name": "Whole Wheat Wrap",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Smoked Salmon",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cream Cheese (Philadelphia)",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Capers",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Dill Leaves",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 300,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 32,
+      "recipe_name": "Tom Yum Shrimp Soup",
+      "brand": "Healthy",
+      "category": "Soups",
+      "source_cuisine": "Chinese",
+      "hp_variant": false,
+      "price_aed": 34,
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemongrass",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Galangal",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Chicken Stock Powder",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 300.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans"
+      ],
+      "calories_kcal": 170,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 33,
+      "recipe_name": "Korean Kimchi Tofu Soup",
+      "brand": "Healthy",
+      "category": "Soups",
+      "source_cuisine": "Korean",
+      "hp_variant": false,
+      "price_aed": 25,
+      "ingredients": [
+        {
+          "name": "Tofu",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "House Kimchi - SF",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Zucchini Green",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Gochugaru",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 1.0,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Stock Powder",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 300.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 204,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 34,
+      "recipe_name": "Spinach & Lentil Soup",
+      "brand": "Healthy",
+      "category": "Soups",
+      "source_cuisine": "Indian",
+      "hp_variant": false,
+      "price_aed": 25,
+      "ingredients": [
+        {
+          "name": "Spinach",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Red Lentils",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cumin Powder",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Turmeric Powder",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tomato",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Ginger",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.12,
+          "notes": null
+        },
+        {
+          "name": "Onion White",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.08,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 300.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Lentils"
+      ],
+      "calories_kcal": 148,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 35,
+      "recipe_name": "Hot & Sour Chicken Soup",
+      "brand": "Healthy",
+      "category": "Soups",
+      "source_cuisine": "Chinese",
+      "hp_variant": false,
+      "price_aed": 27,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.07,
+          "notes": null
+        },
+        {
+          "name": "Bok Choy",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Rice Vinegar",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Stock Powder",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 300.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 213,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 36,
+      "recipe_name": "Miso Soup with Edamame & Tofu",
+      "brand": "Healthy",
+      "category": "Soups",
+      "source_cuisine": "Japanese",
+      "hp_variant": false,
+      "price_aed": 25,
+      "ingredients": [
+        {
+          "name": "Tofu",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Miso Paste",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chuka Wakame (Seaweed)",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 300.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 129,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 37,
+      "recipe_name": "Chicken Sweet Corn Soup",
+      "brand": "Healthy",
+      "category": "Soups",
+      "source_cuisine": "Chinese",
+      "hp_variant": true,
+      "price_aed": 29,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sweet Corn Kernels",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Egg",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chicken Stock Powder",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cornstarch",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Ginger",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Pepper",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 3.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 300.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 322,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 38,
+      "recipe_name": "Creamy Broccoli Soup",
+      "brand": "Healthy",
+      "category": "Soups",
+      "source_cuisine": "American",
+      "hp_variant": false,
+      "price_aed": 29,
+      "ingredients": [
+        {
+          "name": "Broccoli",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Onion",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Chicken Stock Powder",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Milk Full Fat",
+          "quantity": 50.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cheese Parmesan Grated",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Water",
+          "quantity": 200.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 189,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 39,
+      "recipe_name": "Levantine Shakshuka",
+      "brand": "Healthy",
+      "category": "Breakfast - Eggs",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 33,
+      "ingredients": [
+        {
+          "name": "Egg (poached in sauce)",
+          "quantity": 2.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tomato Paste",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red",
+          "quantity": 25.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Onion White",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 4.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Harissa Paste",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olives Black Sliced",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Sourdough Bread",
+          "quantity": 1.0,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Dill",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 421,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 40,
+      "recipe_name": "Turkish Eggs (Cilbir)",
+      "brand": "Healthy",
+      "category": "Breakfast - Eggs",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 28,
+      "ingredients": [
+        {
+          "name": "Egg (Poached)",
+          "quantity": 2.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Yoghurt",
+          "quantity": 70.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Ghee",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Smoked Paprika",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Dill Leaves",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Sourdough Bread",
+          "quantity": 1.0,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 321,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 41,
+      "recipe_name": "Egg White Omelette (Chicken & Spinach)",
+      "brand": "Healthy",
+      "category": "Breakfast - Eggs",
+      "source_cuisine": "Breakfast",
+      "hp_variant": true,
+      "price_aed": 40,
+      "ingredients": [
+        {
+          "name": "Egg White (from 4 eggs)",
+          "quantity": 4.0,
+          "unit": "Piece",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 252,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 42,
+      "recipe_name": "Mexican Omelet",
+      "brand": "Healthy",
+      "category": "Breakfast - Eggs",
+      "source_cuisine": "Mexican",
+      "hp_variant": false,
+      "price_aed": 33,
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 3.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Butter",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Beans (canned)",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Pico de Gallo",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cheese Cheddar Sliced",
+          "quantity": 1.0,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Guacamole",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Sour Cream",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Jalapeno",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Lentils"
+      ],
+      "calories_kcal": 403,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 43,
+      "recipe_name": "Smashed Avocado Toast + Egg",
+      "brand": "Healthy",
+      "category": "Breakfast - Eggs",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 41,
+      "ingredients": [
+        {
+          "name": "Sourdough Bread",
+          "quantity": 2.0,
+          "unit": "Slice",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Egg (Poached)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Feta Cheese",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Zest",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 444,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 44,
+      "recipe_name": "Breakfast Tacos (3 pcs)",
+      "brand": "Healthy",
+      "category": "Breakfast - Eggs",
+      "source_cuisine": "Mexican",
+      "hp_variant": false,
+      "price_aed": 27,
+      "ingredients": [
+        {
+          "name": "Corn Tortilla 6 inch",
+          "quantity": 3.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Scrambled)",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Onion Red (pickled)",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Vinegar White",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "SF - Chipotle Sauce",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 325,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 45,
+      "recipe_name": "Grilled Chicken Protein Bowl",
+      "brand": "Healthy",
+      "category": "Breakfast - Bowls",
+      "source_cuisine": "Breakfast",
+      "hp_variant": true,
+      "price_aed": 37,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 67.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Harissa Paste",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (roasted)",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Mixed Greens",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Tahini",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Dukkah",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 470,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 46,
+      "recipe_name": "Grilled Chicken Protein Bowl HP",
+      "brand": "Healthy",
+      "category": "Breakfast - Bowls",
+      "source_cuisine": "Breakfast",
+      "hp_variant": true,
+      "price_aed": 45,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Harissa Paste",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato (roasted)",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Avocado Hass",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Mixed Greens",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Tahini",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Dukkah",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 524,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 47,
+      "recipe_name": "Middle Eastern Breakfast Bowl",
+      "brand": "Healthy",
+      "category": "Breakfast - Bowls",
+      "source_cuisine": "Breakfast",
+      "hp_variant": true,
+      "price_aed": 39,
+      "ingredients": [
+        {
+          "name": "Hummus",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Labneh",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Falafel",
+          "quantity": 3.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Egg (Poached)",
+          "quantity": 2.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Olives Black",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Zaatar",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Parsley",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Pita Bread",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 632,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 48,
+      "recipe_name": "Tamago & Brown Rice Bowl",
+      "brand": "Healthy",
+      "category": "Breakfast - Bowls",
+      "source_cuisine": "Japanese",
+      "hp_variant": false,
+      "price_aed": 35,
+      "ingredients": [
+        {
+          "name": "Egg (for Tamago)",
+          "quantity": 3.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Brown Rice (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Nori Sheets",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 486,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 49,
+      "recipe_name": "Greek Yogurt & Berry Parfait",
+      "brand": "Healthy",
+      "category": "Breakfast - Bowls",
+      "source_cuisine": "Breakfast",
+      "hp_variant": true,
+      "price_aed": 35,
+      "ingredients": [
+        {
+          "name": "Greek Yogurt",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Strawberry",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mint Leaves",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 394,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 50,
+      "recipe_name": "Chia Seed Pudding (Coconut & Mango)",
+      "brand": "Healthy",
+      "category": "Breakfast - Bowls",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 33,
+      "ingredients": [
+        {
+          "name": "Chia Seeds",
+          "quantity": 35.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coconut Milk (Light)",
+          "quantity": 150.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Passion Fruit Pulp",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 8.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coconut Flakes",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 373,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 51,
+      "recipe_name": "Chia Seed Pudding (Berry & Almond)",
+      "brand": "Healthy",
+      "category": "Breakfast - Bowls",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 33,
+      "ingredients": [
+        {
+          "name": "Chia Seeds",
+          "quantity": 35.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Almond Milk",
+          "quantity": 150.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Strawberry",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Almonds Sliced",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Vanilla Extract",
+          "quantity": 2.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Nuts"
+      ],
+      "calories_kcal": 344,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 52,
+      "recipe_name": "Overnight Oats - The Original",
+      "brand": "Healthy",
+      "category": "Breakfast - Oats & Acai",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 35,
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk UHT Full Fat",
+          "quantity": 250.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Red Apple",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Green Apple",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Strawberry",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Peanut Butter",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": 3.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 45.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Peanuts"
+      ],
+      "calories_kcal": 721,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 53,
+      "recipe_name": "Overnight Oats - Tropical Sunrise",
+      "brand": "Healthy",
+      "category": "Breakfast - Oats & Acai",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 35,
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk UHT Full Fat",
+          "quantity": 250.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Kiwi",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pineapple",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 45.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 649,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 54,
+      "recipe_name": "Overnight Oats - Banana & PB",
+      "brand": "Healthy",
+      "category": "Breakfast - Oats & Acai",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 35,
+      "ingredients": [
+        {
+          "name": "Rolled Oats",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Milk UHT Full Fat",
+          "quantity": 250.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Medjool Dates",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Peanut Butter",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": 3.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 45.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Peanuts"
+      ],
+      "calories_kcal": 784,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 55,
+      "recipe_name": "Acai Bowl with Granola",
+      "brand": "Healthy",
+      "category": "Breakfast - Oats & Acai",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 40,
+      "ingredients": [
+        {
+          "name": "Acai Puree (Frozen)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Banana Fresh",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Strawberry",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Chia Seeds",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 312,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 56,
+      "recipe_name": "Date & Pistachio Acai Bowl",
+      "brand": "Healthy",
+      "category": "Breakfast - Oats & Acai",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 42,
+      "ingredients": [
+        {
+          "name": "Acai Puree (Frozen)",
+          "quantity": 100.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Medjool Dates",
+          "quantity": 30.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pistachios",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Toasted Coconut Flakes",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tahini",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Nuts",
+        "Sesame"
+      ],
+      "calories_kcal": 459,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 57,
+      "recipe_name": "Couple's Power Pack (2 Bowls + 2 Soups)",
+      "brand": "Healthy",
+      "category": "Combos",
+      "source_cuisine": "All",
+      "hp_variant": false,
+      "price_aed": 114,
+      "ingredients": [
+        {
+          "name": "Any Power Bowl",
+          "quantity": 2.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Any Soup",
+          "quantity": 2.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 1340,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 58,
+      "recipe_name": "Asian Duo (Salmon Bowl + Chicken Bowl HP + Edamame)",
+      "brand": "Healthy",
+      "category": "Combos",
+      "source_cuisine": "Japanese-Korean",
+      "hp_variant": false,
+      "price_aed": 97,
+      "ingredients": [
+        {
+          "name": "Teriyaki Salmon Brown Rice Bowl",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Korean Bibimbap Bowl (Chicken)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Steamed Edamame (Sea Salt)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 1260,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 59,
+      "recipe_name": "Mexican Fiesta (2 Burrito Bowls HP + Guac)",
+      "brand": "Healthy",
+      "category": "Combos",
+      "source_cuisine": "Mexican",
+      "hp_variant": false,
+      "price_aed": 83,
+      "ingredients": [
+        {
+          "name": "Mexican Chicken Burrito Bowl",
+          "quantity": 2.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Guacamole & Veggie Sticks",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 1240,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 60,
+      "recipe_name": "Healthy Starter Pack (Bowl + Soup + Side)",
+      "brand": "Healthy",
+      "category": "Combos",
+      "source_cuisine": "All",
+      "hp_variant": false,
+      "price_aed": 65,
+      "ingredients": [
+        {
+          "name": "Any Regular Bowl (avg)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Any Soup (avg)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Any Side (avg)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 750,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 61,
+      "recipe_name": "Power Lunch (Bowl HP + Soup)",
+      "brand": "Healthy",
+      "category": "Combos",
+      "source_cuisine": "All",
+      "hp_variant": false,
+      "price_aed": 58,
+      "ingredients": [
+        {
+          "name": "Any HP Bowl (avg)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Any Soup (avg)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 700,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 62,
+      "recipe_name": "Breakfast Bundle (Eggs + Side + Soup)",
+      "brand": "Healthy",
+      "category": "Combos",
+      "source_cuisine": "All",
+      "hp_variant": false,
+      "price_aed": 49,
+      "ingredients": [
+        {
+          "name": "Any Breakfast Egg Dish (avg)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Any Side (avg)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Any Soup (avg)",
+          "quantity": 1.0,
+          "unit": "Portion",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 600,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 63,
+      "recipe_name": "Steamed Edamame (Sea Salt)",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Japanese",
+      "hp_variant": false,
+      "price_aed": 20,
+      "ingredients": [
+        {
+          "name": "Edamame",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt (Sea Salt)",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Soya"
+      ],
+      "calories_kcal": 180,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 64,
+      "recipe_name": "Guacamole & Veggie Sticks",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Mexican",
+      "hp_variant": false,
+      "price_aed": 20,
+      "ingredients": [
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 0.5,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Carrot (sticks)",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber (sticks)",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red (sticks)",
+          "quantity": 15.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 123,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 65,
+      "recipe_name": "Grilled Broccoli with Sesame",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Japanese",
+      "hp_variant": false,
+      "price_aed": 20,
+      "ingredients": [
+        {
+          "name": "Broccoli",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 1.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Peeled",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 3.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 119,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 66,
+      "recipe_name": "Sweet Potato Fries (Baked)",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "American",
+      "hp_variant": false,
+      "price_aed": 18,
+      "ingredients": [
+        {
+          "name": "Sweet Potato",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 10.0,
+          "unit": "ML",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paprika Powder",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garlic Powder",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt (Sea Salt)",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 218,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 67,
+      "recipe_name": "Kimchi (House Made)",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Korean",
+      "hp_variant": false,
+      "price_aed": 13,
+      "ingredients": [
+        {
+          "name": "House Kimchi - SF",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 16,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 68,
+      "recipe_name": "Hummus & Whole Wheat Pita",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Indian",
+      "hp_variant": false,
+      "price_aed": 22,
+      "ingredients": [
+        {
+          "name": "Hummus",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tahini (garnish)",
+          "quantity": 5.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Whole Wheat Pita",
+          "quantity": 1.0,
+          "unit": "Piece",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Gluten",
+        "Lentils",
+        "Sesame"
+      ],
+      "calories_kcal": 293,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 69,
+      "recipe_name": "Grilled Halloumi",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 22,
+      "ingredients": [
+        {
+          "name": "Halloumi Cheese",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Oregano",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 305,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 70,
+      "recipe_name": "Sliced Avocado",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 16,
+      "ingredients": [
+        {
+          "name": "Avocado Hass",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 3.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Salt (Sea Salt)",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 158,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 71,
+      "recipe_name": "Fruit Cup",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 18,
+      "ingredients": [
+        {
+          "name": "Watermelon",
+          "quantity": 50.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 40.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Kiwi",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.15,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 20.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Mint Leaves",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Lime",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 90,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 72,
+      "recipe_name": "Extra Grilled Chicken (150g)",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Indian",
+      "hp_variant": false,
+      "price_aed": 24,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 5.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 288,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 73,
+      "recipe_name": "Extra Quinoa (150g cooked)",
+      "brand": "Healthy",
+      "category": "Sides",
+      "source_cuisine": "Poke",
+      "hp_variant": false,
+      "price_aed": 17,
+      "ingredients": [
+        {
+          "name": "Quinoa (cooked)",
+          "quantity": 150.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lemon",
+          "quantity": 0.25,
+          "unit": "Piece",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Salt",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 3.0,
+          "unit": "ML",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 207,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 74,
+      "recipe_name": "Chicken Sausage",
+      "brand": "Healthy",
+      "category": "Breakfast Sides",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 18,
+      "ingredients": [
+        {
+          "name": "Chicken Sausage",
+          "quantity": 80.0,
+          "unit": "GM",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Parsley",
+          "quantity": 2.0,
+          "unit": "GM",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Mustard Cream",
+          "quantity": 10.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Mustard"
+      ],
+      "calories_kcal": 176,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 75,
+      "recipe_name": "Crispy Beef Bacon",
+      "brand": "Healthy",
+      "category": "Breakfast Sides",
+      "source_cuisine": "Breakfast",
+      "hp_variant": false,
+      "price_aed": 16,
+      "ingredients": [
+        {
+          "name": "Crispy Beef Bacon",
+          "quantity": 60.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Black Pepper",
+          "quantity": 1.0,
+          "unit": "GM",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 198,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    }
+  ]
+}

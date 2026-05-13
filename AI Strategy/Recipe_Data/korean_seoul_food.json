@@ -1,0 +1,7536 @@
+{
+  "schema_version": "1.0",
+  "brand": "Seoul Food",
+  "source_file": "Korean Recipes.xlsx",
+  "extracted_at": "2026-04-24",
+  "last_updated": "2026-04-24",
+  "recipe_count": 68,
+  "methodology": {
+    "allergens": "Essential-only: 16-tag vocabulary (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). Korean mapping: soy sauce/gochujang/doenjang -> Soya+Gluten; tofu/edamame/kongnamul -> Soya; sesame seeds/oil -> Sesame; anchovy/fish sauce/fish cake -> Fish; shrimp/shrimp paste -> Crustaceans; squid/octopus -> Molluscs. Traditional kimchi assumed to contain fish sauce + shrimp paste. Semi-finished components expanded before tag resolution. Bibimbap/Bulgogi/Japchae/Kimbap carry Sesame+Soya+Gluten base by category heuristic.",
+    "calories": "Per-100g estimates applied to EP quantities (KG/L treated as ~1000g, GM/ML as grams). Egg pieces = 72 kcal each. SF components costed via weighted kcal of composition. Packaging excluded. Wastage not applied. Integers rounded. Drinks hardcoded (Coca Cola 139, Fanta 160, Sprite 140, zero-sugar ~1, water 0).",
+    "wastage_pct": "Normalized from percent to decimal (10 -> 0.10)."
+  },
+  "changelog": [
+    {
+      "date": "2026-04-24",
+      "entry": "Initial extraction from Korean Recipes.xlsx (Seoul Food brand, codes SEO101-SEO168) with SF expansion, allergen enrichment, and per-100g calorie estimates."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Drift fix: normalized ingredient/packaging shape to canonical 5-key {name, quantity, unit, wastage_pct, notes}."
+    }
+  ],
+  "pending_decisions": [
+    "Confirm kimchi spec (default = traditional with fish sauce + shrimp paste). Flip to vegetarian removes Fish + Crustaceans tags on all kimchi-containing dishes.",
+    "Confirm whether rice cakes (tteok) used are 100% rice (no wheat). Default: no Gluten from tteok itself; Gluten comes from soy sauce/gochujang instead.",
+    "Verify chicken frying batter composition — if egg included, Donkkaseu-type dishes confirmed Eggs."
+  ],
+  "semi_finished_components": [
+    {
+      "component_name": "Dish Name",
+      "code": null,
+      "ingredients": [
+        {
+          "ingredient": "Ingredient",
+          "qty_ep": "EP Qty",
+          "uom": "UOM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 100,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "Bulgogi Marinade - SF",
+      "code": "KOR001",
+      "ingredients": [
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.5,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sugar",
+          "qty_ep": 0.2,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Onion Red",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Sesame Oil",
+          "qty_ep": 0.08,
+          "uom": "L",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Ginger",
+          "qty_ep": 0.02,
+          "uom": "KG",
+          "wastage_pct": 0.12
+        }
+      ],
+      "estimated_kcal_per_100g": 201,
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Bibimbap Sauce - SF",
+      "code": "KOR002",
+      "ingredients": [
+        {
+          "ingredient": "Gochujang",
+          "qty_ep": 0.6,
+          "uom": "KG",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Sugar Syrup",
+          "qty_ep": 0.15,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Tap Water",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Rice Vinegar",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sesame Oil",
+          "qty_ep": 0.05,
+          "uom": "L",
+          "wastage_pct": 1.0
+        }
+      ],
+      "estimated_kcal_per_100g": 205,
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Spicy Bokkeum Sauce - SF",
+      "code": "KOR003",
+      "ingredients": [
+        {
+          "ingredient": "Gochujang",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Gochugaru",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.15,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sugar",
+          "qty_ep": 0.15,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Ginger",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Tap Water",
+          "qty_ep": 0.05,
+          "uom": "L",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 191,
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Chili Garlic Sauce - SF",
+      "code": "KOR004",
+      "ingredients": [
+        {
+          "ingredient": "Cooking Oil",
+          "qty_ep": 0.4,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.3,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Chilli Flakes",
+          "qty_ep": 0.15,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 447,
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Crispy Tofu Glaze - SF",
+      "code": "KOR005",
+      "ingredients": [
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.5,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sugar Syrup",
+          "qty_ep": 0.3,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Tap Water",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sesame Oil",
+          "qty_ep": 0.05,
+          "uom": "L",
+          "wastage_pct": 1.0
+        }
+      ],
+      "estimated_kcal_per_100g": 202,
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Japchae Sauce - SF",
+      "code": "KOR006",
+      "ingredients": [
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.5,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sugar",
+          "qty_ep": 0.25,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sesame Oil",
+          "qty_ep": 0.15,
+          "uom": "L",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.08,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Beef Bouillon Powder",
+          "qty_ep": 0.02,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 280,
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Seafood Jjajang Sauce - SF",
+      "code": "KOR007",
+      "ingredients": [
+        {
+          "ingredient": "Chunjang (Korean Black Bean Paste)",
+          "qty_ep": 0.3,
+          "uom": "KG",
+          "wastage_pct": 0.02
+        },
+        {
+          "ingredient": "Cooking Oil",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 0.4,
+          "uom": "KG",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Zucchini Green",
+          "qty_ep": 0.25,
+          "uom": "KG",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Cabbage White",
+          "qty_ep": 0.25,
+          "uom": "KG",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Squid Tubes",
+          "qty_ep": 0.15,
+          "uom": "KG",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Shrimp",
+          "qty_ep": 0.15,
+          "uom": "KG",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Tap Water",
+          "qty_ep": 0.2,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Chicken Stock Powder",
+          "qty_ep": 0.025,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sugar",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cornflour",
+          "qty_ep": 0.025,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 109,
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "House Kimchi - SF",
+      "code": "KOR008",
+      "ingredients": [
+        {
+          "ingredient": "Cabbage Chinese",
+          "qty_ep": 6.5,
+          "uom": "KG",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 0.65,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Gochugaru",
+          "qty_ep": 0.5,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.2,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Onion Red",
+          "qty_ep": 0.2,
+          "uom": "KG",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Radish White",
+          "qty_ep": 0.25,
+          "uom": "KG",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Spring Onion",
+          "qty_ep": 0.15,
+          "uom": "KG",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Ginger",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Sugar",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.05,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Tap Water",
+          "qty_ep": 0.2,
+          "uom": "L",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 45,
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Spicy Chili Paste - SF",
+      "code": "KOR009",
+      "ingredients": [
+        {
+          "ingredient": "Gochugaru",
+          "qty_ep": 0.4,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.2,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.15,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Beef Bouillon Powder",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cooking Oil",
+          "qty_ep": 0.15,
+          "uom": "L",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 310,
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Chicken Frying Batter - SF",
+      "code": "KOR010",
+      "ingredients": [
+        {
+          "ingredient": "All Purpose Flour (Maida)",
+          "qty_ep": 0.6,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cornflour",
+          "qty_ep": 0.3,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Baking Powder",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 0.025,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Powder",
+          "qty_ep": 0.025,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 351,
+      "allergens": [
+        "Gluten"
+      ]
+    },
+    {
+      "component_name": "Yangnyeom Sauce - SF",
+      "code": "KOR011",
+      "ingredients": [
+        {
+          "ingredient": "Gochujang",
+          "qty_ep": 0.35,
+          "uom": "KG",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Sugar Syrup",
+          "qty_ep": 0.25,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Tomato",
+          "qty_ep": 0.15,
+          "uom": "KG",
+          "wastage_pct": 0.02
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Rice Vinegar",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.05,
+          "uom": "L",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 193,
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Soy Garlic Glaze - SF",
+      "code": "KOR012",
+      "ingredients": [
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.45,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sugar Syrup",
+          "qty_ep": 0.3,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.15,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Ginger",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Rice Vinegar",
+          "qty_ep": 0.05,
+          "uom": "L",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 174,
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Spicy Chicken Glaze - SF",
+      "code": "KOR013",
+      "ingredients": [
+        {
+          "ingredient": "Gochujang",
+          "qty_ep": 0.4,
+          "uom": "KG",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Gochugaru",
+          "qty_ep": 0.2,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sugar Syrup",
+          "qty_ep": 0.2,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 223,
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Honey Garlic Glaze - SF",
+      "code": "KOR014",
+      "ingredients": [
+        {
+          "ingredient": "Honey",
+          "qty_ep": 0.4,
+          "uom": "KG",
+          "wastage_pct": 0.02
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.2,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.2,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Butter",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Rice Vinegar",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 237,
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Dynamite Shrimp Sauce - SF",
+      "code": "KOR015",
+      "ingredients": [
+        {
+          "ingredient": "Mayonnaise",
+          "qty_ep": 0.7,
+          "uom": "L",
+          "wastage_pct": 0.02
+        },
+        {
+          "ingredient": "Sriracha Chilli Sauce",
+          "qty_ep": 0.2,
+          "uom": "L",
+          "wastage_pct": 0.02
+        },
+        {
+          "ingredient": "Honey",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.02
+        }
+      ],
+      "estimated_kcal_per_100g": 514,
+      "allergens": [
+        "Crustaceans",
+        "Eggs"
+      ]
+    },
+    {
+      "component_name": "Tteokbokki Sauce - SF",
+      "code": "KOR016",
+      "ingredients": [
+        {
+          "ingredient": "Tap Water",
+          "qty_ep": 0.4,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Gochujang",
+          "qty_ep": 0.25,
+          "uom": "KG",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Gochugaru",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sugar",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Beef Bouillon Powder",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 128,
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Ramen Broth Base - SF",
+      "code": "KOR017",
+      "ingredients": [
+        {
+          "ingredient": "Tap Water",
+          "qty_ep": 5,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Beef Bouillon Powder",
+          "qty_ep": 0.15,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 10,
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Shrimp Mandu Filling - SF",
+      "code": "KOR018",
+      "ingredients": [
+        {
+          "ingredient": "Shrimp",
+          "qty_ep": 0.6,
+          "uom": "KG",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Cabbage White",
+          "qty_ep": 0.2,
+          "uom": "KG",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Spring Onion",
+          "qty_ep": 0.1,
+          "uom": "KG",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.04,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sesame Oil",
+          "qty_ep": 0.03,
+          "uom": "L",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.02,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Ginger",
+          "qty_ep": 0.01,
+          "uom": "KG",
+          "wastage_pct": 0.12
+        }
+      ],
+      "estimated_kcal_per_100g": 101,
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Kimbap Seasoned Rice - SF",
+      "code": "KOR019",
+      "ingredients": [
+        {
+          "ingredient": "Japonica Rice",
+          "qty_ep": 0.88,
+          "uom": "KG",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Sesame Oil",
+          "qty_ep": 0.03,
+          "uom": "L",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 0.015,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 152,
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Kimbap Dipping Sauce - SF",
+      "code": "KOR020",
+      "ingredients": [
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.6,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Rice Vinegar",
+          "qty_ep": 0.3,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Tap Water",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 42,
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Sigumchi Namul - SF",
+      "code": "KOR021",
+      "ingredients": [
+        {
+          "ingredient": "Spinach",
+          "qty_ep": 1.2,
+          "uom": "KG",
+          "wastage_pct": 0.15
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.03,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sesame Oil",
+          "qty_ep": 0.03,
+          "uom": "L",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.02,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sesame Seeds White",
+          "qty_ep": 0.01,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 51,
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Kongnamul Muchim - SF",
+      "code": "KOR022",
+      "ingredients": [
+        {
+          "ingredient": "Green Beans",
+          "qty_ep": 1.2,
+          "uom": "KG",
+          "wastage_pct": 0.15
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.03,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sesame Oil",
+          "qty_ep": 0.03,
+          "uom": "L",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 0.01,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sesame Seeds White",
+          "qty_ep": 0.01,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 58,
+      "allergens": [
+        "Sesame",
+        "Soya"
+      ]
+    },
+    {
+      "component_name": "Delivery Overhead - SF",
+      "code": "KOR023",
+      "ingredients": [
+        {
+          "ingredient": "Chopsticks Bamboo",
+          "qty_ep": 1,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cutlery Set Black",
+          "qty_ep": 1,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Paper Bag White",
+          "qty_ep": 1,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 100,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "Banchan & Packaging - SF",
+      "code": "KOR024",
+      "ingredients": [
+        {
+          "ingredient": "House Kimchi - SF",
+          "qty_ep": 0.06,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sigumchi Namul - SF",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Pickled Radish",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sauce Cup 4oz Clear",
+          "qty_ep": 3,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Lid for Sauce Cup 4oz",
+          "qty_ep": 3,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 42,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "Mandu Dipping Sauce - SF",
+      "code": "KOR025",
+      "ingredients": [
+        {
+          "ingredient": "Soy Sauce",
+          "qty_ep": 0.5,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Tap Water",
+          "qty_ep": 0.3,
+          "uom": "L",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sesame Oil",
+          "qty_ep": 0.1,
+          "uom": "L",
+          "wastage_pct": 1.0
+        },
+        {
+          "ingredient": "Gochugaru",
+          "qty_ep": 0.05,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 0.03,
+          "uom": "KG",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Carrot",
+          "qty_ep": 0.02,
+          "uom": "KG",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Spring Onion",
+          "qty_ep": 0.02,
+          "uom": "KG",
+          "wastage_pct": 0.1
+        }
+      ],
+      "estimated_kcal_per_100g": 136,
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_number": 1,
+      "recipe_name": "Beef Bibimbap",
+      "code": "SEO101",
+      "brand": "Seoul Food",
+      "category": "Bibimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 1037,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 2,
+      "recipe_name": "Chicken Bibimbap",
+      "code": "SEO102",
+      "brand": "Seoul Food",
+      "category": "Bibimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 818,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 3,
+      "recipe_name": "Tofu Bibimbap",
+      "code": "SEO103",
+      "brand": "Seoul Food",
+      "category": "Bibimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 625,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 4,
+      "recipe_name": "Veg Bibimbap",
+      "code": "SEO104",
+      "brand": "Seoul Food",
+      "category": "Bibimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 560,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 5,
+      "recipe_name": "Shrimp Bibimbap",
+      "code": "SEO105",
+      "brand": "Seoul Food",
+      "category": "Bibimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 689,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 6,
+      "recipe_name": "Kimchi Shrimp Fried Rice",
+      "code": "SEO106",
+      "brand": "Seoul Food",
+      "category": "Fried Rice",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 600,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 7,
+      "recipe_name": "Bulgogi Deopbap",
+      "code": "SEO107",
+      "brand": "Seoul Food",
+      "category": "Rice Bowls (Deopbap)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 1167,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 8,
+      "recipe_name": "Dak Deopbap",
+      "code": "SEO108",
+      "brand": "Seoul Food",
+      "category": "Rice Bowls (Deopbap)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.06,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 806,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 9,
+      "recipe_name": "Chili Garlic Shrimp Deopbap",
+      "code": "SEO109",
+      "brand": "Seoul Food",
+      "category": "Rice Bowls (Deopbap)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 663,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 10,
+      "recipe_name": "Gochujang Shrimp Deopbap",
+      "code": "SEO110",
+      "brand": "Seoul Food",
+      "category": "Rice Bowls (Deopbap)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 550,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 11,
+      "recipe_name": "Crispy Tofu Deopbap",
+      "code": "SEO111",
+      "brand": "Seoul Food",
+      "category": "Rice Bowls (Deopbap)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 869,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 12,
+      "recipe_name": "Ojingeo Deopbap (Squid)",
+      "code": "SEO112",
+      "brand": "Seoul Food",
+      "category": "Rice Bowls (Deopbap)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 641,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 13,
+      "recipe_name": "Nakji Bokkeum (Octopus)",
+      "code": "SEO113",
+      "brand": "Seoul Food",
+      "category": "Rice Bowls (Deopbap)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 556,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 14,
+      "recipe_name": "Donkkaseu",
+      "code": "SEO114",
+      "brand": "Seoul Food",
+      "category": "Korean Cutlets",
+      "ingredients": [
+        {
+          "wastage_pct": 0.06,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 1248,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 15,
+      "recipe_name": "Japchae Beef",
+      "code": "SEO115",
+      "brand": "Seoul Food",
+      "category": "Japchae (Glass Noodles)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.03,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 640,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 16,
+      "recipe_name": "Japchae Chicken",
+      "code": "SEO116",
+      "brand": "Seoul Food",
+      "category": "Japchae (Glass Noodles)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.03,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 534,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 17,
+      "recipe_name": "Japchae Veg",
+      "code": "SEO117",
+      "brand": "Seoul Food",
+      "category": "Japchae (Glass Noodles)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.03,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 383,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 18,
+      "recipe_name": "Shrimp Japchae",
+      "code": "SEO118",
+      "brand": "Seoul Food",
+      "category": "Japchae (Glass Noodles)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.03,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 453,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 19,
+      "recipe_name": "Jjajangmyeon",
+      "code": "SEO119",
+      "brand": "Seoul Food",
+      "category": "Jjajang",
+      "ingredients": [
+        {
+          "wastage_pct": 0.04,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 642,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 20,
+      "recipe_name": "Kimchi Jjigae",
+      "code": "SEO120",
+      "brand": "Seoul Food",
+      "category": "Stews (Jjigae)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 687,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 21,
+      "recipe_name": "Soondubu Jjigae",
+      "code": "SEO121",
+      "brand": "Seoul Food",
+      "category": "Stews (Jjigae)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 1408,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 22,
+      "recipe_name": "Shrimp Soondubu Jjigae",
+      "code": "SEO122",
+      "brand": "Seoul Food",
+      "category": "Stews (Jjigae)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 620,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 23,
+      "recipe_name": "Doenjang Jjigae",
+      "code": "SEO123",
+      "brand": "Seoul Food",
+      "category": "Stews (Jjigae)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 398,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 24,
+      "recipe_name": "Yukgaejang",
+      "code": "SEO124",
+      "brand": "Seoul Food",
+      "category": "Stews (Jjigae)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 1.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 679,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 25,
+      "recipe_name": "Jjamppong Bap",
+      "code": "SEO125",
+      "brand": "Seoul Food",
+      "category": "Jjamppong",
+      "ingredients": [
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 586,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 26,
+      "recipe_name": "Jjamppong",
+      "code": "SEO126",
+      "brand": "Seoul Food",
+      "category": "Jjamppong",
+      "ingredients": [
+        {
+          "wastage_pct": 0.04,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten",
+        "Molluscs",
+        "Soya"
+      ],
+      "calories_kcal": 650,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 27,
+      "recipe_name": "Shin Ramen",
+      "code": "SEO127",
+      "brand": "Seoul Food",
+      "category": "Ramyeon",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 130,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 28,
+      "recipe_name": "Beef Ramen",
+      "code": "SEO128",
+      "brand": "Seoul Food",
+      "category": "Ramyeon",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 401,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 29,
+      "recipe_name": "Prawn Ramen",
+      "code": "SEO129",
+      "brand": "Seoul Food",
+      "category": "Ramyeon",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 229,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 30,
+      "recipe_name": "Garlic Butter Shrimp Ramen",
+      "code": "SEO130",
+      "brand": "Seoul Food",
+      "category": "Ramyeon",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 274,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 31,
+      "recipe_name": "Chicken Ramen",
+      "code": "SEO131",
+      "brand": "Seoul Food",
+      "category": "Ramyeon",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 295,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 32,
+      "recipe_name": "Soy and Garlic Chicken",
+      "code": "SEO132",
+      "brand": "Seoul Food",
+      "category": "Korean Fried Chicken",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 1029,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 33,
+      "recipe_name": "Yangnyeom Chicken",
+      "code": "SEO133",
+      "brand": "Seoul Food",
+      "category": "Korean Fried Chicken",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Peanuts",
+        "Soya"
+      ],
+      "calories_kcal": 1042,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 34,
+      "recipe_name": "Korean Style Chicken",
+      "code": "SEO134",
+      "brand": "Seoul Food",
+      "category": "Korean Fried Chicken",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 924,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 35,
+      "recipe_name": "Spicy Chicken",
+      "code": "SEO135",
+      "brand": "Seoul Food",
+      "category": "Korean Fried Chicken",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 1058,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 36,
+      "recipe_name": "Honey Garlic Chicken",
+      "code": "SEO136",
+      "brand": "Seoul Food",
+      "category": "Korean Fried Chicken",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 1066,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 37,
+      "recipe_name": "Soy and Garlic Wings",
+      "code": "SEO137",
+      "brand": "Seoul Food",
+      "category": "Korean Wings",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 642,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 38,
+      "recipe_name": "Yangnyeom Wings",
+      "code": "SEO138",
+      "brand": "Seoul Food",
+      "category": "Korean Wings",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 654,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 39,
+      "recipe_name": "Spicy Wings",
+      "code": "SEO139",
+      "brand": "Seoul Food",
+      "category": "Korean Wings",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 674,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 40,
+      "recipe_name": "Honey Garlic Wings",
+      "code": "SEO140",
+      "brand": "Seoul Food",
+      "category": "Korean Wings",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 683,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 41,
+      "recipe_name": "Dynamite Shrimp",
+      "code": "SEO141",
+      "brand": "Seoul Food",
+      "category": "Specialty Shrimp & Snacks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.03,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs"
+      ],
+      "calories_kcal": 744,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 42,
+      "recipe_name": "Rabokki",
+      "code": "SEO142",
+      "brand": "Seoul Food",
+      "category": "Tteokbokki",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 603,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 43,
+      "recipe_name": "Tteokbokki with Cheese",
+      "code": "SEO143",
+      "brand": "Seoul Food",
+      "category": "Tteokbokki",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 982,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 44,
+      "recipe_name": "Spicy Shrimp Tteokbokki",
+      "code": "SEO144",
+      "brand": "Seoul Food",
+      "category": "Tteokbokki",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 959,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 45,
+      "recipe_name": "Deep Fried Chicken Mandu",
+      "code": "SEO145",
+      "brand": "Seoul Food",
+      "category": "Mandu (Dumplings)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.03,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 471,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 46,
+      "recipe_name": "Steamed Chicken Mandu",
+      "code": "SEO146",
+      "brand": "Seoul Food",
+      "category": "Mandu (Dumplings)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.03,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 206,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 47,
+      "recipe_name": "Gyeran-mari (Rolled Omelette)",
+      "code": "SEO147",
+      "brand": "Seoul Food",
+      "category": "Eggs",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs"
+      ],
+      "calories_kcal": 352,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 48,
+      "recipe_name": "Tuna Kimbap",
+      "code": "SEO148",
+      "brand": "Seoul Food",
+      "category": "Kimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 487,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 49,
+      "recipe_name": "Beef Kimbap",
+      "code": "SEO149",
+      "brand": "Seoul Food",
+      "category": "Kimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 405,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 50,
+      "recipe_name": "Cheese and Veg Kimbap",
+      "code": "SEO150",
+      "brand": "Seoul Food",
+      "category": "Kimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.25,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 224,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 51,
+      "recipe_name": "Chicken Kimbap",
+      "code": "SEO151",
+      "brand": "Seoul Food",
+      "category": "Kimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.06,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 341,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 52,
+      "recipe_name": "Kimchi Kimbap",
+      "code": "SEO152",
+      "brand": "Seoul Food",
+      "category": "Kimbap",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 234,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 53,
+      "recipe_name": "Japchae & Shrimp Kimbap",
+      "code": "SEO153",
+      "brand": "Seoul Food",
+      "category": "Japchae (Glass Noodles)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.03,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.07,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 289,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 54,
+      "recipe_name": "House Kimchi",
+      "code": "SEO154",
+      "brand": "Seoul Food",
+      "category": "Banchan (Sides)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 113,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 55,
+      "recipe_name": "Kongnamul Muchim",
+      "code": "SEO155",
+      "brand": "Seoul Food",
+      "category": "Banchan (Sides)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 35,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 56,
+      "recipe_name": "Sigumchi Namul",
+      "code": "SEO156",
+      "brand": "Seoul Food",
+      "category": "Banchan (Sides)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 25,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 57,
+      "recipe_name": "Danmuji (Pickled Radish)",
+      "code": "SEO157",
+      "brand": "Seoul Food",
+      "category": "Banchan (Sides)",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 36,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 58,
+      "recipe_name": "Rice Bowl Set",
+      "code": "SEO158",
+      "brand": "Seoul Food",
+      "category": "Combos & Sets",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 59,
+      "recipe_name": "Solo Chicken Set",
+      "code": "SEO159",
+      "brand": "Seoul Food",
+      "category": "Combos & Sets",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Gluten",
+        "Peanuts",
+        "Sesame",
+        "Soya",
+        "Sugared drink"
+      ],
+      "calories_kcal": 195,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 60,
+      "recipe_name": "Chicken Combo for Two",
+      "code": "SEO160",
+      "brand": "Seoul Food",
+      "category": "Combos & Sets",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Peanuts",
+        "Sesame",
+        "Soya",
+        "Sugared drink"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 61,
+      "recipe_name": "Mineral Tap Water",
+      "code": "SEO161",
+      "brand": "Seoul Food",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 62,
+      "recipe_name": "Coca Cola",
+      "code": "SEO162",
+      "brand": "Seoul Food",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 139,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 63,
+      "recipe_name": "Coca Cola Zero",
+      "code": "SEO163",
+      "brand": "Seoul Food",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 1,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 64,
+      "recipe_name": "Fanta",
+      "code": "SEO164",
+      "brand": "Seoul Food",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 160,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 65,
+      "recipe_name": "Sprite",
+      "code": "SEO165",
+      "brand": "Seoul Food",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 140,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 66,
+      "recipe_name": "Sprite Zero",
+      "code": "SEO166",
+      "brand": "Seoul Food",
+      "category": "Beverages",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 1,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 67,
+      "recipe_name": "Honey Chilli Shrimp",
+      "code": "SEO167",
+      "brand": "Seoul Food",
+      "category": "Specialty Shrimp & Snacks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.05,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 524,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 68,
+      "recipe_name": "Honey Chilli Potatoes",
+      "code": "SEO168",
+      "brand": "Seoul Food",
+      "category": "Specialty Shrimp & Snacks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.15,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.12,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 548,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    }
+  ]
+}

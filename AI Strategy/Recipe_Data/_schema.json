@@ -1,0 +1,159 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "zwq-recipe-data-v1.0",
+  "title": "ZwQ Recipe Data Canonical Schema v1.0",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "source_file",
+    "extracted_at",
+    "last_updated",
+    "recipe_count",
+    "methodology",
+    "changelog",
+    "pending_decisions",
+    "recipes"
+  ],
+  "anyOf": [
+    {
+      "required": [
+        "brand"
+      ]
+    },
+    {
+      "required": [
+        "dataset"
+      ]
+    }
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "dataset": {
+      "type": "string"
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "extracted_at": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "string"
+    },
+    "recipe_count": {
+      "type": "integer"
+    },
+    "methodology": {
+      "type": "object",
+      "required": [
+        "allergens",
+        "calories",
+        "wastage_pct"
+      ]
+    },
+    "changelog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "date",
+          "entry"
+        ]
+      }
+    },
+    "pending_decisions": {
+      "type": "array"
+    },
+    "semi_finished_components": {
+      "type": "array"
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "recipe_number",
+          "recipe_name",
+          "brand",
+          "category",
+          "ingredients",
+          "packaging",
+          "allergens",
+          "calories_kcal",
+          "yield",
+          "portion_size",
+          "serves",
+          "method",
+          "plating",
+          "notes"
+        ],
+        "properties": {
+          "ingredients": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "quantity",
+                "unit",
+                "wastage_pct",
+                "notes"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "packaging": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "quantity",
+                "unit",
+                "wastage_pct",
+                "notes"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "allergens": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "Celery",
+                "Gluten",
+                "Crustaceans",
+                "Fish",
+                "Eggs",
+                "Lupin",
+                "Molluscs",
+                "Mustard",
+                "Nuts",
+                "Peanuts",
+                "Sesame",
+                "Soya",
+                "Sulphites",
+                "Sugared drink",
+                "Dairy",
+                "Lentils",
+                "NO_ALLERGENS"
+              ]
+            }
+          },
+          "calories_kcal": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

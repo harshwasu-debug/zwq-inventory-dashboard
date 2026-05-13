@@ -1,0 +1,7414 @@
+{
+  "schema_version": "1.0",
+  "brand": null,
+  "dataset": "Mexican",
+  "source_file": "Mexican Recipes 14112025.xlsx",
+  "extracted_at": "2026-04-24",
+  "last_updated": "2026-04-24",
+  "recipe_count": 84,
+  "methodology": {
+    "allergens": "Essential-only: 16-tag vocabulary (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). Mexican mapping: flour tortilla/maida/breaded -> Gluten; corn tortilla excluded from Gluten (pure masa). Cheese/queso/crema/sour cream/yoghurt -> Dairy. Mayo/aioli/egg -> Eggs. Beans (black/pinto/refried) -> Lentils (legume convention). Shrimp/camarones -> Crustaceans; dory/tilapia/fish -> Fish. Mole dishes auto-tagged Sesame+Nuts+Peanuts. Sugary sodas (Coca-Cola/Sprite/Fanta/Jarritos non-zero) -> Sugared drink; Zero variants excluded. Semi-finished components expanded before tag resolution. Pickled jalapenos, limes, vinegars NOT flagged for Sulphites. Packaging excluded from allergen and kcal calc.",
+    "calories": "Per-100g estimates applied to EP quantities (KG/L -> 1000g, GM/ML -> grams, Piece -> 50g nominal). SF components resolved by weighted-kcal of composition. Packaging excluded. Wastage not applied. Integer-rounded. Key values: Corn tortilla 218, Flour tortilla 306, Chicken breast 165, Beef 250, Shrimp 99, Dory/Fish 120, Black beans 132, Pinto 143, Refried 180, Mexican rice 200, Cheddar 404, Mozzarella 280, Cotija 368, Crema 450, Sour cream 198, Guacamole 150, Avocado 160, Salsa verde 30, Salsa 35, Pico de gallo 28, Mayo 680, Ranch 430, Coca-Cola 42, Fanta 48, Jarritos 52, Zero-sugar 0.",
+    "wastage_pct": "Normalized from percent to decimal (10 -> 0.10)."
+  },
+  "changelog": [
+    {
+      "date": "2026-04-24",
+      "entry": "Initial extraction from Mexican Recipes 14112025.xlsx. Flat pool (no brand column) — 84 finished recipes across 15 categories, 27 semi-finished components. SF expansion, essential-only allergen enrichment, per-100g calorie estimates."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Drift fix: normalized ingredient/packaging shape to canonical 5-key {name, quantity, unit, wastage_pct, notes}."
+    }
+  ],
+  "pending_decisions": [],
+  "semi_finished_components": [
+    {
+      "component_name": "SF - Bowl Packaging Set",
+      "code": "MEX021",
+      "ingredients": [
+        {
+          "ingredient": "Salad Bowl 1100ml With Lid",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cutlery Set Black",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sauce Cup 2oz Clear with Lid",
+          "qty_ep": 3.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 0,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Chimichurri Sauce",
+      "code": "MEX001",
+      "ingredients": [
+        {
+          "ingredient": "Parsley",
+          "qty_ep": 500.0,
+          "uom": "GM",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Olive Oil Blended",
+          "qty_ep": 350.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Vinegar White",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Chilli Flakes",
+          "qty_ep": 25.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Oregano",
+          "qty_ep": 15.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 15.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 336,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Chipotle Sauce",
+      "code": "MEX002",
+      "ingredients": [
+        {
+          "ingredient": "Mayonnaise",
+          "qty_ep": 1000.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Chipotle Peppers",
+          "qty_ep": 200.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Lime",
+          "qty_ep": 100.0,
+          "uom": "ML",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 10.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 567,
+      "allergens": [
+        "Eggs"
+      ]
+    },
+    {
+      "component_name": "SF - Chipotle Sour Cream",
+      "code": "MEX003",
+      "ingredients": [
+        {
+          "ingredient": "Sour Cream",
+          "qty_ep": 1000.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Chipotle Peppers",
+          "qty_ep": 200.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Lime",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.1
+        }
+      ],
+      "estimated_kcal_per_100g": 208,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "component_name": "SF - Dip Packaging Set",
+      "code": "MEX022",
+      "ingredients": [
+        {
+          "ingredient": "Sauce Cup 4oz Clear with Lid",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 0,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Final Bagging",
+      "code": "MEX023",
+      "ingredients": [
+        {
+          "ingredient": "Paper Bag White",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 0,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Grilled Chicken",
+      "code": "MEX004",
+      "ingredients": [
+        {
+          "ingredient": "Chicken Breast (Aurora)",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Chicken Fajita Seasoning",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cooking Oil",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 204,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Grilled Fish",
+      "code": "MEX005",
+      "ingredients": [
+        {
+          "ingredient": "Dory Fillet",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Blackened Seasoning",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cooking Oil",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 163,
+      "allergens": [
+        "Fish"
+      ]
+    },
+    {
+      "component_name": "SF - Grilled Shrimp",
+      "code": "MEX006",
+      "ingredients": [
+        {
+          "ingredient": "Shrimp",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Lime Chipotle Seasoning",
+          "qty_ep": 40.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cooking Oil",
+          "qty_ep": 40.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 136,
+      "allergens": [
+        "Crustaceans"
+      ]
+    },
+    {
+      "component_name": "SF - Guacamole",
+      "code": "MEX007",
+      "ingredients": [
+        {
+          "ingredient": "Avocado",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 200.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Coriander",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Lime",
+          "qty_ep": 40.0,
+          "uom": "ML",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 10.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 131,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Honey Mustard Sauce",
+      "code": "MEX008",
+      "ingredients": [
+        {
+          "ingredient": "Mayonnaise",
+          "qty_ep": 500.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Mustard Cream",
+          "qty_ep": 200.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Honey",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 480,
+      "allergens": [
+        "Eggs",
+        "Mustard"
+      ]
+    },
+    {
+      "component_name": "SF - Loaded Sides Packaging Set",
+      "code": "MEX024",
+      "ingredients": [
+        {
+          "ingredient": "Soup Cup 12oz Brown",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Lid for Soup Cup",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 0,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Meal Packaging Set",
+      "code": "MEX025",
+      "ingredients": [
+        {
+          "ingredient": "Bagasse Container",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Lid for Bagasse Container",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cutlery Set Black",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sauce Cup 2oz Clear with Lid",
+          "qty_ep": 2.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 0,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Mexican Rice",
+      "code": "MEX009",
+      "ingredients": [
+        {
+          "ingredient": "Rice Basmati",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Tomato Paste",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Cumin Powder",
+          "qty_ep": 10.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Chicken Stock Powder",
+          "qty_ep": 20.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 118,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Mixed Cheese",
+      "code": "MEX010",
+      "ingredients": [
+        {
+          "ingredient": "Cheese Cheddar Shredded",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cheese Mozzarella Shredded",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 342,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "component_name": "SF - Pico de Gallo",
+      "code": "MEX011",
+      "ingredients": [
+        {
+          "ingredient": "Tomato",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 400.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Coriander",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Jalapeno",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Lime",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 10.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 24,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Ranchero Sauce",
+      "code": "MEX012",
+      "ingredients": [
+        {
+          "ingredient": "Peeled Tomato",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 200.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Jalapeno",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Cumin Powder",
+          "qty_ep": 15.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 15.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 30,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Refried Beans",
+      "code": "MEX013",
+      "ingredients": [
+        {
+          "ingredient": "Pinto Beans",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 150.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Cooking Oil",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 15.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 159,
+      "allergens": [
+        "Lentils"
+      ]
+    },
+    {
+      "component_name": "SF - Salsa Verde Sauce",
+      "code": "MEX014",
+      "ingredients": [
+        {
+          "ingredient": "Tomatillos",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Coriander",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 150.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Jalapeno",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Lime",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 10.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 32,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Seasoned Ground Beef",
+      "code": "MEX015",
+      "ingredients": [
+        {
+          "ingredient": "Beef Mince",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Cumin Powder",
+          "qty_ep": 20.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Paprika Powder",
+          "qty_ep": 10.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 150.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 15.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 223,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Smoky Beef",
+      "code": "MEX016",
+      "ingredients": [
+        {
+          "ingredient": "Beef Tenderloin (Brazil)",
+          "qty_ep": 1000.0,
+          "uom": "GM",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Fajita Seasoning",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Paprika Powder",
+          "qty_ep": 10.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cooking Oil",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 281,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Spiced Veggies",
+      "code": "MEX017",
+      "ingredients": [
+        {
+          "ingredient": "Capsicum Green",
+          "qty_ep": 500.0,
+          "uom": "GM",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Capsicum Red",
+          "qty_ep": 500.0,
+          "uom": "GM",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Capsicum Yellow",
+          "qty_ep": 500.0,
+          "uom": "GM",
+          "wastage_pct": 0.12
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 500.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Fajita Seasoning",
+          "qty_ep": 30.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 29,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Spicy Green Sauce",
+      "code": "MEX018",
+      "ingredients": [
+        {
+          "ingredient": "Coriander",
+          "qty_ep": 500.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Mint",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Green Chilli",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Yoghurt",
+          "qty_ep": 300.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Lime",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 15.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 37,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "component_name": "SF - Spicy Mint Sauce",
+      "code": "MEX019",
+      "ingredients": [
+        {
+          "ingredient": "Mint",
+          "qty_ep": 500.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Coriander",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Green Chilli",
+          "qty_ep": 100.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Yoghurt",
+          "qty_ep": 300.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Lime",
+          "qty_ep": 50.0,
+          "uom": "ML",
+          "wastage_pct": 0.1
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 15.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 45,
+      "allergens": [
+        "Dairy"
+      ]
+    },
+    {
+      "component_name": "SF - Standard Packaging Set",
+      "code": "MEX026",
+      "ingredients": [
+        {
+          "ingredient": "Snack Box Kraft Large",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Greaseproof Paper",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cutlery Set Black",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sauce Cup 2oz Clear with Lid",
+          "qty_ep": 3.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 0,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Tangy Jalapeno Sauce",
+      "code": "MEX020",
+      "ingredients": [
+        {
+          "ingredient": "Jalapeno",
+          "qty_ep": 500.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Onion White",
+          "qty_ep": 200.0,
+          "uom": "GM",
+          "wastage_pct": 0.08
+        },
+        {
+          "ingredient": "Garlic Peeled",
+          "qty_ep": 50.0,
+          "uom": "GM",
+          "wastage_pct": 0.05
+        },
+        {
+          "ingredient": "Vinegar White",
+          "qty_ep": 200.0,
+          "uom": "ML",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sugar",
+          "qty_ep": 20.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Salt",
+          "qty_ep": 10.0,
+          "uom": "GM",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 41,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    },
+    {
+      "component_name": "SF - Wrap Packaging Set",
+      "code": "MEX027",
+      "ingredients": [
+        {
+          "ingredient": "Snack Box Kraft Large",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Greaseproof Paper",
+          "qty_ep": 2.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Cutlery Set Black",
+          "qty_ep": 1.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        },
+        {
+          "ingredient": "Sauce Cup 2oz Clear with Lid",
+          "qty_ep": 3.0,
+          "uom": "Piece",
+          "wastage_pct": 0.0
+        }
+      ],
+      "estimated_kcal_per_100g": 0,
+      "allergens": [
+        "NO_ALLERGENS"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_number": 1,
+      "recipe_name": "Cheese Quesadilla",
+      "code": "LOC101",
+      "brand": null,
+      "category": "Golden-Baked Quesadillas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 848,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 2,
+      "recipe_name": "Spiced Veggies and Cheese Quesadilla",
+      "code": "LOC102",
+      "brand": null,
+      "category": "Golden-Baked Quesadillas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 780,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 3,
+      "recipe_name": "Grilled Chicken and Cheese Quesadilla",
+      "code": "LOC103",
+      "brand": null,
+      "category": "Golden-Baked Quesadillas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 998,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 4,
+      "recipe_name": "Spicy Shrimp and Cheese Quesadilla",
+      "code": "LOC104",
+      "brand": null,
+      "category": "Golden-Baked Quesadillas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 896,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 5,
+      "recipe_name": "Smoky Beef and Cheese Quesadilla",
+      "code": "LOC105",
+      "brand": null,
+      "category": "Golden-Baked Quesadillas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 1169,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 6,
+      "recipe_name": "Veggie Tacos",
+      "code": "LOC106",
+      "brand": null,
+      "category": "Homestyle Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 676,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 7,
+      "recipe_name": "Chicken Tacos",
+      "code": "LOC107",
+      "brand": null,
+      "category": "Homestyle Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 916,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 8,
+      "recipe_name": "Grilled BBQ Chicken Tacos",
+      "code": "LOC108",
+      "brand": null,
+      "category": "Homestyle Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 909,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 9,
+      "recipe_name": "Grilled Shrimp Sichuan Tacos",
+      "code": "LOC109",
+      "brand": null,
+      "category": "Homestyle Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy"
+      ],
+      "calories_kcal": 759,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 10,
+      "recipe_name": "Shrimp Tacos",
+      "code": "LOC110",
+      "brand": null,
+      "category": "Homestyle Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy"
+      ],
+      "calories_kcal": 807,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 11,
+      "recipe_name": "Beef Tacos",
+      "code": "LOC111",
+      "brand": null,
+      "category": "Homestyle Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 1067,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 12,
+      "recipe_name": "Ground Beef Tacos",
+      "code": "LOC112",
+      "brand": null,
+      "category": "Homestyle Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 946,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 13,
+      "recipe_name": "Chimichurri Veg Tacos",
+      "code": "LOC113",
+      "brand": null,
+      "category": "Chimichurri Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 700,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 14,
+      "recipe_name": "Chimichurri Chicken Tacos",
+      "code": "LOC114",
+      "brand": null,
+      "category": "Chimichurri Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 974,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 15,
+      "recipe_name": "Chimichurri Shrimp Tacos",
+      "code": "LOC115",
+      "brand": null,
+      "category": "Chimichurri Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy"
+      ],
+      "calories_kcal": 866,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 16,
+      "recipe_name": "Chimichurri Beef Tacos",
+      "code": "LOC116",
+      "brand": null,
+      "category": "Chimichurri Tacos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 1126,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 17,
+      "recipe_name": "Spiced Veggie Burrito",
+      "code": "LOC117",
+      "brand": null,
+      "category": "Hearty Burritos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 671,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 18,
+      "recipe_name": "Grilled Chicken Burrito",
+      "code": "LOC118",
+      "brand": null,
+      "category": "Hearty Burritos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 925,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 19,
+      "recipe_name": "Crispy Chicken Burrito",
+      "code": "LOC119",
+      "brand": null,
+      "category": "Hearty Burritos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 979,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 20,
+      "recipe_name": "Avocado and Chicken Burrito",
+      "code": "LOC120",
+      "brand": null,
+      "category": "Hearty Burritos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 911,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 21,
+      "recipe_name": "Spicy Shrimp Burrito",
+      "code": "LOC121",
+      "brand": null,
+      "category": "Hearty Burritos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 823,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 22,
+      "recipe_name": "Smoky Beef Burrito",
+      "code": "LOC122",
+      "brand": null,
+      "category": "Hearty Burritos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 1096,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 23,
+      "recipe_name": "Ground Beef Burrito",
+      "code": "LOC123",
+      "brand": null,
+      "category": "Hearty Burritos",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 953,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 24,
+      "recipe_name": "Veg Ranchero Burrito",
+      "code": "LOC124",
+      "brand": null,
+      "category": "Ranchero-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 662,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 25,
+      "recipe_name": "Grilled Chicken Ranchero Burrito",
+      "code": "LOC125",
+      "brand": null,
+      "category": "Ranchero-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 852,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 26,
+      "recipe_name": "Grilled Shrimp Ranchero Burrito",
+      "code": "LOC126",
+      "brand": null,
+      "category": "Ranchero-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 750,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 27,
+      "recipe_name": "Smoky Beef Ranchero Burrito",
+      "code": "LOC127",
+      "brand": null,
+      "category": "Ranchero-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 1024,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 28,
+      "recipe_name": "Ground Beef Ranchero Burrito",
+      "code": "LOC128",
+      "brand": null,
+      "category": "Ranchero-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 880,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 29,
+      "recipe_name": "Spiced Veggie Chimichurri Burrito",
+      "code": "LOC129",
+      "brand": null,
+      "category": "Chimichurri-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 696,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 30,
+      "recipe_name": "Grilled Chicken Chimichurri Burrito",
+      "code": "LOC130",
+      "brand": null,
+      "category": "Chimichurri-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 949,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 31,
+      "recipe_name": "Crispy Chicken Chimichurri Burrito",
+      "code": "LOC131",
+      "brand": null,
+      "category": "Chimichurri-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 928,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 32,
+      "recipe_name": "Spicy Shrimp Chimichurri Burrito",
+      "code": "LOC132",
+      "brand": null,
+      "category": "Chimichurri-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 768,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 33,
+      "recipe_name": "Smoky Beef Chimichurri Burrito",
+      "code": "LOC133",
+      "brand": null,
+      "category": "Chimichurri-Style Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 1042,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 34,
+      "recipe_name": "Veg Chimichanga",
+      "code": "LOC134",
+      "brand": null,
+      "category": "Golden-Fried Chimichangas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 638,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 35,
+      "recipe_name": "Grilled Chicken Chimichanga",
+      "code": "LOC135",
+      "brand": null,
+      "category": "Golden-Fried Chimichangas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 1647,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 36,
+      "recipe_name": "Smoky Beef Chimichanga",
+      "code": "LOC136",
+      "brand": null,
+      "category": "Golden-Fried Chimichangas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 1029,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 37,
+      "recipe_name": "Ground Beef Chimichanga",
+      "code": "LOC137",
+      "brand": null,
+      "category": "Golden-Fried Chimichangas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 908,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 38,
+      "recipe_name": "Veg Fiesta Enchilada",
+      "code": "LOC138",
+      "brand": null,
+      "category": "Oven-Baked Enchiladas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 912,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 39,
+      "recipe_name": "Chicken Enchilada",
+      "code": "LOC139",
+      "brand": null,
+      "category": "Oven-Baked Enchiladas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 1192,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 40,
+      "recipe_name": "Steak Enchilada",
+      "code": "LOC140",
+      "brand": null,
+      "category": "Oven-Baked Enchiladas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 1344,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 41,
+      "recipe_name": "Shrimp Enchilada",
+      "code": "LOC141",
+      "brand": null,
+      "category": "Oven-Baked Enchiladas",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 1084,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 42,
+      "recipe_name": "Spiced Veggie Fajita Wrap",
+      "code": "LOC142",
+      "brand": null,
+      "category": "Warm Fajita Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 518,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 43,
+      "recipe_name": "Grilled Chicken Fajita Wrap",
+      "code": "LOC143",
+      "brand": null,
+      "category": "Warm Fajita Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 795,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 44,
+      "recipe_name": "Spicy Shrimp Fajita Wrap",
+      "code": "LOC144",
+      "brand": null,
+      "category": "Warm Fajita Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 693,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 45,
+      "recipe_name": "Smoky Beef Fajita Wrap",
+      "code": "LOC145",
+      "brand": null,
+      "category": "Warm Fajita Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 967,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 46,
+      "recipe_name": "Crispy Chicken Fajita Wrap",
+      "code": "LOC146",
+      "brand": null,
+      "category": "Warm Fajita Wraps",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten"
+      ],
+      "calories_kcal": 849,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 47,
+      "recipe_name": "Spiced Veggie Fajita Meal",
+      "code": "LOC147",
+      "brand": null,
+      "category": "Fajita Fiesta Meals",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 980,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 48,
+      "recipe_name": "Grilled Chicken Fajita Meal",
+      "code": "LOC148",
+      "brand": null,
+      "category": "Fajita Fiesta Meals",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 1298,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 49,
+      "recipe_name": "Spicy Prawn Fajita Meal",
+      "code": "LOC149",
+      "brand": null,
+      "category": "Fajita Fiesta Meals",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 1182,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 50,
+      "recipe_name": "Smoky Beef Fajita Meal",
+      "code": "LOC150",
+      "brand": null,
+      "category": "Fajita Fiesta Meals",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 1429,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 51,
+      "recipe_name": "Grilled Fish Fajita Meal",
+      "code": "LOC151",
+      "brand": null,
+      "category": "Fajita Fiesta Meals",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Fish",
+        "Gluten",
+        "Lentils"
+      ],
+      "calories_kcal": 1228,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 52,
+      "recipe_name": "Veg Burrito Bowl",
+      "code": "LOC152",
+      "brand": null,
+      "category": "Comforting Bowls",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 489,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 53,
+      "recipe_name": "Grilled Chicken Burrito Bowl",
+      "code": "LOC153",
+      "brand": null,
+      "category": "Comforting Bowls",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 742,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 54,
+      "recipe_name": "Grilled Shrimp Burrito Bowl",
+      "code": "LOC154",
+      "brand": null,
+      "category": "Comforting Bowls",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 640,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 55,
+      "recipe_name": "Smoky Beef Burrito Bowl",
+      "code": "LOC155",
+      "brand": null,
+      "category": "Comforting Bowls",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 914,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 56,
+      "recipe_name": "Ground Beef Burrito Bowl",
+      "code": "LOC156",
+      "brand": null,
+      "category": "Comforting Bowls",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 771,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 57,
+      "recipe_name": "Grilled Chicken Taco Salad",
+      "code": "LOC157",
+      "brand": null,
+      "category": "Hearty Taco Salads",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 864,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 58,
+      "recipe_name": "Grilled Shrimp Taco Salad",
+      "code": "LOC158",
+      "brand": null,
+      "category": "Hearty Taco Salads",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 762,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 59,
+      "recipe_name": "Smoky Beef Taco Salad",
+      "code": "LOC159",
+      "brand": null,
+      "category": "Hearty Taco Salads",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 1036,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 60,
+      "recipe_name": "Ground Beef Taco Salad",
+      "code": "LOC160",
+      "brand": null,
+      "category": "Hearty Taco Salads",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 892,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 61,
+      "recipe_name": "Veg Taco Salad",
+      "code": "LOC161",
+      "brand": null,
+      "category": "Hearty Taco Salads",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Lentils"
+      ],
+      "calories_kcal": 446,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 62,
+      "recipe_name": "French Fries",
+      "code": "LOC162",
+      "brand": null,
+      "category": "Homestyle Sides",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 780,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 63,
+      "recipe_name": "Cheese Fries",
+      "code": "LOC163",
+      "brand": null,
+      "category": "Homestyle Sides",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 1103,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 64,
+      "recipe_name": "Dynamite Fries",
+      "code": "LOC164",
+      "brand": null,
+      "category": "Homestyle Sides",
+      "ingredients": [
+        {
+          "wastage_pct": 0.08,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 1149,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 65,
+      "recipe_name": "Nachos And Guacamole",
+      "code": "LOC165",
+      "brand": null,
+      "category": "Homestyle Sides",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Nuts",
+        "Peanuts",
+        "Sesame"
+      ],
+      "calories_kcal": 484,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 66,
+      "recipe_name": "Cheesy Nachos",
+      "code": "LOC166",
+      "brand": null,
+      "category": "Homestyle Sides",
+      "ingredients": [
+        {
+          "wastage_pct": 0.02,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 736,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 67,
+      "recipe_name": "Dynamite Shrimps",
+      "code": "LOC167",
+      "brand": null,
+      "category": "Homestyle Sides",
+      "ingredients": [
+        {
+          "wastage_pct": 0.1,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        },
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 678,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 68,
+      "recipe_name": "Honey Mustard Sauce",
+      "code": "LOC168",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Mustard"
+      ],
+      "calories_kcal": 240,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 69,
+      "recipe_name": "Tangy Jalapeno Sauce",
+      "code": "LOC169",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 20,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 70,
+      "recipe_name": "Chimichurri Sauce",
+      "code": "LOC170",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 168,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 71,
+      "recipe_name": "Chipotle Sauce",
+      "code": "LOC171",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 284,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 72,
+      "recipe_name": "Spicy Green Sauce",
+      "code": "LOC172",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 18,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 73,
+      "recipe_name": "Tomato Ketchup",
+      "code": "LOC173",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 56,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 74,
+      "recipe_name": "Salsa Verde Sauce",
+      "code": "LOC174",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 16,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 75,
+      "recipe_name": "Spicy Mint Sauce",
+      "code": "LOC175",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 22,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 76,
+      "recipe_name": "Mayonnaise",
+      "code": "LOC176",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Eggs"
+      ],
+      "calories_kcal": 340,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 77,
+      "recipe_name": "Chipotle Sour Cream",
+      "code": "LOC177",
+      "brand": null,
+      "category": "Homemade Salsas & Dips",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 104,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 78,
+      "recipe_name": "Jarritos Soda",
+      "code": "LOC178",
+      "brand": null,
+      "category": "Cooling Drinks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 26,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 79,
+      "recipe_name": "Mineral Water",
+      "code": "LOC179",
+      "brand": null,
+      "category": "Cooling Drinks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 80,
+      "recipe_name": "Coca Cola",
+      "code": "LOC180",
+      "brand": null,
+      "category": "Cooling Drinks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 21,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 81,
+      "recipe_name": "Coca Cola Zero",
+      "code": "LOC181",
+      "brand": null,
+      "category": "Cooling Drinks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 82,
+      "recipe_name": "Sprite",
+      "code": "LOC182",
+      "brand": null,
+      "category": "Cooling Drinks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 20,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 83,
+      "recipe_name": "Sprite Zero",
+      "code": "LOC183",
+      "brand": null,
+      "category": "Cooling Drinks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": 84,
+      "recipe_name": "Fanta",
+      "code": "LOC184",
+      "brand": null,
+      "category": "Cooling Drinks",
+      "ingredients": [
+        {
+          "wastage_pct": 0.0,
+          "notes": null,
+          "unit": null,
+          "name": null,
+          "quantity": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 24,
+      "yield": null,
+      "portion_size": null,
+      "serves": null,
+      "method": null,
+      "plating": null,
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,3869 @@
+{
+  "schema_version": "1.0",
+  "brand": "The Big Kahuna",
+  "source_file": "The_Big_Kahuna_Recipe_Sheet.xlsx",
+  "extracted_at": "2026-04-24",
+  "last_updated": "2026-04-24",
+  "recipe_count": 45,
+  "methodology": {
+    "allergens": "Essential-only tagging from a 16-tag UAE/EU vocab (Celery, Gluten, Crustaceans, Fish, Eggs, Lupin, Molluscs, Mustard, Nuts, Peanuts, Sesame, Soya, Sulphites, Sugared drink, Dairy, Lentils). Tags applied only when the ingredient is a clearly identifiable carrier of the allergen — e.g., soy sauce → Soya + Gluten (wheat-containing); kani crab → Crustaceans + Fish (surimi). Empty results coded NO_ALLERGENS.",
+    "calories": "USDA-style kcal per 100g reference table (cooked, edible-portion). Quantities normalised to grams (KG×1000) or millilitres (L×1000, ~1 g/ml for sauces). Packaging excluded. Wastage NOT applied (calories reflect plated EP). Per-piece items (sodas, nori sheets, taco shells, gyoza) use per-piece kcal estimates. Totals rounded to integer.",
+    "wastage_pct": "Stored as decimal (10% → 0.10). Not applied to calorie or allergen calculations."
+  },
+  "changelog": [
+    {
+      "date": "2026-04-24",
+      "entry": "Initial extraction + enrichment."
+    },
+    {
+      "date": "2026-04-24",
+      "entry": "Drift fix: zero-kcal beverages set to 0 (was null). Composite/placeholder recipes left null."
+    }
+  ],
+  "pending_decisions": [],
+  "semi_finished_components": [
+    {
+      "code": "POK002",
+      "name": "Base - Salad Mix",
+      "is_packaging": false,
+      "ingredients": [
+        {
+          "name": "Lettuce Iceberg",
+          "quantity": 0.5,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lettuce Lollo Bionda",
+          "quantity": 0.3,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Red",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK001",
+      "name": "Base - Sushi Rice (Cooked)",
+      "is_packaging": false,
+      "ingredients": [
+        {
+          "name": "Japonica Rice",
+          "quantity": 1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 1.1,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Rice Vinegar",
+          "quantity": 0.15,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sugar",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt Iodized",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK004",
+      "name": "Garnish - Crispy Onions",
+      "is_packaging": false,
+      "ingredients": [
+        {
+          "name": "Onion Red",
+          "quantity": 1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cornflour",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.5,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK003",
+      "name": "Garnish - House Furikake",
+      "is_packaging": false,
+      "ingredients": [
+        {
+          "name": "Nori Sheets",
+          "quantity": 5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Bonito flakes",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK014",
+      "name": "PkgSet - Side Cold",
+      "is_packaging": true,
+      "ingredients": [
+        {
+          "name": "Salad Bowl 500ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Salad Bowl 150mm",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK013",
+      "name": "PkgSet - Side Hot",
+      "is_packaging": true,
+      "ingredients": [
+        {
+          "name": "Soup Cup 12oz Brown",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Soup Cup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK010",
+      "name": "PkgSet - Signature Poke",
+      "is_packaging": true,
+      "ingredients": [
+        {
+          "name": "Salad Bowl 1100ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Salad Bowl 165mm",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK011",
+      "name": "PkgSet - Standard Poke",
+      "is_packaging": true,
+      "ingredients": [
+        {
+          "name": "Salad Bowl 750ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Salad Bowl 165mm",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cutlery Set Black",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK008",
+      "name": "Prep - Grilled Chicken",
+      "is_packaging": false,
+      "ingredients": [
+        {
+          "name": "Chicken Breast (Aurora)",
+          "quantity": 1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK006",
+      "name": "Prep - Salmon Cubes",
+      "is_packaging": false,
+      "ingredients": [
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK007",
+      "name": "Prep - Shrimp (Boiled)",
+      "is_packaging": false,
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "quantity": 1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK009",
+      "name": "Prep - Tempura Batter",
+      "is_packaging": false,
+      "ingredients": [
+        {
+          "name": "Tempura Batter Mix",
+          "quantity": 0.5,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tap Water",
+          "quantity": 0.7,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "code": "POK005",
+      "name": "Prep - Tuna Cubes",
+      "is_packaging": false,
+      "ingredients": [
+        {
+          "name": "Tuna",
+          "quantity": 1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_number": "TBK-101",
+      "recipe_name": "The Classic Salmon",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chilli Flakes",
+          "quantity": 0.001,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 809,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-102",
+      "recipe_name": "Spicy Tuna & Mango",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 726,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-103",
+      "recipe_name": "The Grand Tuna",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.001,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 0.001,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame"
+      ],
+      "calories_kcal": 695,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-104",
+      "recipe_name": "The All-Star",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - Crispy Onions",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.001,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 727,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-105",
+      "recipe_name": "Spicy Salmon Umami",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spinach",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Cherry Tomato",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Beetroot Sliced",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame"
+      ],
+      "calories_kcal": 750,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-106",
+      "recipe_name": "Island Fusion",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cashew Nuts Whole",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Peanut",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shichimi Togarashi",
+          "quantity": 0.001,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Nuts",
+        "Peanuts"
+      ],
+      "calories_kcal": 833,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-107",
+      "recipe_name": "California Crab Bowl",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Tobiko Orange",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.002,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 625,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-108",
+      "recipe_name": "The Veggie Bliss",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tofu",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.2,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Radish White",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 0.002,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 672,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-109",
+      "recipe_name": "Regular Bowl (3 Proteins)",
+      "brand": "The Big Kahuna",
+      "category": "Build Your Own",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.06,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.06,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Soya"
+      ],
+      "calories_kcal": 773,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-110",
+      "recipe_name": "Large Bowl (4 Proteins)",
+      "brand": "The Big Kahuna",
+      "category": "Build Your Own",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Soya"
+      ],
+      "calories_kcal": 871,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-111",
+      "recipe_name": "Super Bowl (5 Proteins)",
+      "brand": "The Big Kahuna",
+      "category": "Build Your Own",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Soya"
+      ],
+      "calories_kcal": 995,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-112",
+      "recipe_name": "Grilled Chicken Teppanyaki",
+      "brand": "The Big Kahuna",
+      "category": "Hot Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Grilled Chicken",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Chinese",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Green",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion White",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.002,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 783,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-113",
+      "recipe_name": "Grilled Shrimp Teppanyaki",
+      "brand": "The Big Kahuna",
+      "category": "Hot Bowls",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Chinese",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Green",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion White",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.002,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teppan Sauce",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Sesame"
+      ],
+      "calories_kcal": 648,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-114",
+      "recipe_name": "Salmon Sashimi",
+      "brand": "The Big Kahuna",
+      "category": "Sashimi & Salads",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Salmon Fillet Skin On",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Radish White",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sushi Tray 1.5",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 1.5",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish"
+      ],
+      "calories_kcal": 232,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-115",
+      "recipe_name": "Tuna Sashimi",
+      "brand": "The Big Kahuna",
+      "category": "Sashimi & Salads",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Tuna",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Radish White",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Pickled Ginger",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Wasabi Powder",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sushi Tray 1.5",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Lid for Sushi Tray 1.5",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chopsticks Bamboo",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Paper Bag White",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish"
+      ],
+      "calories_kcal": 156,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-116",
+      "recipe_name": "Salmon Crunch Salad",
+      "brand": "The Big Kahuna",
+      "category": "Sashimi & Salads",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Salad Mix",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.06,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Surimi Sticks",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tempura Batter Mix",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten"
+      ],
+      "calories_kcal": 427,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-117",
+      "recipe_name": "Spicy Tuna Salad",
+      "brand": "The Big Kahuna",
+      "category": "Sashimi & Salads",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Base - Salad Mix",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tuna Cubes",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Capsicum Red",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Onion Red",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Umami Fusion",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Sesame"
+      ],
+      "calories_kcal": 144,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-118",
+      "recipe_name": "Chuka Wakame",
+      "brand": "The Big Kahuna",
+      "category": "Sashimi & Salads",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.002,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Cold",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Sesame"
+      ],
+      "calories_kcal": 108,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-119",
+      "recipe_name": "Miso Soup",
+      "brand": "The Big Kahuna",
+      "category": "Soups",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Tap Water",
+          "quantity": 0.3,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "White Miso Paste",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Hondashi",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tofu",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Seaweed Salad",
+          "quantity": 0.002,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Soya"
+      ],
+      "calories_kcal": 86,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-120",
+      "recipe_name": "Tom Yum Soup",
+      "brand": "The Big Kahuna",
+      "category": "Soups",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Tap Water",
+          "quantity": 0.3,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tom Yum Paste",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Crab Whole",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Squid Tubes",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tomato",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Coriander",
+          "quantity": 0.002,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Molluscs"
+      ],
+      "calories_kcal": 166,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-121",
+      "recipe_name": "Creamy Tom Yum",
+      "brand": "The Big Kahuna",
+      "category": "Soups",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Tap Water",
+          "quantity": 0.25,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coconut Milk",
+          "quantity": 0.05,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tom Yum Paste",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Shrimp",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Crab Whole",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Squid Tubes",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mushroom White",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Tomato",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Dairy",
+        "Molluscs"
+      ],
+      "calories_kcal": 281,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-122",
+      "recipe_name": "Edamame",
+      "brand": "The Big Kahuna",
+      "category": "Starters",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Edamame",
+          "quantity": 0.15,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Salt Rock",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Cold",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Soya"
+      ],
+      "calories_kcal": 182,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-123",
+      "recipe_name": "Dynamite Shrimp",
+      "brand": "The Big Kahuna",
+      "category": "Starters",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tempura Batter",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.05,
+          "unit": "L",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Dynamite",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.002,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Gluten"
+      ],
+      "calories_kcal": 270,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-124",
+      "recipe_name": "Chicken Gyoza",
+      "brand": "The Big Kahuna",
+      "category": "Starters",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Gyoza Wrapper",
+          "quantity": 5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Mince",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cabbage Chinese",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Ginger",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Hot",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 378,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-125",
+      "recipe_name": "Lunch Special",
+      "brand": "The Big Kahuna",
+      "category": "Combos",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "The Classic Salmon",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Fish",
+        "Soya"
+      ],
+      "calories_kcal": null,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-126",
+      "recipe_name": "Mineral Water",
+      "brand": "The Big Kahuna",
+      "category": "Add-Ons",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Arwa Water",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Arwa Water",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-127",
+      "recipe_name": "Coca-Cola",
+      "brand": "The Big Kahuna",
+      "category": "Add-Ons",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Coca-Cola 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 278,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-128",
+      "recipe_name": "Coca-Cola Zero",
+      "brand": "The Big Kahuna",
+      "category": "Add-Ons",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Coca-Cola Zero 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coca-Cola Zero 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-129",
+      "recipe_name": "Fanta",
+      "brand": "The Big Kahuna",
+      "category": "Add-Ons",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Fanta Orange 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Fanta Orange 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 290,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-130",
+      "recipe_name": "Sprite",
+      "brand": "The Big Kahuna",
+      "category": "Add-Ons",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Sprite 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sprite 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Sugared drink"
+      ],
+      "calories_kcal": 278,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-131",
+      "recipe_name": "Sprite Zero",
+      "brand": "The Big Kahuna",
+      "category": "Add-Ons",
+      "status": "EXISTING",
+      "ingredients": [
+        {
+          "name": "Sprite Zero 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sprite Zero 330ml",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 0,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": null
+    },
+    {
+      "recipe_number": "TBK-132",
+      "recipe_name": "Seoul Shore Bowl",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Beef Tenderloin (India)",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kimchi",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pickled Radish",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Gochujang",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - Crispy Onions",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 831,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-133",
+      "recipe_name": "Golden Hour Truffle Bowl",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mushroom Mixed",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Asparagus",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cream Cheese",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Truffle Oil",
+          "quantity": 0.005,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Truffle Mayo",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - Crispy Onions",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy",
+        "Eggs",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 717,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-134",
+      "recipe_name": "Classic Hawaiian Bowl",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pineapple",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Macadamia Nuts",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Poke Sauce",
+          "quantity": 0.025,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coconut Flakes",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Fish",
+        "Nuts",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 931,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-135",
+      "recipe_name": "Dragon Roll Bowl",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.06,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Tempura Batter",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Crab Surimi",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Tobiko",
+          "quantity": 0.015,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Teriyaki",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 0.05,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Soya"
+      ],
+      "calories_kcal": 875,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-136",
+      "recipe_name": "Tandoori Poke Bowl",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Chicken Breast",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Tandoori Paste",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Yoghurt Plain",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Raita",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coriander Fresh",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.05,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "calories_kcal": 668,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-137",
+      "recipe_name": "Sesame Soy Beef Bowl",
+      "brand": "The Big Kahuna",
+      "category": "Signature Bowls",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.25,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Beef Tenderloin (India)",
+          "quantity": 0.1,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity": 0.02,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Oil",
+          "quantity": 0.005,
+          "unit": "L",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Carrot",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds Black",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - Crispy Onions",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Signature Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 898,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-138",
+      "recipe_name": "The Salmon Pokerrito",
+      "brand": "The Big Kahuna",
+      "category": "Pokerritos",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Nori Sheets",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Edamame",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 753,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-139",
+      "recipe_name": "Shrimp Dynamite Pokerrito",
+      "brand": "The Big Kahuna",
+      "category": "Pokerritos",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Nori Sheets",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Shrimp (Boiled)",
+          "quantity": 0.06,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Dynamite",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Cucumber",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Tobiko",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Crustaceans",
+        "Eggs",
+        "Fish"
+      ],
+      "calories_kcal": 582,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-140",
+      "recipe_name": "BYO Pokerrito",
+      "brand": "The Big Kahuna",
+      "category": "Pokerritos",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Nori Sheets",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Protein - Guest Choice",
+          "quantity": 0.08,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Toppings - 3 choices",
+          "quantity": 0.06,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - 1 choice",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "NO_ALLERGENS"
+      ],
+      "calories_kcal": 331,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-141",
+      "recipe_name": "Salmon Poke Tacos (3pc)",
+      "brand": "The Big Kahuna",
+      "category": "Poke Tacos",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Nori Taco Shell",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Prep - Salmon Cubes",
+          "quantity": 0.06,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Mango",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Avocado",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Spicy Mayo",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Garnish - House Furikake",
+          "quantity": 0.5,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Cold",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Eggs",
+        "Fish",
+        "Gluten",
+        "Sesame"
+      ],
+      "calories_kcal": 575,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-142",
+      "recipe_name": "Korean BBQ Poke Tacos (3pc)",
+      "brand": "The Big Kahuna",
+      "category": "Poke Tacos",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Nori Taco Shell",
+          "quantity": 3,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Base - Sushi Rice (Cooked)",
+          "quantity": 0.12,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Beef Tenderloin (India)",
+          "quantity": 0.06,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Kimchi",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sauce - Gochujang",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Sesame Seeds White",
+          "quantity": 0.003,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Spring Onion",
+          "quantity": 0.005,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Side Cold",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Sesame",
+        "Soya"
+      ],
+      "calories_kcal": 479,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-143",
+      "recipe_name": "The Classic Acai Bowl",
+      "brand": "The Big Kahuna",
+      "category": "Acai Bowls",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Acai Puree (Frozen)",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Banana",
+          "quantity": 0.05,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Strawberry",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Coconut Flakes",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "calories_kcal": 476,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-144",
+      "recipe_name": "The Arabian Acai Bowl",
+      "brand": "The Big Kahuna",
+      "category": "Acai Bowls",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Acai Puree (Frozen)",
+          "quantity": 0.2,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Banana",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.1,
+          "notes": null
+        },
+        {
+          "name": "Granola",
+          "quantity": 0.04,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Medjool Dates",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pistachio",
+          "quantity": 0.02,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Pomegranate Seeds",
+          "quantity": 0.03,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Honey",
+          "quantity": 0.01,
+          "unit": "KG",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [
+        {
+          "name": "PkgSet - Standard Poke",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "allergens": [
+        "Gluten",
+        "Nuts"
+      ],
+      "calories_kcal": 566,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    },
+    {
+      "recipe_number": "TBK-145",
+      "recipe_name": "Kahuna Feast",
+      "brand": "The Big Kahuna",
+      "category": "Combos",
+      "status": "DRAFT",
+      "ingredients": [
+        {
+          "name": "Classic Salmon Bowl",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Dynamite Shrimp",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Miso Soup",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        },
+        {
+          "name": "Beverage - Guest Choice",
+          "quantity": 1,
+          "unit": "Piece",
+          "wastage_pct": 0.0,
+          "notes": null
+        }
+      ],
+      "packaging": [],
+      "allergens": [
+        "Crustaceans",
+        "Fish",
+        "Soya"
+      ],
+      "calories_kcal": null,
+      "yield": null,
+      "portion_size": null,
+      "serves": 1,
+      "method": null,
+      "plating": null,
+      "notes": "Draft — pending chef validation"
+    }
+  ]
+}
